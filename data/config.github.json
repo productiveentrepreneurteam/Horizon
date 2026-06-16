@@ -40,20 +40,122 @@
       "fetch_top_stories": 20,
       "min_score": 100
     },
-    "rss": [
-      {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/atom/everything/",
-        "enabled": true,
-        "category": "ai-tools"
-      },
-      {
-        "name": "LWN.net (subscriber full-text)",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": false,
-        "category": "linux"
-      }
-    ],
+   "rss": [
+  {
+    "name": "Architectural Digest",
+    "url": "https://www.architecturaldigest.com/feed/rss",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Apartment Therapy",
+    "url": "https://feeds.apartmenttherapy.com/apartmenttherapy/main",
+    "enabled": true,
+    "category": "home"
+  },
+  {
+    "name": "Aspire Design",
+    "url": "https://aspiremag.net/feed/",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Country Living",
+    "url": "https://www.countryliving.com/rss/default.xml",
+    "enabled": true,
+    "category": "home"
+  },
+  {
+    "name": "Elle Decor",
+    "url": "https://www.elledecor.com/rss/design-decorate.xml",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Florida Design",
+    "url": "https://floridadesign.com/feed/",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Good Housekeeping",
+    "url": "https://www.goodhousekeeping.com/rss/home.xml",
+    "enabled": true,
+    "category": "home"
+  },
+  {
+    "name": "Homes and Gardens",
+    "url": "https://www.homesandgardens.com/feeds.xml",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Hospitality Design",
+    "url": "https://hospitalitydesign.com/feed/",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "House Beautiful",
+    "url": "https://www.housebeautiful.com/rss/default.xml",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Livingetc",
+    "url": "https://www.livingetc.com/feeds.xml",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Mountain Living",
+    "url": "https://www.mountainliving.com/feed/",
+    "enabled": true,
+    "category": "lifestyle"
+  },
+  {
+    "name": "Real Homes",
+    "url": "https://www.realhomes.com/feeds.xml",
+    "enabled": true,
+    "category": "home"
+  },
+  {
+    "name": "Realtor",
+    "url": "https://www.realtor.com/news/feed/",
+    "enabled": true,
+    "category": "real-estate"
+  },
+  {
+    "name": "Rue Magazine",
+    "url": "https://ruemag.com/feed",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Sunset",
+    "url": "https://www.sunset.com/feed",
+    "enabled": true,
+    "category": "lifestyle"
+  },
+  {
+    "name": "The Kitchn",
+    "url": "https://www.thekitchn.com/main.rss",
+    "enabled": true,
+    "category": "home"
+  },
+  {
+    "name": "Veranda",
+    "url": "https://www.veranda.com/rss/default.xml",
+    "enabled": true,
+    "category": "design"
+  },
+  {
+    "name": "Dwell",
+    "url": "https://www.dwell.com/@dwell/rss",
+    "enabled": true,
+    "category": "design"
+  }
+],
     "reddit": {
       "enabled": true,
       "subreddits": [
