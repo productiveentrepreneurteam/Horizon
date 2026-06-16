@@ -200,7 +200,7 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 0,
+    "ai_score_threshold": -1,
     "time_window_hours": 24,
     "max_items": null,
     "category_groups": {},
