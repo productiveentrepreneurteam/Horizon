@@ -2,6 +2,7 @@
 
 import re
 from collections import OrderedDict
+from datetime import datetime, timezone
 from typing import List, Dict
 
 from ..models import ContentItem
@@ -122,26 +123,21 @@ class DailySummarizer:
         self,
         items: List[ContentItem],
         date: str,
-        total_fetched: int,
-        language: str = "en",
         sources_monitored: int = 0,
+        language: str = "en",
     ) -> str:
-        """Generate a daily digest showing EVERY item, grouped by source outlet.
+        """Generate a daily digest listing EVERY fetched item, grouped by outlet.
 
-        Unlike `generate_summary`, this does not drop any items based on
-        AI score — it shows the full set of items the orchestrator passes in,
-        organized by `feed_name` (falling back to author/source_type), with
-        each outlet's article count and a per-article AI summary.
+        No AI scoring/summary required — this renders straight from fetched
+        metadata (title, url, source, published time) so it can run on the
+        full item set with zero extra AI calls.
 
         Args:
-            items: All content items for the day (already enriched/scored,
-                but NOT pre-filtered down to a "top N" — pass the full list).
+            items: All fetched items for the day (post URL-dedup, pre-AI-analysis).
             date: Date string (YYYY-MM-DD)
-            total_fetched: Total number of items fetched (for the header count;
-                normally equal to len(items) when nothing is filtered out).
-            language: Output language, either "en" or "zh"
             sources_monitored: Number of sources configured/monitored, shown
                 in the header (e.g. count of enabled RSS feeds).
+            language: Output language, either "en" or "zh"
 
         Returns:
             str: Markdown formatted full digest, grouped by outlet.
@@ -149,13 +145,13 @@ class DailySummarizer:
         labels = LABELS.get(language, LABELS["en"])
 
         if not items:
-            return self._generate_empty_summary(date, total_fetched, labels)
+            return self._generate_empty_summary(date, 0, labels)
 
         # --- Header -----------------------------------------------------
         header_lines = [
             f"# {labels['header']} - {date}",
             "",
-            f"> {labels['full_digest'].format(total=total_fetched)}",
+            f"> {labels['full_digest'].format(total=len(items))}",
         ]
         if sources_monitored:
             header_lines.append(f"> {labels['sources_monitored'].format(count=sources_monitored)}")
@@ -168,26 +164,53 @@ class DailySummarizer:
             outlet = self._outlet_name(item)
             groups.setdefault(outlet, []).append(item)
 
+        # Sort each outlet's items by published time, newest first
+        for outlet_items in groups.values():
+            outlet_items.sort(
+                key=lambda it: it.published_at or datetime.min.replace(tzinfo=timezone.utc),
+                reverse=True,
+            )
+
+        # Sort outlets by article count, most active first
+        sorted_outlets = sorted(groups.items(), key=lambda kv: len(kv[1]), reverse=True)
+
         # --- Overview: outlet name + count, anchored for jump links ----
         overview_lines = ["## Today's Publications", ""]
-        for outlet, outlet_items in groups.items():
+        for outlet, outlet_items in sorted_outlets:
             anchor = self._slugify(outlet)
             overview_lines.append(f"- [{outlet} ({len(outlet_items)})](#source-{anchor})")
         overview_lines += ["", f"**Total Articles Today: {len(items)}**", "", "---", ""]
         overview = "\n".join(overview_lines)
 
-        # --- Per-outlet sections, each item fully rendered --------------
-        index = 0
+        # --- Per-outlet sections: simple bullet list per article --------
         section_parts = []
-        for outlet, outlet_items in groups.items():
+        for outlet, outlet_items in sorted_outlets:
             anchor = self._slugify(outlet)
             section_parts.append(f'<a id="source-{anchor}"></a>\n')
             section_parts.append(f"## {outlet} ({len(outlet_items)})\n\n")
             for item in outlet_items:
-                index += 1
-                section_parts.append(self._format_item(item, labels, language, index))
+                section_parts.append(self._format_item_simple(item, language))
+            section_parts.append("\n")
 
         return header + overview + "".join(section_parts)
+
+    def _format_item_simple(self, item: ContentItem, language: str) -> str:
+        """Render a single item as a one-line bullet: title (link) + time."""
+        _title = item.metadata.get(f"title_{language}") or item.title
+        title = str(_title).replace("[", "(").replace("]", ")")
+        if language == "zh":
+            title = _pangu(title)
+        url = str(item.url)
+
+        time_str = ""
+        if item.published_at:
+            if language == "zh":
+                time_str = f" — {item.published_at.month}月{item.published_at.day}日 {item.published_at:%H:%M}"
+            else:
+                day = item.published_at.strftime("%d").lstrip("0")
+                time_str = f" — {item.published_at.strftime(f'%b {day}, %H:%M')}"
+
+        return f"- [{title}]({url}){time_str}\n"
 
     @staticmethod
     def _outlet_name(item: ContentItem) -> str:
