@@ -99,6 +99,8 @@ class HorizonOrchestrator:
                     f"→ {len(merged_items)} unique items\n"
                 )
 
+            today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
             # 4. Analyze with AI
             analyzed_items = await self._analyze_content(merged_items)
             self.console.print(f"🤖 Analyzed {len(analyzed_items)} items with AI\n")
@@ -143,8 +145,8 @@ class HorizonOrchestrator:
             # 6. Search related stories + enrich with background knowledge (2nd AI pass)
             await self._enrich_important_items(important_items)
 
-            # 7. Generate and save daily summaries for each configured language
-            today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            # 7. Generate and save the curated top-items summary for each
+            # configured language (used for email / webhook delivery).
             for lang in self.config.ai.languages:
                 summarizer = DailySummarizer()
                 summary = await summarizer.generate_summary(important_items, today, len(all_items), language=lang)
@@ -152,41 +154,6 @@ class HorizonOrchestrator:
                 # Save to data/summaries/
                 summary_path = self.storage.save_daily_summary(today, summary, language=lang)
                 self.console.print(f"💾 Saved {lang.upper()} summary to: {summary_path}\n")
-
-                # Copy to docs/ for GitHub Pages
-                try:
-                    from pathlib import Path
-
-                    post_filename = f"{today}-summary-{lang}.md"
-                    posts_dir = Path("docs/_posts")
-                    posts_dir.mkdir(parents=True, exist_ok=True)
-
-                    dest_path = posts_dir / post_filename
-
-                    # Add Jekyll front matter
-                    front_matter = (
-                        "---\n"
-                        "layout: default\n"
-                        f"title: \"Horizon Summary: {today} ({lang.upper()})\"\n"
-                        f"date: {today}\n"
-                        f"lang: {lang}\n"
-                        "---\n\n"
-                    )
-
-                    # Strip leading H1 header to avoid duplication with Jekyll title
-                    summary_content = summary
-                    first_line = summary_content.strip().split("\n")[0]
-                    if first_line.startswith("# "):
-                        parts = summary_content.split("\n", 1)
-                        if len(parts) > 1:
-                            summary_content = parts[1].strip()
-
-                    with open(dest_path, "w", encoding="utf-8") as f:
-                        f.write(front_matter + summary_content)
-
-                    self.console.print(f"📄 Copied {lang.upper()} summary to GitHub Pages: {dest_path}\n")
-                except Exception as e:
-                    self.console.print(f"[yellow]⚠️  Failed to copy {lang.upper()} summary to docs/: {e}[/yellow]\n")
 
                 # Send email if configured
                 if self.email_manager and self.config.email and self.config.email.enabled:
@@ -205,6 +172,12 @@ class HorizonOrchestrator:
                         lang=lang,
                         summarizer=summarizer,
                     )
+
+            # 8. Generate + publish the FULL daily digest (every fetched item,
+            # grouped by outlet, no AI scoring/summary needed). Written last
+            # so it's the version that ends up live in docs/_posts — that's
+            # the page the team checks daily to see everything published.
+            await self._generate_and_publish_full_digest(merged_items, today)
 
             self.console.print("[bold green]✅ Horizon completed successfully![/bold green]")
             usage = get_usage_snapshot()
@@ -233,6 +206,62 @@ class HorizonOrchestrator:
                 )
 
             raise
+
+    async def _generate_and_publish_full_digest(self, items: List[ContentItem], today: str) -> None:
+        """Generate the full (every-article, no-AI) digest and publish it to GitHub Pages.
+
+        Runs last in the pipeline so its output is what ends up live in
+        docs/_posts/{today}-summary-{lang}.md — overwriting the curated
+        top-items summary written earlier in the run. This is the page the
+        team checks daily to see literally everything published across
+        monitored outlets, independent of AI scoring. The curated summary
+        is still saved separately and used for email/webhook delivery.
+        """
+        sources_monitored = len(
+            [f for f in (self.config.sources.rss or []) if getattr(f, "enabled", True)]
+        )
+
+        for lang in self.config.ai.languages:
+            summarizer = DailySummarizer()
+            digest = await summarizer.generate_full_digest(
+                items, today, sources_monitored=sources_monitored, language=lang
+            )
+
+            digest_path = self.storage.save_daily_summary(today, digest, language=lang)
+            self.console.print(f"💾 Saved {lang.upper()} full digest to: {digest_path}\n")
+
+            try:
+                from pathlib import Path
+
+                post_filename = f"{today}-summary-{lang}.md"
+                posts_dir = Path("docs/_posts")
+                posts_dir.mkdir(parents=True, exist_ok=True)
+                dest_path = posts_dir / post_filename
+
+                front_matter = (
+                    "---\n"
+                    "layout: default\n"
+                    f"title: \"Horizon Daily: {today} ({lang.upper()})\"\n"
+                    f"date: {today}\n"
+                    f"lang: {lang}\n"
+                    "---\n\n"
+                )
+
+                digest_content = digest
+                first_line = digest_content.strip().split("\n")[0]
+                if first_line.startswith("# "):
+                    parts = digest_content.split("\n", 1)
+                    if len(parts) > 1:
+                        digest_content = parts[1].strip()
+
+                with open(dest_path, "w", encoding="utf-8") as f:
+                    f.write(front_matter + digest_content)
+
+                self.console.print(f"📄 Published {lang.upper()} full digest to GitHub Pages: {dest_path}\n")
+            except Exception as e:
+                self.console.print(
+                    f"[yellow]⚠️  Failed to publish {lang.upper()} full digest to docs/: {e}[/yellow]\n"
+                )
 
     def _determine_time_window(self, force_hours: int = None) -> datetime:
         if force_hours:
