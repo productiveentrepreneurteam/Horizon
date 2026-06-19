@@ -1,14 +1,14 @@
 {
   "version": "1.0",
- "ai": {
-  "provider": "gemini",
-  "model": "gemini-2.5-flash",
-  "api_key_env": "GOOGLE_API_KEY",
-  "temperature": 0.3,
-  "max_tokens": 4096,
-  "throttle_sec": 3,
-  "analysis_concurrency": 1,
-  "enrichment_concurrency": 1
+  "ai": {
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "api_key_env": "GOOGLE_API_KEY",
+    "temperature": 0.3,
+    "max_tokens": 4096,
+    "throttle_sec": 3,
+    "analysis_concurrency": 1,
+    "enrichment_concurrency": 1
   },
   "email": {
     "enabled": false,
@@ -22,128 +22,278 @@
     "unsubscribe_keyword": "UNSUBSCRIBE"
   },
   "sources": {
-    "github": [],     
+    "github": [],
     "hackernews": {
       "enabled": false,
       "fetch_top_stories": 20,
       "min_score": 100
     },
-   "rss": [
-  {
-    "name": "Architectural Digest",
-    "url": "https://www.architecturaldigest.com/feed/rss",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Apartment Therapy",
-    "url": "https://feeds.apartmenttherapy.com/apartmenttherapy/main",
-    "enabled": true,
-    "category": "home"
-  },
-  {
-    "name": "Aspire Design",
-    "url": "https://aspiremag.net/feed/",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Country Living",
-    "url": "https://www.countryliving.com/rss/default.xml",
-    "enabled": true,
-    "category": "home"
-  },
-  {
-    "name": "Elle Decor",
-    "url": "https://www.elledecor.com/rss/design-decorate.xml",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Florida Design",
-    "url": "https://floridadesign.com/feed/",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Good Housekeeping",
-    "url": "https://www.goodhousekeeping.com/rss/home.xml",
-    "enabled": true,
-    "category": "home"
-  },
-  {
-    "name": "Homes and Gardens",
-    "url": "https://www.homesandgardens.com/feeds.xml",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Hospitality Design",
-    "url": "https://hospitalitydesign.com/feed/",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "House Beautiful",
-    "url": "https://www.housebeautiful.com/rss/default.xml",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Livingetc",
-    "url": "https://www.livingetc.com/feeds.xml",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Mountain Living",
-    "url": "https://www.mountainliving.com/feed/",
-    "enabled": true,
-    "category": "lifestyle"
-  },
-  {
-    "name": "Real Homes",
-    "url": "https://www.realhomes.com/feeds.xml",
-    "enabled": true,
-    "category": "home"
-  },
-  {
-    "name": "Realtor",
-    "url": "https://www.realtor.com/news/feed/",
-    "enabled": true,
-    "category": "real-estate"
-  },
-  {
-    "name": "Rue Magazine",
-    "url": "https://ruemag.com/feed",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Sunset",
-    "url": "https://www.sunset.com/feed",
-    "enabled": true,
-    "category": "lifestyle"
-  },
-  {
-    "name": "The Kitchn",
-    "url": "https://www.thekitchn.com/main.rss",
-    "enabled": true,
-    "category": "home"
-  },
-  {
-    "name": "Veranda",
-    "url": "https://www.veranda.com/rss/default.xml",
-    "enabled": true,
-    "category": "design"
-  },
-  {
-    "name": "Dwell",
-    "url": "https://www.dwell.com/@dwell/rss",
-    "enabled": true,
-    "category": "design"
-  }
-],
+    "rss": [
+      {
+        "name": "Architectural Digest",
+        "url": "https://www.architecturaldigest.com/feed/rss",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Apartment Therapy",
+        "url": "https://feeds.apartmenttherapy.com/apartmenttherapy/main",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Aspire Design",
+        "url": "https://aspiremag.net/feed/",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Country Living",
+        "url": "https://www.countryliving.com/rss/default.xml",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Elle Decor",
+        "url": "https://www.elledecor.com/rss/design-decorate.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Florida Design",
+        "url": "https://floridadesign.com/feed/",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Good Housekeeping",
+        "url": "https://www.goodhousekeeping.com/rss/home.xml",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Homes and Gardens",
+        "url": "https://www.homesandgardens.com/feeds.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Hospitality Design",
+        "url": "https://hospitalitydesign.com/feed/",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "House Beautiful",
+        "url": "https://www.housebeautiful.com/rss/default.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Livingetc",
+        "url": "https://www.livingetc.com/feeds.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Mountain Living",
+        "url": "https://www.mountainliving.com/feed/",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "Real Homes",
+        "url": "https://www.realhomes.com/feeds.xml",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Realtor",
+        "url": "https://www.realtor.com/news/feed/",
+        "enabled": true,
+        "category": "real-estate"
+      },
+      {
+        "name": "Rue Magazine",
+        "url": "https://ruemag.com/feed",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Sunset",
+        "url": "https://www.sunset.com/feed",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "The Kitchn",
+        "url": "https://www.thekitchn.com/main.rss",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Veranda",
+        "url": "https://www.veranda.com/rss/default.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Dwell",
+        "url": "https://www.dwell.com/@dwell/rss",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "American Farmhouse Style",
+        "url": "https://americanfarmhousestyle.com/feed/",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Atomic Ranch",
+        "url": "https://www.atomic-ranch.com/feed/",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Better Homes & Gardens",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/198df1e2-261c-478b-a469-2954823d1c07",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Business of Home",
+        "url": "https://rss.app/feeds/n0UhV5cvOR8ujSTz.xml",
+        "enabled": true,
+        "category": "business"
+      },
+      {
+        "name": "Business Insider",
+        "url": "https://www.businessinsider.com/rss",
+        "enabled": true,
+        "category": "business"
+      },
+      {
+        "name": "Elle Decor Spain",
+        "url": "https://www.elledecor.com/es/rss/default.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Elle Decor UK",
+        "url": "https://www.elledecoration.co.uk/rss/default.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "HGTV",
+        "url": "https://rss.app/feeds/jyHqQ0zfw2JabSqh.xml",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "Luxury Portfolio",
+        "url": "https://rss.app/feeds/xATSZ5kiTad5g4nC.xml",
+        "enabled": true,
+        "category": "real-estate"
+      },
+      {
+        "name": "Mansion Global",
+        "url": "https://rss.app/feeds/0hzGiAlLr3iTpixu.xml",
+        "enabled": true,
+        "category": "real-estate"
+      },
+      {
+        "name": "Martha Stewart",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/b77a1149-4f35-464b-a2f4-ae31f9a990c0",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Parade Home & Garden",
+        "url": "https://parade.com/feed/",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Real Simple",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/a7098964-1ef1-4bf1-9071-036e729badfd",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "Southern Home",
+        "url": "https://southernhomemagazine.com/feed/",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Southern Living",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/169a0a31-1a9a-4881-9828-90e544c8e459",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "The Spruce",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/aa6fe5c4-9f19-4c32-b63e-6e4c19b5a50f",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Wall Street Journal - Real Estate",
+        "url": "https://feeds.content.dowjones.io/public/rss/latestnewsrealestate",
+        "enabled": true,
+        "category": "real-estate"
+      },
+      {
+        "name": "Wall Street Journal - Mansion Global",
+        "url": "https://rss.app/feeds/FJanUQlJINoyo52u.xml",
+        "enabled": true,
+        "category": "real-estate"
+      },
+      {
+        "name": "The New York Times - Art & Design",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/ArtandDesign.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "The Zoe Report",
+        "url": "https://www.thezoereport.com/rss",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "Hunker",
+        "url": "https://www.hunker.com/feed/",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Esquire",
+        "url": "https://www.esquire.com/rss/lifestyle.xml",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "Ranch & Coast",
+        "url": "https://ranchandcoast.com/feed/",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "Casa Vogue Brazil",
+        "url": "https://casavogue.globo.com/rss/casavogue",
+        "enabled": true,
+        "category": "design"
+      }
+    ],
     "reddit": {
       "enabled": false,
       "subreddits": [
@@ -168,7 +318,10 @@
     },
     "twitter": {
       "enabled": false,
-      "users": ["karpathy", "ylecun"],
+      "users": [
+        "karpathy",
+        "ylecun"
+      ],
       "fetch_limit": 10,
       "fetch_reply_text": false,
       "max_replies_per_tweet": 3,
@@ -186,14 +339,26 @@
           "provider": "yfinance",
           "fetch_limit": 20,
           "category": "equities",
-          "symbols": ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN", "META", "TSLA"]
+          "symbols": [
+            "AAPL",
+            "MSFT",
+            "NVDA",
+            "GOOGL",
+            "AMZN",
+            "META",
+            "TSLA"
+          ]
         }
       ]
     },
     "ossinsight": {
       "enabled": false,
       "period": "past_24_hours",
-      "languages": ["All", "Python", "TypeScript"],
+      "languages": [
+        "All",
+        "Python",
+        "TypeScript"
+      ],
       "keywords": [],
       "min_stars": 10,
       "max_items": 30
