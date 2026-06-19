@@ -1,6 +1,7 @@
 """Daily summary generation — pure programmatic rendering."""
 
 import re
+from collections import OrderedDict
 from typing import List, Dict
 
 from ..models import ContentItem
@@ -26,6 +27,8 @@ LABELS = {
         "references": "References",
         "tags": "Tags",
         "selected_items": "From {total} items, {selected} important content pieces were selected",
+        "full_digest": "{total} articles published in the last 24 hours",
+        "sources_monitored": "{count} sources monitored",
         "empty_analyzed": "Analyzed {total} items, but none met the importance threshold.",
         "empty_body": (
             "No significant developments today. This might indicate:\n"
@@ -46,6 +49,8 @@ LABELS = {
         "references": "参考链接",
         "tags": "标签",
         "selected_items": "从 {total} 条内容中筛选出 {selected} 条重要资讯。",
+        "full_digest": "过去 24 小时共发布 {total} 篇文章",
+        "sources_monitored": "监控 {count} 个信息源",
         "empty_analyzed": "已分析 {total} 条内容，但没有达到重要性阈值的条目。",
         "empty_body": (
             "今日暂无重要动态，可能原因：\n"
@@ -112,6 +117,94 @@ class DailySummarizer:
         parts = [self._format_item(item, labels, language, i + 1) for i, item in enumerate(items)]
 
         return header + toc + "".join(parts)
+
+    async def generate_full_digest(
+        self,
+        items: List[ContentItem],
+        date: str,
+        total_fetched: int,
+        language: str = "en",
+        sources_monitored: int = 0,
+    ) -> str:
+        """Generate a daily digest showing EVERY item, grouped by source outlet.
+
+        Unlike `generate_summary`, this does not drop any items based on
+        AI score — it shows the full set of items the orchestrator passes in,
+        organized by `feed_name` (falling back to author/source_type), with
+        each outlet's article count and a per-article AI summary.
+
+        Args:
+            items: All content items for the day (already enriched/scored,
+                but NOT pre-filtered down to a "top N" — pass the full list).
+            date: Date string (YYYY-MM-DD)
+            total_fetched: Total number of items fetched (for the header count;
+                normally equal to len(items) when nothing is filtered out).
+            language: Output language, either "en" or "zh"
+            sources_monitored: Number of sources configured/monitored, shown
+                in the header (e.g. count of enabled RSS feeds).
+
+        Returns:
+            str: Markdown formatted full digest, grouped by outlet.
+        """
+        labels = LABELS.get(language, LABELS["en"])
+
+        if not items:
+            return self._generate_empty_summary(date, total_fetched, labels)
+
+        # --- Header -----------------------------------------------------
+        header_lines = [
+            f"# {labels['header']} - {date}",
+            "",
+            f"> {labels['full_digest'].format(total=total_fetched)}",
+        ]
+        if sources_monitored:
+            header_lines.append(f"> {labels['sources_monitored'].format(count=sources_monitored)}")
+        header_lines += ["", "---", ""]
+        header = "\n".join(header_lines)
+
+        # --- Group items by outlet, preserving first-seen order --------
+        groups: "OrderedDict[str, List[ContentItem]]" = OrderedDict()
+        for item in items:
+            outlet = self._outlet_name(item)
+            groups.setdefault(outlet, []).append(item)
+
+        # --- Overview: outlet name + count, anchored for jump links ----
+        overview_lines = ["## Today's Publications", ""]
+        for outlet, outlet_items in groups.items():
+            anchor = self._slugify(outlet)
+            overview_lines.append(f"- [{outlet} ({len(outlet_items)})](#source-{anchor})")
+        overview_lines += ["", f"**Total Articles Today: {len(items)}**", "", "---", ""]
+        overview = "\n".join(overview_lines)
+
+        # --- Per-outlet sections, each item fully rendered --------------
+        index = 0
+        section_parts = []
+        for outlet, outlet_items in groups.items():
+            anchor = self._slugify(outlet)
+            section_parts.append(f'<a id="source-{anchor}"></a>\n')
+            section_parts.append(f"## {outlet} ({len(outlet_items)})\n\n")
+            for item in outlet_items:
+                index += 1
+                section_parts.append(self._format_item(item, labels, language, index))
+
+        return header + overview + "".join(section_parts)
+
+    @staticmethod
+    def _outlet_name(item: ContentItem) -> str:
+        """Best-effort outlet/source name for grouping (mirrors _format_item's source line)."""
+        meta = item.metadata
+        if meta.get("feed_name"):
+            return str(meta["feed_name"])
+        if meta.get("subreddit"):
+            return f"r/{meta['subreddit']}"
+        if item.author:
+            return str(item.author)
+        return item.source_type.value
+
+    @staticmethod
+    def _slugify(text: str) -> str:
+        slug = re.sub(r"[^a-zA-Z0-9]+", "-", text.strip().lower())
+        return slug.strip("-") or "source"
 
     def generate_webhook_overview(
         self,
