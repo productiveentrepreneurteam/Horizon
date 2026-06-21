@@ -17,6 +17,23 @@ from ..models import ContentItem, SourceType, RSSSourceConfig
 logger = logging.getLogger(__name__)
 
 
+# Per-outlet title exclusion keywords. If an article's title contains any of
+# these (case-insensitive), it is dropped before becoming a ContentItem.
+# Keyed by feed `name` exactly as configured in config.json. This stays here
+# (rather than as a config.json field) so it works regardless of whether the
+# RSSSourceConfig model allows extra/unknown fields.
+TITLE_EXCLUDE_KEYWORDS = {
+    "House Beautiful": [
+        "celebrity",
+        "celebrities",
+        "star",
+        "shop",
+        "shopping",
+        "famous",
+    ],
+}
+
+
 class RSSScraper(BaseScraper):
     """Scraper for RSS/Atom feeds."""
 
@@ -64,6 +81,10 @@ class RSSScraper(BaseScraper):
         """
         items = []
 
+        exclude_keywords = [
+            kw.lower() for kw in TITLE_EXCLUDE_KEYWORDS.get(source.name, [])
+        ]
+
         try:
             # Expand environment variables in URL (e.g. ${LWN_TOKEN})
             feed_url = re.sub(
@@ -85,6 +106,15 @@ class RSSScraper(BaseScraper):
                 if not published_at or published_at < since:
                     continue
 
+                title = entry.get("title", "Untitled")
+
+                # Drop articles matching this outlet's title exclusion list
+                # (e.g. House Beautiful: skip celebrity/shopping content)
+                if exclude_keywords:
+                    title_lower = title.lower()
+                    if any(kw in title_lower for kw in exclude_keywords):
+                        continue
+
                 # Generate unique ID from feed URL and entry ID
                 feed_id = str(source.url).split("//")[1].replace("/", "_")
                 entry_id = entry.get("id", entry.get("link", ""))
@@ -98,7 +128,7 @@ class RSSScraper(BaseScraper):
                 item = ContentItem(
                     id=self._generate_id("rss", feed_id, entry_hash),
                     source_type=SourceType.RSS,
-                    title=entry.get("title", "Untitled"),
+                    title=title,
                     url=entry.get("link", str(source.url)),
                     content=content,
                     author=entry.get("author", source.name),
