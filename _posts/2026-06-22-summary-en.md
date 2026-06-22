@@ -5,7 +5,7 @@ date: 2026-06-22
 lang: en
 ---
 
-> 89 articles published in the last 24 hours
+> 90 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
@@ -17,7 +17,7 @@ lang: en
 - [Good Housekeeping (5)](#source-good-housekeeping)
 - [Livingetc (7)](#source-livingetc)
 - [Martha Stewart (2)](#source-martha-stewart)
-- [Southern Living (11)](#source-southern-living)
+- [Southern Living (12)](#source-southern-living)
 - [Mansion Global (1)](#source-mansion-global)
 - [Apartment Therapy (8)](#source-apartment-therapy)
 - [Elle Decor USA (1)](#source-elle-decor-usa)
@@ -30,7 +30,7 @@ lang: en
 - [The Kitchn (7)](#source-the-kitchn)
 - [USA Today (1)](#source-usa-today)
 
-**Total Articles Today: 89**
+**Total Articles Today: 90**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -44,7 +44,7 @@ lang: en
   `Hosting` `Decor` `Seasonal`
   *by Devin Toolen · Jun 21, 11:30*
 
-- <a href="https://www.homesandgardens.com/decor/kitchen-appliances/appliances-to-unplug-during-a-heatwave" target="_blank" rel="noopener">Unplug Appliances During Heatwave to Cool Homes, Save Energy</a>
+- <a href="https://www.homesandgardens.com/decor/kitchen-appliances/appliances-to-unplug-during-a-heatwave" target="_blank" rel="noopener">The 5 Appliances to Unplug During a Heatwave to Keep Your Home Cooler and Lower Your Energy Bills</a>
   `Kitchen Appliances` `Decor` `Rooms` `Kitchens`
   *by Jennifer Ebert · Jun 22, 04:00*
 
@@ -76,7 +76,7 @@ lang: en
   `Home`
   *Jun 21, 16:12*
 
-- <a href="https://www.thespruce.com/ways-to-hide-outdoor-eyesores-11985283" target="_blank" rel="noopener">6 Designer-Approved Ways to Hide Outdoor Eyesores for a Polished Yard</a>
+- <a href="https://www.thespruce.com/ways-to-hide-outdoor-eyesores-11985283" target="_blank" rel="noopener">6 Designer-Approved Ways to Hide Outdoor Eyesores and Make Your Yard Look More Polished</a>
   `Home`
   *Jun 21, 12:41*
 
@@ -158,7 +158,7 @@ lang: en
 
 
 <a id="source-southern-living"></a>
-## Southern Living (11)
+## Southern Living (12)
 
 - <a href="https://www.southernliving.com/overused-paint-colors-12003547" target="_blank" rel="noopener">6 Paint Colors Designers Say Are Starting To Look Dated</a>
   `Home Decor Ideas` `Home` `Color Palettes & Paint`
@@ -175,6 +175,10 @@ lang: en
 - <a href="https://www.southernliving.com/unclog-drain-with-baking-soda-12001427" target="_blank" rel="noopener">Can You Unclog A Drain With Baking Soda? Here's What Plumbers Say</a>
   `Home` `Home Maintenance`
   *by Ashlyn Needham · Jun 22, 00:25*
+
+- <a href="https://www.southernliving.com/best-early-amazon-prime-day-deals-2026-11977467" target="_blank" rel="noopener">Amazon Just Dropped Dozens Of Early Prime Day Deals—Including KitchenAid Mixers, Shark Vacuums, And Prada Perfumes</a>
+  `Home` `Shopping` `Fashion` `Style` `Kitchen Assistant` `Food and Recipes`
+  *by Kate Donovan · Jun 22, 10:00*
 
 - <a href="https://www.southernliving.com/remove-soap-scum-from-glass-12000523" target="_blank" rel="noopener">How To Clean Soap Scum Off Glass Shower Doors So They Look Like New</a>
   `Home` `Cleaning and Housekeeping`
@@ -292,6 +296,10 @@ lang: en
   `Lifestyle`
   *by Nafeesah Allen · Jun 22, 09:01*
 
+- <a href="https://www.aol.com/articles/expert-warns-king-charles-next-085741000.html" target="_blank" rel="noopener">Expert Warns King Charles’ Next Move May Frustrate Prince William</a>
+  `Lifestyle`
+  *by Ankita Shaw · Jun 22, 08:57*
+
 - <a href="https://www.aol.com/lifestyle/hibiscus-shrub-not-blooming-yet-083000619.html" target="_blank" rel="noopener">Hibiscus Shrub Not Blooming Yet? Here's When To Expect It To</a>
   `Lifestyle`
   *by Sakshi Khaitan · Jun 22, 08:30*
@@ -376,10 +384,6 @@ lang: en
   `Lifestyle`
   *by Andy Wilcox · Jun 22, 00:16*
 
-- <a href="https://www.aol.com/articles/five-below-launches-stylish-2-000500000.html" target="_blank" rel="noopener">Five Below Launches Stylish 2-Pack of Foldable Storage Bins in a Pink Toile Design</a>
-  `Lifestyle`
-  *by Kelly Bryant · Jun 22, 00:05*
-
 
 <a id="source-cubby"></a>
 ## Cubby (2)
@@ -404,6 +408,10 @@ lang: en
 <a id="source-realtor-com"></a>
 ## Realtor.com (4)
 
+- <a href="https://www.realtor.com/news/trends/11-affordable-states-buyers-can-midwest-iowa-2026-report-card/" target="_blank" rel="noopener">The 11 Affordable States Where Buyers Can Avoid Going House-Poor—Led by a Heartland Champion</a>
+  `Trends` `Affordability` `Affordable Housing` `Daily Email` `Homebuying` `Illinois`
+  *by Snejana Farberov · Jun 22, 10:00*
+
 - <a href="https://www.realtor.com/news/trends/right-time-refinance-lender-capacity-money-monday/" target="_blank" rel="noopener">The Time To Refinance Is Before Rates Slip Below 6%—and Your Lender Starts Ignoring You</a>
   `Trends` `Daily Email` `Money Monday` `Refinancing` `Slot 02` `Video`
   *by Dina Sartore-Bodo · Jun 22, 09:36*
@@ -415,10 +423,6 @@ lang: en
 - <a href="https://www.realtor.com/news/unique-homes/brownstone-house-history-luxury-appeal/" target="_blank" rel="noopener">All About the Brownstone: How the Iconic Design Went From Humble Row House Roots to Million-Dollar Metropolis Luxury</a>
   `Unique Homes` `Architectural Style` `Architecture` `Boston MA` `Brooklyn NY` `Brownstone`
   *by Isabella Bernabeo · Jun 21, 11:59*
-
-- <a href="https://www.realtor.com/news/trends/spring-grove-mill-house-delaware-american-history/" target="_blank" rel="noopener">Modest Delaware Home Boasts Incredible Connections to American History Over 250 Years</a>
-  `Trends` `America 250` `American Farmhouse` `Daily Email` `Delaware` `Historical Remodel`
-  *by Kimberly Dawn Neumann · Jun 21, 10:01*
 
 
 <a id="source-the-kitchn"></a>
