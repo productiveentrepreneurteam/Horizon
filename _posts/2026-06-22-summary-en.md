@@ -5,14 +5,15 @@ date: 2026-06-22
 lang: en
 ---
 
-> 85 articles published in the last 24 hours
+> 89 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
 ## Today's Publications
 
-- [Homes & Gardens (6)](#source-homes-gardens)
+- [Homes & Gardens (7)](#source-homes-gardens)
 - [The Spruce (3)](#source-the-spruce)
+- [Better Homes & Gardens (1)](#source-better-homes-gardens)
 - [Good Housekeeping (5)](#source-good-housekeeping)
 - [Livingetc (7)](#source-livingetc)
 - [Martha Stewart (2)](#source-martha-stewart)
@@ -20,26 +21,30 @@ lang: en
 - [Mansion Global (1)](#source-mansion-global)
 - [Apartment Therapy (8)](#source-apartment-therapy)
 - [Elle Decor USA (1)](#source-elle-decor-usa)
-- [Wall Street Journal (1)](#source-wall-street-journal)
+- [Wall Street Journal (2)](#source-wall-street-journal)
 - [Dengarden (1)](#source-dengarden)
 - [AOL.com (25)](#source-aol-com)
 - [Cubby (2)](#source-cubby)
 - [Daily Mail (1)](#source-daily-mail)
-- [Realtor.com (3)](#source-realtor-com)
+- [Realtor.com (4)](#source-realtor-com)
 - [The Kitchn (7)](#source-the-kitchn)
 - [USA Today (1)](#source-usa-today)
 
-**Total Articles Today: 85**
+**Total Articles Today: 89**
 
 ---
 <a id="source-homes-gardens"></a>
-## Homes & Gardens (6)
+## Homes & Gardens (7)
+
+- <a href="https://www.homesandgardens.com/collection/decor/mint-green-color-trend" target="_blank" rel="noopener">Designers Say That Once Dated ‘Millennial’ Mint Green Is Back for 2026 – 16 Pieces That Changed My Mind About the Trend</a>
+  `Decor`
+  *by Julia Demer · Jun 22, 05:00*
 
 - <a href="https://www.homesandgardens.com/collection/decor/hosting/fourth-of-july-table-decor" target="_blank" rel="noopener">28 Chic but Celebratory Table Decorations To Set the Scene for Your Fourth of July Feast</a>
   `Hosting` `Decor` `Seasonal`
   *by Devin Toolen · Jun 21, 11:30*
 
-- <a href="https://www.homesandgardens.com/decor/kitchen-appliances/appliances-to-unplug-during-a-heatwave" target="_blank" rel="noopener">The 5 Appliances to Unplug During a Heatwave to Keep Your Home Cooler and Lower Your Energy Bills</a>
+- <a href="https://www.homesandgardens.com/decor/kitchen-appliances/appliances-to-unplug-during-a-heatwave" target="_blank" rel="noopener">Unplug Appliances During Heatwave to Cool Homes, Save Energy</a>
   `Kitchen Appliances` `Decor` `Rooms` `Kitchens`
   *by Jennifer Ebert · Jun 22, 04:00*
 
@@ -71,9 +76,17 @@ lang: en
   `Home`
   *Jun 21, 16:12*
 
-- <a href="https://www.thespruce.com/ways-to-hide-outdoor-eyesores-11985283" target="_blank" rel="noopener">6 Designer-Approved Ways to Hide Outdoor Eyesores and Make Your Yard Look More Polished</a>
+- <a href="https://www.thespruce.com/ways-to-hide-outdoor-eyesores-11985283" target="_blank" rel="noopener">6 Designer-Approved Ways to Hide Outdoor Eyesores for a Polished Yard</a>
   `Home`
   *Jun 21, 12:41*
+
+
+<a id="source-better-homes-gardens"></a>
+## Better Homes & Gardens (1)
+
+- <a href="https://www.bhg.com/cabinet-vent-holes-11987881" target="_blank" rel="noopener">The Retro Cabinet Detail That’s Making Modern Kitchens Feel Cozier</a>
+  `Home`
+  *Jun 22, 06:19*
 
 
 <a id="source-good-housekeeping"></a>
@@ -103,33 +116,33 @@ lang: en
 <a id="source-livingetc"></a>
 ## Livingetc (7)
 
-- <a href="https://www.livingetc.com/ideas/kitchen-tile-color-trends" target="_blank" rel="noopener">5 Kitchen Tile Colors Interior Designers Are Choosing Right Now for the Most Jaw-Dropping Spaces</a>
-  `Design Ideas`
-  *by Maya Glantz · Jun 21, 05:30*
-
-- <a href="https://www.livingetc.com/shopping/ninja-luxe-cafe-mini-espresso-and-filter-coffee-machine" target="_blank" rel="noopener">Big News: Ninja's New Mini Espresso Machine Means You Can Enjoy the Best-Quality Coffee No Matter the Size of Your Kitchen Counter</a>
-  `Shopping`
-  *by Olivia Wolfe · Jun 21, 06:00*
-
-- <a href="https://www.livingetc.com/shopping/selfridges-candles-summer-sale" target="_blank" rel="noopener">Psst: All of Our Favorite Designer Candles Are Currently 15% Off at Selfridges — I've Rounded Up the Most Impressive Scents to Shop</a>
-  `Shopping`
-  *by Amiya Baratan · Jun 21, 04:30*
-
-- <a href="https://www.livingetc.com/ideas/what-to-put-behind-a-sofa-in-a-small-living-room" target="_blank" rel="noopener">What to Put Behind a Sofa in a Small Living Room — 6 Genius Ways to Maximize Every Square Inch of Space</a>
+- <a href="https://www.livingetc.com/advice/how-asprin-can-help-plants-during-hot-weather" target="_blank" rel="noopener">The Final Trick to Help Your Houseplants Stop Drooping During a Heatwave? An Aspirin — Here's Why Some Plant Doctors Say It'll Help</a>
   `Expert Advice`
-  *by Lilith Hudson · Jun 21, 05:00*
+  *by Amiya Baratan · Jun 22, 04:30*
 
-- <a href="https://www.livingetc.com/ideas/purple-color-drenching-garden-trend" target="_blank" rel="noopener">5 Reasons Why Designers Are 'Color-Drenching' Modern Gardens With This Versatile Palette — And How They Use It in Their Designs to Define a 'Mood'</a>
-  `Outdoor Living`
-  *by Sarah Wilson · Jun 21, 07:00*
+- <a href="https://www.livingetc.com/shopping/next-daphne-futon-sofa-bed" target="_blank" rel="noopener">This Small Space Sofa Bed Gives Grown-Up Chic When It's a Chair, but Wait Until You See It Unfurled as a Double Bed</a>
+  `Shopping`
+  *by Lilith Hudson · Jun 22, 05:00*
+
+- <a href="https://www.livingetc.com/shopping/stylish-faceplates" target="_blank" rel="noopener">Forget White Light Switches — These Stylish Faceplates Will Instantly Transform Your Space From 'Builder-Basic' to Elevated</a>
+  `Shopping`
+  *by Iokasti Sotirakopoulou · Jun 22, 07:00*
+
+- <a href="https://www.livingetc.com/features/london-hotels-with-pools" target="_blank" rel="noopener">5 of the Most Beautiful London Hotels With Pools to Catch the Sunshine in Style This June</a>
+  `Lifestyle`
+  *by Gilda Bruno · Jun 22, 06:30*
+
+- <a href="https://www.livingetc.com/ideas/bedroom-color-trends-2026" target="_blank" rel="noopener">5 Bedroom Color Trends Interior Designers Are Using in 2026 for Spaces That Are Enveloping, Restorative, and Inherently Calming</a>
+  `Design Ideas`
+  *by Tessa Pearson · Jun 22, 06:00*
+
+- <a href="https://www.livingetc.com/features/kevin-klein-beverly-hills-renovation-project" target="_blank" rel="noopener">This Beverly Hills Home Was Transformed From "Complete Disarray" to a Mid-Century Marvel and Cocooning Family Nest</a>
+  `Modern Homes`
+  *by Ifeoluwa Adedeji · Jun 22, 05:30*
 
 - <a href="https://www.livingetc.com/advice/ways-designers-avoid-corner-cabinets-in-kitchen-design" target="_blank" rel="noopener">8 Ways Kitchen Designers Avoid Tricky Corner Cabinets in Their Design — And How They Make Up for Lost Storage</a>
   `Expert Advice`
   *by Lara Sargent · Jun 22, 04:00*
-
-- <a href="https://www.livingetc.com/shopping/ikea-skadis-pegboard" target="_blank" rel="noopener">IKEA Has Just Released a New Colorway for Its Iconic SKÅDIS Pegboard, Which Makes Organization Look Effortlessly Stylish</a>
-  `Shopping`
-  *by Harriet Curzon · Jun 21, 06:30*
 
 
 <a id="source-martha-stewart"></a>
@@ -245,7 +258,11 @@ lang: en
 
 
 <a id="source-wall-street-journal"></a>
-## Wall Street Journal (1)
+## Wall Street Journal (2)
+
+- <a href="https://www.wsj.com/real-estate/luxury-homes/condos-are-for-sale-at-the-site-of-floridas-surfside-tragedy-not-one-has-sold-f483c1de?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Condos Are for Sale at the Site of Florida’s Surfside Tragedy. Not One Has Sold.</a>
+  `Real Estate`
+  *by Deborah Acosta · Jun 22, 09:36*
 
 - <a href="https://www.wsj.com/arts-culture/television/house-of-the-dragon-sons-4a6f479d" target="_blank" rel="noopener">Even In a World of Dragons, These Sons Are Disappointments</a>
   `Lifestyle`
@@ -263,13 +280,73 @@ lang: en
 <a id="source-aol-com"></a>
 ## AOL.com (25)
 
-- <a href="https://www.aol.com/lifestyle/6-paint-colors-designers-starting-230000529.html" target="_blank" rel="noopener">6 Paint Colors Designers Say Are Starting To Look Dated</a>
+- <a href="https://www.aol.com/articles/artist-recreates-americas-most-iconic-093000000.html" target="_blank" rel="noopener">Artist Recreates America's Most Iconic Landmarks in Miniature Using Acorns, Leaves and Tree Bark (Exclusive)</a>
   `Lifestyle`
-  *by Tessa Cooper · Jun 21, 23:00*
+  *by Colson Thayer · Jun 22, 09:30*
+
+- <a href="https://www.aol.com/articles/water-quality-key-raising-livestock-090110000.html" target="_blank" rel="noopener">Water quality can be key in raising livestock</a>
+  `Lifestyle`
+  *by John Yost/Wayne County Extension, Wooster Daily Record · Jun 22, 09:01*
+
+- <a href="https://www.aol.com/lifestyle/close-interior-doors-vacation-safety-090100009.html" target="_blank" rel="noopener">Should You Close All Interior Doors Before Vacation? Safety Experts Weigh In</a>
+  `Lifestyle`
+  *by Nafeesah Allen · Jun 22, 09:01*
+
+- <a href="https://www.aol.com/lifestyle/hibiscus-shrub-not-blooming-yet-083000619.html" target="_blank" rel="noopener">Hibiscus Shrub Not Blooming Yet? Here's When To Expect It To</a>
+  `Lifestyle`
+  *by Sakshi Khaitan · Jun 22, 08:30*
+
+- <a href="https://www.aol.com/articles/plastic-bottle-clever-craft-room-083000000.html" target="_blank" rel="noopener">Use A Plastic Bottle To Make A Clever Craft Room Storage Solution With A DIY</a>
+  `Lifestyle`
+  *by Amanda Weir · Jun 22, 08:30*
+
+- <a href="https://www.aol.com/articles/heat-pumps-cool-home-know-070000000.html" target="_blank" rel="noopener">Heat pumps can also cool your home – here’s what to know during the UK heatwave</a>
+  `Lifestyle`
+  *by Jeff Meyer · Jun 22, 07:00*
+
+- <a href="https://www.aol.com/articles/asian-shares-mixed-us-futures-052419000.html" target="_blank" rel="noopener">Asian shares are mixed and US futures fall as Iran talks make progress</a>
+  `Lifestyle`
+  *by CHAN HO-HIM · Jun 22, 05:24*
+
+- <a href="https://www.aol.com/articles/first-responder-reunites-team-saved-052017000.html" target="_blank" rel="noopener">First responder reunites with team who saved him</a>
+  `Lifestyle`
+  *by Ady Dayman; Jake Garner - Leicester · Jun 22, 05:20*
+
+- <a href="https://www.aol.com/articles/walmart-2-door-outdoor-storage-050000000.html" target="_blank" rel="noopener">Walmart has a 2-door outdoor storage shed for just $125</a>
+  `Lifestyle`
+  *by Liz Sheldon · Jun 22, 05:00*
+
+- <a href="https://www.aol.com/articles/high-oil-prices-drive-surge-043541000.html" target="_blank" rel="noopener">High oil prices drive a surge in Chinese electric vehicle sales, but charging networks lag behind</a>
+  `Lifestyle`
+  *by CHAN HO-HIM, ALLAN OLINGO and ANTON L. DELGADO · Jun 22, 04:35*
+
+- <a href="https://www.aol.com/news/sea-lion-charges-fisherman-steals-043048602.html" target="_blank" rel="noopener">Sea Lion Charges At Fisherman, Steals Yellowfish Tuna In Incredible Display Of Thievery</a>
+  `Lifestyle`
+  *by Andrew Powell · Jun 22, 04:30*
+
+- <a href="https://www.aol.com/articles/krispy-kreme-brought-back-2-040100000.html" target="_blank" rel="noopener">Krispy Kreme Brought Back 2 Fan-Favorite Doughnuts for a Limited Time</a>
+  `Lifestyle`
+  *by Adriana Chavez · Jun 22, 04:01*
+
+- <a href="https://www.aol.com/lifestyle/hands-down-best-nuts-buy-032500545.html" target="_blank" rel="noopener">The Hands-Down Best Nuts To Buy At Costco In 2026</a>
+  `Lifestyle`
+  *by Robert Bruce · Jun 22, 03:25*
+
+- <a href="https://www.aol.com/articles/turn-old-paint-buckets-functional-023000000.html" target="_blank" rel="noopener">Turn Old Paint Buckets Into A Functional Raised Planter For Your Yard</a>
+  `Lifestyle`
+  *by Alia Hoyt · Jun 22, 02:30*
+
+- <a href="https://www.aol.com/articles/wood-accents-were-everywhere-80s-020000000.html" target="_blank" rel="noopener">Wood Accents Were Everywhere In The '80s: How To Give The Living Room Trend A Modern Upgrade</a>
+  `Lifestyle`
+  *by Andrea Crowley-Hughes · Jun 22, 02:00*
 
 - <a href="https://www.aol.com/articles/2-easy-swaps-made-her-020000000.html" target="_blank" rel="noopener">2 Easy Swaps Made Her Bathroom’s Existing Features Look Brand New</a>
   `Lifestyle`
   *by Megan Baker Detloff · Jun 22, 02:00*
+
+- <a href="https://www.aol.com/lifestyle/hobby-lobbys-12-sunflower-bird-014950169.html" target="_blank" rel="noopener">Hobby Lobby's $12 Sunflower Bird Feeder: A Stylish Upgrade for Your Garden</a>
+  `Lifestyle`
+  *by Nathan Hutsenpiller · Jun 22, 01:49*
 
 - <a href="https://www.aol.com/articles/budget-friendly-diy-turns-mason-014500000.html" target="_blank" rel="noopener">The Budget-Friendly DIY That Turns Mason Jars Into Cute Cottagecore Lanterns</a>
   `Lifestyle`
@@ -303,66 +380,6 @@ lang: en
   `Lifestyle`
   *by Kelly Bryant · Jun 22, 00:05*
 
-- <a href="https://www.aol.com/articles/hosta-companion-flower-resists-deer-000000000.html" target="_blank" rel="noopener">The Hosta Companion Flower That Resists Deer And Rabbits</a>
-  `Lifestyle`
-  *by Lisa Davis · Jun 22, 00:00*
-
-- <a href="https://www.aol.com/articles/goodbye-garden-hose-clutter-heres-000000000.html" target="_blank" rel="noopener">Goodbye Garden Hose Clutter: Here's A Space-Saving Solution That Adds Curb Appeal</a>
-  `Lifestyle`
-  *by Shelley Frost · Jun 22, 00:00*
-
-- <a href="https://www.aol.com/lifestyle/prevent-soap-scum-shower-000000868.html" target="_blank" rel="noopener">How To Prevent Soap Scum In Your Shower</a>
-  `Lifestyle`
-  *by Gabi De la Rosa · Jun 22, 00:00*
-
-- <a href="https://www.aol.com/lifestyle/tiktok-hack-brilliantly-outdated-oak-234500223.html" target="_blank" rel="noopener">The TikTok Hack To Brilliantly Give Outdated Oak Cabinets A Modern Refresh</a>
-  `Lifestyle`
-  *by Amelia Wilson · Jun 21, 23:45*
-
-- <a href="https://www.aol.com/articles/save-extra-seeds-spoiling-easy-234000000.html" target="_blank" rel="noopener">Save Extra Seeds From Spoiling With An Easy Solution That's Practically Free</a>
-  `Lifestyle`
-  *by Katharine Hansen · Jun 21, 23:40*
-
-- <a href="https://www.aol.com/entertainment/rooms-stay-cooler-hot-nights-232828928.html" target="_blank" rel="noopener">Rooms will stay cooler on hot nights if you put 1 kitchen item on windowsills</a>
-  `Lifestyle`
-  *by Claire Schofield & Brigid Brown · Jun 21, 23:28*
-
-- <a href="https://www.aol.com/articles/not-brick-not-pavers-amazon-230000000.html" target="_blank" rel="noopener">Not Brick Not Pavers: Amazon Has A Stone-Like Alternative For Your Driveway Edging</a>
-  `Lifestyle`
-  *by Aleem Ahmad · Jun 21, 23:00*
-
-- <a href="https://www.aol.com/lifestyle/forget-traditional-birdbaths-deck-mounted-230000524.html" target="_blank" rel="noopener">Forget Traditional Birdbaths: This Deck-Mounted Alternative Doubles As A Feeder</a>
-  `Lifestyle`
-  *by Jasmine Harding · Jun 21, 23:00*
-
-- <a href="https://www.aol.com/articles/had-no-idea-loading-top-230000000.html" target="_blank" rel="noopener">I Had No Idea I Was Loading My Top-Loading Washing Machine Incorrectly</a>
-  `Lifestyle`
-  *by Ashley Abramson · Jun 21, 23:00*
-
-- <a href="https://www.aol.com/lifestyle/upcycle-plastic-nursery-pots-burlap-224500611.html" target="_blank" rel="noopener">Upcycle Plastic Nursery Pots With Burlap For A Modern Farmhouse Feel</a>
-  `Lifestyle`
-  *by Suzanne Brons · Jun 21, 22:45*
-
-- <a href="https://www.aol.com/articles/ditch-retaining-walls-meet-living-224000000.html" target="_blank" rel="noopener">Ditch Retaining Walls And Meet The Living Solution That Prevents Erosion In A Sloped Yard</a>
-  `Lifestyle`
-  *by Bob Beacham · Jun 21, 22:40*
-
-- <a href="https://www.aol.com/articles/keith-urban-sends-love-nicole-223827000.html" target="_blank" rel="noopener">Keith Urban sends love to Nicole Kidman for her birthday, she honors him on Father's Day following divorce</a>
-  `Lifestyle`
-  *by Shania Russell · Jun 21, 22:38*
-
-- <a href="https://www.aol.com/articles/reuse-old-pot-lid-create-223000000.html" target="_blank" rel="noopener">Reuse An Old Pot Lid To Create A Rustic Bird Feeder On A Budget</a>
-  `Lifestyle`
-  *by Annette Hird · Jun 21, 22:30*
-
-- <a href="https://www.aol.com/lifestyle/worst-storage-trends-1980s-dont-223000299.html" target="_blank" rel="noopener">These Are The Worst Storage Trends Of The 1980s (Don't Bring Them Back)</a>
-  `Lifestyle`
-  *by Ron Baker · Jun 21, 22:30*
-
-- <a href="https://www.aol.com/articles/revive-old-mason-jar-turning-223000000.html" target="_blank" rel="noopener">Revive An Old Mason Jar By Turning It Into Beautiful Countertop Decor With Antique Charm</a>
-  `Lifestyle`
-  *by Ashley Chalmers · Jun 21, 22:30*
-
 
 <a id="source-cubby"></a>
 ## Cubby (2)
@@ -385,7 +402,11 @@ lang: en
 
 
 <a id="source-realtor-com"></a>
-## Realtor.com (3)
+## Realtor.com (4)
+
+- <a href="https://www.realtor.com/news/trends/right-time-refinance-lender-capacity-money-monday/" target="_blank" rel="noopener">The Time To Refinance Is Before Rates Slip Below 6%—and Your Lender Starts Ignoring You</a>
+  `Trends` `Daily Email` `Money Monday` `Refinancing` `Slot 02` `Video`
+  *by Dina Sartore-Bodo · Jun 22, 09:36*
 
 - <a href="https://www.realtor.com/news/first-person/homeless-los-angeles-off-grid-dome-home-construction-tennesseee/" target="_blank" rel="noopener">‘We Escaped Homelessness in L.A. and Built an Off-Grid Dome Home—the Nearest Grocery Store Is 5 Hours Away but We’ve Never Been Happier’</a>
   `First Person` `Acreage` `California` `Daily Email` `Dome Home` `Homelessness`
