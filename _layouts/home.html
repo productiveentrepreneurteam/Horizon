@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizon Daily</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-base:    #141210;
+      --bg-surface: #1c1916;
+      --bg-hover:   #252119;
+      --border:     #2e2923;
+      --accent:     #c9954a;
+      --accent-glow:rgba(201,149,74,.12);
+      --text-primary:   #f0ebe3;
+      --text-secondary: #9c9289;
+      --text-muted:     #615b53;
+      --font-display: 'Fraunces', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+      --radius: 10px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 15px; -webkit-font-smoothing: antialiased; }
+    body {
+      background: var(--bg-base);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      min-height: 100vh;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    /* Top bar */
+    .top-bar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--bg-base);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2.5rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .top-bar__brand {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    .top-bar__brand span { color: var(--accent); }
+
+    /* Main */
+    .main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 4rem;
+    }
+
+    .page-title {
+      font-family: var(--font-display);
+      font-size: 2.6rem;
+      font-weight: 600;
+      letter-spacing: -.025em;
+      line-height: 1.1;
+      margin-bottom: .4rem;
+    }
+    .page-sub {
+      color: var(--text-muted);
+      font-size: .88rem;
+      margin-bottom: 2.5rem;
+    }
+
+    /* Digest grid */
+    .digest-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: .75rem;
+    }
+
+    .digest-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.4rem;
+      transition: border-color .15s, background .15s;
+      cursor: pointer;
+    }
+    .digest-card:hover {
+      border-color: var(--accent);
+      background: var(--bg-hover);
+    }
+    .digest-card__date {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: .5rem;
+    }
+    .digest-card__count {
+      font-size: .78rem;
+      color: var(--text-muted);
+    }
+    .digest-card__count strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .digest-card__arrow {
+      margin-top: 1rem;
+      font-size: .75rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+      transition: color .15s;
+    }
+    .digest-card:hover .digest-card__arrow { color: var(--accent); }
+
+    /* Empty state */
+    .empty {
+      color: var(--text-muted);
+      font-size: .9rem;
+      padding: 2rem 0;
+    }
+
+    @media (max-width: 600px) {
+      .main { padding: 2rem 1.25rem; }
+      .page-title { font-size: 2rem; }
+      .digest-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top-bar">
+    <div class="top-bar__brand">
+      <span>◆</span> Horizon Daily
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="page-title">Daily Digests</h1>
+    <p class="page-sub">Select a date to view all articles published that day.</p>
+
+    <div class="digest-grid" id="js-grid">
+      <p class="empty">Loading digests…</p>
+    </div>
+  </main>
+
+  <script>
+  (function () {
+    // Jekyll injects the post list via Liquid into a JSON-safe script tag.
+    // We render it client-side to keep the layout fully static.
+    const posts = JSON.parse(document.getElementById('js-posts-data').textContent);
+
+    const grid = document.getElementById('js-grid');
+    if (!posts || posts.length === 0) {
+      grid.innerHTML = '<p class="empty">No digests published yet.</p>';
+      return;
+    }
+
+    grid.innerHTML = posts.map(p => `
+      <a class="digest-card" href="${p.url}">
+        <div>
+          <div class="digest-card__date">${p.date}</div>
+          <div class="digest-card__count"><strong>${p.title}</strong></div>
+        </div>
+        <div class="digest-card__arrow">View digest →</div>
+      </a>
+    `).join('');
+  })();
+  </script>
+
+  <!-- Liquid renders the post list into this tag so JS can read it -->
+  <script id="js-posts-data" type="application/json">
+    [{% for post in site.posts %}{% if post.lang == 'en' %}{"title":"{{ post.title | escape }}","date":"{{ post.date | date: '%B %-d, %Y' }}","url":"{{ post.url | relative_url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
+  </script>
+
+</body>
+</html>
