@@ -131,12 +131,12 @@ class RSSScraper(BaseScraper):
                     title=title,
                     url=entry.get("link", str(source.url)),
                     content=content,
-                    author=entry.get("author", source.name),
+                    author=self._extract_author(entry, source.name),
                     published_at=published_at,
                     metadata={
                         "feed_name": source.name,
                         "category": source.category,
-                        "tags": [tag.term for tag in entry.get("tags", [])],
+                        "tags": self._extract_tags(entry, source.category),
                     },
                 )
                 items.append(item)
@@ -173,6 +173,88 @@ class RSSScraper(BaseScraper):
                     continue
 
         return None
+
+    @staticmethod
+    def _extract_author(entry: dict, outlet_name: str) -> str:
+        """Extract a clean human author name from a feed entry.
+
+        feedparser exposes the author in several places depending on the feed
+        format. Some feeds (e.g. The Spruce via Dotdash) put a Facebook/social
+        URL in <author> instead of a name. We try multiple fields in priority
+        order and fall back to the outlet name only when nothing human-readable
+        is found.
+        """
+        candidates = []
+
+        # 1. author_detail.name  — most reliable when present
+        author_detail = entry.get("author_detail") or {}
+        if author_detail.get("name"):
+            candidates.append(author_detail["name"])
+
+        # 2. dc:creator  — Dublin Core, used by WordPress and many magazine CMS
+        if entry.get("dc_creator"):
+            candidates.append(entry["dc_creator"])
+        if entry.get("tags"):
+            # Some feeds encode author as a tag with scheme="author"
+            for tag in entry.get("tags", []):
+                if getattr(tag, "scheme", "") == "author" and getattr(tag, "term", ""):
+                    candidates.append(tag.term)
+
+        # 3. Plain author field
+        if entry.get("author"):
+            candidates.append(entry["author"])
+
+        for candidate in candidates:
+            name = str(candidate).strip()
+            # Discard anything that looks like a URL or email
+            if not name:
+                continue
+            if name.startswith("http") or name.startswith("www."):
+                continue
+            if "@" in name and "." in name.split("@")[-1]:
+                # looks like an email address — skip
+                continue
+            # Discard if it's just the outlet name repeated (fallback noise)
+            if name.lower() == outlet_name.lower():
+                continue
+            return name
+
+        # Nothing usable found — return outlet name as fallback
+        return outlet_name
+
+    @staticmethod
+    def _extract_tags(entry: dict, feed_category: str) -> list:
+        """Extract tags from a feed entry, falling back to the feed's own
+        category when the entry carries no per-article tags.
+
+        feedparser normalises <category> elements into entry.tags as objects
+        with .term (the label) and optional .scheme / .label. We collect the
+        .term values, skip any that look like URLs or internal scheme markers,
+        and cap the list at 6 tags to keep the UI clean.
+        """
+        raw_tags = []
+        for tag in entry.get("tags", []):
+            term = getattr(tag, "term", "") or ""
+            term = term.strip()
+            if not term:
+                continue
+            # Skip URL-like terms and single-char noise
+            if term.startswith("http") or len(term) < 2:
+                continue
+            # Skip if it looks like a numeric ID
+            if term.isdigit():
+                continue
+            raw_tags.append(term)
+
+        if raw_tags:
+            return raw_tags[:6]
+
+        # Fallback: use the feed-level category from config.json as a single
+        # tag so there is always something to display (e.g. "design", "home").
+        if feed_category:
+            return [feed_category.replace("-", " ").title()]
+
+        return []
 
     def _extract_content(self, entry: dict) -> str:
         """Extract text content from feed entry.
