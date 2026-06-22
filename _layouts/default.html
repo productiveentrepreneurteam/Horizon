@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title | default: "Horizon Daily" }}</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+
+  <!-- RSS feeds -->
+  <link rel="alternate" type="application/rss+xml"  title="Horizon Daily (EN)" href="{{ '/feed-en.xml' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="Horizon Daily (ZH)" href="{{ '/feed-zh.xml' | relative_url }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ─── Token system ─────────────────────────────────────────────────────── */
+    :root {
+      /* Palette: warm dark — like a dimmed reading lamp in a design studio */
+      --bg-base:      #141210;   /* near-black with a warm brown undertone     */
+      --bg-surface:   #1c1916;   /* cards, sidebar                             */
+      --bg-hover:     #252119;   /* row / card hover                           */
+      --bg-raised:    #2a251f;   /* collapsed card header hover                */
+      --border:       #2e2923;   /* subtle dividers                            */
+      --border-soft:  #242019;
+
+      /* Accent: editorial gold — the color of a masthead on a glossy cover   */
+      --accent:       #c9954a;
+      --accent-dim:   #8a6430;
+      --accent-glow:  rgba(201,149,74,.12);
+
+      /* Text */
+      --text-primary:   #f0ebe3;
+      --text-secondary: #9c9289;
+      --text-muted:     #615b53;
+
+      /* Tag palette — muted earthy tones that feel magazine-editorial */
+      --tag-design:    #5a3e28; --tag-design-fg:    #d4a46e;
+      --tag-home:      #1e3d2f; --tag-home-fg:      #6db891;
+      --tag-lifestyle: #2e2a48; --tag-lifestyle-fg: #9b91d4;
+      --tag-realestate:#1e3445; --tag-realestate-fg:#6aaed4;
+      --tag-business:  #3a2e1a; --tag-business-fg:  #c4a44a;
+      --tag-default:   #252119; --tag-default-fg:   #9c9289;
+
+      /* Type scale */
+      --font-display: 'Fraunces', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+
+      /* Spacing */
+      --sidebar-w: 280px;
+      --radius:    10px;
+      --radius-sm: 6px;
+    }
+
+    /* ─── Reset & base ─────────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 15px; -webkit-font-smoothing: antialiased; }
+    body {
+      background: var(--bg-base);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    /* ─── Top header bar ───────────────────────────────────────────────────── */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-base);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .top-bar__brand {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 600;
+      letter-spacing: -.01em;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    .top-bar__brand span {
+      color: var(--accent);
+    }
+    .top-bar__meta {
+      font-size: .78rem;
+      color: var(--text-muted);
+    }
+
+    /* ─── Layout shell ─────────────────────────────────────────────────────── */
+    .shell {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ─── Sidebar ──────────────────────────────────────────────────────────── */
+    .sidebar {
+      width: var(--sidebar-w);
+      min-width: var(--sidebar-w);
+      background: var(--bg-surface);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 56px;
+      height: calc(100vh - 56px);
+      overflow: hidden;
+    }
+    .sidebar__head {
+      padding: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar__title {
+      font-size: .68rem;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: .75rem;
+    }
+    .sidebar__search {
+      width: 100%;
+      background: var(--bg-base);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: .45rem .7rem;
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-size: .82rem;
+      outline: none;
+      transition: border-color .15s;
+    }
+    .sidebar__search::placeholder { color: var(--text-muted); }
+    .sidebar__search:focus { border-color: var(--accent-dim); }
+
+    .sidebar__list {
+      overflow-y: auto;
+      flex: 1;
+      padding: .5rem 0;
+    }
+    .sidebar__list::-webkit-scrollbar { width: 4px; }
+    .sidebar__list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+    .sidebar__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .45rem 1rem;
+      cursor: pointer;
+      font-size: .82rem;
+      color: var(--text-secondary);
+      border-radius: 0;
+      transition: background .12s, color .12s;
+      gap: .5rem;
+    }
+    .sidebar__item:hover,
+    .sidebar__item.active {
+      background: var(--bg-hover);
+      color: var(--text-primary);
+    }
+    .sidebar__item.active { color: var(--accent); }
+    .sidebar__item-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .sidebar__item-count {
+      font-size: .72rem;
+      font-weight: 600;
+      background: var(--bg-raised);
+      color: var(--text-muted);
+      padding: .1rem .42rem;
+      border-radius: 999px;
+      flex-shrink: 0;
+    }
+    .sidebar__item.active .sidebar__item-count {
+      background: var(--accent-glow);
+      color: var(--accent);
+    }
+
+    /* ─── Main content ─────────────────────────────────────────────────────── */
+    .main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 2rem 2.5rem;
+      min-width: 0;
+    }
+
+    /* ─── Page title ───────────────────────────────────────────────────────── */
+    .page-title {
+      font-family: var(--font-display);
+      font-size: 2.4rem;
+      font-weight: 600;
+      letter-spacing: -.025em;
+      color: var(--text-primary);
+      line-height: 1.1;
+      margin-bottom: .35rem;
+    }
+    .page-subtitle {
+      font-size: .85rem;
+      color: var(--text-muted);
+      margin-bottom: 1.75rem;
+    }
+
+    /* ─── KPI row ──────────────────────────────────────────────────────────── */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: .75rem;
+      margin-bottom: 2rem;
+    }
+    .kpi-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+    }
+    .kpi-card__label {
+      font-size: .72rem;
+      font-weight: 500;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: .35rem;
+    }
+    .kpi-card__value {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1;
+    }
+    .kpi-card--accent .kpi-card__value { color: var(--accent); }
+
+    /* ─── Filter pills ─────────────────────────────────────────────────────── */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      margin-bottom: 1.5rem;
+    }
+    .filter-pill {
+      font-size: .75rem;
+      font-weight: 500;
+      padding: .3rem .75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--bg-surface);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all .15s;
+      user-select: none;
+    }
+    .filter-pill:hover { border-color: var(--accent-dim); color: var(--text-primary); }
+    .filter-pill.active {
+      background: var(--accent-glow);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* ─── Source cards ─────────────────────────────────────────────────────── */
+    .source-section { margin-bottom: 1rem; }
+
+    .source-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color .15s;
+    }
+    .source-card:hover { border-color: var(--border-soft); }
+
+    .source-card__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .9rem 1.25rem;
+      cursor: pointer;
+      user-select: none;
+      transition: background .12s;
+    }
+    .source-card__header:hover { background: var(--bg-hover); }
+
+    .source-card__left {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+    }
+    .source-card__dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex-shrink: 0;
+      opacity: .7;
+    }
+    .source-card__name {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: -.01em;
+      color: var(--text-primary);
+    }
+    .source-card__count {
+      font-size: .75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg-raised);
+      padding: .15rem .5rem;
+      border-radius: 999px;
+    }
+    .source-card__toggle {
+      font-size: .75rem;
+      color: var(--text-muted);
+      transition: transform .25s ease;
+      flex-shrink: 0;
+    }
+    .source-card.open .source-card__toggle { transform: rotate(180deg); }
+
+    .source-card__body {
+      display: none;
+      border-top: 1px solid var(--border);
+    }
+    .source-card.open .source-card__body { display: block; }
+
+    /* ─── Article table ────────────────────────────────────────────────────── */
+    .article-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .article-table th {
+      font-size: .68rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      padding: .6rem 1.25rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    .article-table td {
+      padding: .8rem 1.25rem;
+      vertical-align: top;
+      border-bottom: 1px solid var(--border-soft);
+      font-size: .83rem;
+      color: var(--text-secondary);
+    }
+    .article-table tr:last-child td { border-bottom: none; }
+    .article-table tr { transition: background .1s; }
+    .article-table tr:hover td { background: var(--bg-hover); }
+
+    .article-title a {
+      color: var(--text-primary);
+      font-weight: 500;
+      font-size: .88rem;
+      line-height: 1.45;
+      transition: color .12s;
+    }
+    .article-title a:hover { color: var(--accent); }
+
+    .article-author { color: var(--text-muted); font-size: .78rem; }
+    .article-time   { color: var(--text-muted); font-size: .75rem; white-space: nowrap; }
+
+    /* ─── Tag badges ───────────────────────────────────────────────────────── */
+    .tags { display: flex; flex-wrap: wrap; gap: .3rem; }
+    .tag {
+      font-size: .68rem;
+      font-weight: 500;
+      padding: .2rem .5rem;
+      border-radius: 999px;
+      white-space: nowrap;
+      background: var(--tag-default);
+      color: var(--tag-default-fg);
+    }
+    .tag--design    { background: var(--tag-design);    color: var(--tag-design-fg);    }
+    .tag--home      { background: var(--tag-home);      color: var(--tag-home-fg);      }
+    .tag--lifestyle { background: var(--tag-lifestyle); color: var(--tag-lifestyle-fg); }
+    .tag--realestate{ background: var(--tag-realestate);color: var(--tag-realestate-fg);}
+    .tag--business  { background: var(--tag-business);  color: var(--tag-business-fg);  }
+
+    /* ─── Empty states ─────────────────────────────────────────────────────── */
+    .empty {
+      padding: 2.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: .85rem;
+    }
+
+    /* ─── Responsive ───────────────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .sidebar { display: none; }
+      .main { padding: 1.25rem; }
+      .page-title { font-size: 1.7rem; }
+      .kpi-row { grid-template-columns: repeat(2, 1fr); }
+      .article-table th:nth-child(2),
+      .article-table td:nth-child(2),
+      .article-table th:nth-child(3),
+      .article-table td:nth-child(3) { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top bar -->
+  <header class="top-bar">
+    <div class="top-bar__brand">
+      <span>◆</span> Horizon Daily
+    </div>
+    <div class="top-bar__meta" id="js-last-update"></div>
+  </header>
+
+  <div class="shell">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar__head">
+        <div class="sidebar__title">Sources</div>
+        <input class="sidebar__search" id="js-search" type="search" placeholder="Search sources…" autocomplete="off" />
+      </div>
+      <nav class="sidebar__list" id="js-sidebar-list">
+        <!-- Populated by JS from source cards -->
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main" id="js-main">
+      {{ content }}
+    </main>
+
+  </div>
+
+  <script>
+  (function () {
+
+    /* ── Helpers ─────────────────────────────────────────────────── */
+    function $(sel, ctx) { return (ctx || document).querySelector(sel); }
+    function $$(sel, ctx) { return [...(ctx || document).querySelectorAll(sel)]; }
+
+    /* ── Tag colour mapping ──────────────────────────────────────── */
+    const TAG_CLASS = {
+      design: 'design', home: 'home', lifestyle: 'lifestyle',
+      decor: 'design', decoration: 'design', decorating: 'design',
+      kitchen: 'home', bedroom: 'home', bathroom: 'home',
+      'real estate': 'realestate', realestate: 'realestate',
+      business: 'business',
+      diy: 'home', outdoor: 'lifestyle', cleaning: 'home',
+      organizing: 'home', living: 'lifestyle',
+    };
+    function tagClass(tag) {
+      const k = tag.toLowerCase().replace(/[^a-z ]/g, '');
+      return TAG_CLASS[k] || '';
+    }
+
+    /* ── Transform raw Markdown-rendered HTML into dashboard UI ─── */
+    function buildDashboard() {
+      const main = document.getElementById('js-main');
+      if (!main) return;
+
+      /* Collect raw data from the Markdown-rendered content.
+         The page content is: H2 "Today's Publications" with a bullet list,
+         then one H2 per outlet with bullet list items of articles.
+         Each bullet renders as:
+           <li><a href="…" target="_blank">Title</a>
+             <code>Tag1</code> <code>Tag2</code>
+             <em>by Author · Jun 17, 14:00</em>
+           </li>
+      */
+
+      const sources = []; // [{name, articles:[{title,url,tags,author,time}]}]
+
+      // Grab all H2 elements that are not "Today's Publications"
+      const h2s = $$('h2', main).filter(h => !/today/i.test(h.textContent));
+
+      h2s.forEach(h2 => {
+        const nameMatch = h2.textContent.match(/^(.+?)\s*\(\d+\)$/) || h2.textContent.match(/^(.+)$/);
+        const name = nameMatch ? nameMatch[1].trim() : h2.textContent.trim();
+        const articles = [];
+
+        // Collect sibling <ul> items until next H2 or end
+        let el = h2.nextElementSibling;
+        while (el && el.tagName !== 'H2') {
+          if (el.tagName === 'UL') {
+            $$('li', el).forEach(li => {
+              const a = $('a', li);
+              if (!a) return;
+              const title = a.textContent.trim();
+              const url   = a.getAttribute('href') || '#';
+
+              // Tags: <code> elements
+              const tags = $$('code', li).map(c => c.textContent.trim());
+
+              // Author + time: <em> element
+              let author = '', time = '';
+              const em = $('em', li);
+              if (em) {
+                const parts = em.textContent.split('·').map(s => s.trim());
+                if (parts[0].startsWith('by ')) {
+                  author = parts[0].slice(3).trim();
+                  time   = parts.slice(1).join(' · ').trim();
+                } else {
+                  time = parts[0];
+                }
+              }
+
+              articles.push({ title, url, tags, author, time });
+            });
+          }
+          el = el.nextElementSibling;
+        }
+
+        if (articles.length > 0) sources.push({ name, articles });
+      });
+
+      /* ── If no sources parsed, leave raw HTML visible ── */
+      if (sources.length === 0) return;
+
+      /* ── Build KPI data ── */
+      const totalArticles = sources.reduce((s, src) => s + src.articles.length, 0);
+      const sourcesCount  = sources.length;
+
+      /* ── Collect all unique categories for filter pills ── */
+      const allTags = new Set(['All']);
+      sources.forEach(src => src.articles.forEach(a => a.tags.forEach(t => allTags.add(t))));
+
+      /* ── Render page ── */
+      main.innerHTML = '';
+
+      /* Page title */
+      const header = document.createElement('div');
+      header.innerHTML = `
+        <h1 class="page-title">Horizon Daily</h1>
+        <p class="page-subtitle" id="js-date-label">Today's Publications</p>
+        <div class="kpi-row">
+          <div class="kpi-card kpi-card--accent">
+            <div class="kpi-card__label">Total Articles</div>
+            <div class="kpi-card__value">${totalArticles}</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-card__label">Sources Monitored</div>
+            <div class="kpi-card__value">${sourcesCount}</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-card__label">Time Window</div>
+            <div class="kpi-card__value" style="font-size:1.3rem;padding-top:.3rem">24 h</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-card__label">Last Update</div>
+            <div class="kpi-card__value" id="js-kpi-time" style="font-size:1.1rem;padding-top:.3rem">—</div>
+          </div>
+        </div>
+      `;
+      main.appendChild(header);
+
+      /* Filter pills */
+      const filterWrap = document.createElement('div');
+      filterWrap.className = 'filter-bar';
+      filterWrap.id = 'js-filters';
+      [...allTags].forEach(tag => {
+        const pill = document.createElement('button');
+        pill.className = 'filter-pill' + (tag === 'All' ? ' active' : '');
+        pill.textContent = tag;
+        pill.dataset.tag = tag;
+        filterWrap.appendChild(pill);
+      });
+      main.appendChild(filterWrap);
+
+      /* Source cards */
+      const cardsWrap = document.createElement('div');
+      cardsWrap.id = 'js-cards';
+
+      sources.forEach((src, si) => {
+        const section = document.createElement('div');
+        section.className = 'source-section';
+        section.dataset.source = src.name.toLowerCase();
+
+        const card = document.createElement('div');
+        card.className = 'source-card' + (si < 3 ? ' open' : ''); // top 3 open by default
+        card.id = 'card-' + src.name.toLowerCase().replace(/[^a-z0-9]/g, '-');
+
+        /* Header */
+        const cardHeader = document.createElement('div');
+        cardHeader.className = 'source-card__header';
+        cardHeader.innerHTML = `
+          <div class="source-card__left">
+            <div class="source-card__dot"></div>
+            <span class="source-card__name">${src.name}</span>
+            <span class="source-card__count">${src.articles.length}</span>
+          </div>
+          <span class="source-card__toggle">▾</span>
+        `;
+        cardHeader.addEventListener('click', () => card.classList.toggle('open'));
+        card.appendChild(cardHeader);
+
+        /* Body */
+        const body = document.createElement('div');
+        body.className = 'source-card__body';
+
+        const table = document.createElement('table');
+        table.className = 'article-table';
+        table.dataset.articles = JSON.stringify(src.articles);
+
+        table.innerHTML = `
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Tags</th>
+              <th>Author</th>
+              <th>Published</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        `;
+
+        renderTableRows(table, src.articles);
+        body.appendChild(table);
+        card.appendChild(body);
+        section.appendChild(card);
+        cardsWrap.appendChild(section);
+      });
+
+      main.appendChild(cardsWrap);
+
+      /* ── Sidebar ── */
+      buildSidebar(sources);
+
+      /* ── Filters ── */
+      document.getElementById('js-filters').addEventListener('click', e => {
+        const pill = e.target.closest('.filter-pill');
+        if (!pill) return;
+        $$('.filter-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        applyFilter(pill.dataset.tag);
+      });
+
+      /* ── Last update time ── */
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+      const dateStr = now.toLocaleDateString([], {month:'short', day:'numeric', year:'numeric'});
+      const el = document.getElementById('js-kpi-time');
+      if (el) el.textContent = timeStr;
+      const lastUpdate = document.getElementById('js-last-update');
+      if (lastUpdate) lastUpdate.textContent = 'Updated ' + dateStr;
+    }
+
+    function renderTableRows(table, articles, activeTag) {
+      const tbody = table.querySelector('tbody');
+      tbody.innerHTML = '';
+      articles.forEach(art => {
+        if (activeTag && activeTag !== 'All' &&
+            !art.tags.some(t => t.toLowerCase() === activeTag.toLowerCase())) return;
+
+        const tr = document.createElement('tr');
+        tr.dataset.tags = art.tags.map(t => t.toLowerCase()).join(',');
+
+        const tagsHtml = art.tags.length
+          ? art.tags.map(t => `<span class="tag tag--${tagClass(t)}">${t}</span>`).join('')
+          : '<span class="tag">—</span>';
+
+        tr.innerHTML = `
+          <td class="article-title">
+            <a href="${art.url}" target="_blank" rel="noopener">${art.title}</a>
+          </td>
+          <td><div class="tags">${tagsHtml}</div></td>
+          <td class="article-author">${art.author || '—'}</td>
+          <td class="article-time">${art.time || '—'}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      if (tbody.children.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4" class="empty">No articles match this filter</td></tr>';
+      }
+    }
+
+    function applyFilter(tag) {
+      const tables = document.querySelectorAll('.article-table');
+      tables.forEach(table => {
+        const articles = JSON.parse(table.dataset.articles || '[]');
+        renderTableRows(table, articles, tag);
+
+        // Show/hide source card based on whether it has visible rows
+        const card = table.closest('.source-card');
+        const section = table.closest('.source-section');
+        if (!section) return;
+        const hasRows = table.querySelector('tbody tr:not(:has(.empty))') ||
+                        (tag === 'All');
+        section.style.display = (tag === 'All' || table.querySelector('tbody tr[data-tags]')) ? '' : 'none';
+      });
+    }
+
+    function buildSidebar(sources) {
+      const list = document.getElementById('js-sidebar-list');
+      if (!list) return;
+      list.innerHTML = '';
+
+      // "All sources" entry
+      const allItem = document.createElement('div');
+      allItem.className = 'sidebar__item active';
+      allItem.innerHTML = `<span class="sidebar__item-name">All Sources</span>`;
+      allItem.addEventListener('click', () => {
+        document.querySelectorAll('.sidebar__item').forEach(i => i.classList.remove('active'));
+        allItem.classList.add('active');
+        document.querySelectorAll('.source-section').forEach(s => s.style.display = '');
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      });
+      list.appendChild(allItem);
+
+      sources.forEach(src => {
+        const item = document.createElement('div');
+        item.className = 'sidebar__item';
+        item.dataset.name = src.name.toLowerCase();
+        item.innerHTML = `
+          <span class="sidebar__item-name">${src.name}</span>
+          <span class="sidebar__item-count">${src.articles.length}</span>
+        `;
+        item.addEventListener('click', () => {
+          document.querySelectorAll('.sidebar__item').forEach(i => i.classList.remove('active'));
+          item.classList.add('active');
+          const cardId = 'card-' + src.name.toLowerCase().replace(/[^a-z0-9]/g, '-');
+          const card = document.getElementById(cardId);
+          if (card) {
+            card.classList.add('open');
+            card.scrollIntoView({behavior: 'smooth', block: 'start'});
+          }
+        });
+        list.appendChild(item);
+      });
+
+      /* Search */
+      document.getElementById('js-search').addEventListener('input', function() {
+        const q = this.value.toLowerCase();
+        document.querySelectorAll('.sidebar__item').forEach(item => {
+          const name = (item.dataset.name || '').toLowerCase();
+          item.style.display = (!q || name.includes(q)) ? '' : 'none';
+        });
+      });
+    }
+
+    /* ── Boot ── */
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', buildDashboard);
+    } else {
+      buildDashboard();
+    }
+
+  })();
+  </script>
+
+</body>
+</html>
