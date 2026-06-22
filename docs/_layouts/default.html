@@ -242,32 +242,6 @@
     }
     .kpi-card--accent .kpi-card__value { color: var(--accent); }
 
-    /* ─── Filter pills ─────────────────────────────────────────────────────── */
-    .filter-bar {
-      display: flex;
-      flex-wrap: wrap;
-      gap: .4rem;
-      margin-bottom: 1.5rem;
-    }
-    .filter-pill {
-      font-size: .75rem;
-      font-weight: 500;
-      padding: .3rem .75rem;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      background: var(--bg-surface);
-      color: var(--text-secondary);
-      cursor: pointer;
-      transition: all .15s;
-      user-select: none;
-    }
-    .filter-pill:hover { border-color: var(--accent-dim); color: var(--text-primary); }
-    .filter-pill.active {
-      background: var(--accent-glow);
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
     /* ─── Source cards ─────────────────────────────────────────────────────── */
     .source-section { margin-bottom: 1rem; }
 
@@ -448,18 +422,47 @@
     function $$(sel, ctx) { return [...(ctx || document).querySelectorAll(sel)]; }
 
     /* ── Tag colour mapping ──────────────────────────────────────── */
+    // Known tags map to one of 5 CSS modifier classes
     const TAG_CLASS = {
-      design: 'design', home: 'home', lifestyle: 'lifestyle',
-      decor: 'design', decoration: 'design', decorating: 'design',
-      kitchen: 'home', bedroom: 'home', bathroom: 'home',
+      // design / decor
+      design: 'design', decor: 'design', decoration: 'design', decorating: 'design',
+      'design ideas': 'design', 'home decor ideas': 'design', 'color palettes': 'design',
+      'architectural style': 'design', 'design & decor': 'design', minimalist: 'design',
+      'color palettes & paint': 'design', paint: 'design', style: 'design',
+      'exterior design ideas': 'design', 'outdoor spaces': 'design',
+      'fixtures & finishes': 'design', 'fixtures &amp; finishes': 'design',
+      // home
+      home: 'home', kitchen: 'home', bedroom: 'home', bathroom: 'home',
+      'home projects': 'home', 'home maintenance': 'home', diy: 'home',
+      cleaning: 'home', organizing: 'home', 'home cleaning': 'home',
+      'cleaning and housekeeping': 'home', laundry: 'home',
+      'storage & organization': 'home', 'storage &amp; organization': 'home',
+      rooms: 'home', kitchens: 'home', 'family homes': 'home',
+      'home décor': 'home', 'before & after': 'home',
+      'curb appeal': 'home', 'home hub': 'home', bedroom: 'home',
+      // lifestyle
+      lifestyle: 'lifestyle', living: 'lifestyle', outdoor: 'lifestyle',
+      'outdoor living': 'lifestyle', summer: 'lifestyle', seasonal: 'lifestyle',
+      hosting: 'lifestyle', 'holidays & occasions': 'lifestyle',
+      'expert advice': 'lifestyle', 'first person': 'lifestyle',
+      // real-estate
       'real estate': 'realestate', realestate: 'realestate',
-      business: 'business',
-      diy: 'home', outdoor: 'lifestyle', cleaning: 'home',
-      organizing: 'home', living: 'lifestyle',
+      'real-estate': 'realestate', trends: 'realestate',
+      // business
+      business: 'business', shopping: 'business', news: 'business',
+      'product review': 'business', 'product find': 'business',
     };
+
+    // Rotate through the 5 classes for any tag not in the map
+    const TAG_CLASSES = ['design', 'home', 'lifestyle', 'realestate', 'business'];
+    function strHash(s) {
+      let h = 0;
+      for (let i = 0; i < s.length; i++) h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+      return Math.abs(h);
+    }
     function tagClass(tag) {
-      const k = tag.toLowerCase().replace(/[^a-z ]/g, '');
-      return TAG_CLASS[k] || '';
+      const k = tag.toLowerCase().replace(/&amp;/g, '&').replace(/[^a-z0-9& ]/g, '').trim();
+      return TAG_CLASS[k] || TAG_CLASSES[strHash(k) % TAG_CLASSES.length];
     }
 
     /* ── Transform raw Markdown-rendered HTML into dashboard UI ─── */
@@ -513,7 +516,7 @@
                 }
               }
 
-              articles.push({ title, url, tags, author, time });
+              articles.push({ title, url, tags, author, time, outlet: name });
             });
           }
           el = el.nextElementSibling;
@@ -528,10 +531,6 @@
       /* ── Build KPI data ── */
       const totalArticles = sources.reduce((s, src) => s + src.articles.length, 0);
       const sourcesCount  = sources.length;
-
-      /* ── Collect all unique categories for filter pills ── */
-      const allTags = new Set(['All']);
-      sources.forEach(src => src.articles.forEach(a => a.tags.forEach(t => allTags.add(t))));
 
       /* ── Render page ── */
       main.innerHTML = '';
@@ -561,19 +560,6 @@
         </div>
       `;
       main.appendChild(header);
-
-      /* Filter pills */
-      const filterWrap = document.createElement('div');
-      filterWrap.className = 'filter-bar';
-      filterWrap.id = 'js-filters';
-      [...allTags].forEach(tag => {
-        const pill = document.createElement('button');
-        pill.className = 'filter-pill' + (tag === 'All' ? ' active' : '');
-        pill.textContent = tag;
-        pill.dataset.tag = tag;
-        filterWrap.appendChild(pill);
-      });
-      main.appendChild(filterWrap);
 
       /* Source cards */
       const cardsWrap = document.createElement('div');
@@ -634,15 +620,6 @@
       /* ── Sidebar ── */
       buildSidebar(sources);
 
-      /* ── Filters ── */
-      document.getElementById('js-filters').addEventListener('click', e => {
-        const pill = e.target.closest('.filter-pill');
-        if (!pill) return;
-        $$('.filter-pill').forEach(p => p.classList.remove('active'));
-        pill.classList.add('active');
-        applyFilter(pill.dataset.tag);
-      });
-
       /* ── Last update time ── */
       const now = new Date();
       const timeStr = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
@@ -653,50 +630,33 @@
       if (lastUpdate) lastUpdate.textContent = 'Updated ' + dateStr;
     }
 
-    function renderTableRows(table, articles, activeTag) {
+    function renderTableRows(table, articles) {
       const tbody = table.querySelector('tbody');
       tbody.innerHTML = '';
       articles.forEach(art => {
-        if (activeTag && activeTag !== 'All' &&
-            !art.tags.some(t => t.toLowerCase() === activeTag.toLowerCase())) return;
-
         const tr = document.createElement('tr');
-        tr.dataset.tags = art.tags.map(t => t.toLowerCase()).join(',');
 
         const tagsHtml = art.tags.length
           ? art.tags.map(t => `<span class="tag tag--${tagClass(t)}">${t}</span>`).join('')
-          : '<span class="tag">—</span>';
+          : `<span class="tag tag--${tagClass(art.outlet||'home')}">—</span>`;
+
+        // Author: use whatever was parsed; if empty show outlet name
+        const authorDisplay = art.author || art.outlet || '—';
 
         tr.innerHTML = `
           <td class="article-title">
             <a href="${art.url}" target="_blank" rel="noopener">${art.title}</a>
           </td>
           <td><div class="tags">${tagsHtml}</div></td>
-          <td class="article-author">${art.author || '—'}</td>
+          <td class="article-author">${authorDisplay}</td>
           <td class="article-time">${art.time || '—'}</td>
         `;
         tbody.appendChild(tr);
       });
 
       if (tbody.children.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="4" class="empty">No articles match this filter</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="4" class="empty">No articles found</td></tr>';
       }
-    }
-
-    function applyFilter(tag) {
-      const tables = document.querySelectorAll('.article-table');
-      tables.forEach(table => {
-        const articles = JSON.parse(table.dataset.articles || '[]');
-        renderTableRows(table, articles, tag);
-
-        // Show/hide source card based on whether it has visible rows
-        const card = table.closest('.source-card');
-        const section = table.closest('.source-section');
-        if (!section) return;
-        const hasRows = table.querySelector('tbody tr:not(:has(.empty))') ||
-                        (tag === 'All');
-        section.style.display = (tag === 'All' || table.querySelector('tbody tr[data-tags]')) ? '' : 'none';
-      });
     }
 
     function buildSidebar(sources) {
