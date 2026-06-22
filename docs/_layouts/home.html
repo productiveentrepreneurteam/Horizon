@@ -149,39 +149,23 @@
     <h1 class="page-title">Daily Digests</h1>
     <p class="page-sub">Select a date to view all articles published that day.</p>
 
-    <div class="digest-grid" id="js-grid">
-      <p class="empty">Loading digests…</p>
+    <div class="digest-grid">
+      {% assign en_posts = site.posts | where: "lang", "en" %}
+      {% if en_posts.size > 0 %}
+        {% for post in en_posts %}
+        <a class="digest-card" href="{{ post.url | relative_url }}">
+          <div>
+            <div class="digest-card__date">{{ post.date | date: "%B %-d, %Y" }}</div>
+            <div class="digest-card__count">{{ post.title }}</div>
+          </div>
+          <div class="digest-card__arrow">View digest →</div>
+        </a>
+        {% endfor %}
+      {% else %}
+        <p class="empty">No digests published yet.</p>
+      {% endif %}
     </div>
   </main>
-
-  <script>
-  (function () {
-    // Jekyll injects the post list via Liquid into a JSON-safe script tag.
-    // We render it client-side to keep the layout fully static.
-    const posts = JSON.parse(document.getElementById('js-posts-data').textContent);
-
-    const grid = document.getElementById('js-grid');
-    if (!posts || posts.length === 0) {
-      grid.innerHTML = '<p class="empty">No digests published yet.</p>';
-      return;
-    }
-
-    grid.innerHTML = posts.map(p => `
-      <a class="digest-card" href="${p.url}">
-        <div>
-          <div class="digest-card__date">${p.date}</div>
-          <div class="digest-card__count"><strong>${p.title}</strong></div>
-        </div>
-        <div class="digest-card__arrow">View digest →</div>
-      </a>
-    `).join('');
-  })();
-  </script>
-
-  <!-- Liquid renders the post list into this tag so JS can read it -->
-  <script id="js-posts-data" type="application/json">
-    [{% for post in site.posts %}{% if post.lang == 'en' %}{"title":"{{ post.title | escape }}","date":"{{ post.date | date: '%B %-d, %Y' }}","url":"{{ post.url | relative_url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
-  </script>
 
 </body>
 </html>
