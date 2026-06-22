@@ -1,10 +1,9 @@
 name: Daily Horizon Summary
 
 on:
-  # schedule:
-  #   - cron: '0 0 */2 * *'  # Runs every 2 days at 00:00 UTC
-  #     timezone: 'Asia/Shanghai'
-  workflow_dispatch:      # Allow manual trigger
+  schedule:
+    - cron: '0 17 * * *'  # Every day at 17:00 UTC = 12:00 PM ET
+  workflow_dispatch:       # Allow manual trigger at any time
 
 jobs:
   daily-summary:
@@ -14,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,13 +31,11 @@ jobs:
 
       - name: Run Horizon
         env:
-          # Map secrets to environment variables expected by config.json
-          # Modify these based on your data/config.github.json provider settings
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           LWN_KEY: ${{ secrets.LWN_KEY }}
-        run: uv run horizon --hours 48
+        run: uv run horizon --hours 24
 
       - name: Set current date as environment variable
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
@@ -48,7 +45,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          keep_files: true  # Keep existing summaries on gh-pages branch
+          keep_files: true
           commit_message: "📝 Daily Summary: ${{ env.DATE }}"
           publish_branch: gh-pages
           enable_jekyll: true
