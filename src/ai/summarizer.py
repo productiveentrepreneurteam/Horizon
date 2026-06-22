@@ -63,7 +63,7 @@ OUTLET_RANKING = [
     "The Kitchn",
     "The Philadelphia Inquirer",
     "USA Today",
-    "Vogue (Casa Vogue Brazil)",
+    "Vogue",
 ]
 _OUTLET_RANK_INDEX = {name.strip().lower(): i for i, name in enumerate(OUTLET_RANKING)}
 
