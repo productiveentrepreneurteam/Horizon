@@ -107,7 +107,7 @@ def _pangu(text: str) -> str:
 
 LABELS = {
     "en": {
-        "header": "Horizon Daily",
+        "header": "Press House Daily Digest",
         "source": "Source",
         "background": "Background",
         "discussion": "Discussion",
