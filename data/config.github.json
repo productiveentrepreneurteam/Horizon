@@ -188,7 +188,7 @@
       {
         "name": "AOL.com",
         "url": "https://rss.app/feeds/NzfhzctSlThzticv.xml",
-        "enabled": true,
+        "enabled": false,
         "category": "lifestyle"
       },
       {
