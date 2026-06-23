@@ -285,7 +285,18 @@ class DailySummarizer:
                 section_parts.append("\n")
             section_parts.append("\n")
 
-        return header + overview + "".join(section_parts)
+        # --- 🏆 Press House Wins: articles by one of our clean writers ---
+        wins = [it for it in items if (it.author or "").strip().lower() in _WRITER_RANK_INDEX]
+        wins_parts = []
+        if wins:
+            wins.sort(key=self._article_sort_key)
+            wins_parts.append("## 🏆 Press House Wins\n\n")
+            for item in wins:
+                wins_parts.append(self._format_item_simple(item, language))
+                wins_parts.append("\n")
+            wins_parts.append("\n---\n\n")
+
+        return header + "".join(wins_parts) + overview + "".join(section_parts)
 
     def _format_item_simple(self, item: ContentItem, language: str) -> str:
         """Render a single item as a small card: title (new-tab link), tags, author, time."""
