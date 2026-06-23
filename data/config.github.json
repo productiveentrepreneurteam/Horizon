@@ -192,6 +192,12 @@
         "category": "lifestyle"
       },
       {
+        "name": "New York Times",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/RealEstate.xml",
+        "enabled": true,
+        "category": "real-estate"
+      },
+      {
         "name": "American Farmhouse",
         "url": "https://americanfarmhousestyle.com/category/design/feed/",
         "enabled": true,
