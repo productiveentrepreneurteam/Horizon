@@ -5,39 +5,96 @@ date: 2026-06-23
 lang: en
 ---
 
-> 154 articles published in the last 24 hours
+> 161 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
+## 🏆 Press House Wins
+
+- <a href="https://www.apartmenttherapy.com/best-designer-picks-amazon-prime-day-deals-37560109?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The 10 Home Essentials Designers Are Buying on Amazon Prime Day</a>
+  `Decorating` `amazon` `amazon prime big deal days 2025` `amazon prime day` `decor & accessories` `decorating`
+  `⭐ Press Club Source ⭐`
+  *by Sarah Lyon · Jun 23, 16:45*
+
+- <a href="https://www.livingetc.com/ideas/kitchen-floor-colors-2026" target="_blank" rel="noopener">3 Kitchen Floor Colors That Will Feel the Most Sophisticated and Luxurious If You Use Them in Schemes This Year</a>
+  `Design Ideas`
+  `⭐ Press Club Source ⭐`
+  *by Maya Glantz · Jun 23, 07:00*
+
+- <a href="https://www.livingetc.com/shopping/stylish-home-appliances-on-amazon" target="_blank" rel="noopener">Okay, Wait, There Are Some Undeniably Stylish Home Appliances on Amazon — The Key Is Knowing What to Look For, and for That, We Have You Covered</a>
+  `Shopping`
+  `⭐ Press Club Source ⭐`
+  *by Maya Glantz · Jun 23, 05:30*
+
+- <a href="https://www.livingetc.com/shopping/restorgan-magnetic-basket-organizer" target="_blank" rel="noopener">These Magnetic Baskets Add Way More Storage to a Tiny Kitchen — You Can Even Attach Them to Your Fridge</a>
+  `Shopping`
+  `⭐ Press Club Source ⭐`
+  *by Maya Glantz · Jun 23, 05:00*
+
+- <a href="https://www.southernliving.com/toss-before-summer-12005305" target="_blank" rel="noopener">7 Things To Toss Before Your Kids Are Home All Summer</a>
+  `Home` `Home Organization`
+  `⭐ Press Club Source ⭐`
+  *by Patricia Shannon · Jun 23, 21:02*
+
+- <a href="https://www.homesandgardens.com/decor/hosting/fourth-of-july-hosting-checklist-2026" target="_blank" rel="noopener">Our Ultimate Fourth of July Hosting Checklist: Everything You Need to Host a Stylish Birthday Party for America</a>
+  `Hosting` `Decor` `Seasonal`
+  `⭐ Press Club Source ⭐`
+  *by Devin Toolen · Jun 23, 05:00*
+
+- <a href="https://www.livingetc.com/advice/japanese-ofuro-ritual" target="_blank" rel="noopener">It's the Kind of Japanese Bathtub People Who Are Into Wellness All Want — But There's Something You Need to Know About the Ritual of Ofuro</a>
+  `Expert Advice`
+  `⭐ Press Club Source ⭐`
+  *by Amiya Baratan · Jun 23, 04:30*
+
+- <a href="https://www.realtor.com/news/trends/spcx-401k-retirement-portfolio-homebuying-power/" target="_blank" rel="noopener">SpaceX Is Heading for Your 401(k), Adding Potential Homeownership Power To Your Retirement Account, Say Experts</a>
+  `Trends` `Elon Musk` `Retirement` `Saving Money` `Seniors` `Video`
+  `⭐ Press Club Source ⭐`
+  *by Anna Baluch · Jun 23, 19:35*
+
+- <a href="https://www.homesandgardens.com/collection/decor/kitchens/kitchen-storage-for-utensils" target="_blank" rel="noopener">24 Kitchen Utensil Storage Finds That Make Countertops, Drawers, and Cabinets Look Instantly Neater (And Chicer)</a>
+  `Kitchens` `Decor` `Rooms`
+  `⭐ Press Club Source ⭐`
+  *by Molly Malsom · Jun 23, 16:30*
+
+- <a href="https://www.architecturaldigest.com/story/500-square-foot-trailer-in-malibu-designed-by-alana-marie-interiors" target="_blank" rel="noopener">This 465-Square-Foot Trailer in Malibu Is a Warm and Woody Cocoon</a>
+  `Architecture + Design` `Architecture + Design / Architecture` `decoration` `Clever` `Clever Home Tour` `domestic home tour`
+  `⭐ Press Club Source ⭐`
+  *by Vaishnavi Nayel Talawadekar · Jun 23, 14:42*
+
+
+---
+
 ## Today's Publications
 
 - [Homes & Gardens (5)](#source-homes-gardens)
 - [The Spruce (2)](#source-the-spruce)
+- [Better Homes & Gardens (1)](#source-better-homes-gardens)
 - [Good Housekeeping (3)](#source-good-housekeeping)
-- [House Beautiful (16)](#source-house-beautiful)
+- [House Beautiful (18)](#source-house-beautiful)
 - [Livingetc (10)](#source-livingetc)
 - [Martha Stewart (2)](#source-martha-stewart)
-- [Southern Living (1)](#source-southern-living)
+- [Southern Living (2)](#source-southern-living)
 - [Sunset (1)](#source-sunset)
-- [Mansion Global (7)](#source-mansion-global)
-- [Veranda (8)](#source-veranda)
-- [Apartment Therapy (13)](#source-apartment-therapy)
+- [Mansion Global (9)](#source-mansion-global)
+- [Veranda (5)](#source-veranda)
+- [Apartment Therapy (15)](#source-apartment-therapy)
 - [Architectural Digest (21)](#source-architectural-digest)
-- [Forbes (2)](#source-forbes)
-- [Parade Home & Garden (4)](#source-parade-home-garden)
+- [Forbes (1)](#source-forbes)
+- [Parade Home & Garden (3)](#source-parade-home-garden)
 - [Elle Decor USA (1)](#source-elle-decor-usa)
-- [Wall Street Journal (7)](#source-wall-street-journal)
+- [Wall Street Journal (8)](#source-wall-street-journal)
 - [Business of Home (1)](#source-business-of-home)
 - [Dengarden (2)](#source-dengarden)
+- [5280 (1)](#source-5280)
 - [Cubby (5)](#source-cubby)
 - [Daily Mail (2)](#source-daily-mail)
-- [Realtor.com (17)](#source-realtor-com)
+- [Realtor.com (18)](#source-realtor-com)
 - [Sonoma Magazine (1)](#source-sonoma-magazine)
 - [The Kitchn (14)](#source-the-kitchn)
-- [The Philadelphia Inquirer (4)](#source-the-philadelphia-inquirer)
+- [The Philadelphia Inquirer (5)](#source-the-philadelphia-inquirer)
 - [New York Times (5)](#source-new-york-times)
 
-**Total Articles Today: 154**
+**Total Articles Today: 161**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -45,10 +102,12 @@ lang: en
 
 - <a href="https://www.homesandgardens.com/decor/hosting/fourth-of-july-hosting-checklist-2026" target="_blank" rel="noopener">Our Ultimate Fourth of July Hosting Checklist: Everything You Need to Host a Stylish Birthday Party for America</a>
   `Hosting` `Decor` `Seasonal`
+  `⭐ Press Club Source ⭐`
   *by Devin Toolen · Jun 23, 05:00*
 
 - <a href="https://www.homesandgardens.com/collection/decor/kitchens/kitchen-storage-for-utensils" target="_blank" rel="noopener">24 Kitchen Utensil Storage Finds That Make Countertops, Drawers, and Cabinets Look Instantly Neater (And Chicer)</a>
   `Kitchens` `Decor` `Rooms`
+  `⭐ Press Club Source ⭐`
   *by Molly Malsom · Jun 23, 16:30*
 
 - <a href="https://www.homesandgardens.com/decor/the-very-british-edit-amazon-edit" target="_blank" rel="noopener">The Very British Edit: The Hidden Amazon Gems I’m Actually Adding to My Cart for a More Beautiful, Effortless Home</a>
@@ -76,8 +135,20 @@ lang: en
   *Jun 23, 17:34*
 
 
+<a id="source-better-homes-gardens"></a>
+## Better Homes & Gardens (1)
+
+- <a href="https://www.bhg.com/shower-curtain-tips-11987889" target="_blank" rel="noopener">7 Simple Shower Curtain Upgrades for an Easy Bathroom Refresh</a>
+  `Home`
+  *Jun 23, 20:16*
+
+
 <a id="source-good-housekeeping"></a>
 ## Good Housekeeping (3)
+
+- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g71681073/designers-share-common-home-mistakes/" target="_blank" rel="noopener">14 Design Mistakes Designers Wish Homeowners Would Stop Making</a>
+  `Home`
+  *Jun 23, 21:15*
 
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a71677308/amazon-shed-gazebo-prime-day-deal/" target="_blank" rel="noopener">Amazon Is Selling the Cutest Backyard Shed With a Built-In Pergola for Under $300</a>
   `Home`
@@ -87,13 +158,17 @@ lang: en
   `Home`
   *Jun 22, 21:50*
 
-- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g71667606/designer-tips-choosing-paint-color/" target="_blank" rel="noopener">Interior Designers Share Their Best Tricks for Choosing Paint Colors</a>
-  `Home`
-  *Jun 22, 20:48*
-
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (16)
+## House Beautiful (18)
+
+- <a href="https://www.housebeautiful.com/shopping/best-stores/a71680566/amazon-prime-day-record-player-deal-2026/" target="_blank" rel="noopener">My Amazon Record Player Is My Favorite Thing I Own—and It’s NEVER Been This Cheap</a>
+  `Design`
+  *Jun 23, 21:00*
+
+- <a href="https://www.housebeautiful.com/shopping/best-stores/a71681879/booktok-reading-chair-amazon-prime-day-2026/" target="_blank" rel="noopener">BookTok Made Me Obsessed With This Viral, Nap-Worthy Reading Chair—and It's 25% Off This Week Only</a>
+  `Design`
+  *Jun 23, 20:15*
 
 - <a href="https://www.housebeautiful.com/lifestyle/entertainment/a71679901/padma-lakshmi-rooftop-garden-fake-grass/" target="_blank" rel="noopener">Padma Lakshmi’s NYC Rooftop Garden Has One "Tacky" Detail We Can’t Stop Thinking About</a>
   `Design`
@@ -165,18 +240,22 @@ lang: en
 
 - <a href="https://www.livingetc.com/ideas/kitchen-floor-colors-2026" target="_blank" rel="noopener">3 Kitchen Floor Colors That Will Feel the Most Sophisticated and Luxurious If You Use Them in Schemes This Year</a>
   `Design Ideas`
+  `⭐ Press Club Source ⭐`
   *by Maya Glantz · Jun 23, 07:00*
 
 - <a href="https://www.livingetc.com/shopping/stylish-home-appliances-on-amazon" target="_blank" rel="noopener">Okay, Wait, There Are Some Undeniably Stylish Home Appliances on Amazon — The Key Is Knowing What to Look For, and for That, We Have You Covered</a>
   `Shopping`
+  `⭐ Press Club Source ⭐`
   *by Maya Glantz · Jun 23, 05:30*
 
 - <a href="https://www.livingetc.com/shopping/restorgan-magnetic-basket-organizer" target="_blank" rel="noopener">These Magnetic Baskets Add Way More Storage to a Tiny Kitchen — You Can Even Attach Them to Your Fridge</a>
   `Shopping`
+  `⭐ Press Club Source ⭐`
   *by Maya Glantz · Jun 23, 05:00*
 
 - <a href="https://www.livingetc.com/advice/japanese-ofuro-ritual" target="_blank" rel="noopener">It's the Kind of Japanese Bathtub People Who Are Into Wellness All Want — But There's Something You Need to Know About the Ritual of Ofuro</a>
   `Expert Advice`
+  `⭐ Press Club Source ⭐`
   *by Amiya Baratan · Jun 23, 04:30*
 
 - <a href="https://www.livingetc.com/features/mason-and-fifth-belsize-park" target="_blank" rel="noopener">3 Low-Effort Ways to Make Small Studios Feel Roomy, Practical, and Inspired — Stolen From London's Chicest New Aparthotel</a>
@@ -217,7 +296,12 @@ lang: en
 
 
 <a id="source-southern-living"></a>
-## Southern Living (1)
+## Southern Living (2)
+
+- <a href="https://www.southernliving.com/toss-before-summer-12005305" target="_blank" rel="noopener">7 Things To Toss Before Your Kids Are Home All Summer</a>
+  `Home` `Home Organization`
+  `⭐ Press Club Source ⭐`
+  *by Patricia Shannon · Jun 23, 21:02*
 
 - <a href="https://www.southernliving.com/how-to-clean-rusty-outdoor-ceiling-fan-12004508" target="_blank" rel="noopener">How To Clean A Rusty Outdoor Ceiling Fan So It Looks New Again</a>
   `Home` `Home Maintenance`
@@ -233,7 +317,19 @@ lang: en
 
 
 <a id="source-mansion-global"></a>
-## Mansion Global (7)
+## Mansion Global (9)
+
+- <a href="https://www.mansionglobal.com/articles/dallas-cowboys-head-coach-brian-schottenheimer-scores-a-buyer-for-his-modern-texas-house-9c15660c" target="_blank" rel="noopener">Dallas Cowboys Head Coach Brian Schottenheimer Scores a Buyer for His Modern Texas House</a>
+  `Real Estate`
+  *by Chava Gourarie · Jun 23, 21:00*
+
+- <a href="https://www.mansionglobal.com/articles/luxury-pet-travel-dog-facials-diamond-collars-6c6df278" target="_blank" rel="noopener">Pet Travel Now Includes Doggy Facials and Diamond-Encrusted Collars</a>
+  `Real Estate`
+  *by Shivani Vora · Jun 23, 19:20*
+
+- <a href="https://www.mansionglobal.com/articles/an-english-country-home-built-like-a-genoese-palazzo-for-a-homesick-italian-bride-asks-14-25-million-82639354" target="_blank" rel="noopener">An English Country Home Built Like a Genoese Palazzo for a Homesick Italian Bride Asks £14.25 Million</a>
+  `Real Estate`
+  *by Liz Lucking · Jun 23, 18:45*
 
 - <a href="https://www.mansionglobal.com/articles/u-k-gen-z-home-buyers-prioritize-price-over-location-cf8303e7" target="_blank" rel="noopener">U.K. Gen Z Home Buyers Prioritize Price Over Location</a>
   `Real Estate`
@@ -259,13 +355,13 @@ lang: en
   `Real Estate`
   *by Chava Gourarie · Jun 22, 21:27*
 
-- <a href="https://www.mansionglobal.com/articles/a-15-million-suburban-london-mansion-from-ted-lasso-hits-the-market-1d873056" target="_blank" rel="noopener">Mansion From ‘Ted Lasso’ Hits the Market for £15M in Suburban London</a>
-  `Real Estate`
-  *by Liz Lucking · Jun 22, 20:52*
-
 
 <a id="source-veranda"></a>
-## Veranda (8)
+## Veranda (5)
+
+- <a href="https://www.veranda.com/shopping/home-accessories/a71667392/colonial-williamsburg-carolina-irving-daughters-collection/" target="_blank" rel="noopener">Why Designers Are Still Looking to Colonial Williamsburg for Inspiration in 2026</a>
+  `Design`
+  *Jun 23, 20:31*
 
 - <a href="https://www.veranda.com/outdoor-garden/a71679968/hard-to-kill-plants-explained/" target="_blank" rel="noopener">10 Easy Garden Plants That Are Basically Impossible to Kill, According to an Expert</a>
   `Design`
@@ -283,29 +379,22 @@ lang: en
   `Design`
   *Jun 23, 17:35*
 
-- <a href="https://www.veranda.com/outdoor-garden/g71668760/landscaping-ideas-make-house-look-expensive/" target="_blank" rel="noopener">9 Landscaping Ideas That Make Your House Look More Expensive</a>
-  `Design`
-  *Jun 22, 20:56*
-
-- <a href="https://www.veranda.com/decorating-ideas/house-tours/a71631467/cathy-kincaid-connecticut-cottage-tour/" target="_blank" rel="noopener">Step Inside a 1748 Ferryman’s Cottage Reimagined for Effortless Summer Living</a>
-  `Design`
-  *Jun 22, 20:23*
-
-- <a href="https://www.veranda.com/decorating-ideas/color-ideas/a71631155/house-paint-colors-ideas/" target="_blank" rel="noopener">How to Choose the Right Exterior Paint Colors for Your Home, According to Colorists</a>
-  `Design`
-  *Jun 22, 20:19*
-
-- <a href="https://www.veranda.com/shopping/a71607156/hudson-new-york-shopping-guide/" target="_blank" rel="noopener">A Textile Designer Shares His Ultimate Guide to Shopping Hudson Like a Pro</a>
-  `Design`
-  *Jun 22, 20:13*
-
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (13)
+## Apartment Therapy (15)
 
 - <a href="https://www.apartmenttherapy.com/best-designer-picks-amazon-prime-day-deals-37560109?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The 10 Home Essentials Designers Are Buying on Amazon Prime Day</a>
   `Decorating` `amazon` `amazon prime big deal days 2025` `amazon prime day` `decor & accessories` `decorating`
+  `⭐ Press Club Source ⭐`
   *by Sarah Lyon · Jun 23, 16:45*
+
+- <a href="https://www.apartmenttherapy.com/best-amazon-prime-day-competing-sales-2026-37560157?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Amazon Prime Day Isn’t the Only Major Event Happening This Week — Here Are 14 Can’t-Miss Sales</a>
+  `Decorating` `amazon` `amazon prime day` `furniture` `product module` `product roundup`
+  *by Katie Maguire · Jun 23, 20:37*
+
+- <a href="https://www.apartmenttherapy.com/diy-ikea-billy-bookcase-kitchen-island-37557226?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This Stylish IKEA BILLY Hack Looks Like a High-End Kitchen Island</a>
+  `Decorating` `clone republish` `diy` `hacks` `ikea` `product module`
+  *by Olivia Harvey · Jun 23, 20:30*
 
 - <a href="https://www.apartmenttherapy.com/buruis-tiered-lamp-amazon-37558087?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Took a Chance on This Amazon Lamp Despite the Reviews — It Paid Off (Now It’s 20% Off!)</a>
   `Decorating` `amazon` `amazon prime day` `decor & accessories` `decorating` `lighting`
@@ -344,7 +433,7 @@ lang: en
   *by Morgan Pryor · Jun 23, 13:00*
 
 - <a href="https://www.apartmenttherapy.com/best-amazon-prime-day-home-deals-2026-37559007?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The 34 Best Prime Day Home Deals You Need to Snag STAT (Up to 70% Off!)</a>
-  `Decorating` `amazon` `amazon prime day` `bedroom` `clone republish` `flat fee`
+  `Decorating` `amazon` `amazon prime day` `clone republish` `flat fee` `news`
   *by Britt Franklin · Jun 23, 12:00*
 
 - <a href="https://www.apartmenttherapy.com/green-white-painted-kitchen-geometric-tile-backsplash-redo-ba-37553945?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">His Dark ’90s Kitchen Got a Fresh New Look Thanks to One Paint Color</a>
@@ -361,7 +450,20 @@ lang: en
 
 - <a href="https://www.architecturaldigest.com/story/500-square-foot-trailer-in-malibu-designed-by-alana-marie-interiors" target="_blank" rel="noopener">This 465-Square-Foot Trailer in Malibu Is a Warm and Woody Cocoon</a>
   `Architecture + Design` `Architecture + Design / Architecture` `decoration` `Clever` `Clever Home Tour` `domestic home tour`
+  `⭐ Press Club Source ⭐`
   *by Vaishnavi Nayel Talawadekar · Jun 23, 14:42*
+
+- <a href="https://www.architecturaldigest.com/story/ryan-seacrest-offloads-40-acre-napa-valley-estate" target="_blank" rel="noopener">Ryan Seacrest Offloads 40-Acre Northern California Estate for $18.5 Million</a>
+  `Celebrity Style` `Real Estate / Celebrity Real Estate` `Real Estate` `ad` `celebrity` `Celebrity Real Estate`
+  *by India Roby · Jun 23, 21:08*
+
+- <a href="https://www.architecturaldigest.com/story/prime-day-deals-under-100-06-23-2026" target="_blank" rel="noopener">25 Best Prime Day Deals Under $100 to Shop Now (2026)</a>
+  `Shopping` `Amazon Prime Day` `sale`
+  *by Kate McGregor · Jun 23, 21:03*
+
+- <a href="https://www.architecturaldigest.com/story/prime-day-furniture-deals-06-23-2026" target="_blank" rel="noopener">12 Best Prime Day Furniture Deals 2026: What to Know & Shop</a>
+  `Shopping` `Amazon Prime Day` `sale`
+  *by Audrey Lee · Jun 23, 21:01*
 
 - <a href="https://www.architecturaldigest.com/story/best-coffee-tables" target="_blank" rel="noopener">16 Best Coffee Tables for Every Style and Budget (2026)</a>
   `Shopping` `furniture`
@@ -415,10 +517,6 @@ lang: en
   `AD Pro` `AD Pro / The Report` `ad pro` `features` `trend report` `Outdoor Design Forecast`
   *by Jennifer S. Li · Jun 23, 15:00*
 
-- <a href="https://www.architecturaldigest.com/story/prime-day-deals-under-100-06-23-2026" target="_blank" rel="noopener">25 Best Prime Day Deals Under $100 to Shop Now (2026)</a>
-  `Shopping` `Amazon Prime Day` `sale`
-  *by Kate McGregor · Jun 23, 09:03*
-
 - <a href="https://www.architecturaldigest.com/story/design-icons-on-amazon" target="_blank" rel="noopener">Tasteful People Shop These 6 Things on Amazon (And They're On Sale for Prime Day)</a>
   `Shopping` `Amazon Prime Day` `sale`
   *by Julia Harrison · Jun 23, 07:47*
@@ -426,10 +524,6 @@ lang: en
 - <a href="https://www.architecturaldigest.com/story/best-decor-on-amazon" target="_blank" rel="noopener">Best Home Decor on Amazon, According to AD Editors (2026)</a>
   `Shopping` `amazon` `Amazon Prime Day` `decor`
   *by Kate McGregor · Jun 23, 07:37*
-
-- <a href="https://www.architecturaldigest.com/story/prime-day-furniture-deals-06-23-2026" target="_blank" rel="noopener">12 Best Prime Day Furniture Deals 2026: What to Know & Shop</a>
-  `Shopping` `Amazon Prime Day` `sale`
-  *by Audrey Lee · Jun 23, 07:37*
 
 - <a href="https://www.architecturaldigest.com/story/heritage-brands-on-amazon" target="_blank" rel="noopener">8 Heritage Brands on Amazon for Your Home, Vetted by AD (2026)</a>
   `Shopping` `Amazon Prime Day` `sale`
@@ -439,25 +533,17 @@ lang: en
   `Shopping` `Amazon Prime Day` `sale`
   *by Kate McGregor · Jun 23, 07:24*
 
-- <a href="https://www.architecturaldigest.com/story/joybird-4th-of-july-sale" target="_blank" rel="noopener">The Best 4th of July Joybird Sales Will Add More Whimsy to Your Home—Indoors and Out</a>
-  `Shopping` `sale`
-  *by Blake Bakkila · Jun 22, 20:18*
-
 
 <a id="source-forbes"></a>
-## Forbes (2)
+## Forbes (1)
 
 - <a href="https://www.forbes.com/sites/joanneshurvell/2026/06/23/hastings-east-sussex-where-to-stay-eat-and-explore/" target="_blank" rel="noopener">Hastings, East Sussex: Where To Stay, Eat And Explore</a>
   `Business`
   *by Joanne Shurvell · Jun 23, 15:13*
 
-- <a href="https://www.forbes.com/sites/danidiplacido/2026/06/22/toy-story-5-did-pixar-pull-it-off-again/" target="_blank" rel="noopener">‘Toy Story 5’—Did Pixar Pull It Off Again?</a>
-  `Business`
-  *by Dani Di Placido · Jun 22, 21:23*
-
 
 <a id="source-parade-home-garden"></a>
-## Parade Home & Garden (4)
+## Parade Home & Garden (3)
 
 - <a href="https://paradehomeandgarden.com/news/embrace-your-individuality-with-main-character-home-decor" target="_blank" rel="noopener">People Are Embracing Their Individuality With 'Main Character' Home Decor</a>
   `House & Home` `News` `Dengarden to PHG`
@@ -471,10 +557,6 @@ lang: en
   `Dengarden to PHG` `News`
   *by Sophie Hirsh · Jun 22, 21:31*
 
-- <a href="https://paradehomeandgarden.com/news/homeowner-explains-why-planting-ditch-lilies-makes-you-the-devil-and-stirs-up-controversy" target="_blank" rel="noopener">Homeowner Explains Why Planting Ditch Lilies Makes You 'the Devil'–and Stirs Up Controversy</a>
-  `News` `Dengarden to PHG`
-  *by Sophie Hirsh · Jun 22, 21:05*
-
 
 <a id="source-elle-decor-usa"></a>
 ## Elle Decor USA (1)
@@ -485,7 +567,11 @@ lang: en
 
 
 <a id="source-wall-street-journal"></a>
-## Wall Street Journal (7)
+## Wall Street Journal (8)
+
+- <a href="https://www.wsj.com/arts-culture/film/the-death-of-robin-hood-hugh-jackman-fbce3edd" target="_blank" rel="noopener">The Movie That Makes Robin Hood the Bad Guy</a>
+  `Lifestyle`
+  *by Esther Zuckerman · Jun 23, 20:54*
 
 - <a href="https://www.wsj.com/health/peptide-businesses-telehealth-mino-protocole-next-51b9e2ce" target="_blank" rel="noopener">Businesses Are Taking Risks to Cash In on the Peptide Gold Rush</a>
   `Lifestyle`
@@ -536,6 +622,14 @@ lang: en
   *by Sophie Hirsh · Jun 23, 14:00*
 
 
+<a id="source-5280"></a>
+## 5280 (1)
+
+- <a href="https://5280.com/best-u-pick-flower-farms-front-range/" target="_blank" rel="noopener">8 Places To Pick Your Own Flowers Around the Front Range</a>
+  `Home`
+  *by Jessica Giles · Jun 23, 15:00*
+
+
 <a id="source-cubby"></a>
 ## Cubby (5)
 
@@ -573,11 +667,16 @@ lang: en
 
 
 <a id="source-realtor-com"></a>
-## Realtor.com (17)
+## Realtor.com (18)
 
 - <a href="https://www.realtor.com/news/trends/spcx-401k-retirement-portfolio-homebuying-power/" target="_blank" rel="noopener">SpaceX Is Heading for Your 401(k), Adding Potential Homeownership Power To Your Retirement Account, Say Experts</a>
   `Trends` `Elon Musk` `Retirement` `Saving Money` `Seniors` `Video`
+  `⭐ Press Club Source ⭐`
   *by Anna Baluch · Jun 23, 19:35*
+
+- <a href="https://www.realtor.com/news/unique-homes/bradley-beal-bethesda-mansion-for-sale/" target="_blank" rel="noopener">Ex-Washington Wizards Star Bradley Beal’s Former Maryland Mansion Vanishes from Market—Months After Listing for $11 Million</a>
+  `Unique Homes` `Basketball Court` `Bethesda MD` `Celebrity Homes` `Luxury Homes` `Mansion`
+  *by Charlie Lankston · Jun 23, 21:07*
 
 - <a href="https://www.realtor.com/news/unique-homes/glorya-donald-kaufman-beverly-hills-chateau-for-sale/" target="_blank" rel="noopener">Famed Philanthropist Glorya Kaufman’s Beverly Hills ‘Chateau’ Is Listed for $25 Million—1 Year After Her Death</a>
   `Unique Homes` `Architecture` `Arizona` `Art` `Beverly Hills CA` `California`
@@ -713,7 +812,11 @@ lang: en
 
 
 <a id="source-the-philadelphia-inquirer"></a>
-## The Philadelphia Inquirer (4)
+## The Philadelphia Inquirer (5)
+
+- <a href="https://www.inquirer.com/real-estate/commercial/short-term-rental-regulation-city-controller-world-cup-20260623.html" target="_blank" rel="noopener">35% of Airbnb and VRBO rentals in Philly don’t have the right licensing, new report finds</a>
+  `Lifestyle`
+  *by Jake Blumgart · Jun 23, 19:44*
 
 - <a href="https://www.inquirer.com/real-estate/commercial/philadelphia-office-market-for-rent-prices-return-to-work-20260623.html" target="_blank" rel="noopener">Philly has the cheapest office space of any Northeast city, report says</a>
   `Lifestyle`
