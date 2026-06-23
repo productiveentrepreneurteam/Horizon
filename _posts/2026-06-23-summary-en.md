@@ -5,7 +5,7 @@ date: 2026-06-23
 lang: en
 ---
 
-> 161 articles published in the last 24 hours
+> 156 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
@@ -70,31 +70,31 @@ lang: en
 - [The Spruce (2)](#source-the-spruce)
 - [Better Homes & Gardens (1)](#source-better-homes-gardens)
 - [Good Housekeeping (3)](#source-good-housekeeping)
-- [House Beautiful (18)](#source-house-beautiful)
+- [House Beautiful (19)](#source-house-beautiful)
 - [Livingetc (10)](#source-livingetc)
 - [Martha Stewart (2)](#source-martha-stewart)
 - [Southern Living (2)](#source-southern-living)
 - [Sunset (1)](#source-sunset)
-- [Mansion Global (9)](#source-mansion-global)
+- [Mansion Global (8)](#source-mansion-global)
 - [Veranda (5)](#source-veranda)
-- [Apartment Therapy (15)](#source-apartment-therapy)
+- [Apartment Therapy (14)](#source-apartment-therapy)
 - [Architectural Digest (21)](#source-architectural-digest)
 - [Forbes (1)](#source-forbes)
-- [Parade Home & Garden (3)](#source-parade-home-garden)
+- [Parade Home & Garden (2)](#source-parade-home-garden)
 - [Elle Decor USA (1)](#source-elle-decor-usa)
-- [Wall Street Journal (8)](#source-wall-street-journal)
+- [Wall Street Journal (7)](#source-wall-street-journal)
 - [Business of Home (1)](#source-business-of-home)
 - [Dengarden (2)](#source-dengarden)
 - [5280 (1)](#source-5280)
 - [Cubby (5)](#source-cubby)
 - [Daily Mail (2)](#source-daily-mail)
-- [Realtor.com (18)](#source-realtor-com)
+- [Realtor.com (15)](#source-realtor-com)
 - [Sonoma Magazine (1)](#source-sonoma-magazine)
-- [The Kitchn (14)](#source-the-kitchn)
+- [The Kitchn (15)](#source-the-kitchn)
 - [The Philadelphia Inquirer (5)](#source-the-philadelphia-inquirer)
 - [New York Times (5)](#source-new-york-times)
 
-**Total Articles Today: 161**
+**Total Articles Today: 156**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -146,6 +146,10 @@ lang: en
 <a id="source-good-housekeeping"></a>
 ## Good Housekeeping (3)
 
+- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a71681100/designers-say-stop-putting-furniture-against-wall/" target="_blank" rel="noopener">Why Designers Are Begging You to Stop Making This One Furniture Mistake</a>
+  `Home`
+  *Jun 23, 21:55*
+
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g71681073/designers-share-common-home-mistakes/" target="_blank" rel="noopener">14 Design Mistakes Designers Wish Homeowners Would Stop Making</a>
   `Home`
   *Jun 23, 21:15*
@@ -154,13 +158,13 @@ lang: en
   `Home`
   *Jun 23, 15:10*
 
-- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a71667583/nancy-meyers-home-aesthetic/" target="_blank" rel="noopener">Designers Reveal How to Get the Cozy Nancy Meyers Home Look</a>
-  `Home`
-  *Jun 22, 21:50*
-
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (18)
+## House Beautiful (19)
+
+- <a href="https://www.housebeautiful.com/shopping/best-stores/g71681630/amazon-prime-day-sales-cheaper-than-costco-2026/" target="_blank" rel="noopener">20 Amazon Prime Day Deals That Are ACTUALLY Cheaper Than Costco</a>
+  `Design`
+  *Jun 23, 21:30*
 
 - <a href="https://www.housebeautiful.com/shopping/best-stores/a71680566/amazon-prime-day-record-player-deal-2026/" target="_blank" rel="noopener">My Amazon Record Player Is My Favorite Thing I Own—and It’s NEVER Been This Cheap</a>
   `Design`
@@ -317,7 +321,7 @@ lang: en
 
 
 <a id="source-mansion-global"></a>
-## Mansion Global (9)
+## Mansion Global (8)
 
 - <a href="https://www.mansionglobal.com/articles/dallas-cowboys-head-coach-brian-schottenheimer-scores-a-buyer-for-his-modern-texas-house-9c15660c" target="_blank" rel="noopener">Dallas Cowboys Head Coach Brian Schottenheimer Scores a Buyer for His Modern Texas House</a>
   `Real Estate`
@@ -351,10 +355,6 @@ lang: en
   `Real Estate`
   *by Casey Farmer · Jun 22, 23:37*
 
-- <a href="https://www.mansionglobal.com/articles/in-san-fran-awash-with-ai-money-a-house-just-closed-for-26-5mmore-than-a-million-over-asking-481b1f28" target="_blank" rel="noopener">In San Fran, Awash With AI Money, a House Just Closed for $26.5M—More Than a Million Over Asking</a>
-  `Real Estate`
-  *by Chava Gourarie · Jun 22, 21:27*
-
 
 <a id="source-veranda"></a>
 ## Veranda (5)
@@ -381,7 +381,7 @@ lang: en
 
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (15)
+## Apartment Therapy (14)
 
 - <a href="https://www.apartmenttherapy.com/best-designer-picks-amazon-prime-day-deals-37560109?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The 10 Home Essentials Designers Are Buying on Amazon Prime Day</a>
   `Decorating` `amazon` `amazon prime big deal days 2025` `amazon prime day` `decor & accessories` `decorating`
@@ -439,10 +439,6 @@ lang: en
 - <a href="https://www.apartmenttherapy.com/green-white-painted-kitchen-geometric-tile-backsplash-redo-ba-37553945?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">His Dark ’90s Kitchen Got a Fresh New Look Thanks to One Paint Color</a>
   `Home Projects` `before & after` `clone republish` `diy` `kitchen` `kitchen cabinets`
   *by Megan Baker Detloff · Jun 23, 12:00*
-
-- <a href="https://www.apartmenttherapy.com/before-and-after-a-lackluster-kitchen-gets-a-bright-and-breezy-transformation-for-6000-ba-37553936?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This Haphazard Kitchen Went from Being Almost Functional to Bright and Airy</a>
-  `Home Projects` `before & after` `clone republish` `featured ba` `kitchen` `kitchen cabinets`
-  *by Savannah West · Jun 22, 22:00*
 
 
 <a id="source-architectural-digest"></a>
@@ -543,7 +539,7 @@ lang: en
 
 
 <a id="source-parade-home-garden"></a>
-## Parade Home & Garden (3)
+## Parade Home & Garden (2)
 
 - <a href="https://paradehomeandgarden.com/news/embrace-your-individuality-with-main-character-home-decor" target="_blank" rel="noopener">People Are Embracing Their Individuality With 'Main Character' Home Decor</a>
   `House & Home` `News` `Dengarden to PHG`
@@ -552,10 +548,6 @@ lang: en
 - <a href="https://paradehomeandgarden.com/news/interior-stylist-shares-easy-tips-for-curating-your-bookshelves-and-people-have-strong-feelings" target="_blank" rel="noopener">Interior Stylist Shares Easy Tips for 'Curating' Your Bookshelves—and People Have Strong Feelings</a>
   `News` `Dengarden to PHG`
   *by Sophie Hirsh · Jun 23, 13:18*
-
-- <a href="https://paradehomeandgarden.com/news/furniture-artist-transforms-free-run-down-dresser-into-shabby-chic-pink-masterpiece" target="_blank" rel="noopener">Furniture Artist Transforms Free Run-Down Dresser Into Shabby Chic Pink Masterpiece</a>
-  `Dengarden to PHG` `News`
-  *by Sophie Hirsh · Jun 22, 21:31*
 
 
 <a id="source-elle-decor-usa"></a>
@@ -567,7 +559,7 @@ lang: en
 
 
 <a id="source-wall-street-journal"></a>
-## Wall Street Journal (8)
+## Wall Street Journal (7)
 
 - <a href="https://www.wsj.com/arts-culture/film/the-death-of-robin-hood-hugh-jackman-fbce3edd" target="_blank" rel="noopener">The Movie That Makes Robin Hood the Bad Guy</a>
   `Lifestyle`
@@ -596,10 +588,6 @@ lang: en
 - <a href="https://www.wsj.com/real-estate/luxury-homes/ebay-ceo-meg-whitman-ranch-california-42cd8925?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Former eBay CEO Meg Whitman Sells California Fishing Ranch for $17.9 Million</a>
   `Real Estate`
   *by E.B. Solomont · Jun 23, 00:00*
-
-- <a href="https://www.wsj.com/real-estate/federal-probe-finds-surfside-collapse-started-three-weeks-before-final-breakdown-b9e00b98?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Federal Probe Finds Surfside Collapse Started Three Weeks Before Final Breakdown</a>
-  `Real Estate`
-  *by Deborah Acosta · Jun 22, 21:40*
 
 
 <a id="source-business-of-home"></a>
@@ -667,14 +655,14 @@ lang: en
 
 
 <a id="source-realtor-com"></a>
-## Realtor.com (18)
+## Realtor.com (15)
 
 - <a href="https://www.realtor.com/news/trends/spcx-401k-retirement-portfolio-homebuying-power/" target="_blank" rel="noopener">SpaceX Is Heading for Your 401(k), Adding Potential Homeownership Power To Your Retirement Account, Say Experts</a>
   `Trends` `Elon Musk` `Retirement` `Saving Money` `Seniors` `Video`
   `⭐ Press Club Source ⭐`
   *by Anna Baluch · Jun 23, 19:35*
 
-- <a href="https://www.realtor.com/news/unique-homes/bradley-beal-bethesda-mansion-for-sale/" target="_blank" rel="noopener">Ex-Washington Wizards Star Bradley Beal’s Former Maryland Mansion Vanishes from Market—Months After Listing for $11 Million</a>
+- <a href="https://www.realtor.com/news/unique-homes/bradley-beal-bethesda-mansion-for-sale/" target="_blank" rel="noopener">Ex-Washington Wizards Star Bradley Beal’s Former Maryland Mansion Vanishes From Market—Months After Listing for $11 Million</a>
   `Unique Homes` `Basketball Court` `Bethesda MD` `Celebrity Homes` `Luxury Homes` `Mansion`
   *by Charlie Lankston · Jun 23, 21:07*
 
@@ -730,18 +718,6 @@ lang: en
   `Real Estate News` `Affordability` `Affordable Housing` `Housing Availability` `Housing Costs` `Housing Data`
   *by Tristan Navera · Jun 22, 22:31*
 
-- <a href="https://www.realtor.com/news/reality-tv/saturday-night-live-leslie-jones-hgtv-roast-my-rental/" target="_blank" rel="noopener">‘SNL’ Alum Leslie Jones Takes Aim at Vacation Rental Disasters in New HGTV Series ‘Roast My Rental’</a>
-  `Reality TV` `HGTV` `Instagram` `Jasmine Roth` `Lessons From Reality TV` `Reality Tv`
-  *by Kelsi Karruli · Jun 22, 21:42*
-
-- <a href="https://www.realtor.com/advice/finance/lawmakers-eliminating-property-taxes-2026/" target="_blank" rel="noopener">Is 2026 the Beginning of the End for Homeowner Property Taxes? These State Lawmakers Think So</a>
-  `Finance` `Daily Email` `Data Journalism` `Florida` `Georgia` `Indiana`
-  *by Allaire Conte · Jun 22, 21:38*
-
-- <a href="https://www.realtor.com/news/celebrity-real-estate/perez-hilton-lists-las-vegas-home-move-to-miami/" target="_blank" rel="noopener">Perez Hilton Puts Las Vegas Home Up for Sale for $4 Million After Revealing ‘God’ Told Him To Move to Miami Following Health Scares</a>
-  `Celebrity Real Estate` `Celebrity Homes` `Daily Email` `Florida` `Homebuying` `Instagram`
-  *by Kelsi Karruli and Lisa Johnson Mandell · Jun 22, 21:29*
-
 
 <a id="source-sonoma-magazine"></a>
 ## Sonoma Magazine (1)
@@ -752,7 +728,11 @@ lang: en
 
 
 <a id="source-the-kitchn"></a>
-## The Kitchn (14)
+## The Kitchn (15)
+
+- <a href="https://www.thekitchn.com/no-bake-desserts-better-as-they-sit-recipes-23787968?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">20 Incredibly Easy No-Bake Desserts That Get Better as They Sit</a>
+  `Recipes` `desserts` `news` `no-bake desserts` `recipes` `video lead`
+  *by Alexandra Foster · Jun 23, 21:00*
 
 - <a href="https://www.thekitchn.com/curtis-stone-butcher-blend-burger-reviews-23787806?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">These “Dynamite” Burgers Don’t Need to Thaw Before Hitting the Grill (and They’re Delicious!)</a>
   `Groceries` `burger` `dinner` `ff-dedicated` `flat fee` `grill`
