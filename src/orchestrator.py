@@ -241,7 +241,7 @@ class HorizonOrchestrator:
                 front_matter = (
                     "---\n"
                     "layout: default\n"
-                    f"title: \"Horizon Daily: {today} ({lang.upper()})\"\n"
+                    f"title: \"Press House Daily Digest: {today} ({lang.upper()})\"\n"
                     f"date: {today}\n"
                     f"lang: {lang}\n"
                     "---\n\n"
