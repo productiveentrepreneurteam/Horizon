@@ -314,6 +314,10 @@ class DailySummarizer:
         if clean_tags:
             tags_str = " ".join(f"`{t}`" for t in clean_tags[:6])
             lines.append(f"  {tags_str}")
+        # ⭐ Press Club Source: flag articles written by one of our clean writers
+        _author = (item.author or "").strip()
+        if _author and _author.lower() in _WRITER_RANK_INDEX:
+            lines.append("  `⭐ Press Club Source ⭐`")
 
         # Author + time on one meta line. item.author falls back to the
         # outlet name when the feed doesn't provide a byline (rss.py), so
