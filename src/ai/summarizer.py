@@ -230,6 +230,13 @@ class DailySummarizer:
         """
         labels = LABELS.get(language, LABELS["en"])
 
+        # Drop articles tagged "kitchen appliances" or "cleaning"
+        BLOCKED_TAGS = ["kitchen appliances", "cleaning"]
+        def _blocked(item):
+            tags = [str(t).lower() for t in (item.metadata.get("tags") or [])]
+            return any(blk in tag for blk in BLOCKED_TAGS for tag in tags)
+        items = [it for it in items if not _blocked(it)]
+
         if not items:
             return self._generate_empty_summary(date, 0, labels)
 
