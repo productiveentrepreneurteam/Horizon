@@ -92,6 +92,57 @@ WRITER_RANKING = [
     "Vaishnavi Nayel Talawadekar", "Wendy Rose Gould",
 ]
 _WRITER_RANK_INDEX = {name.strip().lower(): i for i, name in enumerate(WRITER_RANKING)}
+# --- 🏆 Press House Wins: confirmed wins pulled from the press tracker ----------
+# Published-to-web CSV of the tracker's "2026 Active Stories" tab. A row is a
+# win when "Published" is TRUE; "Published Url" is the link and "Sources" is the
+# designer. We match a digest article to a win by its link (exact, no scraping).
+# Fetched once per run; if the sheet can't be reached, wins are just skipped that
+# day and the digest still publishes normally.
+import csv as _csv
+import io as _io
+import urllib.request as _urlreq
+
+PRESS_HOUSE_WINS_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRwMlCmIGEakH2qAoDJJxiv6OOJqkDhs4hrhSnCtAsjvVmaFqxF-wL3NtTFE8Pk5cG3jPNoiTdEg3Or/pub?gid=527821896&single=true&output=csv"
+
+_WINS_CACHE = None
+
+
+def _normalize_url(url: str) -> str:
+    """Lowercase; drop scheme, www, query, fragment, trailing slash for matching."""
+    if not url:
+        return ""
+    u = str(url).strip().lower().split("?")[0].split("#")[0]
+    for scheme in ("https://", "http://"):
+        if u.startswith(scheme):
+            u = u[len(scheme):]
+    if u.startswith("www."):
+        u = u[4:]
+    return u.rstrip("/")
+
+
+def get_press_house_wins() -> dict:
+    """Return {normalized_url: designer} from the tracker CSV (cached, fail-safe)."""
+    global _WINS_CACHE
+    if _WINS_CACHE is not None:
+        return _WINS_CACHE
+    wins: dict = {}
+    try:
+        req = _urlreq.Request(PRESS_HOUSE_WINS_CSV, headers={"User-Agent": "Mozilla/5.0"})
+        with _urlreq.urlopen(req, timeout=30) as resp:
+            text = resp.read().decode("utf-8", errors="replace")
+        for row in _csv.DictReader(_io.StringIO(text)):
+            if (row.get("Published") or "").strip().upper() != "TRUE":
+                continue
+            link = (row.get("Published Url") or "").strip()
+            if not link.lower().startswith("http"):
+                continue
+            key = _normalize_url(link)
+            if key:
+                wins[key] = (row.get("Sources") or "").strip()
+    except Exception:
+        wins = {}
+    _WINS_CACHE = wins
+    return wins
 
 
 _CJK = r"[\u4e00-\u9fff\u3400-\u4dbf]"
@@ -285,8 +336,9 @@ class DailySummarizer:
                 section_parts.append("\n")
             section_parts.append("\n")
 
-        # --- 🏆 Press House Wins: articles by one of our clean writers ---
-        wins = [it for it in items if (it.author or "").strip().lower() in _WRITER_RANK_INDEX]
+        # --- 🏆 Press House Wins: articles that are confirmed wins in the tracker ---
+        _wins_lookup = get_press_house_wins()
+        wins = [it for it in items if _normalize_url(it.url) in _wins_lookup]
         wins_parts = []
         if wins:
             wins.sort(key=self._article_sort_key)
@@ -325,9 +377,11 @@ class DailySummarizer:
         if clean_tags:
             tags_str = " ".join(f"`{t}`" for t in clean_tags[:6])
             lines.append(f"  {tags_str}")
-        # ⭐ Press Club Source: flag articles written by one of our clean writers
-        _author = (item.author or "").strip()
-        if _author and _author.lower() in _WRITER_RANK_INDEX:
+        # ⭐ Press Club Source: flag articles that are a confirmed win in the tracker
+        _designer = get_press_house_wins().get(_normalize_url(item.url))
+        if _designer:
+            lines.append(f"  `⭐ Press Club Source: {_designer} ⭐`")
+        elif _designer == "":
             lines.append("  `⭐ Press Club Source ⭐`")
 
         # Author + time on one meta line. item.author falls back to the
