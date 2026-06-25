@@ -3,22 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Press House Daily Digest</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+  <title>Daily Press</title>
+  <link rel="icon" type="image/png" href="{{ '/assets/prc-favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/prc-favicon.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg-base:    #141210;
-      --bg-surface: #1c1916;
-      --bg-hover:   #252119;
-      --border:     #2e2923;
-      --accent:     #c9954a;
-      --accent-glow:rgba(201,149,74,.12);
-      --text-primary:   #f0ebe3;
-      --text-secondary: #9c9289;
-      --text-muted:     #615b53;
+      --ivy:     #2f3721;
+      --linen:   #ebeadf;
+      --bourbon: #3c0114;
+      --pollo:   #9ba1b8;
+      --bg-base:    #ebeadf;
+      --bg-surface: #ffffff;
+      --bg-hover:   #f3f2ea;
+      --border:     #d9d7c9;
+      --accent:     #9ba1b8;
+      --accent-glow:rgba(155,161,184,.18);
+      --text-primary:   #1c1a17;
+      --text-secondary: #4a463f;
+      --text-muted:     #7a756b;
       --font-display: 'Fraunces', Georgia, serif;
       --font-body:    'Inter', system-ui, sans-serif;
       --radius: 10px;
@@ -36,7 +41,7 @@
     /* Top bar */
     .top-bar {
       position: sticky; top: 0; z-index: 100;
-      background: var(--bg-base);
+      background: var(--linen);
       border-bottom: 1px solid var(--border);
       padding: 0 2.5rem;
       height: 72px;
@@ -68,6 +73,7 @@
       letter-spacing: -.025em;
       line-height: 1.1;
       margin-bottom: .4rem;
+      color: var(--ivy);
     }
     .page-sub {
       color: var(--text-muted);
@@ -94,7 +100,7 @@
       cursor: pointer;
     }
     .digest-card:hover {
-      border-color: var(--accent);
+      border-color: var(--pollo);
       background: var(--bg-hover);
     }
     .digest-card__date {
@@ -109,7 +115,7 @@
       color: var(--text-muted);
     }
     .digest-card__count strong {
-      color: var(--accent);
+      color: var(--bourbon);
       font-weight: 600;
     }
     .digest-card__arrow {
@@ -121,7 +127,7 @@
       gap: .3rem;
       transition: color .15s;
     }
-    .digest-card:hover .digest-card__arrow { color: var(--accent); }
+    .digest-card:hover .digest-card__arrow { color: var(--bourbon); }
 
     /* Empty state */
     .empty {
