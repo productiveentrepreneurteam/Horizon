@@ -3,47 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title | default: "Press House Daily Digest" }}</title>
+  <title>Daily Press</title>
 
-  <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
-  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+  <!-- Favicon (keys) -->
+  <link rel="icon" type="image/png" href="{{ '/assets/prc-favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/prc-favicon.png' | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ '/assets/prc-favicon.png' | relative_url }}">
 
   <!-- RSS feeds -->
-  <link rel="alternate" type="application/rss+xml"  title="Horizon Daily (EN)" href="{{ '/feed-en.xml' | relative_url }}">
-  <link rel="alternate" type="application/atom+xml" title="Horizon Daily (ZH)" href="{{ '/feed-zh.xml' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml"  title="Press House Daily (EN)" href="{{ '/feed-en.xml' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="Press House Daily (ZH)" href="{{ '/feed-zh.xml' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
-    /* ─── Token system ─────────────────────────────────────────────────────── */
+    /* ─── Token system — Press House palette ───────────────────────────────── */
     :root {
-      /* Palette: warm dark — like a dimmed reading lamp in a design studio */
-      --bg-base:      #141210;   /* near-black with a warm brown undertone     */
-      --bg-surface:   #1c1916;   /* cards, sidebar                             */
-      --bg-hover:     #252119;   /* row / card hover                           */
-      --bg-raised:    #2a251f;   /* collapsed card header hover                */
-      --border:       #2e2923;   /* subtle dividers                            */
-      --border-soft:  #242019;
+      /* Brand colors */
+      --ivy:      #2f3721;   /* sidebar                                    */
+      --linen:    #ebeadf;   /* main content background                    */
+      --butter:   #efe5c1;   /* pill                                       */
+      --pollo:    #9ba1b8;   /* accent / hover (replaces orange)           */
+      --bourbon:  #3c0114;   /* bullets / dots                            */
 
-      /* Accent: editorial gold — the color of a masthead on a glossy cover   */
-      --accent:       #c9954a;
-      --accent-dim:   #8a6430;
-      --accent-glow:  rgba(201,149,74,.12);
+      /* Surfaces */
+      --bg-base:      #ebeadf;   /* linen — main content area              */
+      --bg-surface:   #ffffff;   /* cards: clean panels on linen           */
+      --bg-hover:     #f3f2ea;   /* row / card hover                       */
+      --bg-raised:    #e7e5d8;   /* count chips                            */
+      --border:       #d9d7c9;   /* warm dividers on linen                 */
+      --border-soft:  #e6e4d9;
 
-      /* Text */
-      --text-primary:   #f0ebe3;
-      --text-secondary: #9c9289;
-      --text-muted:     #615b53;
+      /* Accent */
+      --accent:       #9ba1b8;   /* pollo                                  */
+      --accent-dim:   #7d8298;   /* darker pollo                           */
+      --accent-glow:  rgba(155,161,184,.20);
 
-      /* Tag palette — muted earthy tones that feel magazine-editorial */
-      --tag-design:    #5a3e28; --tag-design-fg:    #d4a46e;
-      --tag-home:      #1e3d2f; --tag-home-fg:      #6db891;
-      --tag-lifestyle: #2e2a48; --tag-lifestyle-fg: #9b91d4;
-      --tag-realestate:#1e3445; --tag-realestate-fg:#6aaed4;
-      --tag-business:  #3a2e1a; --tag-business-fg:  #c4a44a;
-      --tag-default:   #252119; --tag-default-fg:   #9c9289;
+      /* Text (on linen / white) */
+      --text-primary:   #1c1a17;   /* near-black                           */
+      --text-secondary: #4a463f;   /* dark warm gray                       */
+      --text-muted:     #7a756b;   /* muted                                */
+
+      /* Tag pills — butter / pollo / bourbon */
+      --tag-design:    #efe5c1; --tag-design-fg:    #3c0114;  /* butter / bourbon */
+      --tag-home:      #9ba1b8; --tag-home-fg:      #20271a;  /* pollo  / ivy     */
+      --tag-lifestyle: #3c0114; --tag-lifestyle-fg: #efe5c1;  /* bourbon / butter */
+      --tag-realestate:#efe5c1; --tag-realestate-fg:#2f3721;  /* butter / ivy     */
+      --tag-business:  #9ba1b8; --tag-business-fg:  #3c0114;  /* pollo  / bourbon */
+      --tag-default:   #e7e5d8; --tag-default-fg:   #4a463f;
 
       /* Type scale */
       --font-display: 'Fraunces', Georgia, serif;
@@ -73,7 +81,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: var(--bg-base);
+      background: var(--linen);
       border-bottom: 1px solid var(--border);
       padding: 0 2rem;
       height: 72px;
@@ -107,12 +115,12 @@
       overflow: hidden;
     }
 
-    /* ─── Sidebar ──────────────────────────────────────────────────────────── */
+    /* ─── Sidebar (ivy) ────────────────────────────────────────────────────── */
     .sidebar {
       width: var(--sidebar-w);
       min-width: var(--sidebar-w);
-      background: var(--bg-surface);
-      border-right: 1px solid var(--border);
+      background: var(--ivy);
+      border-right: 1px solid var(--ivy);
       display: flex;
       flex-direction: column;
       position: sticky;
@@ -122,30 +130,30 @@
     }
     .sidebar__head {
       padding: 1rem;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid rgba(235,234,223,0.16);
     }
     .sidebar__title {
       font-size: .68rem;
       font-weight: 600;
       letter-spacing: .1em;
       text-transform: uppercase;
-      color: var(--text-muted);
+      color: rgba(235,234,223,0.65);
       margin-bottom: .75rem;
     }
     .sidebar__search {
       width: 100%;
-      background: var(--bg-base);
-      border: 1px solid var(--border);
+      background: rgba(235,234,223,0.10);
+      border: 1px solid rgba(235,234,223,0.20);
       border-radius: var(--radius-sm);
       padding: .45rem .7rem;
-      color: var(--text-primary);
+      color: var(--linen);
       font-family: var(--font-body);
       font-size: .82rem;
       outline: none;
       transition: border-color .15s;
     }
-    .sidebar__search::placeholder { color: var(--text-muted); }
-    .sidebar__search:focus { border-color: var(--accent-dim); }
+    .sidebar__search::placeholder { color: rgba(235,234,223,0.5); }
+    .sidebar__search:focus { border-color: var(--pollo); }
 
     .sidebar__list {
       overflow-y: auto;
@@ -153,7 +161,7 @@
       padding: .5rem 0;
     }
     .sidebar__list::-webkit-scrollbar { width: 4px; }
-    .sidebar__list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    .sidebar__list::-webkit-scrollbar-thumb { background: rgba(235,234,223,0.25); border-radius: 2px; }
 
     .sidebar__item {
       display: flex;
@@ -162,30 +170,30 @@
       padding: .45rem 1rem;
       cursor: pointer;
       font-size: .82rem;
-      color: var(--text-secondary);
+      color: rgba(235,234,223,0.82);
       border-radius: 0;
       transition: background .12s, color .12s;
       gap: .5rem;
     }
     .sidebar__item:hover,
     .sidebar__item.active {
-      background: var(--bg-hover);
-      color: var(--text-primary);
+      background: rgba(235,234,223,0.08);
+      color: var(--linen);
     }
-    .sidebar__item.active { color: var(--accent); }
+    .sidebar__item.active { color: var(--pollo); }
     .sidebar__item-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .sidebar__item-count {
       font-size: .72rem;
       font-weight: 600;
-      background: var(--bg-raised);
-      color: var(--text-muted);
+      background: rgba(235,234,223,0.12);
+      color: rgba(235,234,223,0.7);
       padding: .1rem .42rem;
       border-radius: 999px;
       flex-shrink: 0;
     }
     .sidebar__item.active .sidebar__item-count {
       background: var(--accent-glow);
-      color: var(--accent);
+      color: var(--pollo);
     }
 
     /* ─── Main content ─────────────────────────────────────────────────────── */
@@ -202,7 +210,7 @@
       font-size: 2.4rem;
       font-weight: 600;
       letter-spacing: -.025em;
-      color: var(--text-primary);
+      color: var(--ivy);
       line-height: 1.1;
       margin-bottom: .35rem;
     }
@@ -240,7 +248,7 @@
       color: var(--text-primary);
       line-height: 1;
     }
-    .kpi-card--accent .kpi-card__value { color: var(--accent); }
+    .kpi-card--accent .kpi-card__value { color: var(--bourbon); }
 
     /* ─── Source cards ─────────────────────────────────────────────────────── */
     .source-section { margin-bottom: 1rem; }
@@ -252,7 +260,7 @@
       overflow: hidden;
       transition: border-color .15s;
     }
-    .source-card:hover { border-color: var(--border-soft); }
+    .source-card:hover { border-color: var(--pollo); }
 
     .source-card__header {
       display: flex;
@@ -274,9 +282,9 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: var(--accent);
+      background: var(--bourbon);
       flex-shrink: 0;
-      opacity: .7;
+      opacity: .85;
     }
     .source-card__name {
       font-family: var(--font-display);
@@ -341,7 +349,7 @@
       line-height: 1.45;
       transition: color .12s;
     }
-    .article-title a:hover { color: var(--accent); }
+    .article-title a:hover { color: var(--bourbon); }
 
     .article-author { color: var(--text-muted); font-size: .78rem; }
     .article-time   { color: var(--text-muted); font-size: .75rem; white-space: nowrap; }
@@ -538,7 +546,7 @@
       /* Page title */
       const header = document.createElement('div');
       header.innerHTML = `
-        <h1 class="page-title">Press House Daily Digest</h1>
+        <h1 class="page-title">Press House Daily</h1>
         <p class="page-subtitle" id="js-date-label">Today's Publications</p>
         <div class="kpi-row">
           <div class="kpi-card kpi-card--accent">
