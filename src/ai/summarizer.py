@@ -193,6 +193,61 @@ def get_press_house_wins() -> dict:
         wins = {}
     _WINS_CACHE = wins
     return wins
+    # --- 🏆 Recent Press House Wins: latest logged wins, shown every day ----------
+import datetime as _dt
+
+_RECENT_WINS_CACHE = None
+
+
+def _parse_win_date(s):
+    """Best-effort parse of the tracker's Date Published (e.g. 2/1/26)."""
+    s = (s or "").strip()
+    for fmt in ("%m/%d/%y", "%m/%d/%Y"):
+        try:
+            return _dt.datetime.strptime(s, fmt)
+        except Exception:
+            pass
+    return None
+
+
+def get_recent_press_house_wins(limit: int = 12) -> list:
+    """Most recent confirmed wins (tracked outlets, real link), newest first."""
+    global _RECENT_WINS_CACHE
+    if _RECENT_WINS_CACHE is not None:
+        return _RECENT_WINS_CACHE
+    tracked = _tracked_outlets()
+    rows = []
+    try:
+        req = _urlreq.Request(PRESS_HOUSE_WINS_CSV, headers={"User-Agent": "Mozilla/5.0"})
+        with _urlreq.urlopen(req, timeout=30) as resp:
+            text = resp.read().decode("utf-8", errors="replace")
+        for row in _csv.DictReader(_io.StringIO(text)):
+            if (row.get("Published") or "").strip().upper() != "TRUE":
+                continue
+            if _normalize_outlet(row.get("Outlet")) not in tracked:
+                continue
+            link = (row.get("Published Url") or "").strip()
+            if not link.lower().startswith("http"):
+                continue
+            d = _parse_win_date(row.get("Date Published"))
+            rows.append({
+                "story": (row.get("Story") or "").strip() or (row.get("Outlet") or "").strip(),
+                "url": link,
+                "outlet": (row.get("Outlet") or "").strip(),
+                "designer": (row.get("Sources") or "").strip(),
+                "date": d.strftime("%b %Y") if d else (row.get("Date Published") or "").strip(),
+                "sort": d or _dt.datetime.min,
+            })
+    except Exception:
+        rows = []
+    rows.sort(key=lambda r: r["sort"], reverse=True)
+    out = [
+        {"story": r["story"], "url": r["url"], "outlet": r["outlet"],
+         "designer": r["designer"], "date": r["date"]}
+        for r in rows[:limit]
+    ]
+    _RECENT_WINS_CACHE = out
+    return out
 
 
 _CJK = r"[\u4e00-\u9fff\u3400-\u4dbf]"
@@ -386,16 +441,16 @@ class DailySummarizer:
                 section_parts.append("\n")
             section_parts.append("\n")
 
-        # --- 🏆 Press House Wins: articles that are confirmed wins in the tracker ---
-        _wins_lookup = get_press_house_wins()
-        wins = [it for it in items if _normalize_url(it.url) in _wins_lookup]
+        # --- 🏆 Press House Wins: most recent logged wins from the tracker ---
         wins_parts = []
-        if wins:
-            wins.sort(key=self._article_sort_key)
+        recent_wins = get_recent_press_house_wins()
+        if recent_wins:
             wins_parts.append("## 🏆 Press House Wins\n\n")
-            for item in wins:
-                wins_parts.append(self._format_item_simple(item, language))
-                wins_parts.append("\n")
+            for w in recent_wins:
+                wins_parts.append(
+                    f"- [{w['story']}]({w['url']}) `{w['outlet']}` "
+                    f"`⭐ Press Club Source ⭐` *by {w['designer']} · {w['date']}*\n"
+                )
             wins_parts.append("\n---\n\n")
 
         return header + "".join(wins_parts) + overview + "".join(section_parts)
