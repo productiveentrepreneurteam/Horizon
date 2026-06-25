@@ -5,67 +5,69 @@ date: 2026-06-25
 lang: en
 ---
 
-> 146 articles published in the last 24 hours
+> 156 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
 ## 🏆 Press House Wins
 
-- [Designing a "hookah lounge" at home.](https://www.mansionglobal.com/articles/designing-home-hookah-lounge-2938cca9?mod=) `Mansion Global` `⭐ Press Club Source ⭐` *by Sophia deDomenico · Jun 2026*
-- [X decorating mistakes making your dining room look cheap"](https://www.veranda.com/decorating-ideas/advice-from-designers/a71590205/decorating-mistakes-dining-room-cheap-explained/) `Veranda` `⭐ Press Club Source ⭐` *by Colleen Simonds · Jun 2026*
-- [How to Layer Your Bed Like a Designer This Summer (And Why It’s the Secret to a Cooler Night’s Sleep)](https://www.homesandgardens.com/interior-design/how-to-layer-your-bed-for-summer) `Homes & Gardens` `⭐ Press Club Source ⭐` *by Megan Khahil, Selena Reif, Jennifer Wilson · Jun 2026*
-- [10 am vs 10 pm Color Palette:](https://www.homesandgardens.com/interior-design/10-00-am-vs-10-00-pm-palette) `Homes & Gardens` `⭐ Press Club Source ⭐` *by Sarah Szwajkos, Lauren Saab · Jun 2026*
-- [Want to Paint Your Front Door? TK Do's and Don'ts You Need to Know First:](https://www.goodhousekeeping.com/home/renovation/a71573053/how-to-paint-your-front-door/) `Good Housekeeping` `⭐ Press Club Source ⭐` *by Selena Reif, Courtney B Smith, Caroline Kopp · Jun 2026*
-- [Tete-a-tete chairs](https://www.housebeautiful.com/design-inspiration/a71591890/tete-a-tete-chair-ideas/) `House Beautiful` `⭐ Press Club Source ⭐` *by Sarah Storms, Lara Kimmerer, Darci Hether · Jun 2026*
-- [How to Choose a Rug You’ll Love Forever, According to Designers](https://www.veranda.com/decorating-ideas/advice-from-designers/a71590228/how-to-buy-rugs-designer-tips/) `Veranda` `⭐ Press Club Source ⭐` *by Lauren Saab · Jun 2026*
-- [X Front Door Colors That Will Instantly Add Personality to Your Home](https://www.goodhousekeeping.com/home/renovation/a71523214/front-door-colors/) `Good Housekeeping` `⭐ Press Club Source ⭐` *by Courtney B Smith · Jun 2026*
-- [Decor Trends That Won't Age Well](https://www.goodhousekeeping.com/home/decorating-ideas/a71535935/tacky-home-trends-that-wont-age-well/) `Good Housekeeping` `⭐ Press Club Source ⭐` *by Alexa Kingery · Jun 2026*
-- [Mistakes That Could Be Making Your Outdoor Table Settings Look Cheap](https://www.homesandgardens.com/interior-design/mistakes-that-make-an-outdoor-table-look-cheap) `Homes & Gardens` `⭐ Press Club Source ⭐` *by Lara Kimmerer · Jun 2026*
-- [Styling porches](https://www.homesandgardens.com/gardens/back-porch-ideas) `Homes & Gardens` `⭐ Press Club Source ⭐` *by Bridget Tiek · Jun 2026*
-- [how to build a “non-lonely” home](https://www.housebeautiful.com/design-inspiration/a71233779/non-lonely-home-design/) `House Beautiful` `⭐ Press Club Source ⭐` *by Dorothy Parker · Jun 2026*
+- [Designing a "hookah lounge" at home.](https://www.mansionglobal.com/articles/designing-home-hookah-lounge-2938cca9?mod=) `⭐ Sophia deDomenico ⭐` `Mansion Global` *by Ameena Walker · Jun 2026*
+- [X decorating mistakes making your dining room look cheap"](https://www.veranda.com/decorating-ideas/advice-from-designers/a71590205/decorating-mistakes-dining-room-cheap-explained/) `⭐ Colleen Simonds ⭐` `Veranda` *by Kelsey Mulvey · Jun 2026*
+- [How to Layer Your Bed Like a Designer This Summer (And Why It’s the Secret to a Cooler Night’s Sleep)](https://www.homesandgardens.com/interior-design/how-to-layer-your-bed-for-summer) `⭐ Megan Khahil ⭐` `⭐ Selena Reif ⭐` `⭐ Jennifer Wilson ⭐` `Homes & Gardens` *by Eleanor Richardson · Jun 2026*
+- [10 am vs 10 pm Color Palette:](https://www.homesandgardens.com/interior-design/10-00-am-vs-10-00-pm-palette) `⭐ Sarah Szwajkos ⭐` `⭐ Lauren Saab ⭐` `Homes & Gardens` *by Emily Moorman · Jun 2026*
+- [Want to Paint Your Front Door? TK Do's and Don'ts You Need to Know First:](https://www.goodhousekeeping.com/home/renovation/a71573053/how-to-paint-your-front-door/) `⭐ Selena Reif ⭐` `⭐ Courtney B Smith ⭐` `⭐ Caroline Kopp ⭐` `Good Housekeeping` *by Kelsey Mulvey · Jun 2026*
+- [Tete-a-tete chairs](https://www.housebeautiful.com/design-inspiration/a71591890/tete-a-tete-chair-ideas/) `⭐ Sarah Storms ⭐` `⭐ Lara Kimmerer ⭐` `⭐ Darci Hether ⭐` `House Beautiful` *by Yelena Alpert · Jun 2026*
+- [How to Choose a Rug You’ll Love Forever, According to Designers](https://www.veranda.com/decorating-ideas/advice-from-designers/a71590228/how-to-buy-rugs-designer-tips/) `⭐ Lauren Saab ⭐` `Veranda` *by Nina Derwin · Jun 2026*
+- [X Front Door Colors That Will Instantly Add Personality to Your Home](https://www.goodhousekeeping.com/home/renovation/a71523214/front-door-colors/) `⭐ Courtney B Smith ⭐` `Good Housekeeping` *by Kelsey Mulvey · Jun 2026*
+- [Decor Trends That Won't Age Well](https://www.goodhousekeeping.com/home/decorating-ideas/a71535935/tacky-home-trends-that-wont-age-well/) `⭐ Alexa Kingery ⭐` `Good Housekeeping` *by Monique Valeris · Jun 2026*
+- [Mistakes That Could Be Making Your Outdoor Table Settings Look Cheap](https://www.homesandgardens.com/interior-design/mistakes-that-make-an-outdoor-table-look-cheap) `⭐ Lara Kimmerer ⭐` `Homes & Gardens` *by Eleanor Richardson · Jun 2026*
+- [Styling porches](https://www.homesandgardens.com/gardens/back-porch-ideas) `⭐ Bridget Tiek ⭐` `Homes & Gardens` *by Katrina Harper-Lewis · Jun 2026*
+- [how to build a “non-lonely” home](https://www.housebeautiful.com/design-inspiration/a71233779/non-lonely-home-design/) `⭐ Dorothy Parker ⭐` `House Beautiful` *by Shelby Deering · Jun 2026*
 
 ---
 
 ## Today's Publications
 
-- [Homes & Gardens (5)](#source-homes-gardens)
+- [Homes & Gardens (6)](#source-homes-gardens)
 - [The Spruce (2)](#source-the-spruce)
 - [Better Homes & Gardens (2)](#source-better-homes-gardens)
 - [Good Housekeeping (4)](#source-good-housekeeping)
 - [House Beautiful (15)](#source-house-beautiful)
 - [Livingetc (11)](#source-livingetc)
-- [Southern Living (4)](#source-southern-living)
-- [Sunset (1)](#source-sunset)
-- [Mansion Global (7)](#source-mansion-global)
-- [Veranda (7)](#source-veranda)
-- [Apartment Therapy (14)](#source-apartment-therapy)
-- [Architectural Digest (14)](#source-architectural-digest)
+- [Southern Living (5)](#source-southern-living)
+- [Mansion Global (9)](#source-mansion-global)
+- [Veranda (14)](#source-veranda)
+- [Apartment Therapy (15)](#source-apartment-therapy)
+- [Architectural Digest (13)](#source-architectural-digest)
 - [Forbes (1)](#source-forbes)
-- [Parade Home & Garden (2)](#source-parade-home-garden)
+- [Parade Home & Garden (4)](#source-parade-home-garden)
 - [Elle Decor USA (1)](#source-elle-decor-usa)
 - [Wall Street Journal (7)](#source-wall-street-journal)
-- [Business of Home (1)](#source-business-of-home)
 - [Dengarden (2)](#source-dengarden)
 - [Colorado Homes (1)](#source-colorado-homes)
-- [Cubby (3)](#source-cubby)
+- [Cubby (2)](#source-cubby)
 - [Daily Mail (2)](#source-daily-mail)
 - [Mountain Living (1)](#source-mountain-living)
 - [Realtor.com (17)](#source-realtor-com)
 - [Sonoma Magazine (4)](#source-sonoma-magazine)
-- [The Kitchn (9)](#source-the-kitchn)
-- [The Philadelphia Inquirer (3)](#source-the-philadelphia-inquirer)
+- [The Kitchn (10)](#source-the-kitchn)
+- [The Philadelphia Inquirer (2)](#source-the-philadelphia-inquirer)
 - [USA Today (1)](#source-usa-today)
 - [New York Times (5)](#source-new-york-times)
 
-**Total Articles Today: 146**
+**Total Articles Today: 156**
 
 ---
 <a id="source-homes-gardens"></a>
-## Homes & Gardens (5)
+## Homes & Gardens (6)
 
 - <a href="https://www.homesandgardens.com/gardens/outdoor-living/things-making-your-small-patio-look-smaller" target="_blank" rel="noopener">The 4 Things Making Your Small Patio Look Even Smaller – And What Designers Say You Should Be Doing Instead</a>
   `Outdoor Living` `Decor` `Gardens`
   *by Eleanor Richardson · Jun 25, 11:30*
+
+- <a href="https://www.homesandgardens.com/decor/best-amazon-storefronts" target="_blank" rel="noopener">There Are 600 Million Products on Amazon – But These Are the 5 Storefronts I Always Use to Streamline My Search as a Style Editor</a>
+  `Decor`
+  *by Julia Demer · Jun 25, 16:30*
 
 - <a href="https://www.homesandgardens.com/decor/what-interior-designers-actually-buy-on-amazon" target="_blank" rel="noopener">Yes, Interior Designers Shop Amazon Too – These Are the 5 Surprisingly Chic Things They’re Buying During Prime Day</a>
   `Decor`
@@ -87,13 +89,13 @@ lang: en
 <a id="source-the-spruce"></a>
 ## The Spruce (2)
 
+- <a href="https://www.thespruce.com/items-thrifters-never-skip-at-antique-markets-11985315" target="_blank" rel="noopener">6 Things Experienced Thrifters Always Look for First at Antique Fairs and Flea Markets</a>
+  `Home`
+  *Jun 25, 17:06*
+
 - <a href="https://www.thespruce.com/tacky-design-choices-11988950" target="_blank" rel="noopener">These 7 Design Choices Might Be Making Your Home Feel More Tacky Than Stylish, Designers Warn</a>
   `Home`
   *Jun 24, 20:01*
-
-- <a href="https://www.thespruce.com/things-to-get-rid-of-for-timeless-living-room-11987237" target="_blank" rel="noopener">Designers Agree: Get Rid of These 6 Things for a More Timeless Living Room</a>
-  `Home`
-  *Jun 24, 16:24*
 
 
 <a id="source-better-homes-gardens"></a>
@@ -130,6 +132,14 @@ lang: en
 
 <a id="source-house-beautiful"></a>
 ## House Beautiful (15)
+
+- <a href="https://www.housebeautiful.com/shopping/best-stores/a71698926/homelabs-dehumidifier-review-prime-day-sale-2026/" target="_blank" rel="noopener">This Compact Dehumidifier Is So Good, I Just Bought a Second One During Prime Day</a>
+  `Design`
+  *Jun 25, 17:50*
+
+- <a href="https://www.housebeautiful.com/design-inspiration/a71681613/artificial-plants-styling-tips/" target="_blank" rel="noopener">A Stylist Taught Me These Secrets to Make Fake Plants Look Real</a>
+  `Design`
+  *Jun 25, 16:30*
 
 - <a href="https://www.housebeautiful.com/design-inspiration/a71713262/uncool-antiques-home-decor/" target="_blank" rel="noopener">Designers Agree: These 6 ”Uncool” Antiques Are Cheapening the Look of Your Home</a>
   `Design`
@@ -183,14 +193,6 @@ lang: en
   `Design`
   *Jun 24, 18:30*
 
-- <a href="https://www.housebeautiful.com/lifestyle/gardening/a71683812/features-making-garden-look-messy/" target="_blank" rel="noopener">These 5 Common Features Could Be Making Your Garden Look Messy</a>
-  `Design`
-  *Jun 24, 17:30*
-
-- <a href="https://www.housebeautiful.com/lifestyle/gardening/a71669182/best-plant-quarantine-guide/" target="_blank" rel="noopener">The Expert-Approved Plant Quarantine Guide for Protecting Your Windowsill Garden</a>
-  `Design`
-  *Jun 24, 16:30*
-
 
 <a id="source-livingetc"></a>
 ## Livingetc (11)
@@ -241,7 +243,11 @@ lang: en
 
 
 <a id="source-southern-living"></a>
-## Southern Living (4)
+## Southern Living (5)
+
+- <a href="https://www.southernliving.com/favorite-heirloom-pieces-12006807" target="_blank" rel="noopener">9 Designers Reveal The Heirloom Pieces They'd Never Part With</a>
+  `Home Decor Ideas` `Home` `Antiques`
+  *by Sarah Lyon · Jun 25, 17:59*
 
 - <a href="https://www.southernliving.com/how-to-make-small-living-room-look-bigger-11982225" target="_blank" rel="noopener">8 Ways To Make A Small Living Room Look Bigger And Brighter</a>
   `Home` `Living Room`
@@ -260,16 +266,20 @@ lang: en
   *by Caley Sturgill · Jun 24, 22:00*
 
 
-<a id="source-sunset"></a>
-## Sunset (1)
-
-- <a href="https://sunset.com/home-garden/landscaping/gravel-groundcover-mulch-alternative" target="_blank" rel="noopener">This Is Why Landscape Designers Are Ditching Mulch</a>
-  `Lifestyle`
-  *by Kristin Guy · Jun 24, 16:33*
-
-
 <a id="source-mansion-global"></a>
-## Mansion Global (7)
+## Mansion Global (9)
+
+- <a href="https://www.mansionglobal.com/articles/a-former-paramount-exec-lists-hamptons-mansion-for-nearly-20-million-4cf20f5f" target="_blank" rel="noopener">A Former Paramount Exec Lists Hamptons Mansion for Nearly $20M</a>
+  `Real Estate`
+  *by Casey Farmer · Jun 25, 16:23*
+
+- <a href="https://www.mansionglobal.com/articles/home-prices-in-melbourne-could-drop-by-8-17b5a813" target="_blank" rel="noopener">Home Prices in Melbourne Could Drop by 8%</a>
+  `Real Estate`
+  *by Mansion Global Staff · Jun 25, 15:27*
+
+- <a href="https://www.mansionglobal.com/articles/a-century-later-two-legendary-parisian-cocktail-bars-are-as-relevant-as-ever-79a9a9c4" target="_blank" rel="noopener">A Century Later, Two Legendary Parisian Cocktail Bars Are as Relevant as Ever</a>
+  `Real Estate`
+  *by Jake Emen · Jun 25, 15:23*
 
 - <a href="https://www.mansionglobal.com/articles/neon-sign-home-renovation-tulsa-oklahoma-9dd70c3b" target="_blank" rel="noopener">A ‘Bitchin’ Oklahoma Home Reno Called for an Irreverent Neon Sign in the Bath</a>
   `Real Estate`
@@ -295,13 +305,37 @@ lang: en
   `Real Estate`
   *by Liz Lucking · Jun 24, 18:33*
 
-- <a href="https://www.mansionglobal.com/articles/luxury-home-buyers-see-spain-as-a-haven-from-war-and-political-turmoil-ba253505" target="_blank" rel="noopener">Luxury-Home Buyers See Spain as a Haven From War and Political Turmoil</a>
-  `Real Estate`
-  *by Mansion Global Staff · Jun 24, 17:00*
-
 
 <a id="source-veranda"></a>
-## Veranda (7)
+## Veranda (14)
+
+- <a href="https://www.veranda.com/decorating-ideas/color-ideas/a65653668/color-trends-2026/" target="_blank" rel="noopener">These Are the 8 Color Trends Paint Experts Say Will Be Everywhere in 2026</a>
+  `Design`
+  *Jun 25, 16:53*
+
+- <a href="https://www.veranda.com/home-decorators/design-trends/a69880689/interior-design-trends-2026/" target="_blank" rel="noopener">Designers Predict These 7 Interior Design Trends Will Rule 2026</a>
+  `Design`
+  *Jun 25, 16:49*
+
+- <a href="https://www.veranda.com/home-decorators/design-trends/a65913943/curb-appeal-trends-2026/" target="_blank" rel="noopener">Designers Predict These Will Be the Biggest Curb Appeal Trends of 2026</a>
+  `Design`
+  *Jun 25, 16:44*
+
+- <a href="https://www.veranda.com/outdoor-garden/a69739522/patio-and-porch-trends-2026/" target="_blank" rel="noopener">The 7 Biggest Porch and Patio Trends for 2026, According to Designers</a>
+  `Design`
+  *Jun 25, 16:34*
+
+- <a href="https://www.veranda.com/home-decorators/design-trends/a69168935/living-room-trends-2026/" target="_blank" rel="noopener">The 6 Living Room Trends Designers Say Will Define 2026</a>
+  `Design`
+  *Jun 25, 16:28*
+
+- <a href="https://www.veranda.com/home-decorators/design-trends/a70463640/2026-dining-room-trends/" target="_blank" rel="noopener">5 Dining Room Trends Designers Say Will Dominate 2026</a>
+  `Design`
+  *Jun 25, 16:18*
+
+- <a href="https://www.veranda.com/home-decorators/design-trends/a70434915/2026-kitchen-pantry-trends/" target="_blank" rel="noopener">These Are the 7 Biggest Kitchen Pantry Trends for 2026, According to Designers</a>
+  `Design`
+  *Jun 25, 16:14*
 
 - <a href="https://www.veranda.com/home-decorators/design-trends/g70541649/kitchen-trends-2026/" target="_blank" rel="noopener">7 Kitchen Trends That Will Rule in 2026, According to Designers</a>
   `Design`
@@ -334,7 +368,19 @@ lang: en
 
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (14)
+## Apartment Therapy (15)
+
+- <a href="https://www.apartmenttherapy.com/oxo-good-grips-compact-utensil-organizer-37560777?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This $17 Compact Organizer Transformed My Messiest Kitchen Drawer</a>
+  `Organizing` `amazon` `kitchen` `organization awards 2026` `organizing` `organizing & storage`
+  *by Alexa Casanova · Jun 25, 17:45*
+
+- <a href="https://www.apartmenttherapy.com/wiosi-purse-hangers-amazon-prime-2026-37560606?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Just Discovered the Most Clever Way to Store Handbags Without Eating Up Space</a>
+  `Organizing` `amazon` `amazon prime day` `clone republish` `closet` `hangers`
+  *by Nikol Slatinska · Jun 25, 16:15*
+
+- <a href="https://www.apartmenttherapy.com/black-wood-room-divider-37560314?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This DIY Room Divider Takes Up Zero Floor Space, Creates a Cozy Nook, and Lets in Light</a>
+  `Home Projects` `home hub` `video lead`
+  *by Cullen Ormond · Jun 25, 16:00*
 
 - <a href="https://www.apartmenttherapy.com/walmart-my-texas-house-furniture-launch-37560343?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Walmart’s New Wood Furniture Line Is Giving Vintage Vibes Without The Price Tag</a>
   `Decorating` `decorating` `design` `ideas & inspiration` `product catalog` `product module`
@@ -384,17 +430,9 @@ lang: en
   `Decorating` `decorating` `design` `ideas & inspiration` `product find` `product module`
   *by Emma Dangel · Jun 24, 18:30*
 
-- <a href="https://www.apartmenttherapy.com/amazon-prime-day-closet-storage-deals-37560285?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">10 Amazon Storage Gems to DIY a Custom Closet (all Part of Prime Day!)</a>
-  `Organizing` `amazon` `amazon prime day` `organizing & storage` `product catalog` `product module`
-  *by Alexa Casanova · Jun 24, 17:15*
-
-- <a href="https://www.apartmenttherapy.com/quince-room-darkening-curtain-review-37560442?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">These Have To Be the Chicest Blackout Curtains Ever (and They’re Under $100)</a>
-  `Decorating` `curtains` `decor & accessories` `linkby` `product module` `product review`
-  *by Cullen Ormond · Jun 24, 16:15*
-
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (14)
+## Architectural Digest (13)
 
 - <a href="https://www.architecturaldigest.com/story/vertical-design-tricks" target="_blank" rel="noopener">6 Designer-Vetted, Vertical-Design Tricks to Make Any Small Space Feel Grand</a>
   `Shopping` `small spaces` `decor` `Small Spaces`
@@ -448,10 +486,6 @@ lang: en
   `Architecture + Design` `syndicated home tour` `web exclusive home tour` `Home Tour`
   *by Anna-Lena Reith · Jun 24, 18:40*
 
-- <a href="https://www.architecturaldigest.com/story/best-baby-shower-gifts" target="_blank" rel="noopener">18 Best Baby Shower Gifts for the Design-Loving Parent (2026)</a>
-  `Shopping` `kids` `gifts` `gift guide` `Gifting`
-  *by Kate McGregor · Jun 24, 17:59*
-
 
 <a id="source-forbes"></a>
 ## Forbes (1)
@@ -462,7 +496,15 @@ lang: en
 
 
 <a id="source-parade-home-garden"></a>
-## Parade Home & Garden (2)
+## Parade Home & Garden (4)
+
+- <a href="https://paradehomeandgarden.com/news/this-sentimental-idea-for-preserving-handwritten-cards-is-perfect-for-small-spaces" target="_blank" rel="noopener">This Sentimental Idea for Preserving Handwritten Cards Is Perfect for Small Spaces</a>
+  `Dengarden to PHG` `News`
+  *by Sophie Hirsh · Jun 25, 16:54*
+
+- <a href="https://paradehomeandgarden.com/news/this-creator-came-up-with-the-cutest-secret-spot-in-her-kitchen-to-hang-photos-and-notes" target="_blank" rel="noopener">This Creator Came Up With the Cutest Secret Spot in Her Kitchen to Hang Photos and Notes</a>
+  `News` `Dengarden to PHG`
+  *by Sophie Hirsh · Jun 25, 16:02*
 
 - <a href="https://paradehomeandgarden.com/news/this-crocheted-fruit-hammock-is-brilliant-for-small-kitchens" target="_blank" rel="noopener">This Crocheted Fruit 'Hammock' Is Brilliant for Small Kitchens</a>
   `House & Home` `Dengarden to PHG` `News`
@@ -483,6 +525,10 @@ lang: en
 
 <a id="source-wall-street-journal"></a>
 ## Wall Street Journal (7)
+
+- <a href="https://www.wsj.com/real-estate/luxury-homes/alfred-hitchcock-north-by-northwest-house-2ba3d292?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Alfred Hitchcock’s Vandamm House Never Existed, Until They Built Their Own</a>
+  `Real Estate`
+  *Jun 25, 17:45*
 
 - <a href="https://www.wsj.com/arts-culture/books/theo-of-golden-allen-levi-e500d1c9" target="_blank" rel="noopener">‘Theo of Golden’ Broke Every Rule in Publishing. It’s an Unprecedented Bestseller.</a>
   `Lifestyle`
@@ -508,18 +554,6 @@ lang: en
   `Lifestyle`
   *by Kelly Crow · Jun 24, 18:25*
 
-- <a href="https://www.wsj.com/style/fashion/baldmaxxing-men-embrace-baldness-ef765d0c" target="_blank" rel="noopener">No Hair Transplants, Pills or Toupees. Meet The Men Embracing Baldness.</a>
-  `Lifestyle`
-  *by Jamie Waters · Jun 24, 17:40*
-
-
-<a id="source-business-of-home"></a>
-## Business of Home (1)
-
-- <a href="https://businessofhome.com/articles/the-rise-of-the-owner-s-rep" target="_blank" rel="noopener">The rise of the owner’s rep</a>
-  `Business`
-  *by Fred Nicolaus · Jun 24, 18:00*
-
 
 <a id="source-dengarden"></a>
 ## Dengarden (2)
@@ -542,7 +576,7 @@ lang: en
 
 
 <a id="source-cubby"></a>
-## Cubby (3)
+## Cubby (2)
 
 - <a href="https://www.cubbyathome.com/best-ice-cream-maker-deals-amazon-prime-day-2026-80050082?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The Super Popular Ninja Creami Ice Cream Maker Is on Sale — Plus 9 More Frozen Treat Deals (Up to 40% Off for Prime!)</a>
   `Family Homes` `amazon` `amazon prime day` `food` `news` `product catalog`
@@ -551,10 +585,6 @@ lang: en
 - <a href="https://www.cubbyathome.com/spaceaid-bed-sheet-organizer-amazon-prime-deal-2026-80050077?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">If You're Not Using This $19 Organizer to Store Bedsheets, You're Doing It Wrong</a>
   `Family Homes` `amazon` `amazon prime day` `news` `product find` `product module`
   *by Haley Lyndes · Jun 24, 21:00*
-
-- <a href="https://www.cubbyathome.com/store-food-in-plastic-wrap-or-aluminum-foil-80050059?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The Surprising Reason You Should Stop Wrapping Certain Foods in Aluminum Foil</a>
-  `Kid Food` `food safety` `news` `syndicated`
-  *by Celia Funderburk · Jun 24, 18:00*
 
 
 <a id="source-daily-mail"></a>
@@ -583,6 +613,14 @@ lang: en
 - <a href="https://www.realtor.com/advice/weather/tornado-alley-eastern-states-home-insurance/" target="_blank" rel="noopener">Tornado Alley Is Shifting East. These Housing Markets Are Unprepared and Face the Biggest Risks.</a>
   `Weather` `Insurance` `Tornadoes` `Video`
   *by Anna Baluch · Jun 24, 18:10*
+
+- <a href="https://www.realtor.com/news/trends/missing-middle-housing-older-homeowners-young-buyers/" target="_blank" rel="noopener">The Housing Gap Trapping Older Owners and Shutting Out Young Buyers</a>
+  `Trends` `Aging In Place` `Co-Living` `Data Journalism` `Homebuying` `Millennial Homebuyers`
+  *by Allaire Conte · Jun 25, 16:38*
+
+- <a href="https://www.realtor.com/news/reality-tv/christina-haack-chris-larocca-tarek-heather-el-moussa-relationship/" target="_blank" rel="noopener">Christina Haack Reveals Boyfriend Chris Larocca Went Out on a ‘Boys Night’ With Her Ex-Husband Tarek El Moussa: ‘Not on My Bingo Card’</a>
+  `Reality TV` `California` `Christina Hall` `Christina On The Coast` `Heather Rae Young` `HGTV`
+  *by Kelsi Karruli · Jun 25, 16:35*
 
 - <a href="https://www.realtor.com/news/trends/mortgage-interest-rates-now-june-25-2026/" target="_blank" rel="noopener">Mortgage Rates Rise to 6.49% Despite Iran Deal as Buyers Face a ‘New Normal’</a>
   `Trends` `30-Year Mortgages` `Data Journalism` `Federal Reserve` `Freddie Mac` `Mortgage Rates`
@@ -640,14 +678,6 @@ lang: en
   `Celebrity Real Estate` `California` `Celebrity Homes` `Homebuying` `Homelessness` `Los Angeles CA`
   *by Kelsi Karruli · Jun 24, 18:47*
 
-- <a href="https://www.realtor.com/news/trends/supreme-court-pung-v-isabella-county-tax-foreclosures-tax/" target="_blank" rel="noopener">In Home Equity Theft Case, Supreme Court Says Auction Price Can Count—but Won’t Define a Fair Sale</a>
-  `Trends` `Foreclosure` `Home Equity` `Michigan` `Tax Lien` `Theft`
-  *by Allaire Conte · Jun 24, 18:02*
-
-- <a href="https://www.realtor.com/news/celebrity-real-estate/melissa-gilbert-timothy-busfield-new-york-catskills-cabin-sex-abuse/" target="_blank" rel="noopener">Melissa Gilbert Quits Her ‘Perfect’ New York City Home To Relocate to Remote Catskills Cabin Amid Husband Timothy Busfield’s Sex Abuse Case</a>
-  `Celebrity Real Estate` `Cabin` `Catskills` `Celebrity Homes` `Crime` `Manhattan NY`
-  *by Charlie Lankston · Jun 24, 16:22*
-
 
 <a id="source-sonoma-magazine"></a>
 ## Sonoma Magazine (4)
@@ -670,7 +700,15 @@ lang: en
 
 
 <a id="source-the-kitchn"></a>
-## The Kitchn (9)
+## The Kitchn (10)
+
+- <a href="https://www.thekitchn.com/hainanese-chicken-rice-recipe-23787741?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Hainanese Chicken Rice</a>
+  `Recipes` `20 minute recipes` `30 minute recipes` `asian` `chicken` `dairy-free`
+  *by Catherine Scalercio · Jun 25, 17:00*
+
+- <a href="https://www.thekitchn.com/farberware-yosemite-coffee-percolator-amazon-prime-2026-23788247?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This Old-School Coffee Maker Is My Grandma’s Secret to a Great Cup of Coffee (and It’s on Sale for Prime Day!)</a>
+  `Kitchen` `amazon` `amazon prime day` `clone republish` `coffee` `coffee & espresso machines`
+  *by Megan Gray · Jun 25, 16:00*
 
 - <a href="https://www.thekitchn.com/grocery-shopping-tips-chef-emma-schmall-23787910?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Went Grocery Shopping with a Private Chef, and Picked Up 5 Key Tips I’ll Use Forever</a>
   `Groceries` `budget` `chefs` `news` `shopper advice` `tips & techniques`
@@ -704,13 +742,9 @@ lang: en
   `Skills` `clone republish` `cooking methods` `grilling` `news` `product text link`
   *by Andrea Rivera Wawrzyn · Jun 24, 19:00*
 
-- <a href="https://www.thekitchn.com/how-50-families-save-on-groceries-23788078?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">5 Tried-and-True Ways to Save Money on Groceries, According to 50 Families</a>
-  `Groceries` `advice` `budgeting` `groceries` `news` `shopper advice`
-  *by Ali Domrongchai · Jun 24, 16:30*
-
 
 <a id="source-the-philadelphia-inquirer"></a>
-## The Philadelphia Inquirer (3)
+## The Philadelphia Inquirer (2)
 
 - <a href="https://www.inquirer.com/real-estate/brian-zoubek-construction-lawsuit-northern-liberties-bartram-village-squatters-20260625.html" target="_blank" rel="noopener">Developer sued in Northern Liberties</a>
   `Lifestyle`
@@ -719,10 +753,6 @@ lang: en
 - <a href="https://www.inquirer.com/real-estate/callowhill-apartment-building-north-broad-street-police-headquarters-20260625.html" target="_blank" rel="noopener">A 188-apartment building is the latest new development slated for North Broad Street</a>
   `Lifestyle`
   *by Jake Blumgart · Jun 25, 10:01*
-
-- <a href="https://www.inquirer.com/real-estate/housing/cheltenham-jenkintown-apartments-septa-20260624.html" target="_blank" rel="noopener">There are plans for an 86-unit apartment complex next to SEPTA’s Jenkintown station</a>
-  `Lifestyle`
-  *by Jess Rohan · Jun 24, 16:41*
 
 
 <a id="source-usa-today"></a>
