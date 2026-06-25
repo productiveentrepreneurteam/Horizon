@@ -229,12 +229,16 @@ def get_recent_press_house_wins(limit: int = 12) -> list:
             link = (row.get("Published Url") or "").strip()
             if not link.lower().startswith("http"):
                 continue
+            writer = (row.get("Writer") or "").strip()
+            if "choose writer" in writer.lower():
+                writer = ""
             d = _parse_win_date(row.get("Date Published"))
             rows.append({
                 "story": (row.get("Story") or "").strip() or (row.get("Outlet") or "").strip(),
                 "url": link,
                 "outlet": (row.get("Outlet") or "").strip(),
                 "designer": (row.get("Sources") or "").strip(),
+                "writer": writer,
                 "date": d.strftime("%b %Y") if d else (row.get("Date Published") or "").strip(),
                 "sort": d or _dt.datetime.min,
             })
@@ -243,7 +247,7 @@ def get_recent_press_house_wins(limit: int = 12) -> list:
     rows.sort(key=lambda r: r["sort"], reverse=True)
     out = [
         {"story": r["story"], "url": r["url"], "outlet": r["outlet"],
-         "designer": r["designer"], "date": r["date"]}
+         "designer": r["designer"], "writer": r["writer"], "date": r["date"]}
         for r in rows[:limit]
     ]
     _RECENT_WINS_CACHE = out
@@ -441,15 +445,17 @@ class DailySummarizer:
                 section_parts.append("\n")
             section_parts.append("\n")
 
-        # --- 🏆 Press House Wins: most recent logged wins from the tracker ---
+       # --- 🏆 Press House Wins: most recent logged wins from the tracker ---
         wins_parts = []
         recent_wins = get_recent_press_house_wins()
         if recent_wins:
             wins_parts.append("## 🏆 Press House Wins\n\n")
             for w in recent_wins:
+                designers = [d.strip() for d in (w["designer"] or "").replace(";", ",").split(",") if d.strip()]
+                source_tags = " ".join(f"`⭐ {d} ⭐`" for d in designers) or "`⭐ Press Club Source ⭐`"
+                meta = f"by {w['writer']} · {w['date']}" if w["writer"] else w["date"]
                 wins_parts.append(
-                    f"- [{w['story']}]({w['url']}) `{w['outlet']}` "
-                    f"`⭐ Press Club Source ⭐` *by {w['designer']} · {w['date']}*\n"
+                    f"- [{w['story']}]({w['url']}) {source_tags} `{w['outlet']}` *{meta}*\n"
                 )
             wins_parts.append("\n---\n\n")
 
