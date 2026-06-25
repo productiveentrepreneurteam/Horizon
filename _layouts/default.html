@@ -579,7 +579,7 @@
         section.dataset.source = src.name.toLowerCase();
 
         const card = document.createElement('div');
-        card.className = 'source-card' + (si < 3 ? ' open' : ''); // top 3 open by default
+        card.className = 'source-card open'; // all open by default
         card.id = 'card-' + src.name.toLowerCase().replace(/[^a-z0-9]/g, '-');
 
         /* Header */
