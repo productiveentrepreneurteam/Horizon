@@ -93,16 +93,40 @@ WRITER_RANKING = [
 ]
 _WRITER_RANK_INDEX = {name.strip().lower(): i for i, name in enumerate(WRITER_RANKING)}
 # --- 🏆 Press House Wins: confirmed wins pulled from the press tracker ----------
-# Published-to-web CSV of the tracker's "2026 Active Stories" tab. A row is a
-# win when "Published" is TRUE; "Published Url" is the link and "Sources" is the
-# designer. We match a digest article to a win by its link (exact, no scraping).
-# Fetched once per run; if the sheet can't be reached, wins are just skipped that
-# day and the digest still publishes normally.
+# A row in the tracker's "2026 Active Stories" tab is a WIN when "Published" is
+# TRUE and "Published Url" is a real link. "Sources" = the designer, "Outlet" =
+# the publication. We match a digest article to a win by its link (exact, no
+# scraping) AND only keep wins from Alyssa's tracked outlets (her ranked list of
+# outlets with 3+ all-time appearances). Fetched once per run; if the sheet
+# can't be reached the digest still publishes normally.
 import csv as _csv
 import io as _io
 import urllib.request as _urlreq
 
 PRESS_HOUSE_WINS_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRwMlCmIGEakH2qAoDJJxiv6OOJqkDhs4hrhSnCtAsjvVmaFqxF-wL3NtTFE8Pk5cG3jPNoiTdEg3Or/pub?gid=527821896&single=true&output=csv"
+
+# Alyssa's tracked outlets — "Top Outlets by Overall Frequency", 3+ appearances.
+# Only wins from these outlets show in Press House Wins. Edit this list to
+# add/remove outlets (keep the exact outlet name as it appears in the tracker).
+TRACKED_OUTLETS = {
+    "The Spruce", "Good Housekeeping", "Homes & Gardens", "Apartment Therapy",
+    "Livingetc", "Better Homes & Gardens", "Architectural Digest", "Mansion Global",
+    "Real Simple", "House Beautiful", "Southern Living", "Martha Stewart",
+    "Real Homes", "MyDomaine", "Sunset", "Parade Home & Garden",
+    "Wall Street Journal", "Veranda", "Forbes", "Elle Decor USA", "Realtor.com",
+    "Luxury Portfolio", "Magnolia", "Domino", "C+B Print", "Hunker", "RUE",
+    "Luxury Portfolio Online", "Country Living", "Mountain Living",
+    "Pepper Home Blog", "The New York Times", "The Washington Post", "HGTV",
+    "Modern Luxury", "USA Today", "Atomic Ranch", "Clean Outlet", "Saavta Blog",
+    "The Kitchn", "C+B Digital", "Cottage Home Magazine", "Cottages & Bungalows",
+    "Cubby", "Elle Decor Spain", "Ranch & Coast", "Aspire", "Business of Home",
+    "Dwell", "Mi Casa",
+}
+
+# OPTIONAL: a published-to-web CSV with ONE column of outlet names (one per row).
+# If you set this URL, it OVERRIDES the list above and refreshes live every run.
+# Leave it as "" to just use the TRACKED_OUTLETS list above.
+PRESS_HOUSE_OUTLETS_CSV = ""
 
 _WINS_CACHE = None
 
@@ -120,11 +144,35 @@ def _normalize_url(url: str) -> str:
     return u.rstrip("/")
 
 
+def _normalize_outlet(name: str) -> str:
+    """Lowercase, collapse whitespace, strip stray punctuation for matching."""
+    s = " ".join(str(name or "").strip().lower().split())
+    return s.strip(" .,&-")
+
+
+def _tracked_outlets() -> set:
+    """Normalized set of tracked outlets (live CSV if set, else TRACKED_OUTLETS)."""
+    if PRESS_HOUSE_OUTLETS_CSV:
+        try:
+            req = _urlreq.Request(PRESS_HOUSE_OUTLETS_CSV, headers={"User-Agent": "Mozilla/5.0"})
+            with _urlreq.urlopen(req, timeout=30) as resp:
+                text = resp.read().decode("utf-8", errors="replace")
+            live = {_normalize_outlet(r[0]) for r in _csv.reader(_io.StringIO(text)) if r and r[0].strip()}
+            live.discard("")
+            live.discard(_normalize_outlet("outlet"))  # drop a header cell if present
+            if live:
+                return live
+        except Exception:
+            pass
+    return {_normalize_outlet(o) for o in TRACKED_OUTLETS}
+
+
 def get_press_house_wins() -> dict:
-    """Return {normalized_url: designer} from the tracker CSV (cached, fail-safe)."""
+    """Return {normalized_url: designer} for confirmed wins from tracked outlets."""
     global _WINS_CACHE
     if _WINS_CACHE is not None:
         return _WINS_CACHE
+    tracked = _tracked_outlets()
     wins: dict = {}
     try:
         req = _urlreq.Request(PRESS_HOUSE_WINS_CSV, headers={"User-Agent": "Mozilla/5.0"})
@@ -132,6 +180,8 @@ def get_press_house_wins() -> dict:
             text = resp.read().decode("utf-8", errors="replace")
         for row in _csv.DictReader(_io.StringIO(text)):
             if (row.get("Published") or "").strip().upper() != "TRUE":
+                continue
+            if _normalize_outlet(row.get("Outlet")) not in tracked:
                 continue
             link = (row.get("Published Url") or "").strip()
             if not link.lower().startswith("http"):
