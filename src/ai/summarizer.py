@@ -252,6 +252,58 @@ def get_recent_press_house_wins(limit: int = 12) -> list:
     ]
     _RECENT_WINS_CACHE = out
     return out
+    # --- ⭐ Auto-detect Press Club designers mentioned inside an article ----------
+CLEAN_SOURCES_CSV = ""  # <-- paste the published-to-web CSV link of the Raw Data tab
+
+_CLEAN_SOURCES_CACHE = None
+_ARTICLE_SOURCE_CACHE = {}
+
+
+def get_clean_sources() -> list:
+    """Client designer full names from the Raw Data 'Clean Sources' column."""
+    global _CLEAN_SOURCES_CACHE
+    if _CLEAN_SOURCES_CACHE is not None:
+        return _CLEAN_SOURCES_CACHE
+    names = []
+    if CLEAN_SOURCES_CSV:
+        try:
+            req = _urlreq.Request(CLEAN_SOURCES_CSV, headers={"User-Agent": "Mozilla/5.0"})
+            with _urlreq.urlopen(req, timeout=30) as resp:
+                text = resp.read().decode("utf-8", errors="replace")
+            for row in _csv.DictReader(_io.StringIO(text)):
+                n = (row.get("Clean Sources") or "").strip()
+                if n and " " in n and "choose" not in n.lower() and "✏" not in n and "🖋" not in n:
+                    names.append(n)
+        except Exception:
+            names = []
+    names = sorted(set(names), key=len, reverse=True)
+    _CLEAN_SOURCES_CACHE = names
+    return names
+
+
+def find_press_club_sources(url: str) -> list:
+    """Return any client designer full names found in the article's page text."""
+    if not url or not url.lower().startswith("http"):
+        return []
+    if url in _ARTICLE_SOURCE_CACHE:
+        return _ARTICLE_SOURCE_CACHE[url]
+    found = []
+    sources = get_clean_sources()
+    if sources:
+        try:
+            req = _urlreq.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with _urlreq.urlopen(req, timeout=8) as resp:
+                body = resp.read().decode("utf-8", errors="replace").lower()
+            seen = set()
+            for name in sources:
+                low = name.lower()
+                if low in body and low not in seen:
+                    seen.add(low)
+                    found.append(name)
+        except Exception:
+            found = []
+    _ARTICLE_SOURCE_CACHE[url] = found
+    return found
 
 
 _CJK = r"[\u4e00-\u9fff\u3400-\u4dbf]"
@@ -445,11 +497,17 @@ class DailySummarizer:
                 section_parts.append("\n")
             section_parts.append("\n")
 
-       # --- 🏆 Press House Wins: most recent logged wins from the tracker ---
+       # --- 🏆 Press House Wins: today's auto-detected client articles + recent logged wins ---
         wins_parts = []
-        recent_wins = get_recent_press_house_wins()
-        if recent_wins:
+        todays = [it for it in items if find_press_club_sources(it.url)]
+        today_urls = {_normalize_url(it.url) for it in todays}
+        recent_wins = [w for w in get_recent_press_house_wins()
+                       if _normalize_url(w["url"]) not in today_urls]
+        if todays or recent_wins:
             wins_parts.append("## 🏆 Press House Wins\n\n")
+            for item in todays:
+                wins_parts.append(self._format_item_simple(item, language))
+                wins_parts.append("\n")
             for w in recent_wins:
                 designers = [d.strip() for d in (w["designer"] or "").replace(";", ",").split(",") if d.strip()]
                 source_tags = " ".join(f"`⭐ {d} ⭐`" for d in designers) or "`⭐ Press Club Source ⭐`"
@@ -488,12 +546,16 @@ class DailySummarizer:
         if clean_tags:
             tags_str = " ".join(f"`{t}`" for t in clean_tags[:6])
             lines.append(f"  {tags_str}")
-        # ⭐ Press Club Source: flag articles that are a confirmed win in the tracker
+        # ⭐ Press Club Source: logged win (by link), else a client designer found in the text
         _designer = get_press_house_wins().get(_normalize_url(item.url))
         if _designer:
             lines.append(f"  `⭐ Press Club Source: {_designer} ⭐`")
         elif _designer == "":
             lines.append("  `⭐ Press Club Source ⭐`")
+        else:
+            _found = find_press_club_sources(item.url)
+            if _found:
+                lines.append(f"  `⭐ Press Club Source: {', '.join(_found)} ⭐`")
 
         # Author + time on one meta line. item.author falls back to the
         # outlet name when the feed doesn't provide a byline (rss.py), so
