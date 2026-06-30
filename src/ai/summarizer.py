@@ -283,7 +283,8 @@ def get_clean_sources() -> list:
 
 def find_press_club_sources(url: str) -> list:
     """Return any client designer full names found in the article's page text."""
-    if not url or not url.lower().startswith("http"):
+    url = str(url or "")
+    if not url.lower().startswith("http"):
         return []
     if url in _ARTICLE_SOURCE_CACHE:
         return _ARTICLE_SOURCE_CACHE[url]
