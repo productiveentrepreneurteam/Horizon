@@ -5,7 +5,7 @@ date: 2026-06-30
 lang: en
 ---
 
-> 108 articles published in the last 24 hours
+> 114 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
@@ -29,27 +29,28 @@ lang: en
 ## Today's Publications
 
 - [Homes & Gardens (4)](#source-homes-gardens)
-- [Good Housekeeping (2)](#source-good-housekeeping)
+- [Good Housekeeping (4)](#source-good-housekeeping)
 - [House Beautiful (8)](#source-house-beautiful)
 - [Livingetc (7)](#source-livingetc)
-- [Martha Stewart (1)](#source-martha-stewart)
-- [Southern Living (3)](#source-southern-living)
-- [Apartment Therapy (11)](#source-apartment-therapy)
-- [Architectural Digest (8)](#source-architectural-digest)
+- [Martha Stewart (2)](#source-martha-stewart)
+- [Southern Living (4)](#source-southern-living)
+- [Veranda (2)](#source-veranda)
+- [Apartment Therapy (13)](#source-apartment-therapy)
+- [Architectural Digest (9)](#source-architectural-digest)
 - [Parade Home & Garden (2)](#source-parade-home-garden)
-- [Elle Decor USA (1)](#source-elle-decor-usa)
+- [Elle Decor USA (2)](#source-elle-decor-usa)
 - [Wall Street Journal (6)](#source-wall-street-journal)
-- [Dengarden (12)](#source-dengarden)
+- [Dengarden (13)](#source-dengarden)
 - [Colorado Homes (1)](#source-colorado-homes)
 - [Cubby (1)](#source-cubby)
-- [Morris&Essex (5)](#source-morris-essex)
-- [Mountain Living (2)](#source-mountain-living)
-- [Realtor.com (19)](#source-realtor-com)
-- [Sonoma Magazine (2)](#source-sonoma-magazine)
-- [The Kitchn (10)](#source-the-kitchn)
-- [New York Times (3)](#source-new-york-times)
+- [House & Home (4)](#source-house-home)
+- [Mountain Living (1)](#source-mountain-living)
+- [Realtor.com (18)](#source-realtor-com)
+- [Sonoma Magazine (3)](#source-sonoma-magazine)
+- [The Kitchn (8)](#source-the-kitchn)
+- [New York Times (2)](#source-new-york-times)
 
-**Total Articles Today: 108**
+**Total Articles Today: 114**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -73,19 +74,31 @@ lang: en
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (2)
+## Good Housekeeping (4)
 
-- <a href="https://www.goodhousekeeping.com/home/gardening/a71605852/how-to-grow-sweet-potatoes-guide/" target="_blank" rel="noopener">A Detailed Guide on Growing Sweet Potatoes at Home</a>
+- <a href="https://www.goodhousekeeping.com/home/organizing/a71523540/items-to-toss-from-bedroom-in-summer/" target="_blank" rel="noopener">6 Items to Toss from Your Bedroom This Summer, According to Organizers</a>
   `Home`
-  *Jun 29, 20:44*
+  *Jun 30, 20:57*
 
-- <a href="https://www.goodhousekeeping.com/home/organizing/a71772069/i-tried-10-10-decluttering-method/" target="_blank" rel="noopener">I Tried the 10-10 Decluttering Method—Here’s What Happened</a>
+- <a href="https://www.goodhousekeeping.com/home/organizing/a71783448/organizers-costco-closet-trend/" target="_blank" rel="noopener">Organizers Explain Why the “Costco Closet” Trend Is Taking Off</a>
   `Home`
-  *Jun 29, 19:28*
+  *Jun 30, 20:36*
+
+- <a href="https://www.goodhousekeeping.com/home/organizing/g71783453/pantry-tricks-organizers-swear-by/" target="_blank" rel="noopener">Pro Organizers Share the Simple Pantry Tricks They Swear By</a>
+  `Home`
+  *Jun 30, 20:34*
+
+- <a href="https://www.goodhousekeeping.com/home/gardening/g32673850/best-perennial-flowers-plants/" target="_blank" rel="noopener">37 Low-Maintenance Perennial Flowers to Add Charm to Your Garden</a>
+  `Home`
+  *Jun 30, 20:17*
 
 
 <a id="source-house-beautiful"></a>
 ## House Beautiful (8)
+
+- <a href="https://www.housebeautiful.com/shopping/best-stores/a71772534/4th-of-july-wayfair-sales-2026/" target="_blank" rel="noopener">54 Editor-Approved Deals From Wayfair’s 4th of July Sales, From Sofas to Outdoor Patio Sets</a>
+  `Design`
+  *Jun 30, 20:00*
 
 - <a href="https://www.housebeautiful.com/shopping/best-stores/a71771704/saatva-4th-of-july-sale-2026/" target="_blank" rel="noopener">Our EXCLUSIVE Saatva 4th of July Discount Can Save You $1,000 on Your Dream Mattress</a>
   `Design`
@@ -114,10 +127,6 @@ lang: en
 - <a href="https://www.housebeautiful.com/design-inspiration/real-estate/a71772530/best-way-to-increase-home-value-on-a-budget/" target="_blank" rel="noopener">Real Estate Pros Say This Is the BEST Way to Increase Your Home Value on a Budget</a>
   `Design`
   *Jun 30, 13:30*
-
-- <a href="https://www.housebeautiful.com/lifestyle/gardening/a71773806/supermarket-flowers-styling-tips/" target="_blank" rel="noopener">Florists Say the “1/3 Vase Rule” Instantly Makes Your Supermarket Flowers Look Expensive</a>
-  `Design`
-  *Jun 29, 19:32*
 
 
 <a id="source-livingetc"></a>
@@ -153,7 +162,11 @@ lang: en
 
 
 <a id="source-martha-stewart"></a>
-## Martha Stewart (1)
+## Martha Stewart (2)
+
+- <a href="https://www.marthastewart.com/how-to-prepare-for-a-heatwave-12009788" target="_blank" rel="noopener">6 Home Tasks You Should Do Before a Heatwave Hits, According to Experts</a>
+  `Living` `Recipes, DIY, Home Decor & Crafts` `Home`
+  *by Caroline Lubinsky · Jun 30, 20:00*
 
 - <a href="https://www.marthastewart.com/patio-decor-ideas-12009082" target="_blank" rel="noopener">13 Patio Décor Ideas Interior Designers Use to Elevate Outdoor Spaces</a>
   `Home` `Recipes, DIY, Home Decor & Crafts` `Outdoor Living` `Exterior Design Ideas` `Home Design & Decor`
@@ -161,7 +174,7 @@ lang: en
 
 
 <a id="source-southern-living"></a>
-## Southern Living (3)
+## Southern Living (4)
 
 - <a href="https://www.southernliving.com/how-to-choose-the-right-shade-of-white-paint-12007266" target="_blank" rel="noopener">How To Choose A White Paint Color That Makes Your Room Feel Brighter</a>
   `Home` `Color Palettes & Paint`
@@ -171,17 +184,53 @@ lang: en
   `Home` `Home Organization`
   *by Sarah Lyon · Jun 30, 17:29*
 
+- <a href="https://www.southernliving.com/how-to-add-charm-to-a-builder-grade-home-11987595" target="_blank" rel="noopener">4 Designer Tricks That Instantly Make A Builder-Grade Home Feel More Custom</a>
+  `Home Decor Ideas` `Home` `Architecture and Home Design`
+  *by Quincy Bulin · Jun 30, 21:16*
+
 - <a href="https://www.southernliving.com/perdido-key-beach-house-tour-12004462" target="_blank" rel="noopener">This Joyful Florida Beach House Brings A Fresh Take To Coastal Style</a>
   `Home Decor Ideas` `Home`
   *by Betsy Cribb Watson · Jun 30, 01:12*
 
 
+<a id="source-veranda"></a>
+## Veranda (2)
+
+- <a href="https://www.veranda.com/travel/a45313369/ralph-lauren-jamaica-home/" target="_blank" rel="noopener">Ralph Lauren Reflects on the Uncomplicated Glamour of His Jamaican Winter Escape</a>
+  `Design`
+  *Jun 30, 21:49*
+
+- <a href="https://www.veranda.com/outdoor-garden/a71775417/ollas-explained/" target="_blank" rel="noopener">This Centuries-Old Technique Is a Game Changer for Water-Wise Gardens</a>
+  `Design`
+  *Jun 30, 18:40*
+
+
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (11)
+## Apartment Therapy (13)
 
 - <a href="https://www.apartmenttherapy.com/is-povison-furniture-worth-it-37560806?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This Modern Decor Brand Is Like if West Elm and Castlery Had a Baby</a>
   `Decorating` `decor` `decorating` `furniture` `ideas & inspiration` `product catalog`
   *by Danielle Blundell · Jun 30, 17:30*
+
+- <a href="https://www.apartmenttherapy.com/2026-zillow-study-bedroom-paint-color-37561434?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This 2026 Study Says to Paint Your Bedroom This Color (It’ll Increase Its Value!)</a>
+  `Real Estate` `buying & selling home` `lifestyle news` `news` `product text link` `real estate`
+  *by Cassidy Dawn Graves · Jun 30, 20:45*
+
+- <a href="https://www.apartmenttherapy.com/tissue-box-covers-brocade-decor-37561163?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This $7 Accessory Turns a Basic Tissue Box Into Chic Decor</a>
+  `Decorating` `amazon` `bedding & bath` `decor & accessories` `product module` `shopping`
+  *by Olivia Harvey · Jun 30, 20:15*
+
+- <a href="https://www.apartmenttherapy.com/baggu-carry-on-tote-review-37561384?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Saw This Cult-Favorite Bag Everywhere, and Now It’s My Forever Carry-On</a>
+  `Life` `Baggu` `living` `love letter` `product breview` `product module`
+  *by Sophie Hirsh · Jun 30, 19:30*
+
+- <a href="https://www.apartmenttherapy.com/best-the-home-depot-rugs-37561361?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">We Tested Every Carpet in The Home Depot’s Home Decorators Collection — Here Are the Winners</a>
+  `Decorating` `ff-dedicated` `flat fee` `home depot` `personal shopper` `product roundup`
+  *by Jamey Powell · Jun 30, 19:30*
+
+- <a href="https://www.apartmenttherapy.com/ikea-djurtranare-basket-stairway-clutter-37561499?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I’m Convinced This $9 IKEA Storage Basket Will Fix My Stairway Clutter</a>
+  `Organizing` `decluttering` `ikea` `organizing & storage` `product find` `product module`
+  *by Alexa Casanova · Jun 30, 19:15*
 
 - <a href="https://www.apartmenttherapy.com/best-ikea-dressers-37561447?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">We Tested (and Rated!) Every IKEA Dresser — Here Are the Best Ones for Every Style and Need</a>
   `Decorating` `bedroom` `decorating` `dressers` `ff-dedicated` `flat fee`
@@ -211,21 +260,33 @@ lang: en
   `Home Projects` `before & after` `clone republish` `hacks` `ikea` `ikea hacks`
   *by Sarah Everett · Jun 30, 12:00*
 
-- <a href="https://www.apartmenttherapy.com/blue-white-walnut-wood-cabinets-mid-century-redo-2-37560550?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">A 1960s Kitchen Had Major Issues Until a Mid-Century Modern Redo</a>
-  `Home Projects` `before & after` `clone republish` `featured ba` `kitchen` `kitchen cabinets`
-  *by Megan Baker Detloff · Jun 29, 22:00*
-
-- <a href="https://www.apartmenttherapy.com/oak-cabinet-refresh-ideas-no-paint-37560514?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">3 Golden Rules for Refreshing Dated Oak Cabinets (No Paint Required)</a>
-  `Home Projects` `clone republish` `diy` `kitchen` `pro advice` `renovating`
-  *by Kelly Dawson · Jun 29, 20:30*
-
-- <a href="https://www.apartmenttherapy.com/dyson-purifier-hot-cool-hp2-de-nox-review-37560538?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Don’t Have AC, and This One Appliance Replaced My Fan, Heater, and Air Purifier</a>
-  `Home Projects` `heating & cooling` `life` `product module` `product review` `product text link`
-  *by Alexa Casanova · Jun 29, 19:30*
-
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (8)
+## Architectural Digest (9)
+
+- <a href="https://www.architecturaldigest.com/story/frank-lloyd-wrights-only-tennessee-house-hits-the-market-for-the-first-time-ever" target="_blank" rel="noopener">Frank Lloyd Wright’s Only Tennessee House Hits the Market—for the First Time Ever—at $1.6 Million</a>
+  `Real Estate` `ad` `frank lloyd wright` `On the Market`
+  *by Katie Schultz · Jun 30, 21:09*
+
+- <a href="https://www.architecturaldigest.com/story/best-patio-umbrella" target="_blank" rel="noopener">12 Best Patio Umbrellas Make Glamorous Poolside Accents (2026)</a>
+  `Shopping` `outdoors` `Outdoor`
+  *by Blake Bakkila · Jun 30, 20:53*
+
+- <a href="https://www.architecturaldigest.com/story/best-article-furniture" target="_blank" rel="noopener">7 Best Article Furniture Buys, Tested and Reviewed (2026)</a>
+  `Shopping` `furniture`
+  *by Audrey Lee · Jun 30, 20:41*
+
+- <a href="https://www.architecturaldigest.com/story/aura-scent-diffuser-review" target="_blank" rel="noopener">Aura House Scent Diffuser Review (2026)</a>
+  `Shopping` `I Tried It` `decor` `appliances`
+  *by Lori Keong · Jun 30, 20:05*
+
+- <a href="https://www.architecturaldigest.com/story/best-bed-frames-2025" target="_blank" rel="noopener">9 Best Bed Frames of All Kinds, Tested By AD Editors (2026)</a>
+  `Shopping` `bed` `sleep week` `bed frame` `bedroom`
+  *by Julia Harrison · Jun 30, 19:50*
+
+- <a href="https://www.architecturaldigest.com/story/a-visionary-design-team-rewrites-the-script-for-the-great-american-lake-house" target="_blank" rel="noopener">Gil Schafer, Redd Kaihoi, and Miranda Brooks Rewrite the Script for the Great American Lake House</a>
+  `Architecture + Design` `Architecture + Design / Architecture` `home tour` `web exclusive home tour` `domestic home tour` `Home Tour`
+  *by Sara Ruffin Costello · Jun 30, 18:59*
 
 - <a href="https://www.architecturaldigest.com/story/inside-the-new-museums-new-restaurant-where-sleek-steel-meets-subterranean-design" target="_blank" rel="noopener">Inside The New Museum’s New Restaurant, Where Sleek Steel Meets Subterranean Design</a>
   `Architecture + Design` `Culture + Lifestyle` `Culture + Lifestyle / Art + Auctions` `restaurants` `bars` `Behind the Design`
@@ -238,26 +299,6 @@ lang: en
 - <a href="https://www.architecturaldigest.com/gallery/princess-diana-at-home-photos" target="_blank" rel="noopener">Princess Diana at Home: 25 Photos of the Icon From Childhood to Motherhood and Beyond</a>
   `Celebrity Style` `Celebrity Style / Celebrity Homes` `Celebrity Style / Celebrity Lifestyle` `princess diana`
   *by Katie Schultz · Jun 30, 11:00*
-
-- <a href="https://www.architecturaldigest.com/story/best-maine-airbnbs" target="_blank" rel="noopener">6 Best Maine Airbnbs for the Ideal Coastal Summer Getaway (2026)</a>
-  `Shopping` `travel` `airbnb` `Travel`
-  *by Julia Harrison · Jun 29, 21:26*
-
-- <a href="https://www.architecturaldigest.com/story/best-airbnbs-on-marthas-vineyard" target="_blank" rel="noopener">7 Best Airbnbs on Martha's Vineyard That Radiate Coastal Charm (2026)</a>
-  `Shopping` `travel` `airbnb` `Travel`
-  *by Madeline Weinfield · Jun 29, 21:12*
-
-- <a href="https://www.architecturaldigest.com/gallery/built-in-bookshelves-to-help-you-enter-your-reading-era" target="_blank" rel="noopener">50 Bookshelf Ideas That Turn Any Room Into a Bona Fide Library</a>
-  `AD-it-Yourself` `AD-it-Yourself / DIY Projects` `AD It Yourself` `DIY Projects`
-  *by Kate Jerde, Lindsey Mather, Perri Ormont Blumberg, Rebecca Shinners · Jun 29, 21:04*
-
-- <a href="https://www.architecturaldigest.com/story/best-nashville-airbnbs" target="_blank" rel="noopener">7 Best Nashville Airbnbs for Any Occasion (2026)</a>
-  `Culture + Lifestyle` `Culture + Lifestyle / Travel` `Shopping` `travel` `airbnb` `Travel`
-  *by Bailey Berg · Jun 29, 20:51*
-
-- <a href="https://www.architecturaldigest.com/story/a-historic-los-feliz-home-designed-by-studio-nauleau" target="_blank" rel="noopener">A Historic Los Feliz Home Is Recast to Reflect a TV Writer’s Colorful Personality</a>
-  `Architecture + Design` `Architecture + Design / Architecture` `home tour` `web exclusive home tour` `domestic home tour` `Home Tour`
-  *by Kelly Dawson · Jun 29, 20:09*
 
 
 <a id="source-parade-home-garden"></a>
@@ -273,7 +314,12 @@ lang: en
 
 
 <a id="source-elle-decor-usa"></a>
-## Elle Decor USA (1)
+## Elle Decor USA (2)
+
+- <a href="https://www.elledecor.com/design-decorate/trends/a70062151/kitchen-paint-color-trends-2026/" target="_blank" rel="noopener">The Biggest Kitchen Color Trends of 2026, According to Designers</a>
+  `Design`
+  `⭐ Press Club Source: Valerie Helgeson, Amanda Sinistaj , Jacqueline Goncalves ⭐`
+  *Jun 30, 20:20*
 
 - <a href="https://www.elledecor.com/design-decorate/a71774909/brent-neale-jeweler-office-tour/" target="_blank" rel="noopener">Front Office: Brent Neale</a>
   `Design`
@@ -282,6 +328,10 @@ lang: en
 
 <a id="source-wall-street-journal"></a>
 ## Wall Street Journal (6)
+
+- <a href="https://www.wsj.com/real-estate/luxury-homes/katherine-heigl-utah-home-48c59db5?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Katherine Heigl Lists Her Longtime Utah Home for $10.6 Million</a>
+  `Real Estate`
+  *by Sarah Paynter · Jun 30, 21:30*
 
 - <a href="https://www.wsj.com/tech/personal-tech/brick-smartphone-screen-time-6dd4fe69" target="_blank" rel="noopener">Can a $60 Plastic Cube Solve Our Screen-Time Crisis?</a>
   `Lifestyle`
@@ -303,17 +353,25 @@ lang: en
   `Real Estate`
   *by E.B. Solomont · Jun 29, 22:30*
 
-- <a href="https://www.wsj.com/arts-culture/film/jackass-best-and-last-johnny-knoxville-0426ef4f" target="_blank" rel="noopener">The Final ‘Jackass’ Is Unexpectedly Poignant—Even With the Lewd Jokes</a>
-  `Lifestyle`
-  *by Esther Zuckerman · Jun 29, 20:37*
-
 
 <a id="source-dengarden"></a>
-## Dengarden (12)
+## Dengarden (13)
 
 - <a href="https://dengarden.com/home-projects/outdoor-planter-ideas-that-instantly-upgrade-your-porch" target="_blank" rel="noopener">13 Outdoor Planter Ideas That Instantly Upgrade Your Porch</a>
   `Potted Plants` `Gardening` `Porch` `Outdoor Decor` `Plants` `Outdoor Projects`
   *by Morgan McMurrin · Jun 30, 11:15*
+
+- <a href="https://dengarden.com/design/8-clever-ways-to-use-walmart-caddy" target="_blank" rel="noopener">Walmart's $11 Stainless Steel Caddy Has 8 Genius Different Ways It Can Be Used</a>
+  `DIY Projects & Hacks` `Cute Diy` `Home Décor` `Walmart Deals & Hacks` `Design & Decor` `DIY Decor`
+  *by Mary Boldish James · Jun 30, 19:48*
+
+- <a href="https://dengarden.com/design/sponge-painting-trend" target="_blank" rel="noopener">This '90s Wall Painting Trend Is Making a Comeback — But People Are Divided</a>
+  `Paint` `Hacks & DIY` `Home Projects` `Trends` `Painting` `Design & Decor`
+  *by Taylor Bushey · Jun 30, 19:36*
+
+- <a href="https://dengarden.com/shopping/aldi-kirkton-house-washable-kitchen-mat-july" target="_blank" rel="noopener">Aldi's New $8 Drop Is the Kitchen Upgrade We Didn't Know We Needed</a>
+  `Shopping` `Kitchen` `Home Finds` `Home Decor Ideas` `Kitchen Tools & Accessories` `Kitchen Decor`
+  *by Lauren Wellbank · Jun 30, 19:24*
 
 - <a href="https://dengarden.com/design/diy-mosaic-lamp-maximalist-home-decor" target="_blank" rel="noopener">This DIY Mosaic Lamp Looks Too Good to Be Homemade</a>
   `DIY Projects & Hacks` `Home Projects` `Hacks & DIY` `Design & Decor` `DIY Home Furnishings` `Home Decor Ideas`
@@ -351,21 +409,13 @@ lang: en
   `Tj Maxx` `Living Room` `Design & Decor` `Home Décor` `Shopping` `Minimalist`
   *by Emily Clements · Jun 30, 01:59*
 
-- <a href="https://dengarden.com/design/hidden-entryway-storage-diy-secret-wall-panel" target="_blank" rel="noopener">This Hidden Built-In Entryway Storage Wall Is So Seamless It Looks Like It Was Always There</a>
-  `DIYers` `DIY Projects & Hacks` `Easy DIY` `DIY Decor` `Organization & Storage` `Design & Decor`
-  *by Mary Boldish James · Jun 29, 20:28*
-
-- <a href="https://dengarden.com/gardening/diy-painted-garden-stones-cottagecore-garden-idea" target="_blank" rel="noopener">The 'Quilted' Stepping Stone DIY Taking Over Cottagecore Gardens Is Surprisingly Easy to Make</a>
-  `Garden` `Pavers` `Home Decor Ideas` `Gardening` `Design & Decor`
-  *by Mary Boldish James · Jun 29, 20:26*
-
 
 <a id="source-colorado-homes"></a>
 ## Colorado Homes (1)
 
-- <a href="https://www.coloradohomesmag.com/integrating-elevated-wellness-spaces-into-modern-homes/" target="_blank" rel="noopener">Integrating Elevated Wellness Spaces into Modern Homes</a>
-  `Interiors` `Native Content`
-  *by Elizabeth Mulvahill · Jun 29, 20:44*
+- <a href="https://www.coloradohomesmag.com/experience-the-38th-annual-denver-polo-classic-this-summer/" target="_blank" rel="noopener">Experience the 38th Annual Denver Polo Classic this Summer</a>
+  `Events`
+  *by DCF Polo Classic · Jun 30, 19:43*
 
 
 <a id="source-cubby"></a>
@@ -376,52 +426,60 @@ lang: en
   *by Sabrina Rojas Weiss · Jun 30, 14:00*
 
 
-<a id="source-morris-essex"></a>
-## Morris&Essex (5)
+<a id="source-house-home"></a>
+## House & Home (4)
 
-- <a href="https://www.healthandlifemags.com/the-change-is-coming-2/" target="_blank" rel="noopener">The Change Is Coming</a>
-  `Health & Beauty Features` `Homepage Features` `Monmouth Health & Life`
-  *by Cheryl De Leon · Jun 29, 19:26*
+- <a href="https://houseandhome.com/gallery/quebec-farmhouse-bathroom-akb-design/" target="_blank" rel="noopener">Tour A Bathroom With A Contemorary Country Vibe By AKB Design</a>
+  `Bathrooms` `Decorating & Design` `Rooms` `AKB Design` `Aurdree Kemp Belanger` `contemporary bathroom`
+  *by Chelsea Dolan · Jun 30, 19:25*
 
-- <a href="https://www.healthandlifemags.com/get-that-summer-glow-2/" target="_blank" rel="noopener">Get That Summer Glow</a>
-  `Health & Beauty Features` `Homepage Features` `Monmouth Health & Life`
-  *by Cheryl De Leon · Jun 29, 19:25*
+- <a href="https://houseandhome.com/video/inside-a-newly-built-farmhouse-on-ontarios-niagara-escarpment/" target="_blank" rel="noopener">Inside a Newly Built Farmhouse on Ontario’s Niagara Escarpment</a>
+  `Cottages & Country Homes` `Country Homes` `Decorating & Design` `Home Tours` `Videos` `english-inspired home`
+  *by Talia Hart · Jun 30, 15:35*
 
-- <a href="https://www.healthandlifemags.com/a-light-from-the-past/" target="_blank" rel="noopener">A Light From The Past</a>
-  `Homepage Features` `Monmouth Health & Life`
-  *by Cheryl De Leon · Jun 29, 19:25*
+- <a href="https://houseandhome.com/gallery/east-coast-home-kelvin-browne/" target="_blank" rel="noopener">H&H Editor Kelvin Browne Takes Us Inside His Charming East Coast Home</a>
+  `Country Homes` `Decorating & Design` `Home Tours` `Chester` `east coast design` `east coast home`
+  *by Chelsea Dolan · Jun 30, 15:19*
 
-- <a href="https://www.healthandlifemags.com/get-that-summer-glow/" target="_blank" rel="noopener">Get That Summer Glow</a>
-  `Bergen Health & Life` `Health & Beauty Features` `Homepage Features`
-  *by Cheryl De Leon · Jun 29, 19:22*
-
-- <a href="https://www.healthandlifemags.com/the-change-is-coming/" target="_blank" rel="noopener">The Change Is Coming</a>
-  `Bergen Health & Life` `Health & Beauty Top Stories` `Homepage Features`
-  *by Cheryl De Leon · Jun 29, 19:20*
+- <a href="https://houseandhome.com/gallery/coastal-style-homes/" target="_blank" rel="noopener">10 Coastal Style Lessons From Waterfront Homes</a>
+  `Decorating & Design` `Coastal` `coastal design` `coastal homes` `coastal style` `cottage`
+  *by Wendy Jacob · Jun 30, 13:19*
 
 
 <a id="source-mountain-living"></a>
-## Mountain Living (2)
+## Mountain Living (1)
 
 - <a href="https://www.mountainliving.com/fire-resilient-homes-designing-for-protection-from-the-ground-up/" target="_blank" rel="noopener">Fire-Resilient Homes: Designing for Protection from the Ground Up</a>
   `Contemporary Homes` `Native Content`
   *by Hans Berend · Jun 30, 17:59*
 
-- <a href="https://www.mountainliving.com/drawn-into-the-landscape-a-team-finds-opportunity-in-challenging-terrain/" target="_blank" rel="noopener">Drawn into the Landscape, a Team Finds Opportunity in Challenging Terrain</a>
-  `Contemporary Homes` `Fixtures & Finishes`
-  *by Elizabeth Mulvahill · Jun 29, 20:15*
-
 
 <a id="source-realtor-com"></a>
-## Realtor.com (19)
+## Realtor.com (18)
 
 - <a href="https://www.realtor.com/advice/home-improvement/attic-insulation-air-conditioner-cash-leak-electric-bills/" target="_blank" rel="noopener">The Secret Cash Leak in Your Ceiling: How a Simple Fix Can Slash Your Summer Bills and Keep You Cool</a>
   `Home Improvement` `Air Conditioning` `Attic` `Summer` `Video`
   *by Anna Baluch · Jun 30, 16:36*
 
-- <a href="https://www.realtor.com/news/trends/top-states-lottery-wins-luxury-homes/" target="_blank" rel="noopener">Jackpot Geography: The Surprising States Where Lottery Wins Dominate—and What Your Winnings Could Buy You</a>
-  `Trends` `Buying and Selling` `California` `Michigan` `New Jersey` `New York`
-  *by Anna Baluch · Jun 29, 19:47*
+- <a href="https://www.realtor.com/news/trends/washington-dc-commanders-stadium-complex-master-plan-homes/" target="_blank" rel="noopener">New $24B Washington Commanders Stadium Complex Will Include 6,500 Homes</a>
+  `Trends` `Affordable Housing` `Construction` `Daily Email` `Luxury Development` `Mixed-Use Development`
+  *by Tristan Navera · Jun 30, 21:41*
+
+- <a href="https://www.realtor.com/news/celebrity-real-estate/serena-williams-home-live-alexis-ohanian/" target="_blank" rel="noopener">Inside Serena Williams’ Winning $35 Million Real Estate Portfolio—as She Loses Her First-Round Wimbledon Match to Maya Joint</a>
+  `Celebrity Real Estate` `Bel Air CA` `Beverly Hills CA` `California` `Celebrity Homes` `Florida`
+  *by Kelsi Karruli · Jun 30, 20:57*
+
+- <a href="https://www.realtor.com/advice/hyperlocal/daytona-beach-fl-home-shortage-middle-class-report/" target="_blank" rel="noopener">Daytona Beach, FL, Has a Significant Shortage of Homes for Middle-Income Earners</a>
+  `Hyperlocal` `Daytona Beach FL` `Housing Availability` `Video`
+  *by The Realtor.com Team · Jun 30, 20:19*
+
+- <a href="https://www.realtor.com/news/celebrity-real-estate/when-calls-heart-erin-krakow-ben-rosenbaum-baby-home/" target="_blank" rel="noopener">‘When Calls the Heart’ Stars Erin Krakow and Ben Rosenbaum Reveal Rare Glimpse Into Life at Home With Newborn Daughter</a>
+  `Celebrity Real Estate` `California` `Celebrity Homes` `Homebuying` `Los Angeles CA` `Parents`
+  *by Kelsi Karruli · Jun 30, 20:12*
+
+- <a href="https://www.realtor.com/advice/hyperlocal/dallas-fort-worth-tx-home-shortage-middle-class-report/" target="_blank" rel="noopener">The Dallas-Fort Worth, TX, Metro Has a Shortage of Homes for Middle-Income Earners</a>
+  `Hyperlocal` `Dallas TX` `Fort Worth TX` `Housing Availability` `Video`
+  *by The Realtor.com Team · Jun 30, 18:55*
 
 - <a href="https://www.realtor.com/news/trends/lightning-damage-cost-claims-coverage/" target="_blank" rel="noopener">Lightning Damage Could Now Cost $26K per Claim—What That Means for Your Coverage</a>
   `Trends` `Extreme Weather` `Home Insurance` `Insurance` `Property Damage` `Video`
@@ -471,41 +529,37 @@ lang: en
   `Celebrity Real Estate` `Austin TX` `Cats` `Celebrity Homes` `Dogs` `Homebuying`
   *by Kelsi Karruli · Jun 29, 22:21*
 
-- <a href="https://www.realtor.com/news/celebrity-real-estate/jelly-roll-bunnie-xo-ownership-tennessee-home-divorce/" target="_blank" rel="noopener">Jelly Roll’s Ex Bunnie XO Says Singer Has Given Her $6 Million Tennessee Compound in Divorce—and Reveals Wild Plans for Its Future</a>
-  `Celebrity Real Estate` `Celebrity Homes` `Divorce` `Homebuying` `Nashville TN` `Tennessee`
-  *by Kelsi Karruli · Jun 29, 21:48*
-
-- <a href="https://www.realtor.com/news/celebrity-real-estate/simone-biles-home-swimming-vacation-jonathan-owens/" target="_blank" rel="noopener">Simone Biles Enjoys ‘Late Night Swim’ at Texas Mansion After Heading Home From Controversial Vacation</a>
-  `Celebrity Real Estate` `Celebrity Homes` `Professional Athlete Homes` `Simone Biles` `Spring TX` `Texas`
-  *by Charlie Lankston · Jun 29, 20:34*
-
-- <a href="https://www.realtor.com/news/real-estate-news/trump-housing-bill-signing-update-yawn/" target="_blank" rel="noopener">Trump Calls Landmark Housing Bill ‘a Big Yawn’—and Doesn’t Commit To Signing It</a>
-  `Real Estate News` `Daily Email` `Democrats` `Donald Trump` `Election` `Housing Policy`
-  *by Tristan Navera · Jun 29, 20:31*
-
-- <a href="https://www.realtor.com/news/trends/las-vegas-tiny-home-rent-community-boxabl/" target="_blank" rel="noopener">Las Vegas Is Getting a Tiny-Home Community Where Rent Is Only $1K</a>
-  `Trends` `Affordability` `Data Journalism` `Las Vegas NV` `Sunday Spotlight` `Tiny Home`
-  *by Julie Taylor · Jun 29, 20:26*
-
-- <a href="https://www.realtor.com/news/reality-tv/summer-house-mansion-sale-amanda-batula-west-wilson-ciara-miller/" target="_blank" rel="noopener">Is ‘Summer House’ Over? Amanda Batula Has ‘Exited’ Bravo Show After West Wilson Drama—as $5.7 Million Mansion Set Remains on Market</a>
-  `Reality TV` `Bravo` `New York` `Reality Tv` `Rental` `Sag Harbor NY`
-  *by Charlie Lankston · Jun 29, 19:05*
-
 
 <a id="source-sonoma-magazine"></a>
-## Sonoma Magazine (2)
+## Sonoma Magazine (3)
+
+- <a href="https://www.sonomamag.com/aya-brings-big-vegas-energy-and-serious-food-ambition-to-graton-resort-casino/" target="_blank" rel="noopener">AYA Brings Big Vegas Energy and Serious Food Ambition to Graton Resort & Casino</a>
+  `BiteClub` `Food + Drink` `Sonoma Restaurants` `Things To Do in Sonoma` `Trending` `What's New in Wine Country`
+  *by Heather Irwin · Jun 30, 21:28*
+
+- <a href="https://www.sonomamag.com/food-is-the-love-language-at-this-santa-rosa-chefs-home/" target="_blank" rel="noopener">Food Is the Love Language at This Santa Rosa Chef’s Home</a>
+  `Magazine` `Sonoma Home` `Sonoma People` `Things To Do in Sonoma` `Trending` `What's New in Wine Country`
+  *by Meg McConahey · Jun 30, 19:37*
 
 - <a href="https://www.sonomamag.com/napa-valleys-robert-mondavi-winery-shines-after-multimillion-dollar-revamp/" target="_blank" rel="noopener">Napa Valley’s Robert Mondavi Winery Shines After Multimillion-Dollar Revamp</a>
   `Food + Drink` `Napa Wineries` `Things To Do in Sonoma` `Trending` `What's New in Wine Country` `historic winery`
   *by Tina Caputo · Jun 29, 22:57*
 
-- <a href="https://www.sonomamag.com/best-spots-for-fried-chicken-in-sonoma-county/" target="_blank" rel="noopener">Where to Get the Best Fried Chicken in Sonoma County</a>
-  `BiteClub` `Food + Drink` `Magazine` `Sonoma Restaurants` `Things To Do in Sonoma` `Trending`
-  *by Heather Irwin · Jun 29, 21:30*
-
 
 <a id="source-the-kitchn"></a>
-## The Kitchn (10)
+## The Kitchn (8)
+
+- <a href="https://www.thekitchn.com/best-fourth-of-july-recipes-according-to-readers-23788933?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Readers Agree: These Are the Very Best Fourth of July Recipes</a>
+  `Recipes` `barbecue` `cookout` `fourth of july 2026` `grilling` `holiday`
+  *by Alexandra Foster · Jun 30, 20:00*
+
+- <a href="https://www.thekitchn.com/grocery-spotter-june-2026-23788869?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">It’s Everywhere: The Popular Flavor Is Taking Over Grocery Shelves</a>
+  `Groceries` `Blueberries` `grocery news` `news` `product review` `product text link`
+  *by Ali Domrongchai · Jun 30, 19:30*
+
+- <a href="https://www.thekitchn.com/hawaiian-butter-mochi-recipe-review-23788133?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">"Magic Crust" Butter Mochi Is My Go-To Easy Dessert</a>
+  `Recipes` `clone republish` `dessert` `kitchn love letters` `news` `recipe review`
+  *by Jan Valdez · Jun 30, 19:30*
 
 - <a href="https://www.thekitchn.com/cherry-coke-margarita-23788729?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Cherry Coke Margarita</a>
   `Recipes` `20 minute recipes` `30 minute recipes` `beverages` `cocktails` `quick`
@@ -527,29 +581,9 @@ lang: en
   `Tools` `cuisinart` `ice cream makers` `news` `ninja` `product module`
   *by Shoshana Pritzker · Jun 30, 12:45*
 
-- <a href="https://www.thekitchn.com/best-hot-dog-buns-chefs-23788646?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">We Asked 3 Chefs to Name the Best Hot Dog Bun, and They All Said the Same One</a>
-  `Groceries` `chefs` `hot dogs` `news` `product module` `product review`
-  *by Ali Domrongchai · Jun 29, 21:30*
-
-- <a href="https://www.thekitchn.com/best-cookware-deals-june-2026-23788650?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Score Up to 40% Off Editor-Recommended Cookware from All-Clad, HexClad and More for Extended Prime Day Deals</a>
-  `Tools` `amazon` `amazon prime day` `cookware` `hexclad` `le creuset`
-  *by Megan Gray · Jun 29, 20:15*
-
-- <a href="https://www.thekitchn.com/burnt-cinnamon-grill-oil-23788196?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">My Dad’s Simple Secret for the Most Delicious Grilled Vegetables</a>
-  `Skills` `news` `product text link` `tips & techniques`
-  *by Pallavi Mehra · Jun 29, 20:00*
-
-- <a href="https://www.thekitchn.com/smores-dump-cake-recipe-23787701?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">S’mores Dump Cake</a>
-  `Recipes` `20 minute recipes` `30 minute recipes` `baked goods` `baking` `cake`
-  *by Anna Billingskog · Jun 29, 19:30*
-
-- <a href="https://www.thekitchn.com/sour-cream-cucumber-salad-recipe-review-2-23788129?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This Sour Cream Cucumber Salad Is the First Thing Gone at Every Barbecue</a>
-  `Recipes` `clone republish` `kitchn love letters` `news` `recipe review` `salad`
-  *by Lindsay Funston · Jun 29, 19:15*
-
 
 <a id="source-new-york-times"></a>
-## New York Times (3)
+## New York Times (2)
 
 - <a href="https://www.nytimes.com/2026/06/30/realestate/why-its-best-not-to-rush-a-relationship.html" target="_blank" rel="noopener">Why It’s Best Not to Rush a Relationship</a>
   `Real Estate and Housing (Residential)` `Pearson, Dan` `Gardens and Gardening` `Flowers and Plants` `internal-open-access-from-nl`
@@ -558,7 +592,3 @@ lang: en
 - <a href="https://www.nytimes.com/2026/06/30/realestate/tiny-home-explainer-living-small.html" target="_blank" rel="noopener">What Is the Difference Between a Tiny Home, an R.V. and an A.D.U.?</a>
   `Zoning` `Real Estate and Housing (Residential)` `Building (Construction)` `Sustainable Living` `Tiny Homes and Micro-Housing` `Affordable Housing`
   *by Dina Cheney · Jun 30, 09:00*
-
-- <a href="https://www.nytimes.com/2026/06/29/realestate/meg-ryan-kristen-wiig-celebrity-home-sales.html" target="_blank" rel="noopener">Meg Ryan Lists the Hamptons Home She Bought Two Years Ago</a>
-  `Real Estate and Housing (Residential)` `High Net Worth Individuals` `Celebrities` `Ryan, Meg` `Bridgehampton (NY)` `Wiig, Kristen`
-  *by Vivian Marino · Jun 29, 19:49*
