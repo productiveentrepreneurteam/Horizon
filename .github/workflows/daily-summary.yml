@@ -48,4 +48,3 @@ jobs:
           keep_files: true
           commit_message: "📝 Daily Summary: ${{ env.DATE }}"
           publish_branch: gh-pages
-          enable_jekyll: true
