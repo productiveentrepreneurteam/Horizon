@@ -499,7 +499,7 @@ class DailySummarizer:
         if todays or recent_wins:
             wins_parts.append("## 🏆 Press House Wins\n\n")
             for item in todays:
-                wins_parts.append(self._format_item_simple(item, language))
+                wins_parts.append(self._format_item_simple(item, language, wins_mode=True))
                 wins_parts.append("\n")
             for w in recent_wins:
                 designers = [d.strip() for d in (w["designer"] or "").replace(";", ",").split(",") if d.strip()]
@@ -512,7 +512,7 @@ class DailySummarizer:
 
         return header + "".join(wins_parts) + overview + "".join(section_parts)
 
-    def _format_item_simple(self, item: ContentItem, language: str) -> str:
+    def _format_item_simple(self, item: ContentItem, language: str, wins_mode: bool = False) -> str:
         """Render a single item as a small card: title (new-tab link), tags, author, time."""
         _title = item.metadata.get(f"title_{language}") or item.title
         title = str(_title).replace("[", "(").replace("]", ")")
@@ -534,15 +534,19 @@ class DailySummarizer:
 
         # Tags: from the RSS entry's own <category> tags (metadata["tags"]),
         # free, no AI call. Skipped if the feed didn't provide any.
-        tags = item.metadata.get("tags") or []
-        clean_tags = [str(t).strip() for t in tags if str(t).strip()]
-        if clean_tags:
-            tags_str = " ".join(f"`{t}`" for t in clean_tags[:6])
-            lines.append(f"  {tags_str}")
+        if wins_mode:
+            # Press House Wins rows: only the outlet tag (the source tag is added below).
+            lines.append(f"  `{self._outlet_name(item)}`")
+        else:
+            tags = item.metadata.get("tags") or []
+            clean_tags = [str(t).strip() for t in tags if str(t).strip()]
+            if clean_tags:
+                tags_str = " ".join(f"`{t}`" for t in clean_tags[:6])
+                lines.append(f"  {tags_str}")
         # ⭐ Press Club Source: logged win (by link), else a client designer found in the text
         _designer = get_press_house_wins().get(_normalize_url(item.url))
         if _designer:
-            lines.append(f"  `⭐ Press Club Source: {_designer} ⭐`")
+            lines.append(f"  `⭐ {_designer} ⭐`")
         elif _designer == "":
             lines.append("  `⭐ Press Club Source ⭐`")
         else:
