@@ -5,10 +5,12 @@ date: 2026-07-22
 lang: en
 ---
 
-> 113 articles published in the last 24 hours
+> 108 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
+<div id="kpi-data" style="display:none" data-designers-today="2" data-to-file="2" data-wins-month="" data-wins-alltime=""></div>
+
 ## 🏆 Press House Wins
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/kitchen-colors-that-could-devalue-your-home" target="_blank" rel="noopener">4 Kitchen Colors That Could Devalue Your Home – and the More Timeless Shades Designers Recommend Instead</a>
@@ -39,26 +41,27 @@ lang: en
 ## Today's Publications
 
 - [Homes & Gardens (6)](#source-homes-gardens)
-- [Good Housekeeping (6)](#source-good-housekeeping)
+- [Good Housekeeping (4)](#source-good-housekeeping)
 - [House Beautiful (8)](#source-house-beautiful)
 - [Livingetc (8)](#source-livingetc)
 - [Martha Stewart (1)](#source-martha-stewart)
 - [Southern Living (7)](#source-southern-living)
 - [Veranda (2)](#source-veranda)
-- [Apartment Therapy (12)](#source-apartment-therapy)
-- [Architectural Digest (5)](#source-architectural-digest)
+- [Apartment Therapy (11)](#source-apartment-therapy)
+- [Architectural Digest (4)](#source-architectural-digest)
 - [Parade Home & Garden (1)](#source-parade-home-garden)
 - [Wall Street Journal (8)](#source-wall-street-journal)
-- [Dengarden (10)](#source-dengarden)
+- [Dengarden (9)](#source-dengarden)
 - [Cubby (5)](#source-cubby)
 - [Daily Mail (2)](#source-daily-mail)
-- [Morris&Essex (6)](#source-morris-essex)
+- [Morris&Essex (5)](#source-morris-essex)
+- [Mountain Living (1)](#source-mountain-living)
 - [Realtor.com (12)](#source-realtor-com)
 - [Sonoma Magazine (2)](#source-sonoma-magazine)
 - [The Kitchn (9)](#source-the-kitchn)
 - [New York Times (3)](#source-new-york-times)
 
-**Total Articles Today: 113**
+**Total Articles Today: 108**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -92,7 +95,7 @@ lang: en
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (6)
+## Good Housekeeping (4)
 
 - <a href="https://www.goodhousekeeping.com/home/organizing/a73194382/one-in-one-out-organizing-method/" target="_blank" rel="noopener">Professional Organizers Say the 'One In, One Out' Rule Is the Secret to a Clutter-Free Home</a>
   `Home`
@@ -110,17 +113,13 @@ lang: en
   `Home`
   *Jul 21*
 
-- <a href="https://www.goodhousekeeping.com/home/cleaning/a73202672/why-your-clothes-smell-after-washing-fix/" target="_blank" rel="noopener">Why Your Clothes Still Smell After Washing—and How to Fix It, According to Laundry Pros</a>
-  `Home`
-  *Jul 21*
-
-- <a href="https://www.goodhousekeeping.com/home/gardening/a71841344/how-to-get-rid-spotted-lanternflies/" target="_blank" rel="noopener">How to Get Rid of Spotted Lanternflies in Your Yard, According to Experts</a>
-  `Home`
-  *Jul 21*
-
 
 <a id="source-house-beautiful"></a>
 ## House Beautiful (8)
+
+- <a href="https://www.housebeautiful.com/lifestyle/cleaning-tips/a73191375/mattress-rotation-guide/" target="_blank" rel="noopener">Experts Say You Probably Shouldn’t Flip Your Mattress Anymore. Here’s What to Do Instead.</a>
+  `Design`
+  *Jul 22*
 
 - <a href="https://www.housebeautiful.com/lifestyle/a73230106/odyssey-travel-destinations/" target="_blank" rel="noopener">These 10 Breathtaking Locations That Inspired Homer’s <i><em>Odyssey</em></i> Are Worthy of Your Own Epic Journey</a>
   `Design`
@@ -147,10 +146,6 @@ lang: en
   *Jul 21*
 
 - <a href="https://www.housebeautiful.com/shopping/home-accessories/g73213069/best-patio-umbrellas-review/" target="_blank" rel="noopener">10 Stylish Patio Umbrellas That Offer Shade, UV Protection, and Serious Durability</a>
-  `Design`
-  *Jul 21*
-
-- <a href="https://www.housebeautiful.com/lifestyle/organizing-tips/a73190964/junk-drawer-organization-tips/" target="_blank" rel="noopener">Pro Organizers Don’t Actually Hate Your Junk Drawer—You Just Have to Use It the Right Way</a>
   `Design`
   *Jul 21*
 
@@ -218,6 +213,10 @@ lang: en
   `Gardening Ideas` `Pests and Insects` `Home` `Garden Pests` `Plant Problems`
   *by Ashlyn Needham · Jul 22*
 
+- <a href="https://www.southernliving.com/closet-decluttering-advice-12022199" target="_blank" rel="noopener">The Closet Decluttering Advice Our Mothers Were Right About</a>
+  `Home` `Home Organization`
+  *by Kaitlyn Yarborough · Jul 22*
+
 - <a href="https://www.southernliving.com/trimming-neighbors-tree-12022164" target="_blank" rel="noopener">Can You Trim A Neighbor’s Tree Hanging Into Your Yard? Here’s What To Know</a>
   `Gardening Ideas` `Etiquette And Manners` `Culture and Lifestyle` `Gardening & Landscaping Ideas` `Trees` `Outdoor Plants`
   *by Brandee Gruener · Jul 22*
@@ -225,10 +224,6 @@ lang: en
 - <a href="https://www.southernliving.com/aldi-finds-to-organize-kitchen-and-pantry-12022220" target="_blank" rel="noopener">11 ALDI Finds That Will Instantly Declutter Your Kitchen—And They're All Under $15</a>
   `Food and Recipes` `Home` `News From The South` `Home Organization` `Food News` `Grocery Stores`
   *by Kait Hanson · Jul 22*
-
-- <a href="https://www.southernliving.com/sweet-smelling-flowers-perfect-for-your-porch-12023134" target="_blank" rel="noopener">10 Sweet-Smelling Flowers Perfect For Your Porch</a>
-  `Gardening Ideas` `Gardening Flowers` `Porches` `Home`
-  *by Brandee Gruener · Jul 21*
 
 
 <a id="source-veranda"></a>
@@ -244,11 +239,15 @@ lang: en
 
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (12)
+## Apartment Therapy (11)
 
 - <a href="https://www.apartmenttherapy.com/molly-yeh-anthropologie-home-collection-2026-37565216?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Anthropologie's New Collection Is Pure Joy (Down to the Barn-Shaped Butter Dish)</a>
   `Decorating` `anthropologie` `decor & accessories` `decorating` `ideas & inspiration` `kitchen`
   *by Danielle Blundell · Jul 22*
+
+- <a href="https://www.apartmenttherapy.com/macys-jollene-sectional-sale-review-37565025?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This Macy’s Sectional Has Been in My Family for 7 Years — Now It’s 30% Off</a>
+  `Decorating` `furniture` `living room` `macy's` `product module` `product review`
+  *by Alexa Casanova · Jul 22*
 
 - <a href="https://www.apartmenttherapy.com/50s-60s-inspired-london-apartment-37564117?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">A 489-Square-Foot London Apartment Feels Twice Its Size, Thanks to Its Layout</a>
   `Tours` `featured tour` `house tours tmobile 2026` `product text link` `tours` `Apartment`
@@ -286,17 +285,9 @@ lang: en
   `Home Projects` `before & after` `diy` `featured ba` `kitchen` `product text link`
   *Jul 21*
 
-- <a href="https://www.apartmenttherapy.com/7-code-shoe-organizer-amazon-deal-july-2026-37565131?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">These Sturdy Shoe Organizers Instantly Declutter Chaotic Closets (and They’re on Sale!)</a>
-  `Organizing` `amazon` `organization` `organizing & storage` `product find` `product module`
-  *by Megan Gray · Jul 21*
-
-- <a href="https://www.apartmenttherapy.com/eclectorian-design-new-next-2026-37564880?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">“Eclectorian” Is the Playful Design Trend Giving Victorian Homes New Life</a>
-  `Decorating` `decor & accessories` `decorating ideas` `design trends` `maximalist` `new/next list 2026`
-  *by Cullen Ormond · Jul 21*
-
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (5)
+## Architectural Digest (4)
 
 - <a href="https://www.architecturaldigest.com/story/relationship-goals-jake-arnold-on-how-to-craft-a-top-tier-client-experience-that-creates-lifelong-clients" target="_blank" rel="noopener">Relationship Goals: Jake Arnold on How to Craft a Top-Tier Client Experience That Creates Lifelong Clients</a>
   `AD Pro` `AD Pro / Grow Your Business` `ad pro` `education` `video` `Virtual Event | July 22`
@@ -313,10 +304,6 @@ lang: en
 - <a href="https://www.architecturaldigest.com/story/chinas-ghost-cities-real-estate-crisis" target="_blank" rel="noopener">China’s Ghost Cities: The Story Behind the Country’s Many Empty Towns of Abandoned Mansions</a>
   `Real Estate` `Real Estate / News` `Deep Dive`
   *by Katherine McLaughlin · Jul 21*
-
-- <a href="https://www.architecturaldigest.com/story/le-corbusier-inspired-this-candy-pink-villa-nestled-in-singapores-jungle" target="_blank" rel="noopener">Le Corbusier Inspired This Candy Pink Villa Nestled in Singapore's Jungle</a>
-  `Architecture + Design` `Architecture + Design / Architecture` `international home tour` `syndicated home tour` `Home Tour`
-  *by Valentina Raggi · Jul 21*
 
 
 <a id="source-parade-home-garden"></a>
@@ -364,7 +351,7 @@ lang: en
 
 
 <a id="source-dengarden"></a>
-## Dengarden (10)
+## Dengarden (9)
 
 - <a href="https://dengarden.com/home-projects/renter-wood-paneling-wallpaper-makeover" target="_blank" rel="noopener">Renter Transforms House Into a Mid-Century Modern Dream With Creative Wallpaper Design</a>
   `Mid Century` `DIY Home Furnishings` `Home Décor` `Mid-century Modern` `DIY Dupes` `Wood`
@@ -401,10 +388,6 @@ lang: en
 - <a href="https://dengarden.com/design/wire-rack-closet-door-storage-hack" target="_blank" rel="noopener">Brilliant Wire Rack Idea Turns Empty Closet Doors Into Storage Gold</a>
   `Storage` `Closet Organization` `Closet` `Organization & Storage` `Easy Hack` `Design & Decor`
   *by Mary Boldish James · Jul 21*
-
-- <a href="https://dengarden.com/home-projects/pink-bathroom-update-vintage-tile-diy" target="_blank" rel="noopener">Woman Transforms Her Pink Tiled Bathroom From the 1950s Without Doing Any Demo Work</a>
-  `Paint` `DIYers` `DIY Projects & Hacks` `Repairs & Upgrades` `Vintage` `Home Projects`
-  *by Lauren Wellbank · Jul 21*
 
 
 <a id="source-cubby"></a>
@@ -444,7 +427,7 @@ lang: en
 
 
 <a id="source-morris-essex"></a>
-## Morris&Essex (6)
+## Morris&Essex (5)
 
 - <a href="https://www.healthandlifemags.com/enjoy-a-perfect-night-on-the-town/" target="_blank" rel="noopener">Enjoy A Perfect Night On The Town</a>
   `Bergen Health & Life`
@@ -466,13 +449,25 @@ lang: en
   `Uncategorized`
   *by Anastasiia Chokhliad · Jul 21*
 
-- <a href="https://www.healthandlifemags.com/from-pain-to-pickleball-ace/" target="_blank" rel="noopener">Partner ContentFrom Shock-like Pain to Pickleball Ace: The Long Road to Relief from Trigeminal Neuralgia for a New Jersey resident</a>
-  `Uncategorized`
-  *by Anastasiia Chokhliad · Jul 21*
+
+<a id="source-mountain-living"></a>
+## Mountain Living (1)
+
+- <a href="https://www.mountainliving.com/why-logs-and-timbers-need-a-pigmented-finish/" target="_blank" rel="noopener">Why Logs and Timbers Need a Pigmented Finish</a>
+  `Cabins` `Fixtures & Finishes` `Native Content`
+  *by Nadia O'Hara · Jul 22*
 
 
 <a id="source-realtor-com"></a>
 ## Realtor.com (12)
+
+- <a href="https://www.realtor.com/news/trends/new-parent-real-estate-penalty-expenses-moving/" target="_blank" rel="noopener">The New Parent Real Estate Penalty: Why Starting a Family May Mean Shifting Your ZIP Code</a>
+  `Trends` `Children` `Kids` `Moving` `Video`
+  *by Anna Baluch · Jul 22*
+
+- <a href="https://www.realtor.com/news/trends/ranch-prices-double-luxury-yellowstone-costner-2026/" target="_blank" rel="noopener">The ‘Yellowstone’ Effect: Why Ranch Prices Have More Than Doubled in 10 Years</a>
+  `Trends` `Daily Email` `Data Journalism` `Idaho` `Montana` `Ranches`
+  *by Kiri Blakeley · Jul 22*
 
 - <a href="https://www.realtor.com/news/world/prince-george-william-kate-birthday-kensington-palace/" target="_blank" rel="noopener">Prince William and Princess Kate Release a 13th Birthday Portrait of Prince George Taken Inside Kensington Palace</a>
   `World` `British Royal Family` `England` `London` `Prince William` `Princess Kate`
@@ -513,14 +508,6 @@ lang: en
 - <a href="https://www.realtor.com/advice/buy/what-is-a-starter-home-the-small-affordable-houses-that-arent-being-built-anymore/" target="_blank" rel="noopener">What Is a Starter Home? The Small, Affordable Houses That Weren’t Being Built Anymore—Until Now</a>
   `Buy` `Accessory Dwelling Units` `Homebuying` `Housing Market` `Starter Home` `Tiny House`
   *by Sally Jones · Jul 21*
-
-- <a href="https://www.realtor.com/news/celebrity-real-estate/josh-duhamel-ransom-canyon-off-grid-prepper-cabin-minnesota/" target="_blank" rel="noopener">Josh Duhamel Reveals How Life at Off-Grid Cabin Helped to Prepare Him for Rugged Role in ‘Ransom Canyon’</a>
-  `Celebrity Real Estate` `Celebrity Homes` `Daily Email` `Land` `Minnesota` `Netflix`
-  *by Charlie Lankston · Jul 21*
-
-- <a href="https://www.realtor.com/news/trends/pennsylvania-home-snakes-bouldin/" target="_blank" rel="noopener">Pennsylvania Couple Discover the Dream Home They Purchased Is Infested With Snakes</a>
-  `Trends` `Pennsylvania` `Pest Control` `Renovations` `Video`
-  *by Julie Gerstein · Jul 21*
 
 
 <a id="source-sonoma-magazine"></a>
