@@ -130,7 +130,8 @@ def get_feed() -> dict:
                 payload = _json.loads(resp.read().decode("utf-8", errors="replace"))
             if isinstance(payload, dict) and isinstance(payload.get("students"), list):
                 data = {"students": payload.get("students", []),
-                        "wins": payload.get("wins", [])}
+                        "wins": payload.get("wins", []),
+                        "stats": payload.get("stats", {})}
         except Exception:
             data = {"students": [], "wins": []}
     _FEED_CACHE = data
