@@ -13,12 +13,12 @@ lang: en
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/kitchen-colors-that-could-devalue-your-home" target="_blank" rel="noopener">4 Kitchen Colors That Could Devalue Your Home – and the More Timeless Shades Designers Recommend Instead</a>
   `Kitchens` `Decor` `Rooms`
-  `🆕 New find: Lauren Saab · not in tracker yet`
+  `🍾 Press Club Source: Lauren Saab 🍾`
   *by Molly Malsom · Jul 22, 05:00*
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/how-to-choose-a-kitchen-sink" target="_blank" rel="noopener">How to Choose the Right Kitchen Sink – An Expert Guide to Size, Material, Style and Installation</a>
   `Kitchens` `Decor` `Rooms`
-  `🆕 New find: Yvonne Harty · not in tracker yet`
+  `🍾 Press Club Source: Yvonne Harty 🍾`
   *by Linda Clayton · Jul 22, 00:00*
 
 - [Bathroom Trends You're Ready to Retire](https://www.apartmenttherapy.com/bathroom-trends-out-for-2026-37564521) `⭐ Diane Luna ⭐` `⭐ Gail Jamentz ⭐` `Apartment Therapy` *by Heather Bien · Jul 17*
@@ -40,7 +40,7 @@ lang: en
 
 - [Homes & Gardens (6)](#source-homes-gardens)
 - [Good Housekeeping (5)](#source-good-housekeeping)
-- [House Beautiful (9)](#source-house-beautiful)
+- [House Beautiful (8)](#source-house-beautiful)
 - [Livingetc (8)](#source-livingetc)
 - [Martha Stewart (1)](#source-martha-stewart)
 - [Southern Living (6)](#source-southern-living)
@@ -50,7 +50,7 @@ lang: en
 - [Parade Home & Garden (1)](#source-parade-home-garden)
 - [Wall Street Journal (8)](#source-wall-street-journal)
 - [Dengarden (11)](#source-dengarden)
-- [Cubby (4)](#source-cubby)
+- [Cubby (5)](#source-cubby)
 - [Daily Mail (2)](#source-daily-mail)
 - [Morris&Essex (6)](#source-morris-essex)
 - [Realtor.com (12)](#source-realtor-com)
@@ -78,12 +78,12 @@ lang: en
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/how-to-choose-a-kitchen-sink" target="_blank" rel="noopener">How to Choose the Right Kitchen Sink – An Expert Guide to Size, Material, Style and Installation</a>
   `Kitchens` `Decor` `Rooms`
-  `🆕 New find: Yvonne Harty · not in tracker yet`
+  `🍾 Press Club Source: Yvonne Harty 🍾`
   *by Linda Clayton · Jul 22, 00:00*
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/kitchen-colors-that-could-devalue-your-home" target="_blank" rel="noopener">4 Kitchen Colors That Could Devalue Your Home – and the More Timeless Shades Designers Recommend Instead</a>
   `Kitchens` `Decor` `Rooms`
-  `🆕 New find: Lauren Saab · not in tracker yet`
+  `🍾 Press Club Source: Lauren Saab 🍾`
   *by Molly Malsom · Jul 22, 05:00*
 
 - <a href="https://www.homesandgardens.com/decor/the-very-british-edit-rattan-and-woven-decor-trend" target="_blank" rel="noopener">The Very British Edit: We’re Always Looking for What’s New – But It’s the Nostalgic Pieces That Make Our Homes Feel Like Ours</a>
@@ -116,7 +116,7 @@ lang: en
 
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (9)
+## House Beautiful (8)
 
 - <a href="https://www.housebeautiful.com/lifestyle/a73230106/odyssey-travel-destinations/" target="_blank" rel="noopener">These 10 Breathtaking Locations That Inspired Homer’s <i><em>Odyssey</em></i> Are Worthy of Your Own Epic Journey</a>
   `Design`
@@ -149,10 +149,6 @@ lang: en
 - <a href="https://www.housebeautiful.com/lifestyle/organizing-tips/a73190964/junk-drawer-organization-tips/" target="_blank" rel="noopener">Pro Organizers Don’t Actually Hate Your Junk Drawer—You Just Have to Use It the Right Way</a>
   `Design`
   *Jul 21, 19:00*
-
-- <a href="https://www.housebeautiful.com/shopping/home-accessories/a71485026/saatva-rug-review/" target="_blank" rel="noopener">Saatva Rug Review: Our Editors Tested Three Styles and They Completely Changed the Look of Our Bedrooms</a>
-  `Design`
-  *Jul 21, 17:30*
 
 
 <a id="source-livingetc"></a>
@@ -408,11 +404,15 @@ lang: en
 
 
 <a id="source-cubby"></a>
-## Cubby (4)
+## Cubby (5)
 
 - <a href="https://www.cubbyathome.com/best-kids-movies-streaming-80043505?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The 17 Best Kids’ Movies You Can Stream Right Now (No Movie Theater Needed!)</a>
   `Toys & Play` `product text link` `seo q22026` `tv & movies`
   *by Quincy Bulin · Jul 22, 16:30*
+
+- <a href="https://www.cubbyathome.com/green-black-white-bathroom-redo-stenciled-floors-4000-dollars-ba-80050634?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">A Beige, Water-Damaged Bathroom Is Now Sleek and Functional Thanks to Easy DIYs</a>
+  `Family Homes` `bathroom` `before & after` `product text link` `syndicated`
+  *by Sarah Everett · Jul 22, 17:00*
 
 - <a href="https://www.cubbyathome.com/hulala-nursery-power-recliner-review-80050445?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I’ve Had This Power Recliner for 2 Years, and It’s the Best Thing in My Daughter</a>
   `Kid Rooms` `product module` `product review` `product text link` `seo q22026` `shopping`
@@ -470,6 +470,10 @@ lang: en
 <a id="source-realtor-com"></a>
 ## Realtor.com (12)
 
+- <a href="https://www.realtor.com/news/world/prince-george-william-kate-birthday-kensington-palace/" target="_blank" rel="noopener">Prince William and Princess Kate Release a 13th Birthday Portrait of Prince George Taken Inside Kensington Palace</a>
+  `World` `British Royal Family` `England` `London` `Prince William` `Princess Kate`
+  *by Charlie Lankston · Jul 22, 17:10*
+
 - <a href="https://www.realtor.com/advice/hyperlocal/atlanta-rents-are-going-down/" target="_blank" rel="noopener">Atlanta Rents Are Going Down</a>
   `Hyperlocal` `Atlanta GA` `Georgia` `Rent` `Renters` `Roswell GA`
   *by The Realtor.com Team · Jul 22, 17:05*
@@ -513,10 +517,6 @@ lang: en
 - <a href="https://www.realtor.com/news/trends/pennsylvania-home-snakes-bouldin/" target="_blank" rel="noopener">Pennsylvania Couple Discover the Dream Home They Purchased Is Infested With Snakes</a>
   `Trends` `Pennsylvania` `Pest Control` `Renovations` `Video`
   *by Julie Gerstein · Jul 21, 18:16*
-
-- <a href="https://www.realtor.com/news/reality-tv/baylen-dupree-colin-dooley-tlc-home-kids-marriage/" target="_blank" rel="noopener">EXCLUSIVE: TLC Stars Baylen Dupree and Colin Dooley Admit They’re Already Thinking About Kids as They Hunt for a Marital Home in Myrtle Beach</a>
-  `Reality TV` `First-Time Home Buyer` `Lessons From Reality TV` `Myrtle Beach SC` `Reality Tv` `South Carolina`
-  *by Karli Mullane · Jul 21, 17:17*
 
 
 <a id="source-sonoma-magazine"></a>
@@ -579,8 +579,8 @@ lang: en
 ## New York Times (3)
 
 - <a href="https://www.nytimes.com/2026/07/22/realestate/even-the-architects-said-the-build-would-be-nearly-impossible.html" target="_blank" rel="noopener">Even the Architects Said the Build Would Be Nearly Impossible</a>
-  `Real Estate and Housing (Residential)` `Architecture` `Building (Construction)` `Second Homes and Non-Primary Residences` `Bodega Bay (Calif)`
-  *by Tim McKeough · Jul 22, 09:02*
+  `Real Estate and Housing (Residential)` `Architecture` `Building (Construction)` `Second Homes and Non-Primary Residences` `Bodega Bay (Calif)` `internal-open-access-from-nl`
+  *by Tim McKeough · Jul 22, 17:29*
 
 - <a href="https://www.nytimes.com/2026/07/22/realestate/pick-your-favorite-2-5-million-homes-in-santa-fe-new-gloucester-lake-forest.html" target="_blank" rel="noopener">Pick Your Favorite $2.5 Million Home</a>
   `Real Estate and Housing (Residential)` `Lake Forest (Ill)` `Santa Fe (NM)`

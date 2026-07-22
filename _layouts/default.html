@@ -407,8 +407,8 @@
     <!-- Sidebar -->
     <aside class="sidebar">
       <div class="sidebar__head">
-        <div class="sidebar__title">Outlets</div>
-        <input class="sidebar__search" id="js-search" type="search" placeholder="Search outlets…" autocomplete="off" />
+        <div class="sidebar__title">Sources</div>
+        <input class="sidebar__search" id="js-search" type="search" placeholder="Search sources…" autocomplete="off" />
       </div>
       <nav class="sidebar__list" id="js-sidebar-list">
         <!-- Populated by JS from source cards -->
@@ -554,7 +554,7 @@
             <div class="kpi-card__value">${totalArticles}</div>
           </div>
           <div class="kpi-card">
-            <div class="kpi-card__label">Outlets Monitored</div>
+            <div class="kpi-card__label">Sources Monitored</div>
             <div class="kpi-card__value">${sourcesCount}</div>
           </div>
           <div class="kpi-card">
@@ -675,7 +675,7 @@
       // "All sources" entry
       const allItem = document.createElement('div');
       allItem.className = 'sidebar__item active';
-      allItem.innerHTML = `<span class="sidebar__item-name">All Outlets</span>`;
+      allItem.innerHTML = `<span class="sidebar__item-name">All Sources</span>`;
       allItem.addEventListener('click', () => {
         document.querySelectorAll('.sidebar__item').forEach(i => i.classList.remove('active'));
         allItem.classList.add('active');
