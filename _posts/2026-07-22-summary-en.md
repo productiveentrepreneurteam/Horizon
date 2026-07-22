@@ -5,11 +5,11 @@ date: 2026-07-22
 lang: en
 ---
 
-> 106 articles published in the last 24 hours
+> 112 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
-<div id="kpi-data" style="display:none" data-designers-today="2" data-designers-month="" data-record=""></div>
+<div id="kpi-data" style="display:none" data-designers-today="2" data-designers-month="25" data-record="3147"></div>
 
 ## 🏆 Press House Wins
 
@@ -41,14 +41,14 @@ lang: en
 ## Today's Publications
 
 - [Homes & Gardens (6)](#source-homes-gardens)
-- [Good Housekeeping (4)](#source-good-housekeeping)
-- [House Beautiful (8)](#source-house-beautiful)
+- [Good Housekeeping (5)](#source-good-housekeeping)
+- [House Beautiful (11)](#source-house-beautiful)
 - [Livingetc (8)](#source-livingetc)
 - [Martha Stewart (1)](#source-martha-stewart)
 - [Southern Living (7)](#source-southern-living)
-- [Veranda (2)](#source-veranda)
+- [Veranda (3)](#source-veranda)
 - [Apartment Therapy (11)](#source-apartment-therapy)
-- [Architectural Digest (4)](#source-architectural-digest)
+- [Architectural Digest (5)](#source-architectural-digest)
 - [Parade Home & Garden (1)](#source-parade-home-garden)
 - [Wall Street Journal (7)](#source-wall-street-journal)
 - [Dengarden (9)](#source-dengarden)
@@ -61,7 +61,7 @@ lang: en
 - [The Kitchn (9)](#source-the-kitchn)
 - [New York Times (3)](#source-new-york-times)
 
-**Total Articles Today: 106**
+**Total Articles Today: 112**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -95,7 +95,11 @@ lang: en
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (4)
+## Good Housekeeping (5)
+
+- <a href="https://www.goodhousekeeping.com/home/organizing/g73194386/attic-items-to-toss/" target="_blank" rel="noopener">Professional Organizers Say It's Finally Time to Toss These Attic Items</a>
+  `Home`
+  *Jul 22*
 
 - <a href="https://www.goodhousekeeping.com/home/organizing/a73194382/one-in-one-out-organizing-method/" target="_blank" rel="noopener">Professional Organizers Say the 'One In, One Out' Rule Is the Secret to a Clutter-Free Home</a>
   `Home`
@@ -115,7 +119,19 @@ lang: en
 
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (8)
+## House Beautiful (11)
+
+- <a href="https://www.housebeautiful.com/design-inspiration/a73229994/this-distinctive-new-furniture-line-will-transform-every-room/" target="_blank" rel="noopener">This Distinctive New Furniture Line Will Transform Every Room</a>
+  `Design`
+  *Jul 22*
+
+- <a href="https://www.housebeautiful.com/home-remodeling/a71917803/the-insider-secret-to-a-home-that-feels-as-good-as-it-looks/" target="_blank" rel="noopener"><b><strong>The Insider Secret to a Home That Feels as Good as It Looks</strong></b></a>
+  `Design`
+  *Jul 22*
+
+- <a href="https://www.housebeautiful.com/lifestyle/gardening/a73232833/how-often-water-lawn/" target="_blank" rel="noopener">The Best Time to Water Your Lawn for Greener Grass, According to Experts</a>
+  `Design`
+  *Jul 22*
 
 - <a href="https://www.housebeautiful.com/lifestyle/cleaning-tips/a73191375/mattress-rotation-guide/" target="_blank" rel="noopener">Experts Say You Probably Shouldn’t Flip Your Mattress Anymore. Here’s What to Do Instead.</a>
   `Design`
@@ -227,7 +243,11 @@ lang: en
 
 
 <a id="source-veranda"></a>
-## Veranda (2)
+## Veranda (3)
+
+- <a href="https://www.veranda.com/decorating-ideas/a73229905/this-distinctive-new-furniture-line-will-transform-every-room/" target="_blank" rel="noopener">This Distinctive New Furniture Line Will Transform Every Room</a>
+  `Design`
+  *Jul 22*
 
 - <a href="https://www.veranda.com/travel/a73221455/best-caribbean-islands-for-expats/" target="_blank" rel="noopener">Want to Move to the Caribbean? These Are the 5 Best Islands for Expats to Consider in 2027</a>
   `Design`
@@ -287,7 +307,11 @@ lang: en
 
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (4)
+## Architectural Digest (5)
+
+- <a href="https://www.architecturaldigest.com/story/best-skillets" target="_blank" rel="noopener">11 Best Skillets That Double as Serving Dishes (2026)</a>
+  `Shopping` `kitchen`
+  *by Clara Hillis · Jul 22*
 
 - <a href="https://www.architecturaldigest.com/story/relationship-goals-jake-arnold-on-how-to-craft-a-top-tier-client-experience-that-creates-lifelong-clients" target="_blank" rel="noopener">Relationship Goals: Jake Arnold on How to Craft a Top-Tier Client Experience That Creates Lifelong Clients</a>
   `AD Pro` `AD Pro / Grow Your Business` `ad pro` `education` `video` `Virtual Event | July 22`
