@@ -526,7 +526,7 @@ class DailySummarizer:
                 time_str = f"{item.published_at.month}月{item.published_at.day}日 {item.published_at:%H:%M}"
             else:
                 day = item.published_at.strftime("%d").lstrip("0")
-                time_str = item.published_at.strftime(f"%b {day}, %H:%M")
+                time_str = item.published_at.strftime(f"%b {day}")
 
         # Title links open in a new tab (raw <a> since Markdown has no
         # target="_blank" syntax; Kramdown/Jekyll renders embedded HTML fine).
