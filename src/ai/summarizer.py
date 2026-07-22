@@ -510,7 +510,28 @@ class DailySummarizer:
                 )
             wins_parts.append("\n---\n\n")
 
-        return header + "".join(wins_parts) + overview + "".join(section_parts)
+        # --- KPI data for the header cards (read by the layout JS) ---
+        _sheet_wins = get_press_house_wins()
+        _designers = set()
+        _to_file = 0
+        for _it in items:
+            _nu = _normalize_url(_it.url)
+            if _nu in _sheet_wins:
+                _designers.update(d.strip() for d in (_sheet_wins[_nu] or "").replace(";", ",").split(",") if d.strip())
+            else:
+                _f = find_press_club_sources(_it.url)
+                if _f:
+                    _designers.update(_f)
+                    _to_file += 1
+        _stats = get_feed().get("stats", {}) or {}
+        kpi_data = (
+            '<div id="kpi-data" style="display:none"'
+            f' data-designers-today="{len(_designers)}"'
+            f' data-to-file="{_to_file}"'
+            f' data-wins-month="{str(_stats.get("this_month", "") or "").strip()}"'
+            f' data-wins-alltime="{str(_stats.get("all_time", "") or "").strip()}"></div>\n\n'
+        )
+        return header + kpi_data + "".join(wins_parts) + overview + "".join(section_parts)
 
     def _format_item_simple(self, item: ContentItem, language: str, wins_mode: bool = False) -> str:
         """Render a single item as a small card: title (new-tab link), tags, author, time."""
