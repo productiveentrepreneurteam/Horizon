@@ -457,6 +457,10 @@ lang: en
   `Trends` `Children` `Kids` `Moving` `Video`
   *by Anna Baluch · Jul 22*
 
+- <a href="https://www.realtor.com/news/trends/nantucket-worker-housing-vacation-homes/" target="_blank" rel="noopener">Not in My (Second) Backyard: Nantucket’s Worker Housing Fight Reveals the Cost of Vacation Homes</a>
+  `Trends` `Affordable Housing` `Daily Email` `Data Journalism` `Luxury Homes` `Nantucket`
+  *by Allaire Conte · Jul 22*
+
 - <a href="https://www.realtor.com/news/trends/ranch-prices-double-luxury-yellowstone-costner-2026/" target="_blank" rel="noopener">The ‘Yellowstone’ Effect: Why Ranch Prices Have More Than Doubled in 10 Years</a>
   `Trends` `Daily Email` `Data Journalism` `Idaho` `Montana` `Ranches`
   *by Kiri Blakeley · Jul 22*
@@ -496,10 +500,6 @@ lang: en
 - <a href="https://www.realtor.com/news/reality-tv/extreme-buyers-club-hgtv-noel-collier-crazy-requests/" target="_blank" rel="noopener">EXCLUSIVE: ‘Extreme Buyers Club’ Star Noel Collier Lays Bare Her ‘Craziest’ Client Requests—From Ghosts to Mermaid Pools</a>
   `Reality TV` `HGTV` `Homebuying` `House Hunting` `Houston TX` `Lessons From Reality TV`
   *by Karli Mullane · Jul 21*
-
-- <a href="https://www.realtor.com/advice/buy/what-is-a-starter-home-the-small-affordable-houses-that-arent-being-built-anymore/" target="_blank" rel="noopener">What Is a Starter Home? The Small, Affordable Houses That Weren’t Being Built Anymore—Until Now</a>
-  `Buy` `Accessory Dwelling Units` `Homebuying` `Housing Market` `Starter Home` `Tiny House`
-  *by Sally Jones · Jul 21*
 
 
 <a id="source-sonoma-magazine"></a>
