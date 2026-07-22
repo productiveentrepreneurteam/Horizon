@@ -548,8 +548,8 @@ class DailySummarizer:
         else:
             _found = find_press_club_sources(item.url)
             if _found:
-                # Detected in a fresh scraped article but NOT in the tracker sheet -> a new discovery.
-                lines.append(f"  `🆕 New find: {', '.join(_found)} · not in tracker yet`")
+                # Detected in a fresh scraped article but NOT in the tracker sheet -> champagne marker.
+                lines.append(f"  `🍾 Press Club Source: {', '.join(_found)} 🍾`")
 
         # Author + time on one meta line. item.author falls back to the
         # outlet name when the feed doesn't provide a byline (rss.py), so
