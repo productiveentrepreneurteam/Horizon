@@ -101,9 +101,40 @@ _WRITER_RANK_INDEX = {name.strip().lower(): i for i, name in enumerate(WRITER_RA
 # can't be reached the digest still publishes normally.
 import csv as _csv
 import io as _io
+import json as _json
+import os as _os
+import urllib.parse as _urlparse
 import urllib.request as _urlreq
 
-PRESS_HOUSE_WINS_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRwMlCmIGEakH2qAoDJJxiv6OOJqkDhs4hrhSnCtAsjvVmaFqxF-wL3NtTFE8Pk5cG3jPNoiTdEg3Or/pub?gid=527821896&single=true&output=csv"
+# Private feed: a token-gated Apps Script web app bound to the PRC Master Press
+# Tracker. Returns {"students": [names...], "wins": [{story,outlet,writer,
+# sources,url,date}...]} read LIVE from the sheet. URL + token come from repo
+# secrets, so the sheet is never published publicly.
+PRESS_FEED_URL = _os.getenv("PRESS_FEED_URL", "")
+PRESS_FEED_TOKEN = _os.getenv("PRESS_FEED_TOKEN", "")
+_FEED_CACHE = None
+
+
+def get_feed() -> dict:
+    """Fetch the private press feed once (students + wins). Cached per run."""
+    global _FEED_CACHE
+    if _FEED_CACHE is not None:
+        return _FEED_CACHE
+    data = {"students": [], "wins": []}
+    if PRESS_FEED_URL and PRESS_FEED_TOKEN:
+        try:
+            sep = "&" if "?" in PRESS_FEED_URL else "?"
+            url = f"{PRESS_FEED_URL}{sep}token={_urlparse.quote(PRESS_FEED_TOKEN)}"
+            req = _urlreq.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with _urlreq.urlopen(req, timeout=30) as resp:
+                payload = _json.loads(resp.read().decode("utf-8", errors="replace"))
+            if isinstance(payload, dict) and isinstance(payload.get("students"), list):
+                data = {"students": payload.get("students", []),
+                        "wins": payload.get("wins", [])}
+        except Exception:
+            data = {"students": [], "wins": []}
+    _FEED_CACHE = data
+    return data
 
 # Alyssa's tracked outlets — "Top Outlets by Overall Frequency", 3+ appearances.
 # Only wins from these outlets show in Press House Wins. Edit this list to
@@ -172,25 +203,14 @@ def get_press_house_wins() -> dict:
     global _WINS_CACHE
     if _WINS_CACHE is not None:
         return _WINS_CACHE
-    tracked = _tracked_outlets()
     wins: dict = {}
-    try:
-        req = _urlreq.Request(PRESS_HOUSE_WINS_CSV, headers={"User-Agent": "Mozilla/5.0"})
-        with _urlreq.urlopen(req, timeout=30) as resp:
-            text = resp.read().decode("utf-8", errors="replace")
-        for row in _csv.DictReader(_io.StringIO(text)):
-            if (row.get("Published") or "").strip().upper() != "TRUE":
-                continue
-            if _normalize_outlet(row.get("Outlet")) not in tracked:
-                continue
-            link = (row.get("Published Url") or "").strip()
-            if not link.lower().startswith("http"):
-                continue
-            key = _normalize_url(link)
-            if key:
-                wins[key] = (row.get("Sources") or "").strip()
-    except Exception:
-        wins = {}
+    for w in get_feed().get("wins", []):
+        link = str(w.get("url") or "").strip()
+        if not link.lower().startswith("http"):
+            continue
+        key = _normalize_url(link)
+        if key:
+            wins[key] = str(w.get("sources") or "").strip()
     _WINS_CACHE = wins
     return wins
     # --- 🏆 Recent Press House Wins: latest logged wins, shown every day ----------
@@ -215,67 +235,39 @@ def get_recent_press_house_wins(limit: int = 12) -> list:
     global _RECENT_WINS_CACHE
     if _RECENT_WINS_CACHE is not None:
         return _RECENT_WINS_CACHE
-    tracked = _tracked_outlets()
-    rows = []
-    try:
-        req = _urlreq.Request(PRESS_HOUSE_WINS_CSV, headers={"User-Agent": "Mozilla/5.0"})
-        with _urlreq.urlopen(req, timeout=30) as resp:
-            text = resp.read().decode("utf-8", errors="replace")
-        for row in _csv.DictReader(_io.StringIO(text)):
-            if (row.get("Published") or "").strip().upper() != "TRUE":
-                continue
-            if _normalize_outlet(row.get("Outlet")) not in tracked:
-                continue
-            link = (row.get("Published Url") or "").strip()
-            if not link.lower().startswith("http"):
-                continue
-            writer = (row.get("Writer") or "").strip()
-            if "choose writer" in writer.lower():
-                writer = ""
-            d = _parse_win_date(row.get("Date Published"))
-            rows.append({
-                "story": (row.get("Story") or "").strip() or (row.get("Outlet") or "").strip(),
-                "url": link,
-                "outlet": (row.get("Outlet") or "").strip(),
-                "designer": (row.get("Sources") or "").strip(),
-                "writer": writer,
-                "date": d.strftime("%b %Y") if d else (row.get("Date Published") or "").strip(),
-                "sort": d or _dt.datetime.min,
-            })
-    except Exception:
-        rows = []
-    rows.sort(key=lambda r: r["sort"], reverse=True)
-    out = [
-        {"story": r["story"], "url": r["url"], "outlet": r["outlet"],
-         "designer": r["designer"], "writer": r["writer"], "date": r["date"]}
-        for r in rows[:limit]
-    ]
+    out = []
+    for w in get_feed().get("wins", [])[:limit]:
+        link = str(w.get("url") or "").strip()
+        if not link.lower().startswith("http"):
+            continue
+        writer = str(w.get("writer") or "").strip()
+        if "choose writer" in writer.lower():
+            writer = ""
+        out.append({
+            "story": str(w.get("story") or "").strip() or str(w.get("outlet") or "").strip(),
+            "url": link,
+            "outlet": str(w.get("outlet") or "").strip(),
+            "designer": str(w.get("sources") or "").strip(),
+            "writer": writer,
+            "date": str(w.get("date") or "").strip(),
+        })
     _RECENT_WINS_CACHE = out
     return out
     # --- ⭐ Auto-detect Press Club designers mentioned inside an article ----------
-CLEAN_SOURCES_CSV = ""  # <-- paste the published-to-web CSV link of the Raw Data tab
-
 _CLEAN_SOURCES_CACHE = None
 _ARTICLE_SOURCE_CACHE = {}
 
 
 def get_clean_sources() -> list:
-    """Client designer full names from the Raw Data 'Clean Sources' column."""
+    """Client designer full names, from the private feed's students list."""
     global _CLEAN_SOURCES_CACHE
     if _CLEAN_SOURCES_CACHE is not None:
         return _CLEAN_SOURCES_CACHE
     names = []
-    if CLEAN_SOURCES_CSV:
-        try:
-            req = _urlreq.Request(CLEAN_SOURCES_CSV, headers={"User-Agent": "Mozilla/5.0"})
-            with _urlreq.urlopen(req, timeout=30) as resp:
-                text = resp.read().decode("utf-8", errors="replace")
-            for row in _csv.DictReader(_io.StringIO(text)):
-                n = (row.get("Clean Sources") or "").strip()
-                if n and " " in n and "choose" not in n.lower() and "✏" not in n and "🖋" not in n:
-                    names.append(n)
-        except Exception:
-            names = []
+    for n in get_feed().get("students", []):
+        n = str(n).strip()
+        if n and " " in n and "choose" not in n.lower() and "✏" not in n and "🖋" not in n:
+            names.append(n)
     names = sorted(set(names), key=len, reverse=True)
     _CLEAN_SOURCES_CACHE = names
     return names

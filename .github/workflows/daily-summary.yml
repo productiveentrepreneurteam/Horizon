@@ -35,6 +35,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LWN_KEY: ${{ secrets.LWN_KEY }}
+          PRESS_FEED_URL: ${{ secrets.PRESS_FEED_URL }}
+          PRESS_FEED_TOKEN: ${{ secrets.PRESS_FEED_TOKEN }}
         run: uv run horizon --hours 24
 
       - name: Set current date as environment variable
