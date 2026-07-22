@@ -5,7 +5,7 @@ date: 2026-07-22
 lang: en
 ---
 
-> 114 articles published in the last 24 hours
+> 113 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
@@ -49,7 +49,7 @@ lang: en
 - [Architectural Digest (5)](#source-architectural-digest)
 - [Parade Home & Garden (1)](#source-parade-home-garden)
 - [Wall Street Journal (8)](#source-wall-street-journal)
-- [Dengarden (11)](#source-dengarden)
+- [Dengarden (10)](#source-dengarden)
 - [Cubby (5)](#source-cubby)
 - [Daily Mail (2)](#source-daily-mail)
 - [Morris&Essex (6)](#source-morris-essex)
@@ -58,7 +58,7 @@ lang: en
 - [The Kitchn (9)](#source-the-kitchn)
 - [New York Times (3)](#source-new-york-times)
 
-**Total Articles Today: 114**
+**Total Articles Today: 113**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -364,7 +364,7 @@ lang: en
 
 
 <a id="source-dengarden"></a>
-## Dengarden (11)
+## Dengarden (10)
 
 - <a href="https://dengarden.com/home-projects/renter-wood-paneling-wallpaper-makeover" target="_blank" rel="noopener">Renter Transforms House Into a Mid-Century Modern Dream With Creative Wallpaper Design</a>
   `Mid Century` `DIY Home Furnishings` `Home Décor` `Mid-century Modern` `DIY Dupes` `Wood`
@@ -405,10 +405,6 @@ lang: en
 - <a href="https://dengarden.com/home-projects/pink-bathroom-update-vintage-tile-diy" target="_blank" rel="noopener">Woman Transforms Her Pink Tiled Bathroom From the 1950s Without Doing Any Demo Work</a>
   `Paint` `DIYers` `DIY Projects & Hacks` `Repairs & Upgrades` `Vintage` `Home Projects`
   *by Lauren Wellbank · Jul 21*
-
-- <a href="https://dengarden.com/design/easy-button-stool-diy" target="_blank" rel="noopener">I Found the Cutest Button-Shaped Stool DIY, and It's Ridiculously Easy</a>
-  `Design & Decor` `DIY Decor` `Home Décor` `DIY Home Furnishings` `Cute Diy` `Sewing`
-  *by Mary Boldish James · Jul 21*
 
 
 <a id="source-cubby"></a>
