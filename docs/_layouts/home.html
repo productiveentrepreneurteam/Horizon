@@ -4,6 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daily Press</title>
+  {% assign _latest = site.posts | where: "lang", "en" | first %}
+  {% if _latest %}
+  <script>
+    // On the site root only, jump straight to the newest digest (no extra click).
+    // The /archive/ page uses this same layout but keeps the grid (path check below).
+    (function () {
+      var here = location.pathname.replace(/\/+$/, "");
+      var root = "{{ '/' | relative_url }}".replace(/\/+$/, "");
+      if (here === root) { location.replace("{{ _latest.url | relative_url }}"); }
+    })();
+  </script>
+  {% endif %}
   <link rel="icon" type="image/png" href="{{ '/assets/prc-favicon.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/prc-favicon.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
