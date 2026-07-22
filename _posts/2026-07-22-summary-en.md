@@ -13,12 +13,12 @@ lang: en
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/kitchen-colors-that-could-devalue-your-home" target="_blank" rel="noopener">4 Kitchen Colors That Could Devalue Your Home – and the More Timeless Shades Designers Recommend Instead</a>
   `Kitchens` `Decor` `Rooms`
-  `⭐ Press Club Source: Lauren Saab ⭐`
+  `🆕 New find: Lauren Saab · not in tracker yet`
   *by Molly Malsom · Jul 22, 05:00*
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/how-to-choose-a-kitchen-sink" target="_blank" rel="noopener">How to Choose the Right Kitchen Sink – An Expert Guide to Size, Material, Style and Installation</a>
   `Kitchens` `Decor` `Rooms`
-  `⭐ Press Club Source: Yvonne Harty ⭐`
+  `🆕 New find: Yvonne Harty · not in tracker yet`
   *by Linda Clayton · Jul 22, 00:00*
 
 - [Bathroom Trends You're Ready to Retire](https://www.apartmenttherapy.com/bathroom-trends-out-for-2026-37564521) `⭐ Diane Luna ⭐` `⭐ Gail Jamentz ⭐` `Apartment Therapy` *by Heather Bien · Jul 17*
@@ -78,12 +78,12 @@ lang: en
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/how-to-choose-a-kitchen-sink" target="_blank" rel="noopener">How to Choose the Right Kitchen Sink – An Expert Guide to Size, Material, Style and Installation</a>
   `Kitchens` `Decor` `Rooms`
-  `⭐ Press Club Source: Yvonne Harty ⭐`
+  `🆕 New find: Yvonne Harty · not in tracker yet`
   *by Linda Clayton · Jul 22, 00:00*
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/kitchen-colors-that-could-devalue-your-home" target="_blank" rel="noopener">4 Kitchen Colors That Could Devalue Your Home – and the More Timeless Shades Designers Recommend Instead</a>
   `Kitchens` `Decor` `Rooms`
-  `⭐ Press Club Source: Lauren Saab ⭐`
+  `🆕 New find: Lauren Saab · not in tracker yet`
   *by Molly Malsom · Jul 22, 05:00*
 
 - <a href="https://www.homesandgardens.com/decor/the-very-british-edit-rattan-and-woven-decor-trend" target="_blank" rel="noopener">The Very British Edit: We’re Always Looking for What’s New – But It’s the Nostalgic Pieces That Make Our Homes Feel Like Ours</a>
