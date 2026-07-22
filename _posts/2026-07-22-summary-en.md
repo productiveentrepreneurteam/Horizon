@@ -5,7 +5,7 @@ date: 2026-07-22
 lang: en
 ---
 
-> 107 articles published in the last 24 hours
+> 113 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
@@ -21,50 +21,44 @@ lang: en
   `⭐ Press Club Source: Yvonne Harty ⭐`
   *by Linda Clayton · Jul 22, 00:00*
 
-- <a href="https://www.housebeautiful.com/home-remodeling/a73218537/kitchen-renovation-layout-change/" target="_blank" rel="noopener">This Is the FIRST Thing You Should Fix in a Kitchen Renovation, According to Designers</a>
-  `Design`
-  `⭐ Press Club Source: Emily LaMarque ⭐`
-  *Jul 21, 16:30*
-
-- [Bathroom Trends You're Ready to Retire](https://www.apartmenttherapy.com/bathroom-trends-out-for-2026-37564521) `⭐ Diane Luna ⭐` `⭐ Gail Jamentz ⭐` `Apartment Therapy` *by Heather Bien · Jul 2026*
-- [Designers Say These “Outdated” Flooring Choices Are Quietly Making a Stylish Return in 2026](https://www.housebeautiful.com/design-inspiration/a71929785/outdated-flooring-trends-comeback/) `⭐ Valerie Helgeson ⭐` `House Beautiful` *by Shelby Deering · Jul 2026*
-- [Things You Should Get Rid of in Your Bedroom This Summer](https://www.countryliving.com/home-design/decorating-ideas/a71551549/things-to-get-rid-of-in-bedroom-summer/) `⭐ Alexa Kingery ⭐` `Country Living` *by Kelsey Mulvey · Jul 2026*
-- [Kitchen before and after](https://www.domino.com/renovation/galley-kitchen-renovation-rebecca-letwin/) `⭐ Taylor Roberts ⭐` `Domino` *by Lydia Geisel · Jul 2026*
-- [How to Use a Chaise in Room Decor](https://www.apartmenttherapy.com/chaise-sofa-trend-37563928) `⭐ Terri Fiori ⭐` `Apartment Therapy` *by Heather Bien · Jul 2026*
-- [design trends that pros say are falling to the wayside now that we're halfway through the year.](https://www.housebeautiful.com/design-inspiration/a71872629/design-trends-2026-outdated/) `⭐ Genna Jacobs-Freeman ⭐` `⭐ Diane Luna ⭐` `⭐ Terri Fiori ⭐` `⭐ Abbie Jackson ⭐` `House Beautiful` *by Sarah Lyon · Jul 2026*
-- [Things to Get Rid of In Your Living Room"](https://www.countryliving.com/home-design/decorating-ideas/a71549941/living-room-things-to-get-rid-of-summer/) `⭐ Courtney B Smith ⭐` `⭐ Lindsay Thornton ⭐` `Country Living` *by Kelsey Mulvey · Jul 2026*
-- [Coffee Table Styling](https://www.goodhousekeeping.com/preview/home/decorating-ideas/a71870132/things-not-to-put-on-coffee-table/) `⭐ Lauren Smith ⭐` `Good Housekeeping` *by Monique Valeris · Jul 2026*
-- [90s Chrome Design Trend](https://www.goodhousekeeping.com/home/decorating-ideas/a71838025/retro-90s-chrome-design-trend/) `⭐ Diane Luna ⭐` `⭐ Lauren Smith ⭐` `⭐ Terri Fiori ⭐` `Good Housekeeping` *by Monique Valeris · Jul 2026*
-- [Picking a New Rug? Designers SWEAR By This Rule](https://sunset.com/home-garden/design/how-to-shop-for-rug) `⭐ Taylor Roberts ⭐` `⭐ Nureed Saeed ⭐` `Sunset` *by Kelsey Mulvey · Jul 2026*
-- [TK Artwork Mistakes That Actually Make Your Home Look Cheap](https://sunset.com/home-garden/design/decorating-with-art-mistakes) `⭐ Courtney B Smith ⭐` `⭐ Taylor Roberts ⭐` `⭐ Heather Kirk ⭐` `⭐ Peggy Haddad ⭐` `⭐ Kira Young ⭐` `Sunset` *by Kelsey Mulvey · Jul 2026*
-- [Stonefruit Colors Are the Perfect Summer Shades](https://www.bhg.com/stone-fruit-colors-summer-decor-12009823) `⭐ Darci Hether ⭐` `⭐ Courtney B Smith ⭐` `Better Homes & Gardens` *by Cori Sears · Jul 2026*
+- [Bathroom Trends You're Ready to Retire](https://www.apartmenttherapy.com/bathroom-trends-out-for-2026-37564521) `⭐ Diane Luna ⭐` `⭐ Gail Jamentz ⭐` `Apartment Therapy` *by Heather Bien · Jul 17*
+- [Designers Say These “Outdated” Flooring Choices Are Quietly Making a Stylish Return in 2026](https://www.housebeautiful.com/design-inspiration/a71929785/outdated-flooring-trends-comeback/) `⭐ Valerie Helgeson ⭐` `House Beautiful` *by Shelby Deering · Jul 15*
+- [Things You Should Get Rid of in Your Bedroom This Summer](https://www.countryliving.com/home-design/decorating-ideas/a71551549/things-to-get-rid-of-in-bedroom-summer/) `⭐ Alexa Kingery ⭐` `Country Living` *by Kelsey Mulvey · Jul 13*
+- [Kitchen before and after](https://www.domino.com/renovation/galley-kitchen-renovation-rebecca-letwin/) `⭐ Taylor Roberts ⭐` `Domino` *by Lydia Geisel · Jul 13*
+- [How to Use a Chaise in Room Decor](https://www.apartmenttherapy.com/chaise-sofa-trend-37563928) `⭐ Terri Fiori ⭐` `Apartment Therapy` *by Heather Bien · Jul 11*
+- [design trends that pros say are falling to the wayside now that we're halfway through the year.](https://www.housebeautiful.com/design-inspiration/a71872629/design-trends-2026-outdated/) `⭐ Genna Jacobs-Freeman ⭐` `⭐ Diane Luna ⭐` `⭐ Terri Fiori ⭐` `⭐ Abbie Jackson ⭐` `House Beautiful` *by Sarah Lyon · Jul 10*
+- [Things to Get Rid of In Your Living Room"](https://www.countryliving.com/home-design/decorating-ideas/a71549941/living-room-things-to-get-rid-of-summer/) `⭐ Courtney B Smith ⭐` `⭐ Lindsay Thornton ⭐` `Country Living` *by Kelsey Mulvey · Jul 9*
+- [Coffee Table Styling](https://www.goodhousekeeping.com/preview/home/decorating-ideas/a71870132/things-not-to-put-on-coffee-table/) `⭐ Lauren Smith ⭐` `Good Housekeeping` *by Monique Valeris · Jul 9*
+- [90s Chrome Design Trend](https://www.goodhousekeeping.com/home/decorating-ideas/a71838025/retro-90s-chrome-design-trend/) `⭐ Diane Luna ⭐` `⭐ Lauren Smith ⭐` `⭐ Terri Fiori ⭐` `Good Housekeeping` *by Monique Valeris · Jul 8*
+- [Picking a New Rug? Designers SWEAR By This Rule](https://sunset.com/home-garden/design/how-to-shop-for-rug) `⭐ Taylor Roberts ⭐` `⭐ Nureed Saeed ⭐` `Sunset` *by Kelsey Mulvey · Jul 7*
+- [TK Artwork Mistakes That Actually Make Your Home Look Cheap](https://sunset.com/home-garden/design/decorating-with-art-mistakes) `⭐ Courtney B Smith ⭐` `⭐ Taylor Roberts ⭐` `⭐ Heather Kirk ⭐` `⭐ Peggy Haddad ⭐` `⭐ Kira Young ⭐` `Sunset` *by Kelsey Mulvey · Jul 6*
+- [Stonefruit Colors Are the Perfect Summer Shades](https://www.bhg.com/stone-fruit-colors-summer-decor-12009823) `⭐ Darci Hether ⭐` `⭐ Courtney B Smith ⭐` `Better Homes & Gardens` *by Cori Sears · Jul 6*
 
 ---
 
 ## Today's Publications
 
 - [Homes & Gardens (6)](#source-homes-gardens)
-- [Good Housekeeping (4)](#source-good-housekeeping)
-- [House Beautiful (10)](#source-house-beautiful)
+- [Good Housekeeping (5)](#source-good-housekeeping)
+- [House Beautiful (9)](#source-house-beautiful)
 - [Livingetc (8)](#source-livingetc)
 - [Martha Stewart (1)](#source-martha-stewart)
-- [Southern Living (4)](#source-southern-living)
-- [Veranda (3)](#source-veranda)
-- [Apartment Therapy (11)](#source-apartment-therapy)
-- [Architectural Digest (3)](#source-architectural-digest)
+- [Southern Living (6)](#source-southern-living)
+- [Veranda (2)](#source-veranda)
+- [Apartment Therapy (12)](#source-apartment-therapy)
+- [Architectural Digest (5)](#source-architectural-digest)
 - [Parade Home & Garden (1)](#source-parade-home-garden)
 - [Wall Street Journal (8)](#source-wall-street-journal)
-- [Dengarden (13)](#source-dengarden)
-- [Colorado Homes (1)](#source-colorado-homes)
-- [Cubby (2)](#source-cubby)
+- [Dengarden (11)](#source-dengarden)
+- [Cubby (4)](#source-cubby)
 - [Daily Mail (2)](#source-daily-mail)
 - [Morris&Essex (6)](#source-morris-essex)
-- [Realtor.com (10)](#source-realtor-com)
-- [Sonoma Magazine (1)](#source-sonoma-magazine)
+- [Realtor.com (12)](#source-realtor-com)
+- [Sonoma Magazine (2)](#source-sonoma-magazine)
 - [The Kitchn (10)](#source-the-kitchn)
 - [New York Times (3)](#source-new-york-times)
 
-**Total Articles Today: 107**
+**Total Articles Today: 113**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -98,7 +92,11 @@ lang: en
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (4)
+## Good Housekeeping (5)
+
+- <a href="https://www.goodhousekeeping.com/home/renovation/a71944065/why-power-strips-have-a-red-switch/" target="_blank" rel="noopener">What the Red Light on Your Power Strip Actually Means</a>
+  `Home`
+  *Jul 22, 16:35*
 
 - <a href="https://www.goodhousekeeping.com/home/organizing/a73194379/expert-explains-ski-slope-decluttering-method/" target="_blank" rel="noopener">Organizers Say the Ski Slope Decluttering Method Makes Cleaning Feel Less Overwhelming</a>
   `Home`
@@ -118,7 +116,15 @@ lang: en
 
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (10)
+## House Beautiful (9)
+
+- <a href="https://www.housebeautiful.com/lifestyle/a73230106/odyssey-travel-destinations/" target="_blank" rel="noopener">These 10 Breathtaking Locations That Inspired Homer’s <i><em>Odyssey</em></i> Are Worthy of Your Own Epic Journey</a>
+  `Design`
+  *Jul 22, 16:30*
+
+- <a href="https://www.housebeautiful.com/shopping/best-stores/a73223180/home-depot-a-frame-moose-cabin/" target="_blank" rel="noopener">Home Depot Is Selling a Scandi-Style A-Frame Cabin That Could Double as a Dream Guest House</a>
+  `Design`
+  *Jul 22, 16:00*
 
 - <a href="https://www.housebeautiful.com/design-inspiration/a73229444/granny-cool-home-trend/" target="_blank" rel="noopener">Move Over, Cottagecore: “Granny Cool” Is the Nostalgic Home Trend Everyone Wants Right Now</a>
   `Design`
@@ -147,19 +153,6 @@ lang: en
 - <a href="https://www.housebeautiful.com/shopping/home-accessories/a71485026/saatva-rug-review/" target="_blank" rel="noopener">Saatva Rug Review: Our Editors Tested Three Styles and They Completely Changed the Look of Our Bedrooms</a>
   `Design`
   *Jul 21, 17:30*
-
-- <a href="https://www.housebeautiful.com/design-inspiration/real-estate/a73216542/miami-cost-living-increase/" target="_blank" rel="noopener">This Coastal Destination Just Became More Expensive Than New York City for the Very First Time</a>
-  `Design`
-  *Jul 21, 17:00*
-
-- <a href="https://www.housebeautiful.com/lifestyle/gardening/g71084762/flowers-plants-attract-hummingbirds/" target="_blank" rel="noopener">Plant These 25+ Flowers If You Want Hummingbirds to Visit Your Garden This Summer</a>
-  `Design`
-  *Jul 21, 16:50*
-
-- <a href="https://www.housebeautiful.com/home-remodeling/a73218537/kitchen-renovation-layout-change/" target="_blank" rel="noopener">This Is the FIRST Thing You Should Fix in a Kitchen Renovation, According to Designers</a>
-  `Design`
-  `⭐ Press Club Source: Emily LaMarque ⭐`
-  *Jul 21, 16:30*
 
 
 <a id="source-livingetc"></a>
@@ -207,7 +200,7 @@ lang: en
 
 
 <a id="source-southern-living"></a>
-## Southern Living (4)
+## Southern Living (6)
 
 - <a href="https://www.southernliving.com/things-people-regret-taking-with-them-during-a-move-12000317" target="_blank" rel="noopener">7 Things You'll Wish You Hadn't Packed Before Moving</a>
   `Home` `Home Organization`
@@ -216,6 +209,14 @@ lang: en
 - <a href="https://www.southernliving.com/home-stagers-remove-12022280" target="_blank" rel="noopener">8 Things Home Stagers Always Remove Before A House Hits The Market</a>
   `Home` `Home Maintenance`
   *by Quincy Bulin · Jul 21, 20:25*
+
+- <a href="https://www.southernliving.com/things-bringing-ants-yard-11999901" target="_blank" rel="noopener">Why Ants Keep Showing Up In Your Yard</a>
+  `Gardening Ideas` `Pests and Insects` `Home` `Garden Pests` `Plant Problems`
+  *by Ashlyn Needham · Jul 22, 16:11*
+
+- <a href="https://www.southernliving.com/trimming-neighbors-tree-12022164" target="_blank" rel="noopener">Can You Trim A Neighbor’s Tree Hanging Into Your Yard? Here’s What To Know</a>
+  `Gardening Ideas` `Etiquette And Manners` `Culture and Lifestyle` `Gardening & Landscaping Ideas` `Trees` `Outdoor Plants`
+  *by Brandee Gruener · Jul 22, 16:08*
 
 - <a href="https://www.southernliving.com/aldi-finds-to-organize-kitchen-and-pantry-12022220" target="_blank" rel="noopener">11 ALDI Finds That Will Instantly Declutter Your Kitchen—And They're All Under $15</a>
   `Food and Recipes` `Home` `News From The South` `Home Organization` `Food News` `Grocery Stores`
@@ -227,27 +228,31 @@ lang: en
 
 
 <a id="source-veranda"></a>
-## Veranda (3)
+## Veranda (2)
+
+- <a href="https://www.veranda.com/travel/a73221455/best-caribbean-islands-for-expats/" target="_blank" rel="noopener">Want to Move to the Caribbean? These Are the 5 Best Islands for Expats to Consider in 2027</a>
+  `Design`
+  *Jul 22, 16:47*
 
 - <a href="https://www.veranda.com/decorating-ideas/house-tours/a73229385/heather-chadduck-hillegas-folly-tour/" target="_blank" rel="noopener">This Alabama Poolside Folly Feels Like a Slice of Jamaican Paradise</a>
   `Design`
   *Jul 22, 14:08*
 
-- <a href="https://www.veranda.com/decorating-ideas/house-tours/a72024642/henry-and-co-design-east-hampton-house-tour/" target="_blank" rel="noopener">This Newly Built East Hampton Retreat Feels Like a Generations-Old Family Heirloom</a>
-  `Design`
-  *Jul 21, 17:08*
-
-- <a href="https://www.veranda.com/decorating-ideas/advice-from-designers/a73203092/renovation-upgrades-worth-the-money/" target="_blank" rel="noopener">A Luxury Home Builder Says These Renovation Upgrades Are Worth Every Penny</a>
-  `Design`
-  *Jul 21, 16:42*
-
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (11)
+## Apartment Therapy (12)
 
 - <a href="https://www.apartmenttherapy.com/molly-yeh-anthropologie-home-collection-2026-37565216?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Anthropologie's New Collection Is Pure Joy (Down to the Barn-Shaped Butter Dish)</a>
   `Decorating` `anthropologie` `decor & accessories` `decorating` `ideas & inspiration` `kitchen`
   *by Danielle Blundell · Jul 22, 13:00*
+
+- <a href="https://www.apartmenttherapy.com/50s-60s-inspired-london-apartment-37564117?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">A 489-Square-Foot London Apartment Feels Twice Its Size, Thanks to Its Layout</a>
+  `Tours` `featured tour` `house tours tmobile 2026` `product text link` `tours` `Apartment`
+  *by Viv Yapp · Jul 22, 16:00*
+
+- <a href="https://www.apartmenttherapy.com/beautiful-drew-barrymore-kids-accent-chair-37565038?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Drew Barrymore Just Made a Mini Version of Her Fan-Favorite Swivel Chair</a>
+  `Decorating` `accent chairs` `baby rooms` `decorating` `ff-dedicated` `flat fee`
+  *by Alexa Casanova · Jul 22, 15:45*
 
 - <a href="https://www.apartmenttherapy.com/aldi-back-to-school-finds-this-week-july-22-37565003?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">11 Aldi Back-to-School Finds for Under $15 That Are Worth It</a>
   `Life` `aldi` `back to school` `lifestyle news` `news` `parenting`
@@ -285,13 +290,17 @@ lang: en
   `Decorating` `decor & accessories` `decorating ideas` `design trends` `maximalist` `new/next list 2026`
   *by Cullen Ormond · Jul 21, 18:30*
 
-- <a href="https://www.apartmenttherapy.com/colorful-french-farmhouse-full-of-vintage-37564895?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">A Photographer Gave a French Farmhouse a Bold New Look Without Losing Its Soul</a>
-  `Tours` `featured tour` `house tours tmobile 2026` `Historic Homes` `Farmhouse` `Slideshow`
-  *by Adrienne Breaux · Jul 21, 16:00*
-
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (3)
+## Architectural Digest (5)
+
+- <a href="https://www.architecturaldigest.com/story/relationship-goals-jake-arnold-on-how-to-craft-a-top-tier-client-experience-that-creates-lifelong-clients" target="_blank" rel="noopener">Relationship Goals: Jake Arnold on How to Craft a Top-Tier Client Experience That Creates Lifelong Clients</a>
+  `AD Pro` `AD Pro / Grow Your Business` `ad pro` `education` `video` `Virtual Event | July 22`
+  *by AD PRO · Jul 22, 16:55*
+
+- <a href="https://www.architecturaldigest.com/story/indoor-flowering-plants" target="_blank" rel="noopener">11 Indoor Flowering Plants for Bold Blooms That Last</a>
+  `AD-it-Yourself` `AD-it-Yourself / DIY Projects` `AD It Yourself` `plants`
+  *by Amelia Mularz · Jul 22, 16:28*
 
 - <a href="https://www.architecturaldigest.com/story/best-bamboo-sheets-tested" target="_blank" rel="noopener">7 Best Bamboo Sheets That Mirror Silk, Tested by AD (2026)</a>
   `Shopping` `bedding` `sleep week`
@@ -351,10 +360,14 @@ lang: en
 
 
 <a id="source-dengarden"></a>
-## Dengarden (13)
+## Dengarden (11)
+
+- <a href="https://dengarden.com/home-projects/renter-wood-paneling-wallpaper-makeover" target="_blank" rel="noopener">Renter Transforms House Into a Mid-Century Modern Dream With Creative Wallpaper Design</a>
+  `Mid Century` `DIY Home Furnishings` `Home Décor` `Mid-century Modern` `DIY Dupes` `Wood`
+  *by Lauren Wellbank · Jul 22, 16:22*
 
 - <a href="https://dengarden.com/design/diy-gathered-fabric-lampshades" target="_blank" rel="noopener">DIYer Gives Thrifted Lampshades a Cottagecore Makeover With Gathered Fabric</a>
-  `News` `DIY Decor` `Design & Decor` `Lamp` `Home Décor` `Lampshade`
+  `Instagram` `Cottage Core` `Thrifting` `Design & Decor` `Home Décor` `Lampshade`
   *by Julie Andrews · Jul 22, 15:35*
 
 - <a href="https://dengarden.com/home-projects/vintage-spoon-rack-makes-the-perfect-trinket-holder" target="_blank" rel="noopener">This Vintage Spoon Rack Makes the Perfect Trinket Holder</a>
@@ -393,37 +406,25 @@ lang: en
   `Design & Decor` `DIY Decor` `Home Décor` `DIY Home Furnishings` `Cute Diy` `Sewing`
   *by Mary Boldish James · Jul 21, 18:03*
 
-- <a href="https://dengarden.com/design/controversial-nightstand-flip-diy-internet-reaction" target="_blank" rel="noopener">She Called Her Furniture Flip 'Controversial,' but the Internet Disagreed</a>
-  `DIY Projects & Hacks` `Hacks & DIY` `Repairs & Upgrades` `DIYers` `Home Projects` `TikTok DIY & Hacks`
-  *by Lauren Wellbank · Jul 21, 16:32*
-
-- <a href="https://dengarden.com/design/diy-foam-stone-wall-art-tiktok-hack" target="_blank" rel="noopener">How to Fake Stone Wall Art With Foam, Spackle, and Spray Paint</a>
-  `DIY Projects & Hacks` `Stone` `TikTok DIY & Hacks` `Art` `Design & Decor` `DIY Decor`
-  *by Mary Boldish James · Jul 21, 16:28*
-
-- <a href="https://dengarden.com/design/vintage-thrift-store-lamp-makeover-diy" target="_blank" rel="noopener">He Found a 'Creepy' Vintage Lamp at a Thrift Store and Turned It Into Something Stunning</a>
-  `Vintage` `DIY Crafters` `Home Décor` `Thrifting` `Easy DIY` `DIY Decor`
-  *by Lauren Wellbank · Jul 21, 16:12*
-
-
-<a id="source-colorado-homes"></a>
-## Colorado Homes (1)
-
-- <a href="https://www.coloradohomesmag.com/the-2026-denver-parade-of-homes-is-almost-here/" target="_blank" rel="noopener">The 2026 Denver Parade of Homes Is Almost Here</a>
-  `Events`
-  *by Home Builders Association of Metro Denver · Jul 21, 16:00*
-
 
 <a id="source-cubby"></a>
-## Cubby (2)
+## Cubby (4)
+
+- <a href="https://www.cubbyathome.com/best-kids-movies-streaming-80043505?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The 17 Best Kids’ Movies You Can Stream Right Now (No Movie Theater Needed!)</a>
+  `Toys & Play` `product text link` `seo q22026` `tv & movies`
+  *by Quincy Bulin · Jul 22, 16:30*
+
+- <a href="https://www.cubbyathome.com/hulala-nursery-power-recliner-review-80050445?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I’ve Had This Power Recliner for 2 Years, and It’s the Best Thing in My Daughter</a>
+  `Kid Rooms` `product module` `product review` `product text link` `seo q22026` `shopping`
+  *by Jamie Birdwell-Branson · Jul 22, 16:00*
+
+- <a href="https://www.cubbyathome.com/best-frozen-breakfast-sandwich-brands-80050630?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">3 Frozen Breakfast Sandwiches That Taste Just As Good As the Famous McDonald’s Ones</a>
+  `Kid Food` `breakfast` `groceries` `product text link` `syndicated`
+  *by Mara Weinraub · Jul 22, 15:15*
 
 - <a href="https://www.cubbyathome.com/tonies-deals-nordstrom-anniversary-sale-2026-2-80050599?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I’ve Never Seen the Toniebox 2 Priced This Low — Save Up to 40% Now!</a>
   `Toys & Play` `news` `product catalog` `product module` `product roundup` `product text link`
   *by Megan Gray · Jul 21, 21:15*
-
-- <a href="https://www.cubbyathome.com/best-way-to-cook-corn-chefs-80050568?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Asked Chefs to Share Their Golden Rule for Cooking Perfect Corn on the Cob, and They All Said This Creates the Sweetest Flavor</a>
-  `Kid Food` `cooking tip` `news` `product text link` `syndicated`
-  *by Alexandra Foster · Jul 21, 16:00*
 
 
 <a id="source-daily-mail"></a>
@@ -467,7 +468,15 @@ lang: en
 
 
 <a id="source-realtor-com"></a>
-## Realtor.com (10)
+## Realtor.com (12)
+
+- <a href="https://www.realtor.com/advice/hyperlocal/atlanta-rents-are-going-down/" target="_blank" rel="noopener">Atlanta Rents Are Going Down</a>
+  `Hyperlocal` `Atlanta GA` `Georgia` `Rent` `Renters` `Roswell GA`
+  *by The Realtor.com Team · Jul 22, 17:05*
+
+- <a href="https://www.realtor.com/news/trends/mortgage-applications-survey-mba-july-22-2026/" target="_blank" rel="noopener">Mortgage Applications Rise Despite Higher Rates as Buyers Respond to Increased Supply</a>
+  `Trends` `Mortgage Applications` `Mortgage Rates` `Mortgages` `Video`
+  *by Keith Griffith · Jul 22, 16:35*
 
 - <a href="https://www.realtor.com/news/celebrity-real-estate/cher-property-portfolio-home-malibu-aspen-new-york/" target="_blank" rel="noopener">Cher Spent $1 Million in Legal Fees Fighting Sonny Bono’s Widow—Her Iconic Malibu Home Is Worth 85 Times That</a>
   `Celebrity Real Estate` `Aspen CO` `Bel Air CA` `Beverly Hills CA` `California` `Celebrity Homes`
@@ -511,7 +520,11 @@ lang: en
 
 
 <a id="source-sonoma-magazine"></a>
-## Sonoma Magazine (1)
+## Sonoma Magazine (2)
+
+- <a href="https://www.sonomamag.com/new-savor-sonoma-culinary-festival-features-top-chef-alums-and-local-chefs/" target="_blank" rel="noopener">New Savor Sonoma Culinary Festival Features ‘Top Chef’ Alums and Local Chefs</a>
+  `BiteClub` `Food + Drink` `Sonoma Restaurants` `Things To Do in Sonoma` `Trending` `What's New in Wine Country`
+  *by Heather Irwin · Jul 22, 16:46*
 
 - <a href="https://www.sonomamag.com/the-spice-is-right-at-these-sonoma-county-restaurants/" target="_blank" rel="noopener">The Spice Is Right at These Sonoma County Restaurants</a>
   `BiteClub` `Food + Drink` `Sonoma Restaurants` `Things To Do in Sonoma` `Trending` `What's New in Wine Country`
@@ -520,6 +533,14 @@ lang: en
 
 <a id="source-the-kitchn"></a>
 ## The Kitchn (10)
+
+- <a href="https://www.thekitchn.com/best-trader-joes-groceries-chef-tengo-eteria-23791246?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">5 Trader Joe’s Groceries This Award-Winning Chef Can’t Live Without (Under $25!)</a>
+  `Groceries` `chef` `grocery news` `news` `product text link` `trader joe's`
+  *by Alexandra Foster · Jul 22, 16:30*
+
+- <a href="https://www.thekitchn.com/regent-multipurpose-grippers-set-product-review-23790045?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This $7 Ingenious Tool Is My Secret to Opening Tightly Sealed Jars in Seconds</a>
+  `Kitchen` `amazon` `clone republish` `grippers` `kitchen` `life in the kitchen`
+  *by Micki Wagner · Jul 22, 15:15*
 
 - <a href="https://www.thekitchn.com/kivy-vacuum-coffee-canister-amazon-deal-july-2026-23791256?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The Top-Rated Coffee Canister Shoppers Say Keeps Beans Fresh Is on Sale</a>
   `Tools` `amazon` `coffee` `coffee beans` `food storage` `food storage containers`
@@ -552,14 +573,6 @@ lang: en
 - <a href="https://www.thekitchn.com/artichoke-pasta-recipe-23790553?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Creamy Artichoke Pasta</a>
   `Recipes` `30 minute recipes` `dinner` `european` `italian` `main dish`
   *by Olwen Phillips · Jul 21, 18:00*
-
-- <a href="https://www.thekitchn.com/best-in-show-fancy-food-show-2026-23791114?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">We Sampled Hundreds of Foods at the Fancy Food Show: These Were the 8 Best</a>
-  `Groceries` `fancy food show` `news` `product review` `product text link`
-  *by Ali Domrongchai · Jul 21, 16:30*
-
-- <a href="https://www.thekitchn.com/best-grocery-store-hot-bars-23790998?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">3 Grocery Store Chains with the Best Hot Bars, According to Chefs</a>
-  `Groceries` `groceries` `lunch` `news` `product text link` `shopping advice`
-  *by Alexandra Foster · Jul 21, 15:45*
 
 
 <a id="source-new-york-times"></a>
