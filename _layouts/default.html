@@ -550,6 +550,8 @@
       /* ── Build KPI data ── */
       const totalArticles = sources.reduce((s, src) => s + src.articles.length, 0);
       const sourcesCount  = sources.length;
+      const _kd = document.getElementById('kpi-data');
+      const kpi = _kd ? _kd.dataset : {};
 
       /* ── Render page ── */
       main.innerHTML = '';
@@ -561,20 +563,20 @@
         <p class="page-subtitle" id="js-date-label">Give us this day our daily press, hallowed be the byline.</p>
         <div class="kpi-row">
           <div class="kpi-card kpi-card--accent">
-            <div class="kpi-card__label">Total Articles</div>
-            <div class="kpi-card__value">${totalArticles}</div>
+            <div class="kpi-card__label">Designers in Today's Press</div>
+            <div class="kpi-card__value">${kpi.designersToday || '—'}</div>
           </div>
           <div class="kpi-card">
-            <div class="kpi-card__label">Outlets Monitored</div>
-            <div class="kpi-card__value">${sourcesCount}</div>
+            <div class="kpi-card__label">Wins This Month</div>
+            <div class="kpi-card__value">${kpi.winsMonth || '—'}</div>
           </div>
           <div class="kpi-card">
-            <div class="kpi-card__label">Time Window</div>
-            <div class="kpi-card__value" style="font-size:1.3rem;padding-top:.3rem">24 h</div>
+            <div class="kpi-card__label">All-Time House</div>
+            <div class="kpi-card__value">${kpi.winsAlltime || '—'}</div>
           </div>
           <div class="kpi-card">
-            <div class="kpi-card__label">Last Update</div>
-            <div class="kpi-card__value" id="js-kpi-time" style="font-size:1.1rem;padding-top:.3rem">—</div>
+            <div class="kpi-card__label">To File</div>
+            <div class="kpi-card__value">${kpi.toFile || '0'}</div>
           </div>
         </div>
       `;
