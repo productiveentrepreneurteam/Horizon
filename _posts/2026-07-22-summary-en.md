@@ -5,11 +5,11 @@ date: 2026-07-22
 lang: en
 ---
 
-> 108 articles published in the last 24 hours
+> 106 articles published in the last 24 hours
 > 52 sources monitored
 
 ---
-<div id="kpi-data" style="display:none" data-designers-today="2" data-to-file="2" data-wins-month="" data-wins-alltime=""></div>
+<div id="kpi-data" style="display:none" data-designers-today="2" data-designers-month="" data-record=""></div>
 
 ## 🏆 Press House Wins
 
@@ -50,18 +50,18 @@ lang: en
 - [Apartment Therapy (11)](#source-apartment-therapy)
 - [Architectural Digest (4)](#source-architectural-digest)
 - [Parade Home & Garden (1)](#source-parade-home-garden)
-- [Wall Street Journal (8)](#source-wall-street-journal)
+- [Wall Street Journal (7)](#source-wall-street-journal)
 - [Dengarden (9)](#source-dengarden)
 - [Cubby (5)](#source-cubby)
 - [Daily Mail (2)](#source-daily-mail)
-- [Morris&Essex (5)](#source-morris-essex)
+- [Morris&Essex (4)](#source-morris-essex)
 - [Mountain Living (1)](#source-mountain-living)
 - [Realtor.com (12)](#source-realtor-com)
 - [Sonoma Magazine (2)](#source-sonoma-magazine)
 - [The Kitchn (9)](#source-the-kitchn)
 - [New York Times (3)](#source-new-york-times)
 
-**Total Articles Today: 108**
+**Total Articles Today: 106**
 
 ---
 <a id="source-homes-gardens"></a>
@@ -315,7 +315,7 @@ lang: en
 
 
 <a id="source-wall-street-journal"></a>
-## Wall Street Journal (8)
+## Wall Street Journal (7)
 
 - <a href="https://www.wsj.com/lifestyle/inside-the-push-to-make-padel-the-next-pickleball-22a2e220?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Inside the Push to Make Padel the Next Pickleball</a>
   `Real Estate`
@@ -344,10 +344,6 @@ lang: en
 - <a href="https://www.wsj.com/world/americas/florida-cubans-homes-real-estate-7b297e29?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Cuban-Americans Who Lost Property in 1959 Revolution Seek Compensation</a>
   `Real Estate`
   *by Deborah Acosta · Jul 22*
-
-- <a href="https://www.wsj.com/lifestyle/fitness/running-clothes-for-staying-cool-506f22f1" target="_blank" rel="noopener">The Newest Ways to Stay Cool While You Sweat</a>
-  `Lifestyle`
-  *by Ashley Mateo · Jul 21*
 
 
 <a id="source-dengarden"></a>
@@ -427,7 +423,7 @@ lang: en
 
 
 <a id="source-morris-essex"></a>
-## Morris&Essex (5)
+## Morris&Essex (4)
 
 - <a href="https://www.healthandlifemags.com/enjoy-a-perfect-night-on-the-town/" target="_blank" rel="noopener">Enjoy A Perfect Night On The Town</a>
   `Bergen Health & Life`
@@ -444,10 +440,6 @@ lang: en
 - <a href="https://www.healthandlifemags.com/enjoy-weekend-fun-at-these-events/" target="_blank" rel="noopener">Enjoy Weekend Fun At These 10 Events</a>
   `Bergen Health & Life`
   *by Cheryl De Leon · Jul 22*
-
-- <a href="https://www.healthandlifemags.com/miracle-brain-tumor-surgery/" target="_blank" rel="noopener">Partner ContentFrom Misdiagnosis to a Miracle: Brain Tumor Surgery for a Belleville Resident Helps Start a Family</a>
-  `Uncategorized`
-  *by Anastasiia Chokhliad · Jul 21*
 
 
 <a id="source-mountain-living"></a>
