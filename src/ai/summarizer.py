@@ -527,9 +527,8 @@ class DailySummarizer:
         kpi_data = (
             '<div id="kpi-data" style="display:none"'
             f' data-designers-today="{len(_designers)}"'
-            f' data-to-file="{_to_file}"'
-            f' data-wins-month="{str(_stats.get("this_month", "") or "").strip()}"'
-            f' data-wins-alltime="{str(_stats.get("all_time", "") or "").strip()}"></div>\n\n'
+            f' data-designers-month="{str(_stats.get("designers_this_month", "") or "").strip()}"'
+            f' data-record="{str(_stats.get("all_time", "") or "").strip()}"></div>\n\n'
         )
         return header + kpi_data + "".join(wins_parts) + overview + "".join(section_parts)
 
