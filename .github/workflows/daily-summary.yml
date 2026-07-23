@@ -2,7 +2,7 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    - cron: '0 17 * * *'  # Every day at 17:00 UTC = 12:00 PM ET
+    - cron: '0 13 * * *'  # 13:00 UTC = 6:00 AM Los Angeles (PDT)
   workflow_dispatch:       # Allow manual trigger at any time
 
 jobs:
