@@ -150,7 +150,14 @@ class RSSScraper(BaseScraper):
                     metadata={
                         "feed_name": source.name,
                         "category": source.category,
-                        "tags": self._extract_tags(entry, source.category),
+                        # Branding tags ("Real Simple: Home Decor Ideas,
+                        # Recipes, DIY & Beauty Tips") are the channel name,
+                        # not a topic. They are already ignored for filtering;
+                        # hide them from the tag chips too.
+                        "tags": [
+                            t for t in self._extract_tags(entry, source.category)
+                            if t not in _branding
+                        ],
                     },
                 )
                 items.append(item)
