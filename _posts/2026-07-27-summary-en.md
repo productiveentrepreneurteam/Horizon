@@ -6,10 +6,10 @@ lang: en
 ---
 
 > 195 articles published in the last 24 hours
-> 50 sources monitored
+> 51 sources monitored
 
 ---
-<div id="kpi-data" style="display:none" data-designers-today="13" data-designers-month="25" data-record="3154"></div>
+<div id="kpi-data" style="display:none" data-designers-today="12" data-designers-month="25" data-record="3154"></div>
 
 ## 🏆 Press House Wins
 
@@ -37,11 +37,6 @@ lang: en
   `Architectural Digest`
   `🍾 Press Club Source: Kriste Michelini, Lindsay Thornton, Amy Vroom 🍾`
   *by Janelle Zara, Kelsey Mulvey, Alyssa Longobucco · Jul 27*
-
-- <a href="https://www.countryliving.com/shopping/antiques/a73194203/thrift-store-vintage-bathroom-finds/" target="_blank" rel="noopener">A Designer Thrifted Nearly Everything in This Bathroom Reno, and the Results Are Stunning</a>
-  `Country Living`
-  `🍾 Press Club Source: Amy Lamb 🍾`
-  *Jul 26*
 
 - <a href="https://businessofhome.com/articles/moore-giles-has-a-new-ceo-t-magazine-names-a-new-editor-in-chief-and-more.html" target="_blank" rel="noopener">Moore & Giles has a new CEO, T magazine names a new editor in chief, and more</a>
   `Business of Home`
@@ -75,6 +70,7 @@ lang: en
 - [Real Simple (7)](#source-real-simple)
 - [House Beautiful (7)](#source-house-beautiful)
 - [Apartment Therapy (6)](#source-apartment-therapy)
+- [Mansion Global (1)](#source-mansion-global)
 - [Architectural Digest (7)](#source-architectural-digest)
 - [Sunset (1)](#source-sunset)
 - [Veranda (12)](#source-veranda)
@@ -85,16 +81,15 @@ lang: en
 - [Forbes (14)](#source-forbes)
 - [Wall Street Journal (8)](#source-wall-street-journal)
 - [Elle Decor USA (1)](#source-elle-decor-usa)
-- [Country Living (3)](#source-country-living)
+- [Country Living (2)](#source-country-living)
 - [Modern Luxury (2)](#source-modern-luxury)
 - [Realtor.com (7)](#source-realtor-com)
 - [Business of Home (2)](#source-business-of-home)
-- [Dengarden (6)](#source-dengarden)
+- [Dengarden (7)](#source-dengarden)
 - [Florida Design (2)](#source-florida-design)
-- [The Kitchn (3)](#source-the-kitchn)
+- [The Kitchn (4)](#source-the-kitchn)
 - [Hunker (16)](#source-hunker)
 - [New York Times (3)](#source-new-york-times)
-- [Kitchen Bath Design (2)](#source-kitchen-bath-design)
 - [Luxe Magazine (13)](#source-luxe-magazine)
 - [Sonoma Magazine (1)](#source-sonoma-magazine)
 - [Style at Home (3)](#source-style-at-home)
@@ -461,6 +456,14 @@ lang: en
   *by Abby Monteil · Jul 27*
 
 
+<a id="source-mansion-global"></a>
+## Mansion Global (1)
+
+- <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNQmx2UlM4YmhvQllzZXRneW4ycFVOUmttbzA0TXh6YnpUajVMcDUybVRVZndBdVpKbVZuRGo4b3A0UE9mNXZmZS1FVG5VRjYyT1FxdFBmODJoZVhBRzBZcnJKUjhTNFU0bXY3M0JDb29CVmNPWldzRlRyTl9acWpTNnc3WkpHQ3d4Wmh5dHEtRTFMT3lTaDlIOE1VV2NNY2hybTl6Q2drSUNkUklsX1lESmFHOHFuTlFYVDc1MFlOWdIBxAFBVV95cUxNei0tUWlOOWxsRlk3bzdsWG9JUHIzVzNWQnZNUXprMVE1UDZKMjBsT2phUjBvc0c0MUd4YXdfOUlyRDVNblBRYTFWczd4RncxQlVVN213SjVxSmNWU0M3NzhMQXlEQTdMaW1TZWszY1NsOW5RYllDd0pZYWdYbzhVRVMzQm85U2lVUEZFT3ZRZFVwYzlIOUJjZndFTHJzN1dPd05fNGVtMERObXJaZUNOc0RZNjI1NjdtQVI2emRtM3lZanUt?oc=5" target="_blank" rel="noopener">Peak Luxury? The Berkshire Mountains Are America’s Top High-End Housing Market.</a>
+  `Real Estate`
+  *Jul 27*
+
+
 <a id="source-architectural-digest"></a>
 ## Architectural Digest (7)
 
@@ -672,7 +675,7 @@ lang: en
 
 
 <a id="source-country-living"></a>
-## Country Living (3)
+## Country Living (2)
 
 - <a href="https://www.countryliving.com/gardening/garden-ideas/a73172932/native-plants-for-birds/" target="_blank" rel="noopener">12 Native Plants That Will Turn Your Yard Into a Year-Round Bird Haven</a>
   `Home`
@@ -681,11 +684,6 @@ lang: en
 - <a href="https://www.countryliving.com/home-design/decorating-ideas/a73231236/screened-in-porch-decorating-ideas/" target="_blank" rel="noopener">3 Simple Decorating Tricks to Take Your Screened-In Porch from Drab to Dreamy</a>
   `Home`
   *Jul 27*
-
-- <a href="https://www.countryliving.com/shopping/antiques/a73194203/thrift-store-vintage-bathroom-finds/" target="_blank" rel="noopener">A Designer Thrifted Nearly Everything in This Bathroom Reno, and the Results Are Stunning</a>
-  `Home`
-  `🍾 Press Club Source: Amy Lamb 🍾`
-  *Jul 26*
 
 
 <a id="source-modern-luxury"></a>
@@ -746,7 +744,11 @@ lang: en
 
 
 <a id="source-dengarden"></a>
-## Dengarden (6)
+## Dengarden (7)
+
+- <a href="https://dengarden.com/home-projects/simple-diy-makes-photo-booth-strips-feel-like-mini-works-of-art" target="_blank" rel="noopener">This Simple DIY Gives Photo Booth Strips the Frame They Deserve</a>
+  `Home Projects` `Cute Diy` `Easy DIY` `Hacks & DIY`
+  *by Emily Clements · Jul 27*
 
 - <a href="https://dengarden.com/design/thrift-store-table-baseball-man-cave-makeover" target="_blank" rel="noopener">Man Turns $3 Coffee Table Into a Man Cave Masterpiece</a>
   `Thrifting` `Tiktok` `Furniture Flip` `TikTok DIY & Hacks` `Home Furnishings`
@@ -786,7 +788,11 @@ lang: en
 
 
 <a id="source-the-kitchn"></a>
-## The Kitchn (3)
+## The Kitchn (4)
+
+- <a href="https://www.thekitchn.com/weber-searwood-600-pellet-grill-review-23791550?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Own 20 Grills — This Is the Weber Grill I Use for Busy Weeknight Dinners and Low-and-Slow Barbecues</a>
+  `Tools` `grill` `grilling` `news` `product module` `product review`
+  *by Jan Valdez · Jul 27*
 
 - <a href="https://www.thekitchn.com/how-to-properly-clean-lettuce-with-salad-spinner-23836655?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Never Just Rinse My Greens Anymore — I Use This Bath Method</a>
   `Skills` `news` `salad` `short-lead` `skills`
@@ -883,18 +889,6 @@ lang: en
 - <a href="https://www.nytimes.com/2026/07/27/realestate/adam-driver-helen-mirren-celebrity-home-sales.html" target="_blank" rel="noopener">Adam Driver Sells a Brooklyn Condo and Buys Three More</a>
   `Ayer, David` `Duhamel, Josh` `Lang, Michael` `Hackford, Taylor` `Kaka (1982- )`
   *by Vivian Marino · Jul 27*
-
-
-<a id="source-kitchen-bath-design"></a>
-## Kitchen Bath Design (2)
-
-- <a href="https://www.kitchenbathdesign.com/nahb-pinpoints-factors-impacting-housing-remodeling/" target="_blank" rel="noopener">NAHB Pinpoints Factors Impacting Housing, Remodeling</a>
-  `housing challenges` `NAHB survey` `National Association of Home Builders`
-  *by Anita Shaw · Jul 27*
-
-- <a href="https://www.kitchenbathdesign.com/home-affordability-struggles-detailed-in-report/" target="_blank" rel="noopener">Home Affordability Struggles Detailed in Report</a>
-  `Surveys/Statistics` `affordability survey` `Housing affordability` `Unlock Technologies`
-  *by Anita Shaw · Jul 27*
 
 
 <a id="source-luxe-magazine"></a>
