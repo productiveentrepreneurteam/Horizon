@@ -2,7 +2,11 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # 13:00 UTC = 6:00 AM Los Angeles (PDT)
+    # 12:47 UTC = 5:47 AM Los Angeles (PDT). Deliberately off the hour:
+    # GitHub queues scheduled jobs on a best-effort basis and the top of
+    # the hour is the most contended slot on the platform. Running at :00
+    # was landing between 7:20 and 8:30 AM LA.
+    - cron: '47 12 * * *'
   workflow_dispatch:       # Allow manual trigger at any time
 
 jobs:
@@ -28,6 +32,13 @@ jobs:
 
       - name: Prepare GitHub Actions config
         run: cp data/config.github.json data/config.json
+
+      # Outlets with no RSS feed of their own (Mansion Global, Forbes, Luxe).
+      # Writes docs/feeds/*.xml, which the next step reads via file:// URLs.
+      # Never fails the run: a missing feed costs that outlet's articles for
+      # the day, not the whole digest.
+      - name: Build in-house feeds
+        run: uv run python -m src.scrapers.sitefeed || echo "feed build had problems, continuing"
 
       - name: Run Horizon
         env:

@@ -30,22 +30,16 @@
     },
     "rss": [
       {
+        "name": "The Spruce",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/aa6fe5c4-9f19-4c32-b63e-6e4c19b5a50f",
+        "enabled": true,
+        "category": "home"
+      },
+      {
         "name": "Homes & Gardens",
         "url": "https://www.homesandgardens.com/feeds/tag/decor",
         "enabled": true,
         "category": "design"
-      },
-      {
-        "name": "The Spruce",
-        "url": "https://rss.app/feeds/DlUVvMeyGG4U5Tyq.xml",
-        "enabled": true,
-        "category": "home"
-      },
-      {
-        "name": "Better Homes & Gardens",
-        "url": "https://rss.app/feeds/h1Z3YlUzm22dlFyO.xml",
-        "enabled": true,
-        "category": "home"
       },
       {
         "name": "Good Housekeeping",
@@ -54,8 +48,20 @@
         "category": "home"
       },
       {
+        "name": "Better Homes & Gardens",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/198df1e2-261c-478b-a469-2954823d1c07",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Livingetc",
+        "url": "https://www.livingetc.com/feeds.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
         "name": "Real Simple",
-        "url": "https://rss.app/feeds/y8do3gm1EXyUokIh.xml",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/a7098964-1ef1-4bf1-9071-036e729badfd",
         "enabled": true,
         "category": "lifestyle"
       },
@@ -66,10 +72,16 @@
         "category": "design"
       },
       {
-        "name": "Livingetc",
-        "url": "https://www.livingetc.com/feeds.xml",
+        "name": "Apartment Therapy",
+        "url": "https://feeds.apartmenttherapy.com/apartmenttherapy/main",
         "enabled": true,
-        "category": "design"
+        "category": "home"
+      },
+      {
+        "name": "Mansion Global",
+        "url": "file://docs/feeds/mansion-global.xml",
+        "enabled": true,
+        "category": "real-estate"
       },
       {
         "name": "Martha Stewart",
@@ -84,16 +96,16 @@
         "category": "lifestyle"
       },
       {
-        "name": "Sunset",
-        "url": "https://rss.app/feeds/ZfyGtyZaPdkK10fF.xml",
+        "name": "Architectural Digest",
+        "url": "https://www.architecturaldigest.com/feed/rss",
         "enabled": true,
-        "category": "lifestyle"
+        "category": "design"
       },
       {
-        "name": "Mansion Global",
-        "url": "https://rss.app/feeds/THaFGYf4uAZqBJ4W.xml",
+        "name": "Sunset",
+        "url": "https://www.sunset.com/feed",
         "enabled": true,
-        "category": "real-estate"
+        "category": "lifestyle"
       },
       {
         "name": "Veranda",
@@ -102,40 +114,16 @@
         "category": "design"
       },
       {
-        "name": "Apartment Therapy",
-        "url": "https://feeds.apartmenttherapy.com/apartmenttherapy/main",
-        "enabled": true,
-        "category": "home"
-      },
-      {
-        "name": "Architectural Digest",
-        "url": "https://www.architecturaldigest.com/feed/rss",
-        "enabled": true,
-        "category": "design"
-      },
-      {
-        "name": "C+B Print",
-        "url": "https://www.cottagesandbungalowsmag.com/design-ideas/feed/",
-        "enabled": true,
-        "category": "design"
-      },
-      {
-        "name": "Forbes",
-        "url": "https://rss.app/feeds/Mk7nZG7Lv2dSLcwV.xml",
-        "enabled": true,
-        "category": "business"
-      },
-      {
         "name": "Parade Home & Garden",
         "url": "https://paradehomeandgarden.com/.rss/feed/3b81ffea-b750-4013-a532-838d98c463b7.xml",
         "enabled": true,
         "category": "home"
       },
       {
-        "name": "Elle Decor USA",
-        "url": "https://www.elledecor.com/rss/design-decorate.xml",
+        "name": "Forbes",
+        "url": "file://docs/feeds/forbes.xml",
         "enabled": true,
-        "category": "design"
+        "category": "business"
       },
       {
         "name": "Wall Street Journal",
@@ -151,69 +139,63 @@
       },
       {
         "name": "Wall Street Journal",
-        "url": "https://rss.app/feeds/J65j5u1ornTZz6pX.xml",
+        "url": "https://feeds.content.dowjones.io/public/rss/RSSLifestyle",
         "enabled": true,
-        "category": "real-estate"
+        "category": "lifestyle"
+      },
+      {
+        "name": "Elle Decor USA",
+        "url": "https://www.elledecor.com/rss/design-decorate.xml",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "C+B Print",
+        "url": "https://www.cottagesandbungalowsmag.com/design-ideas/feed/",
+        "enabled": true,
+        "category": "design"
       },
       {
         "name": "Country Living",
-        "url": "https://www.countryliving.com/rss/decorating-ideas.xml",
-        "enabled": true,
-        "category": "home"
-      },
-      {
-        "name": "Business of Home",
-        "url": "https://rss.app/feeds/a84wpPj51JqDGMtj.xml",
-        "enabled": true,
-        "category": "business"
-      },
-      {
-        "name": "Dengarden",
-        "url": "https://dengarden.com/.rss/feed/86080a74-d27f-40cf-95ee-abd46fd64205.xml",
+        "url": "https://www.countryliving.com/rss/default.xml",
         "enabled": true,
         "category": "home"
       },
       {
         "name": "Modern Luxury",
-        "url": "https://rss.app/feeds/tRKDeRCDwVwosIPi.xml",
+        "url": "https://modernluxury.com/feed/",
         "enabled": true,
         "category": "lifestyle"
       },
       {
-        "name": "5280",
-        "url": "https://5280.com/category/home/feed/",
-        "enabled": true,
-        "category": "lifestyle"
-      },
-      {
-        "name": "AOL.com",
-        "url": "https://rss.app/feeds/NzfhzctSlThzticv.xml",
-        "enabled": false,
-        "category": "lifestyle"
-      },
-      {
-        "name": "New York Times",
-        "url": "https://rss.nytimes.com/services/xml/rss/nyt/RealEstate.xml",
+        "name": "Realtor.com",
+        "url": "https://www.realtor.com/news/feed/",
         "enabled": true,
         "category": "real-estate"
       },
       {
-        "name": "American Farmhouse",
-        "url": "https://americanfarmhousestyle.com/category/design/feed/",
-        "enabled": true,
+        "name": "HGTV",
+        "url": "https://rss.app/feeds/DFCaFDtRCfVafsx8.xml",
+        "enabled": false,
         "category": "home"
       },
       {
-        "name": "Boston Home Magazine",
-        "url": "https://www.bostonmagazine.com/tag/home-design/feed/",
+        "name": "Mountain Living",
+        "url": "https://www.mountainliving.com/feed/",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "RUE",
+        "url": "https://ruemag.com/category/decorating/feed",
         "enabled": true,
         "category": "design"
       },
       {
-        "name": "Colorado Homes",
-        "url": "https://www.coloradohomesmag.com/feed/",
+        "name": "Business of Home",
+        "url": "https://businessofhome.com/articles.rss",
         "enabled": true,
-        "category": "design"
+        "category": "business"
       },
       {
         "name": "Cubby",
@@ -222,10 +204,28 @@
         "category": "home"
       },
       {
-        "name": "Daily Mail",
-        "url": "https://www.dailymail.com/lifestyle/homes/index.rss",
+        "name": "Dengarden",
+        "url": "https://dengarden.com/.rss/feed/86080a74-d27f-40cf-95ee-abd46fd64205.xml",
         "enabled": true,
         "category": "home"
+      },
+      {
+        "name": "American Farmhouse",
+        "url": "https://americanfarmhousestyle.com/category/design/feed/",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Real Homes",
+        "url": "https://www.realhomes.com/feeds.xml",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "MyDomaine",
+        "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/0dd5fa9f-868d-43a0-a672-26bd6c47de87",
+        "enabled": true,
+        "category": "design"
       },
       {
         "name": "Florida Design",
@@ -234,10 +234,64 @@
         "category": "design"
       },
       {
-        "name": "HGTV",
-        "url": "https://rss.app/feeds/DFCaFDtRCfVafsx8.xml",
+        "name": "USA Today",
+        "url": "https://rss.app/feeds/IkPU9p0mw0nxnbLZ.xml",
+        "enabled": false,
+        "category": "lifestyle"
+      },
+      {
+        "name": "5280",
+        "url": "https://5280.com/category/home/feed/",
+        "enabled": false,
+        "category": "lifestyle"
+      },
+      {
+        "name": "Ranch & Coast",
+        "url": "https://ranchandcoast.com/living/interior-design/feed/",
+        "enabled": true,
+        "category": "lifestyle"
+      },
+      {
+        "name": "The Kitchn",
+        "url": "https://www.thekitchn.com/main.rss",
         "enabled": true,
         "category": "home"
+      },
+      {
+        "name": "AOL.com",
+        "url": "https://rss.app/feeds/NzfhzctSlThzticv.xml",
+        "enabled": false,
+        "category": "lifestyle"
+      },
+      {
+        "name": "Boston Home Magazine",
+        "url": "https://www.bostonmagazine.com/tag/home-design/feed/",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Hunker",
+        "url": "https://www.hunker.com/feed/",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "Colorado Homes",
+        "url": "https://www.coloradohomesmag.com/feed/",
+        "enabled": true,
+        "category": "design"
+      },
+      {
+        "name": "Daily Mail",
+        "url": "https://www.dailymail.com/lifestyle/homes/index.rss",
+        "enabled": true,
+        "category": "home"
+      },
+      {
+        "name": "New York Times",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/RealEstate.xml",
+        "enabled": true,
+        "category": "real-estate"
       },
       {
         "name": "House & Home",
@@ -247,7 +301,7 @@
       },
       {
         "name": "Kitchen Bath Design",
-        "url": "https://rss.app/feeds/1nddhtwEMae2GUhN.xml",
+        "url": "https://www.kitchenbathdesign.com/feed/",
         "enabled": true,
         "category": "design"
       },
@@ -259,7 +313,7 @@
       },
       {
         "name": "Luxe Magazine",
-        "url": "https://luxesource.com/feed/",
+        "url": "file://docs/feeds/luxe-magazine.xml",
         "enabled": true,
         "category": "design"
       },
@@ -270,34 +324,10 @@
         "category": "lifestyle"
       },
       {
-        "name": "Mountain Living",
-        "url": "https://www.mountainliving.com/feed/",
-        "enabled": true,
-        "category": "lifestyle"
-      },
-      {
         "name": "Northshore Magazine",
         "url": "https://www.nshoremag.com/section/northshore-home/feed/",
         "enabled": true,
         "category": "home"
-      },
-      {
-        "name": "RUE",
-        "url": "https://ruemag.com/category/decorating/feed",
-        "enabled": true,
-        "category": "design"
-      },
-      {
-        "name": "Ranch & Coast",
-        "url": "https://ranchandcoast.com/living/interior-design/feed/",
-        "enabled": true,
-        "category": "lifestyle"
-      },
-      {
-        "name": "Realtor.com",
-        "url": "https://www.realtor.com/news/feed/",
-        "enabled": true,
-        "category": "real-estate"
       },
       {
         "name": "Sonoma Magazine",
@@ -308,12 +338,12 @@
       {
         "name": "Sophisticated Living Magazine",
         "url": "https://rss.app/feeds/DCSb77pDRsFVc1BH.xml",
-        "enabled": true,
+        "enabled": false,
         "category": "design"
       },
       {
         "name": "Style at Home",
-        "url": "https://rss.app/feeds/mg7pakThfLsnFyRg.xml",
+        "url": "https://www.styleathome.com/rss/",
         "enabled": true,
         "category": "home"
       },
@@ -324,26 +354,14 @@
         "category": "design"
       },
       {
-        "name": "The Kitchn",
-        "url": "https://www.thekitchn.com/main.rss",
-        "enabled": true,
-        "category": "home"
-      },
-      {
         "name": "The Philadelphia Inquirer",
-        "url": "https://rss.app/feeds/TY8f1am3mnyC2tlK.xml",
-        "enabled": true,
-        "category": "lifestyle"
-      },
-      {
-        "name": "USA Today",
-        "url": "https://rss.app/feeds/IkPU9p0mw0nxnbLZ.xml",
+        "url": "https://www.inquirer.com/arc/outboundfeeds/rss/category/real-estate/?outputType=xml",
         "enabled": true,
         "category": "lifestyle"
       },
       {
         "name": "Vogue",
-        "url": "https://rss.app/feeds/g7wFBR2NGDVXsxJ0.xml",
+        "url": "https://www.vogue.com/feed/rss",
         "enabled": true,
         "category": "design"
       }

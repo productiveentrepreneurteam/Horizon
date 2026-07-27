@@ -1,0 +1,32 @@
+{
+  "_comment": "Outlets from Alyssa's ranked list that publish no RSS feed. Built by src/scrapers/sitefeed.py into docs/feeds/*.xml and read by config.github.json via file:// URLs. Replaces the lapsed rss.app account at zero cost.",
+  "sites": [
+    {
+      "name": "Mansion Global",
+      "slug": "mansion-global",
+      "page": "https://www.mansionglobal.com/",
+      "pattern": "/articles/[a-z0-9-]{12,}",
+      "min_title": 18,
+      "enabled": true,
+      "_note": "Homepage, not the news section: the section URL returns 401 to datacenter IPs, so it fails on GitHub runners."
+    },
+    {
+      "name": "Forbes",
+      "slug": "forbes",
+      "page": "https://www.forbes.com/real-estate/",
+      "pattern": "forbes\\.com/sites/[^/]+/\\d{4}/\\d{2}/\\d{2}/[a-z0-9-]{10,}",
+      "container": "main",
+      "deny": "Paid Program|Sponsored|BrandVoice",
+      "min_title": 18,
+      "enabled": true
+    },
+    {
+      "name": "Luxe Magazine",
+      "slug": "luxe-magazine",
+      "page": "https://luxesource.com/interiors/",
+      "pattern": "luxesource\\.com/(?!category/)[a-z0-9-]+/[a-z0-9-]{10,}",
+      "min_title": 22,
+      "enabled": true
+    }
+  ]
+}

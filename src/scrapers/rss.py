@@ -6,6 +6,7 @@ import logging
 import os
 import re
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import List
 from email.utils import parsedate_to_datetime
 import httpx
@@ -93,12 +94,24 @@ class RSSScraper(BaseScraper):
                 str(source.url),
             )
 
-            # Fetch feed content
-            response = await self.client.get(feed_url, follow_redirects=True)
-            response.raise_for_status()
+            # Feeds we build ourselves (src/scrapers/sitefeed.py, for outlets
+            # that publish no RSS) are written to disk earlier in the same run
+            # and referenced as file://<path-relative-to-repo-root>. Reading
+            # them from disk rather than over HTTP means today's run uses
+            # today's scrape - going via the published Pages URL would always
+            # be one run behind, since the deploy happens after this step.
+            if feed_url.startswith("file://"):
+                local_path = Path(feed_url[len("file://"):])
+                if not local_path.is_absolute():
+                    local_path = Path(__file__).resolve().parents[2] / local_path
+                raw = local_path.read_text(encoding="utf-8")
+            else:
+                response = await self.client.get(feed_url, follow_redirects=True)
+                response.raise_for_status()
+                raw = response.text
 
             # Parse feed
-            feed = feedparser.parse(response.text)
+            feed = feedparser.parse(raw)
 
             for entry in feed.entries:
                 # Parse published date

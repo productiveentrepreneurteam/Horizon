@@ -8,63 +8,83 @@ from typing import List, Dict
 from ..models import ContentItem
 
 
-# Outlet display order, by 2026 publication frequency (highest first).
-# Outlets not in this list are sorted after all ranked outlets (see
-# _outlet_sort_key). Matching is case-insensitive and ignores surrounding
-# whitespace, but otherwise must match the outlet's display name exactly
-# (the same name used as `feed_name` / config.json's RSS source `name`).
+# Outlet display order - Alyssa's ranking, 2026-07-27.
+#
+# Built by combining BOTH frequency columns of the "Ranked Outlets" tab:
+# an outlet's rank by 2026 story count and its rank by all-time story
+# count, averaged. 2026 alone over-weights a hot year and buries an
+# outlet like Apartment Therapy (130 lifetime stories); all-time alone
+# buries whatever is working right now.
+#
+# The first TIER_1_SIZE outlets render under "Priority outlets"; the rest
+# fall under "More outlets" so the top of the page is always the ones
+# that matter. Outlets not in this list sort last, alphabetically.
+# Matching is case-insensitive and ignores surrounding whitespace, but
+# otherwise must match the outlet's display name exactly (the same name
+# used as `feed_name` / config.json's RSS source `name`).
 OUTLET_RANKING = [
-    "Homes & Gardens",
     "The Spruce",
-    "Better Homes & Gardens",
+    "Homes & Gardens",
     "Good Housekeeping",
+    "Better Homes & Gardens",
+    "Livingetc",
     "Real Simple",
     "House Beautiful",
-    "Livingetc",
+    "Apartment Therapy",
+    "Mansion Global",
     "Martha Stewart",
     "Southern Living",
-    "Sunset",
-    "Mansion Global",
-    "Veranda",
-    "Apartment Therapy",
     "Architectural Digest",
-    "C+B Print",
-    "Forbes",
+    "Sunset",
+    "Veranda",
     "Parade Home & Garden",
-    "Elle Decor USA",
+    "Forbes",
     "Wall Street Journal",
+    "Elle Decor USA",
+    "C+B Print",
     "Country Living",
-    "Business of Home",
-    "Dengarden",
     "Modern Luxury",
-    "5280",
-    "AOL.com",
-    "American Farmhouse",
-    "Boston Home Magazine",
-    "Colorado Homes",
-    "Cubby",
-    "Daily Mail",
-    "Florida Design",
+    "Realtor.com",
     "HGTV",
+    "Mountain Living",
+    "RUE",
+    "Business of Home",
+    "Cubby",
+    "Dengarden",
+    "American Farmhouse",
+    "Real Homes",
+    "MyDomaine",
+    "Florida Design",
+    "USA Today",
+    "5280",
+    "Ranch & Coast",
+    "The Kitchn",
+    "AOL.com",
+    "Boston Home Magazine",
+    "Hunker",
+    "Colorado Homes",
+    "Daily Mail",
+    "New York Times",
     "House & Home",
     "Kitchen Bath Design",
     "Lakeshore Living",
     "Luxe Magazine",
     "Morris&Essex",
-    "Mountain Living",
     "Northshore Magazine",
-    "RUE",
-    "Ranch & Coast",
-    "Realtor.com",
     "Sonoma Magazine",
     "Sophisticated Living Magazine",
     "Style at Home",
     "The Atlanta Magazine",
-    "The Kitchn",
     "The Philadelphia Inquirer",
-    "USA Today",
     "Vogue",
 ]
+
+# How many outlets lead the page. The top 15 account for roughly 87% of
+# Alyssa's 2026 press; the top 20 for about 92%. Everything below still
+# gets scraped and still gets scanned for her designers - the tail is
+# where an untracked find shows up - it just renders lower down.
+TIER_1_SIZE = 15
+
 _OUTLET_RANK_INDEX = {name.strip().lower(): i for i, name in enumerate(OUTLET_RANKING)}
 
 # Writer display priority, by 2026 publication frequency (highest first).
@@ -473,8 +493,12 @@ class DailySummarizer:
         sorted_outlets = sorted(groups.items(), key=lambda kv: self._outlet_sort_key(kv[0]))
 
         # --- Overview: outlet name + count, anchored for jump links ----
-        overview_lines = ["## Today's Publications", ""]
+        overview_lines = ["## Today's Publications", "", "**Priority outlets**", ""]
+        _shown_more = False
         for outlet, outlet_items in sorted_outlets:
+            if not self._is_tier_1(outlet) and not _shown_more:
+                overview_lines += ["", "**More outlets**", ""]
+                _shown_more = True
             anchor = self._slugify(outlet)
             overview_lines.append(f"- [{outlet} ({len(outlet_items)})](#source-{anchor})")
         overview_lines += ["", f"**Total Articles Today: {len(items)}**", "", "---", ""]
@@ -482,7 +506,11 @@ class DailySummarizer:
 
         # --- Per-outlet sections: simple bullet list per article --------
         section_parts = []
+        _shown_more_sections = False
         for outlet, outlet_items in sorted_outlets:
+            if not self._is_tier_1(outlet) and not _shown_more_sections:
+                section_parts.append("\n---\n\n### More outlets\n\n")
+                _shown_more_sections = True
             anchor = self._slugify(outlet)
             section_parts.append(f'<a id="source-{anchor}"></a>\n')
             section_parts.append(f"## {outlet} ({len(outlet_items)})\n\n")
@@ -592,6 +620,12 @@ class DailySummarizer:
             lines.append(f"  *{' · '.join(meta_bits)}*")
 
         return "\n".join(lines) + "\n"
+
+    @staticmethod
+    def _is_tier_1(outlet: str) -> bool:
+        """True for the top TIER_1_SIZE outlets in Alyssa's combined ranking."""
+        idx = _OUTLET_RANK_INDEX.get(outlet.strip().lower())
+        return idx is not None and idx < TIER_1_SIZE
 
     @staticmethod
     def _outlet_sort_key(outlet: str):
