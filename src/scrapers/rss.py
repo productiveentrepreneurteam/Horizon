@@ -12,27 +12,18 @@ from email.utils import parsedate_to_datetime
 import httpx
 import feedparser
 
+from . import topics
 from .base import BaseScraper
 from ..models import ContentItem, SourceType, RSSSourceConfig
 
 logger = logging.getLogger(__name__)
 
 
-# Per-outlet title exclusion keywords. If an article's title contains any of
-# these (case-insensitive), it is dropped before becoming a ContentItem.
-# Keyed by feed `name` exactly as configured in config.json. This stays here
-# (rather than as a config.json field) so it works regardless of whether the
-# RSSSourceConfig model allows extra/unknown fields.
-TITLE_EXCLUDE_KEYWORDS = {
-    "House Beautiful": [
-        "celebrity",
-        "celebrities",
-        "star",
-        "shop",
-        "shopping",
-        "famous",
-    ],
-}
+# Topical relevance filtering lives in src/scrapers/topics.py, driven by
+# data/topics.json. It replaces the old TITLE_EXCLUDE_KEYWORDS dict that
+# used naive substring matching (which also caught "starting" for "star"
+# and "workshop" for "shop"). House Beautiful's original exclusions were
+# migrated into that file unchanged in intent.
 
 
 class RSSScraper(BaseScraper):
@@ -82,10 +73,6 @@ class RSSScraper(BaseScraper):
         """
         items = []
 
-        exclude_keywords = [
-            kw.lower() for kw in TITLE_EXCLUDE_KEYWORDS.get(source.name, [])
-        ]
-
         try:
             # Expand environment variables in URL (e.g. ${LWN_TOKEN})
             feed_url = re.sub(
@@ -113,6 +100,17 @@ class RSSScraper(BaseScraper):
             # Parse feed
             feed = feedparser.parse(raw)
 
+            # Work out which category tags are this feed's own branding before
+            # filtering anything. Dotdash stamps every item with the channel
+            # name ("Real Simple: Home Decor Ideas, Recipes, DIY & Beauty
+            # Tips"), which contains "Recipes" and "Beauty" and would
+            # otherwise wipe out the entire feed.
+            _all_cats = [
+                [str(t.get("term") or "").strip() for t in (e.get("tags") or [])]
+                for e in feed.entries
+            ]
+            _branding = topics.branding_tags(_all_cats)
+
             for entry in feed.entries:
                 # Parse published date
                 published_at = self._parse_date(entry)
@@ -121,12 +119,15 @@ class RSSScraper(BaseScraper):
 
                 title = entry.get("title", "Untitled")
 
-                # Drop articles matching this outlet's title exclusion list
-                # (e.g. House Beautiful: skip celebrity/shopping content)
-                if exclude_keywords:
-                    title_lower = title.lower()
-                    if any(kw in title_lower for kw in exclude_keywords):
-                        continue
+                # Drop articles that are off-topic for an interior-design
+                # press digest: recipes, fashion, beauty, deal roundups.
+                _cats = [str(t.get("term") or "").strip() for t in (entry.get("tags") or [])]
+                _keep, _why = topics.check(
+                    source.name, title, _cats, entry.get("link", ""), _branding
+                )
+                if not _keep:
+                    logger.debug("Filtered %s: %s (%s)", source.name, title, _why)
+                    continue
 
                 # Generate unique ID from feed URL and entry ID
                 feed_id = str(source.url).split("//")[1].replace("/", "_")

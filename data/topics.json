@@ -1,0 +1,122 @@
+{
+  "_comment": "Topical relevance rules for the digest. Alex's world is interior design; these strip the food, fashion, beauty and deal-of-the-day content the big lifestyle feeds mix in. Tune freely - this file is data, not code. See src/scrapers/topics.py for how it is applied.",
+  "_default": {
+    "deny_categories": [
+      "recipe",
+      "cooking",
+      "food",
+      "drink",
+      "cocktail",
+      "baking",
+      "beauty",
+      "skincare",
+      "makeup",
+      "fashion",
+      "apparel",
+      "health",
+      "wellness",
+      "fitness",
+      "nutrition",
+      "travel",
+      "pet",
+      "wildlife",
+      "animal",
+      "astrology",
+      "parenting",
+      "grocery",
+      "restaurant"
+    ],
+    "deny_titles": [
+      "\\bamazon\\b",
+      "\\bdeal[s]?\\b",
+      "\\b\\d+% off\\b",
+      "\\brecipe[s]?\\b",
+      "\\bbest-selling\\b",
+      "\\bunder \\$\\d+",
+      "\\bprime day\\b",
+      "\\bshop now\\b"
+    ],
+    "rescue_titles": [
+      "\\bdecor",
+      "\\bfurniture\\b",
+      "\\bfurnishing",
+      "\\binterior",
+      "\\bdesign(er|ers)?\\b",
+      "\\bpatio\\b",
+      "\\bkitchen\\b",
+      "\\bbath(room)?\\b",
+      "\\bbedroom\\b",
+      "\\bliving room\\b",
+      "\\brug[s]?\\b",
+      "\\blighting\\b",
+      "\\blamp[s]?\\b",
+      "\\bsofa[s]?\\b",
+      "\\bcouch",
+      "\\bcurtain",
+      "\\bpaint\\b",
+      "\\btile\\b",
+      "\\brenovat",
+      "\\bhome office\\b"
+    ],
+    "_rescue_note": "rescue_titles override a deny_titles match, never a deny_categories match. A category tag is the outlet's own classification and is trusted; a title keyword is a guess."
+  },
+  "outlets": {
+    "Martha Stewart": {
+      "_why": "Martha is the brand. 'Celebrity News' here usually means her own kitchen, which is exactly the content Alex wants.",
+      "deny_categories_remove": [
+        "celebrity"
+      ]
+    },
+    "House Beautiful": {
+      "_why": "Carried over from the original per-outlet exclusions in rss.py. Those were naive substring matches, so 'star' also killed 'starting' and 'shop' killed 'workshop'. Same intent, now word-boundary anchored.",
+      "deny_categories_add": [
+        "shopping",
+        "celebrity"
+      ],
+      "deny_titles_add": [
+        "\\bcelebrit(y|ies)\\b",
+        "\\bstar[s]?\\b",
+        "\\bfamous\\b"
+      ]
+    },
+    "Forbes": {
+      "_why": "Our generated feed has no category tags, and the Forbes real-estate page mixes in general business. Require a design or property term instead.",
+      "require_titles": [
+        "\\bhome[s]?\\b",
+        "\\bhouse\\b",
+        "\\bdesign(er|ers)?\\b",
+        "\\barchitect",
+        "\\binterior",
+        "\\brenovat",
+        "\\bdecor",
+        "\\bkitchen\\b",
+        "\\bbath(room)?\\b",
+        "\\breal estate\\b",
+        "\\bpropert(y|ies)\\b",
+        "\\bmansion\\b",
+        "\\bestate\\b",
+        "\\bapartment\\b",
+        "\\bcondo",
+        "\\bfurniture\\b",
+        "\\blandscap",
+        "\\bhotel\\b",
+        "\\bresidential\\b",
+        "\\bhousing\\b",
+        "\\bliving\\b"
+      ]
+    },
+    "Luxe Magazine": {
+      "_why": "Same: generated feed, no categories, but the source page is already design-only.",
+      "require_titles": []
+    },
+    "Vogue": {
+      "_why": "Vogue is a fashion book. Only its design and architecture coverage is relevant.",
+      "deny_categories_add": [
+        "celebrity",
+        "shopping",
+        "runway",
+        "red carpet"
+      ]
+    }
+  }
+}
