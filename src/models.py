@@ -135,9 +135,24 @@ class RSSSourceConfig(BaseModel):
     """RSS feed source configuration."""
 
     name: str
-    url: HttpUrl
+    # Not HttpUrl: feeds we generate ourselves (src/scrapers/sitefeed.py, for
+    # outlets that publish no RSS) are referenced as
+    # file://<path-relative-to-repo-root> and read off disk in the same run.
+    # HttpUrl rejects that scheme outright, so validation is done here instead.
+    url: str
     enabled: bool = True
     category: Optional[str] = None
+
+    @field_validator("url")
+    @classmethod
+    def _validate_url_scheme(cls, v: str) -> str:
+        v = str(v)
+        if not v.startswith(("http://", "https://", "file://")):
+            raise ValueError(
+                "RSS source url must start with http://, https:// or file:// "
+                f"(got {v!r})"
+            )
+        return v
 
 
 class RedditSubredditConfig(BaseModel):

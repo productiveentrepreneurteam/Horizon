@@ -80,7 +80,7 @@
       {
         "name": "Mansion Global",
         "url": "file://docs/feeds/mansion-global.xml",
-        "enabled": true,
+        "enabled": false,
         "category": "real-estate"
       },
       {

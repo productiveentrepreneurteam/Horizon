@@ -7,8 +7,8 @@
       "page": "https://www.mansionglobal.com/",
       "pattern": "/articles/[a-z0-9-]{12,}",
       "min_title": 18,
-      "enabled": true,
-      "_note": "Homepage, not the news section: the section URL returns 401 to datacenter IPs, so it fails on GitHub runners."
+      "enabled": false,
+      "_note": "Mansion Global returns HTTP 401 to GitHub Actions runner IPs on every entry point, including the homepage, though it loads fine from a residential IP. Disabled until we pick a workaround. Combined rank 9, 101 all-time stories, so worth revisiting."
     },
     {
       "name": "Forbes",
