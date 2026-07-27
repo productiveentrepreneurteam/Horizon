@@ -119,6 +119,13 @@ class RSSScraper(BaseScraper):
 
                 title = entry.get("title", "Untitled")
 
+                # Google News appends the publication name to every headline
+                # ("...Asking $59.5M - Mansion Global"). We already show the
+                # outlet as the section heading, so strip the duplicate.
+                _suffix = " - " + source.name
+                if title.endswith(_suffix):
+                    title = title[: -len(_suffix)].rstrip()
+
                 # Drop articles that are off-topic for an interior-design
                 # press digest: recipes, fashion, beauty, deal roundups.
                 _cats = [str(t.get("term") or "").strip() for t in (entry.get("tags") or [])]

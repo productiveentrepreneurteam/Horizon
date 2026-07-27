@@ -1,15 +1,6 @@
 {
-  "_comment": "Outlets from Alyssa's ranked list that publish no RSS feed. Built by src/scrapers/sitefeed.py into docs/feeds/*.xml and read by config.github.json via file:// URLs. Replaces the lapsed rss.app account at zero cost.",
+  "_comment": "Outlets from Alyssa's ranked list that publish no RSS feed. Built by src/scrapers/sitefeed.py into docs/feeds/*.xml and read by config.github.json via file:// URLs. Replaces the lapsed rss.app account at zero cost. Mansion Global is NOT here: it returns 401 to GitHub Actions runner IPs on every entry point, so it is read through Google News in config.github.json instead.",
   "sites": [
-    {
-      "name": "Mansion Global",
-      "slug": "mansion-global",
-      "page": "https://www.mansionglobal.com/",
-      "pattern": "/articles/[a-z0-9-]{12,}",
-      "min_title": 18,
-      "enabled": false,
-      "_note": "Mansion Global returns HTTP 401 to GitHub Actions runner IPs on every entry point, including the homepage, though it loads fine from a residential IP. Disabled until we pick a workaround. Combined rank 9, 101 all-time stories, so worth revisiting."
-    },
     {
       "name": "Forbes",
       "slug": "forbes",

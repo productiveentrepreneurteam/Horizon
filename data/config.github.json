@@ -79,8 +79,8 @@
       },
       {
         "name": "Mansion Global",
-        "url": "file://docs/feeds/mansion-global.xml",
-        "enabled": false,
+        "url": "https://news.google.com/rss/search?q=site:mansionglobal.com&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
         "category": "real-estate"
       },
       {

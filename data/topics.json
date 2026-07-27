@@ -117,6 +117,15 @@
         "runway",
         "red carpet"
       ]
+    },
+    "Mansion Global": {
+      "_why": "Read via Google News because the site refuses GitHub's data-centre IPs. Google occasionally surfaces a registration or subscription page rather than an article.",
+      "deny_titles_add": [
+        "\\bsubscribe\\b",
+        "\\bregister\\b",
+        "\\bsign in\\b",
+        "\\bnewsletter\\b"
+      ]
     }
   }
 }
