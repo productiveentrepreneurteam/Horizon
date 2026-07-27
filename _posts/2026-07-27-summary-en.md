@@ -5,7 +5,7 @@ date: 2026-07-27
 lang: en
 ---
 
-> 178 articles published in the last 24 hours
+> 195 articles published in the last 24 hours
 > 50 sources monitored
 
 ---
@@ -13,9 +13,14 @@ lang: en
 
 ## 🏆 Press House Wins
 
+- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g73275922/tricks-make-home-look-expensive/" target="_blank" rel="noopener">11 Designer Tricks That Make Any Home Look More Expensive</a>
+  `Good Housekeeping`
+  `🍾 Press Club Source: Raquel Langworthy 🍾`
+  *Jul 27*
+
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g73274089/designer-butler-pantry-ideas/" target="_blank" rel="noopener">Designers Are Bringing Back Butler's Pantries—Here's Why</a>
   `Good Housekeeping`
-  `🍾 Press Club Source: Mary Pat Collins, Allison Corona, Rebecca Driggs, Kelley Kish, Amy Peltier 🍾`
+  `🍾 Press Club Source: Mary Pat Collins, Rebecca Driggs, Allison Corona, Amy Peltier, Kelley Kish 🍾`
   *Jul 27*
 
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g73273571/designers-bedroom-curtain-ideas/" target="_blank" rel="noopener">Designers Say These Bedroom Curtain Ideas Can Instantly Elevate Your Space</a>
@@ -30,7 +35,7 @@ lang: en
 
 - <a href="https://www.architecturaldigest.com/story/ecommerce-trade-programs-discounts" target="_blank" rel="noopener">32 E-Commerce Design Trade Programs Worth Joining, According to the Pros</a>
   `Architectural Digest`
-  `🍾 Press Club Source: Lindsay Thornton, Kriste Michelini, Amy Vroom 🍾`
+  `🍾 Press Club Source: Kriste Michelini, Lindsay Thornton, Amy Vroom 🍾`
   *by Janelle Zara, Kelsey Mulvey, Alyssa Longobucco · Jul 27*
 
 - <a href="https://www.countryliving.com/shopping/antiques/a73194203/thrift-store-vintage-bathroom-finds/" target="_blank" rel="noopener">A Designer Thrifted Nearly Everything in This Bathroom Reno, and the Results Are Stunning</a>
@@ -62,16 +67,17 @@ lang: en
 
 **Priority outlets**
 
-- [The Spruce (9)](#source-the-spruce)
+- [The Spruce (13)](#source-the-spruce)
 - [Homes & Gardens (4)](#source-homes-gardens)
-- [Good Housekeeping (4)](#source-good-housekeeping)
-- [Better Homes & Gardens (26)](#source-better-homes-gardens)
+- [Good Housekeeping (5)](#source-good-housekeeping)
+- [Better Homes & Gardens (30)](#source-better-homes-gardens)
 - [Livingetc (9)](#source-livingetc)
-- [Real Simple (4)](#source-real-simple)
+- [Real Simple (7)](#source-real-simple)
 - [House Beautiful (7)](#source-house-beautiful)
-- [Apartment Therapy (5)](#source-apartment-therapy)
-- [Architectural Digest (6)](#source-architectural-digest)
-- [Veranda (10)](#source-veranda)
+- [Apartment Therapy (6)](#source-apartment-therapy)
+- [Architectural Digest (7)](#source-architectural-digest)
+- [Sunset (1)](#source-sunset)
+- [Veranda (12)](#source-veranda)
 - [Parade Home & Garden (1)](#source-parade-home-garden)
 
 **More outlets**
@@ -87,26 +93,42 @@ lang: en
 - [Florida Design (2)](#source-florida-design)
 - [The Kitchn (3)](#source-the-kitchn)
 - [Hunker (16)](#source-hunker)
-- [New York Times (4)](#source-new-york-times)
+- [New York Times (3)](#source-new-york-times)
 - [Kitchen Bath Design (2)](#source-kitchen-bath-design)
 - [Luxe Magazine (13)](#source-luxe-magazine)
 - [Sonoma Magazine (1)](#source-sonoma-magazine)
-- [Style at Home (2)](#source-style-at-home)
+- [Style at Home (3)](#source-style-at-home)
 - [The Philadelphia Inquirer (2)](#source-the-philadelphia-inquirer)
 - [Vogue (5)](#source-vogue)
 
-**Total Articles Today: 178**
+**Total Articles Today: 195**
 
 ---
 <a id="source-the-spruce"></a>
-## The Spruce (9)
+## The Spruce (13)
 
 - <a href="https://www.thespruce.com/best-way-to-run-your-garden-hose-for-water-bill-11995551" target="_blank" rel="noopener">The Best Way to Use Your Garden Hose Without Spiking Your Water Bill, According to Experts</a>
-  `Home & Gardening Trends` `Home News` `The Spruce: Make Your Best Home` `Lawn Care` `Landscaping` `Gardening`
+  `Home & Gardening Trends` `Home News` `Lawn Care` `Landscaping` `Gardening`
   *by Tessa Cooper · Jul 27*
 
+- <a href="https://www.thespruce.com/best-deadbolts-11712415" target="_blank" rel="noopener">The 6 Best Deadbolt Locks, Tested and Reviewed</a>
+  `Home Security Products: Reviews and Buying Guides` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products`
+  *by Amber C. Snider · Jul 27*
+
+- <a href="https://www.thespruce.com/best-desks-5323878" target="_blank" rel="noopener">We Found the 23 Best Desks of 2026 for Every Home Office</a>
+  `Furniture Reviews and Buying Guides` `Home Decor: Product Reviews & Buying Guides` `Best Home Products`
+  *by Julia Fields · Jul 27*
+
+- <a href="https://www.thespruce.com/best-outdoor-faucet-covers-7105192" target="_blank" rel="noopener">The 10 Best Outdoor Faucet Covers</a>
+  `Home Improvement Tools & Product Reviews` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products`
+  *by Michelle Ullman · Jul 27*
+
+- <a href="https://www.thespruce.com/best-door-locks-11751686" target="_blank" rel="noopener">The 8 Best Door Locks for a Safer, More Secure Home</a>
+  `Home Security Products: Reviews and Buying Guides` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products` `Smart Home & Tech`
+  *by Anton Galang · Jul 27*
+
 - <a href="https://www.thespruce.com/best-places-to-buy-a-couch-4164007" target="_blank" rel="noopener">The 10 Best Places to Buy a Couch</a>
-  `Furniture Reviews and Buying Guides` `Home Decor: Product Reviews & Buying Guides` `Best Home Products` `The Spruce: Make Your Best Home`
+  `Furniture Reviews and Buying Guides` `Home Decor: Product Reviews & Buying Guides` `Best Home Products`
   *by Julia Fields · Jul 27*
 
 - <a href="https://www.thespruce.com/tacky-kitchen-decor-12008466" target="_blank" rel="noopener">7 Tacky Decor Choices That Instantly Make a Kitchen Look Bad, According to a Designer</a>
@@ -114,27 +136,27 @@ lang: en
   *by Ashley Chalmers · Jul 27*
 
 - <a href="https://www.thespruce.com/forgotten-gardening-tips-from-grandparents-12008437" target="_blank" rel="noopener">6 Forgotten Gardening Tips Our Grandparents Swore by That Still Really Work Today</a>
-  `Garden Tasks` `Gardening Basics` `Gardening` `Home & Gardening Trends` `Home News` `The Spruce: Make Your Best Home`
+  `Garden Tasks` `Gardening Basics` `Gardening` `Home & Gardening Trends` `Home News`
   *by Ashley Chalmers · Jul 27*
 
 - <a href="https://www.thespruce.com/retro-kitchen-ideas-12008436" target="_blank" rel="noopener">These Retro Kitchen Designs Are Back—and They Feel Better Than You Remember</a>
-  `Home & Gardening Trends` `Home News` `The Spruce: Make Your Best Home` `Kitchen Design` `Room Design` `Home Design & Decorating`
+  `Home & Gardening Trends` `Home News` `Kitchen Design` `Room Design` `Home Design & Decorating`
   *by Kristin Hohenadel · Jul 27*
 
 - <a href="https://www.thespruce.com/best-deck-stains-7509952" target="_blank" rel="noopener">10 Must-Have Deck Stains to Upgrade Your Outdoor Space</a>
-  `Home Improvement Tools & Product Reviews` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products` `The Spruce: Make Your Best Home`
+  `Home Improvement Tools & Product Reviews` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products`
   *by Michelle Ullman · Jul 27*
 
 - <a href="https://www.thespruce.com/best-portable-power-stations-5225702" target="_blank" rel="noopener">The 9 Best Portable Power Stations for Everyday Backup and Outages</a>
-  `Smart Home & Tech` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products` `The Spruce: Make Your Best Home`
+  `Smart Home & Tech` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products`
   *by Jeremy Laukkonen · Jul 27*
 
 - <a href="https://www.thespruce.com/best-portable-air-compressors-4151285" target="_blank" rel="noopener">The 10 Best Portable Air Compressors for Powering Tools, Filling Tires, and More</a>
-  `Home Improvement Tools & Product Reviews` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products` `The Spruce: Make Your Best Home`
+  `Home Improvement Tools & Product Reviews` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products`
   *by Michelle Ullman · Jul 27*
 
 - <a href="https://www.thespruce.com/worst-time-to-water-plants-12008427" target="_blank" rel="noopener">This Is the Worst Time to Water Plants If You Want Them to Stay Healthy</a>
-  `Garden Tasks` `Gardening Basics` `Gardening` `Home & Gardening Trends` `Home News` `The Spruce: Make Your Best Home`
+  `Garden Tasks` `Gardening Basics` `Gardening` `Home & Gardening Trends` `Home News`
   *by Melissa Epifano · Jul 26*
 
 
@@ -142,28 +164,30 @@ lang: en
 ## Homes & Gardens (4)
 
 - <a href="https://www.homesandgardens.com/decor/vintage-sales-happening-in-august-2026" target="_blank" rel="noopener">Love Spending Sunny Weekends Thrifting? These Are the Best Vintage Sales and Antique Markets Happening Across the US in August 2026</a>
-  `Decor`
   *by Eleanor Richardson · Jul 27*
 
 - <a href="https://www.homesandgardens.com/collection/decor/dorm-room-bedding" target="_blank" rel="noopener">24 Dorm Room Bedding Essentials Every College Student Needs to Make a Basic Bed Feel Better</a>
-  `Decor`
   *by Julia Demer · Jul 27*
 
 - <a href="https://www.homesandgardens.com/collection/decor/sunroom-furniture" target="_blank" rel="noopener">The Best Sunroom Furniture Buys to Enrich Your Space with Character, Color, and Charm</a>
-  `Decor`
   *by Julia Demer · Jul 27*
 
 - <a href="https://www.homesandgardens.com/collection/decor/bathrooms/bathtub-trays-caddies" target="_blank" rel="noopener">The Small Bathroom Upgrade That Makes Every Bath Feel Like a Spa – And Doubles as Beautiful Storage</a>
-  `Bathrooms` `Storage &amp; Organization` `Decor` `Rooms` `How This Home Works`
+  `Bathrooms` `Storage &amp; Organization` `Rooms` `How This Home Works`
   *by Molly Malsom · Jul 27*
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (4)
+## Good Housekeeping (5)
+
+- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g73275922/tricks-make-home-look-expensive/" target="_blank" rel="noopener">11 Designer Tricks That Make Any Home Look More Expensive</a>
+  `Home`
+  `🍾 Press Club Source: Raquel Langworthy 🍾`
+  *Jul 27*
 
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g73274089/designer-butler-pantry-ideas/" target="_blank" rel="noopener">Designers Are Bringing Back Butler's Pantries—Here's Why</a>
   `Home`
-  `🍾 Press Club Source: Mary Pat Collins, Allison Corona, Rebecca Driggs, Kelley Kish, Amy Peltier 🍾`
+  `🍾 Press Club Source: Mary Pat Collins, Rebecca Driggs, Allison Corona, Amy Peltier, Kelley Kish 🍾`
   *Jul 27*
 
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/g73273571/designers-bedroom-curtain-ideas/" target="_blank" rel="noopener">Designers Say These Bedroom Curtain Ideas Can Instantly Elevate Your Space</a>
@@ -181,94 +205,110 @@ lang: en
 
 
 <a id="source-better-homes-gardens"></a>
-## Better Homes & Gardens (26)
+## Better Homes & Gardens (30)
 
 - <a href="https://www.bhg.com/lilac-color-home-trend-11950209" target="_blank" rel="noopener">Everyone Is Decorating with Lilac Right Now (and Designers Want You To, Too)</a>
-  `News` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Decorating and Design` `Decorating with Color` `Color Schemes for Decorating` `Home Trends`
+  `News` `Decorating and Design` `Decorating with Color` `Color Schemes for Decorating` `Home Trends`
   *by Tessa Cooper · Jul 27*
 
+- <a href="https://www.bhg.com/how-to-set-a-table-8621903" target="_blank" rel="noopener">How to Set a Table for Any Occasion</a>
+  `Decorating Advice` `Decorating and Design` `Entertaining` `Holidays & Entertaining`
+  *by Patricia Shannon · Jul 27*
+
+- <a href="https://www.bhg.com/how-to-restuff-couch-cushions-8419018" target="_blank" rel="noopener">How to Restuff Couch Cushions That Have Gone Flat</a>
+  `DIY Home Decor` `Decorating and Design` `DIY Furniture Makeovers` `Budget-Friendly Decorating Ideas`
+  *by Patricia Shannon · Jul 27*
+
 - <a href="https://www.bhg.com/what-is-a-wet-room-7372880" target="_blank" rel="noopener">What’s a Wet Room? Learn More About This Bathroom Design</a>
-  `Bathroom Decorating and Design Ideas` `Room Decorating and Design Ideas` `Decorating and Design` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Bathroom Decorating and Design Ideas` `Room Decorating and Design Ideas` `Decorating and Design`
   *by Patricia Shannon · Jul 27*
 
 - <a href="https://www.bhg.com/rooms/home-office/small-office-design-ideas/" target="_blank" rel="noopener">Small Office Ideas for Every Kind of Work-from-Home Setup</a>
-  `Decorating Small Spaces` `Room Decorating and Design Ideas` `Decorating and Design` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Home Office Decorating and Design Ideas`
+  `Decorating Small Spaces` `Room Decorating and Design Ideas` `Decorating and Design` `Home Office Decorating and Design Ideas`
   *by Patricia Shannon · Jul 27*
 
 - <a href="https://www.bhg.com/style-cutting-boards-in-kitchen-11890225" target="_blank" rel="noopener">7 Ways to Style Cutting Boards to Make Your Kitchen Look More Put Together</a>
-  `Decorating and Design` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Room Decorating and Design Ideas` `Decorating Advice` `Kitchen Decorating and Design Ideas`
+  `Decorating and Design` `Room Decorating and Design Ideas` `Decorating Advice` `Kitchen Decorating and Design Ideas`
   *by Maria Sabella · Jul 27*
 
 - <a href="https://www.bhg.com/thermostatic-mixing-valve-11808945" target="_blank" rel="noopener">Tired of Water Temperature Swings? This One Simple Upgrade Could Help</a>
-  `Home Improvement Ideas` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Plumbing Installations & Repairs`
+  `Home Improvement Ideas` `Plumbing Installations & Repairs`
   *by Kamron Sanders · Jul 27*
 
 - <a href="https://www.bhg.com/oil-based-paint-vs-water-based-paint-8383129" target="_blank" rel="noopener">Oil-Based Paint vs. Water-Based Paint: What’s the Difference?</a>
-  `Paint Colors` `Decorating with Color` `Decorating and Design` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Interior Painting` `Painting Tips`
+  `Paint Colors` `Decorating with Color` `Decorating and Design` `Interior Painting` `Painting Tips`
   *by Kamron Sanders · Jul 27*
 
 - <a href="https://www.bhg.com/laundry-symbols-8426159" target="_blank" rel="noopener">Laundry Symbols and What They Mean</a>
-  `Laundry & Linens` `Laundry Tips & Checklists` `Housekeeping` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Laundry & Linens` `Laundry Tips & Checklists` `Housekeeping`
   *by Kristina McGuirk · Jul 27*
 
 - <a href="https://www.bhg.com/how-to-handle-stuff-parents-leave-behind-12008907" target="_blank" rel="noopener">How to Handle the Items Your Parents Leave Behind</a>
-  `Housekeeping` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Storage & Organization` `Organization Tips`
+  `Housekeeping` `Storage & Organization` `Organization Tips`
   *by Kathy Barnes · Jul 27*
 
+- <a href="https://www.bhg.com/best-french-door-refrigerators-7485324" target="_blank" rel="noopener">The 5 Best French Door Refrigerators, Tested by BHG</a>
+  `Home Appliances` `Home Features` `Decorating and Design` `Small Appliance Product Reviews` `Home Reviews`
+  *by Molly Blanco · Jul 27*
+
+- <a href="https://www.bhg.com/indoor-palm-plant-care-8602048" target="_blank" rel="noopener">7 Must-Know Indoor Palm Plant Care Tips</a>
+  `Caring for Houseplants` `Houseplants` `Gardening`
+  *by Leanne Potts · Jul 27*
+
 - <a href="https://www.bhg.com/gardening/trees-shrubs-vines/shrubs/hydrangea-facts/" target="_blank" rel="noopener">8 Surprising Hydrangea Facts You Probably Didn’t Know</a>
-  `Shrubs` `Trees, Shrubs & Vines` `Gardening` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Shrubs` `Trees, Shrubs & Vines` `Gardening`
   *by Savanna Bous, Nicole Bradley · Jul 27*
 
 - <a href="https://www.bhg.com/how-to-get-rid-of-scale-on-plants-8402634" target="_blank" rel="noopener">How to Get Rid of Scale on Plants in Your Home and Garden</a>
-  `Pest & Problem Fixes` `Gardening` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Garden Pests`
+  `Pest & Problem Fixes` `Gardening` `Garden Pests`
   *by Lauren Landers · Jul 27*
 
 - <a href="https://www.bhg.com/gardening/how-to-garden/how-to-grow-herbs-indoors/" target="_blank" rel="noopener">How to Grow Herbs Indoors to Enjoy Their Fresh Flavors and Scents Year-Round</a>
-  `Herbs` `How To Garden` `Gardening` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Edible Gardening`
+  `Herbs` `How To Garden` `Gardening` `Edible Gardening`
   *by Deb Wiley · Jul 27*
 
 - <a href="https://www.bhg.com/kitchen-floor-tile-ideas-7113422" target="_blank" rel="noopener">8 Kitchen Floor Tile Ideas for Every Design Style</a>
-  `Kitchen Decorating and Design Ideas` `Room Decorating and Design Ideas` `Decorating and Design` `Tile` `Home Improvement Ideas` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Kitchen Decorating and Design Ideas` `Room Decorating and Design Ideas` `Decorating and Design` `Tile` `Home Improvement Ideas`
   *by Sophie Flaxman · Jul 27*
 
 - <a href="https://www.bhg.com/harvesting-brussels-sprouts-7642594" target="_blank" rel="noopener">10 Tips for How and When to Harvest Brussels Sprouts at Their Peak</a>
-  `Vegetable Gardening` `Edible Gardening` `How To Garden` `Gardening` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Vegetable Gardening` `Edible Gardening` `How To Garden` `Gardening`
   *by Lauren Landers · Jul 27*
 
 - <a href="https://www.bhg.com/types-of-couches-7505939" target="_blank" rel="noopener">10 Types of Couches You Need to Know Before Shopping for a Sofa</a>
-  `Home Accessories` `Home Features` `Decorating and Design` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Decorating Advice`
+  `Home Accessories` `Home Features` `Decorating and Design` `Decorating Advice`
   *by Abby Wolner · Jul 27*
 
 - <a href="https://www.bhg.com/gardening/pests/insects-diseases-weeds/get-rid-of-tomato-hornworm/" target="_blank" rel="noopener">How to Identify and Get Rid of Tomato Hornworms</a>
-  `Bugs, Diseases & Weeds` `Pest & Problem Fixes` `Gardening` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Bugs, Diseases & Weeds` `Pest & Problem Fixes` `Gardening`
   *by Megan Hughes · Jul 27*
 
 - <a href="https://www.bhg.com/rooms/rooms/attic/attic-closet-ideas/" target="_blank" rel="noopener">11 Creative Attic Closet Ideas</a>
-  `Storage & Organization` `Closet Storage & Organization` `Housekeeping` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Storage & Organization` `Closet Storage & Organization` `Housekeeping`
   *by Marisa Donnelly · Jul 27*
 
 - <a href="https://www.bhg.com/gardening/landscaping-projects/landscape-basics/best-plants-for-slopes/" target="_blank" rel="noopener">7 Best Plants for Slopes That Will Look Beautiful While Preventing Erosion</a>
-  `Landscape Basics` `Landscaping` `Gardening` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Landscape Basics` `Landscaping` `Gardening`
   *by Jenny Krane · Jul 27*
 
 - <a href="https://www.bhg.com/home-improvement/outdoor/walkways/wood-chip-path/" target="_blank" rel="noopener">How to Make a Wood Chip Path</a>
-  `Walkways` `Outdoor Structures` `Home Improvement Ideas` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Walkways` `Outdoor Structures` `Home Improvement Ideas`
   *by Viveka Neveln · Jul 27*
 
 - <a href="https://www.bhg.com/best-paint-for-furniture-8645879" target="_blank" rel="noopener">The 9 Best Paints for Furniture to Refresh Your Home Decor</a>
-  `Home Decor Product Reviews` `Home Reviews` `Shopping` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Home Decor Product Reviews` `Home Reviews` `Shopping`
   *by Nor'Adila Hepburn · Jul 27*
 
 - <a href="https://www.bhg.com/bathroom/shower-bath/best-shower-filter/" target="_blank" rel="noopener">The 6 Best Shower Filters of 2026, Tested by BHG</a>
-  `Bath Product Reviews` `Home Reviews` `Shopping` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Home Improvement Product Reviews`
+  `Bath Product Reviews` `Home Reviews` `Shopping` `Home Improvement Product Reviews`
   *by Jordan Liberty Phillips, Jamie Fischer · Jul 27*
 
 - <a href="https://www.bhg.com/gardening/landscaping-projects/landscape-basics/how-to-use-landscape-fabric/" target="_blank" rel="noopener">How to Use Landscape Fabric to Control Weeds</a>
-  `Landscape Basics` `Landscaping` `Gardening` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Landscape Basics` `Landscaping` `Gardening`
   *by Derek Carwood · Jul 27*
 
 - <a href="https://www.bhg.com/what-to-wash-on-hot-8712352" target="_blank" rel="noopener">9 Things You Should Always Wash on Hot</a>
-  `Laundry & Linens` `Housekeeping` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Laundry Tips & Checklists` `Linens`
+  `Laundry & Linens` `Housekeeping` `Laundry Tips & Checklists` `Linens`
   *by Mary Cornetta · Jul 27*
 
 - <a href="https://www.bhg.com/how-to-plant-and-grow-japanese-skimmia-7551399" target="_blank" rel="noopener">How to Plant and Grow Japanese Skimmia</a>
@@ -276,15 +316,15 @@ lang: en
   *by Megan Hughes · Jul 27*
 
 - <a href="https://www.bhg.com/decorating/lessons/expert-advice/decorate-with-buffalo-plaid/" target="_blank" rel="noopener">11 Timeless Ways to Decorate with Timeless Buffalo Plaid</a>
-  `Decorating Styles and Themes` `Decorating and Design` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food` `Decorating Advice`
+  `Decorating Styles and Themes` `Decorating and Design` `Decorating Advice`
   *by Jessica Bennett, Darlene Weir · Jul 27*
 
 - <a href="https://www.bhg.com/peanut-harvesting-tips-7566027" target="_blank" rel="noopener">How and When to Harvest Peanuts</a>
-  `Vegetable Gardening` `Edible Gardening` `How To Garden` `Gardening` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Vegetable Gardening` `Edible Gardening` `How To Garden` `Gardening`
   *by Lauren Landers · Jul 27*
 
 - <a href="https://www.bhg.com/best-hemp-sheets-8350633" target="_blank" rel="noopener">The 3 Best Hemp Sheets, Tested by BHG</a>
-  `Bedding Product Reviews` `Home Reviews` `BHG Recommends` `Shopping` `Better Homes & Gardens: Fresh Takes on Home, Garden & Food`
+  `Bedding Product Reviews` `Home Reviews` `BHG Recommends` `Shopping`
   *by Andrea Wurzburger · Jul 27*
 
 
@@ -329,22 +369,34 @@ lang: en
 
 
 <a id="source-real-simple"></a>
-## Real Simple (4)
+## Real Simple (7)
 
 - <a href="https://www.realsimple.com/bathroom-upgrades-homeowners-regret-most-12009551" target="_blank" rel="noopener">5 Bathroom Renovation Mistakes Homeowners Wish They Could Undo, According to Designers</a>
-  `Home` `Real Simple: Home Decor Ideas, Recipes, DIY & Beauty Tips` `Home Improvement` `Renovations`
+  `Home` `Home Improvement` `Renovations`
   *by Sarah Lyon · Jul 27*
 
 - <a href="https://www.realsimple.com/what-to-do-with-old-socks-12009550" target="_blank" rel="noopener">4 Creative Ways to Repurpose Old Socks for Practical Home Uses</a>
-  `Home` `Real Simple: Home Decor Ideas, Recipes, DIY & Beauty Tips` `Green Living`
+  `Home` `Green Living`
   *by Amanda Lauren · Jul 27*
 
+- <a href="https://www.realsimple.com/home-organizing/decorating/decorating-bedroom/best-blackout-curtains" target="_blank" rel="noopener">The 9 Best Blackout Curtains, According to Real Simple Editors</a>
+  `Home Decor Reviews` `Home Product Reviews` `Bedroom Decorating` `Decorating` `Home`
+  *by Ashley Zlatopolsky · Jul 27*
+
+- <a href="https://www.realsimple.com/home-organizing/decorating/decorating-bedroom/best-silk-pillowcases" target="_blank" rel="noopener">The 4 Best Silk Pillowcases We’ve Ever Tested</a>
+  `Bedding & Bath Product Reviews` `Home Product Reviews` `Bedroom Decorating` `Decorating` `Home`
+  *by Ashley Zlatopolsky · Jul 27*
+
+- <a href="https://www.realsimple.com/best-sectional-sofas-8648406" target="_blank" rel="noopener">The 10 Best Sectional Sofas for Every Style and Budget</a>
+  `Furniture Reviews` `Home Product Reviews` `Shopping` `Living Room Decorating` `Decorating`
+  *by Real Simple Editors · Jul 27*
+
 - <a href="https://www.realsimple.com/home-organizing/decorating/outdoor-living/outdoor-decor" target="_blank" rel="noopener">31 Outdoor Decor Ideas to Turn Your Yard Into a Relaxing Oasis</a>
-  `Outdoor Living` `Decorating` `Home` `Real Simple: Home Decor Ideas, Recipes, DIY & Beauty Tips`
+  `Outdoor Living` `Decorating` `Home`
   *by Real Simple Editors · Jul 27*
 
 - <a href="https://www.realsimple.com/best-amazon-outdoor-solar-lights-july-2026-12023047" target="_blank" rel="noopener">10 Low-Maintenance Outdoor Solar Lights That’ll Instantly Upgrade Your Backyard—and They’re All Budget-Friendly</a>
-  `Outdoor & Patio Reviews` `Home Product Reviews` `Shopping` `Real Simple: Home Decor Ideas, Recipes, DIY & Beauty Tips` `Outdoor Living` `Decorating`
+  `Outdoor & Patio Reviews` `Home Product Reviews` `Shopping` `Outdoor Living` `Decorating`
   *by Wendy Vazquez · Jul 27*
 
 
@@ -382,15 +434,19 @@ lang: en
 
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (5)
+## Apartment Therapy (6)
 
 - <a href="https://www.apartmenttherapy.com/kristin-keyes-new-next-designer-2026-37682924?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Designer Kristin Keyes Says Secondhand Is the Key to Better Interiors</a>
   `Decorating` `design` `designer` `ideas & inspiration` `new next list designer 2026` `new/next list 2026`
   *by Cori Sears · Jul 27*
 
 - <a href="https://www.apartmenttherapy.com/backyard-mid-century-redo-with-navy-pergola-ba-37562321?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Before and After: A Sad Backyard Becomes an Outdoor Living Room</a>
-  `Home Projects` `before & after` `clone republish` `outdoor plants & spaces` `patio` `product text link`
+  `Home Projects` `before & after` `clone republish` `outdoor plants & spaces` `patio`
   *by Heather Bien · Jul 26*
+
+- <a href="https://www.apartmenttherapy.com/ikea-smastad-kids-bench-in-dining-room-37563210?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">There’s a $99 Find in the IKEA Kid’s Section That Belongs in Your Dining Room</a>
+  `Decorating` `clone republish` `furniture` `home hub` `ikea` `product find`
+  *by Cullen Ormond · Jul 27*
 
 - <a href="https://www.apartmenttherapy.com/123-year-old-berlin-rental-diy-37682677?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">She Spent 12 Years Bringing a 123-Year-Old Berlin Rental Back to Life</a>
   `Tours` `featured tour` `house tours tmobile 2026` `Apartment` `Organic Modern` `Parisian`
@@ -401,12 +457,16 @@ lang: en
   *by Cassidy Dawn Graves · Jul 27*
 
 - <a href="https://www.apartmenttherapy.com/green-white-kitchen-cabinet-paint-makeover-ba-37562338?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Green and White Paint Transformed This ’80s Kitchen for Just $300</a>
-  `Home Projects` `before & after` `clone republish` `kitchen` `kitchen cabinets` `product text link`
+  `Home Projects` `before & after` `clone republish` `kitchen` `kitchen cabinets`
   *by Abby Monteil · Jul 27*
 
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (6)
+## Architectural Digest (7)
+
+- <a href="https://www.architecturaldigest.com/story/cutout-kitchen-cabinet-trend" target="_blank" rel="noopener">The Kitchen Cabinet Trend Interior Designers Are Obsessed With in 2026—And How You can Re-create it at Home</a>
+  `Architecture + Design` `Architecture + Design / Architecture` `Trends`
+  *by Kelsey Mulvey · Jul 27*
 
 - <a href="https://www.architecturaldigest.com/story/pierce-and-ward-west-elm-collboration" target="_blank" rel="noopener">New Pierce & Ward West Elm Collection 2026: AD Interview</a>
   `Shopping` `furniture`
@@ -418,7 +478,7 @@ lang: en
 
 - <a href="https://www.architecturaldigest.com/story/ecommerce-trade-programs-discounts" target="_blank" rel="noopener">32 E-Commerce Design Trade Programs Worth Joining, According to the Pros</a>
   `AD Pro` `AD Pro / Grow Your Business` `Shopping` `ad pro` `education` `Need to Know`
-  `🍾 Press Club Source: Lindsay Thornton, Kriste Michelini, Amy Vroom 🍾`
+  `🍾 Press Club Source: Kriste Michelini, Lindsay Thornton, Amy Vroom 🍾`
   *by Janelle Zara, Kelsey Mulvey, Alyssa Longobucco · Jul 27*
 
 - <a href="https://www.architecturaldigest.com/story/interior-design-jobs-everything-you-need-to-know" target="_blank" rel="noopener">Interior Design Jobs: Everything You Need to Know About Industry Roles and Their Salaries</a>
@@ -434,8 +494,24 @@ lang: en
   *by Elyse Moody · Jul 27*
 
 
+<a id="source-sunset"></a>
+## Sunset (1)
+
+- <a href="https://sunset.com/" target="_blank" rel="noopener">Homepage 2025</a>
+  `homepage 2025`
+  *Jul 27*
+
+
 <a id="source-veranda"></a>
-## Veranda (10)
+## Veranda (12)
+
+- <a href="https://www.veranda.com/outdoor-garden/g27214784/patio-ideas-backyard/" target="_blank" rel="noopener">74 Designer-Approved Patio Ideas to Inspire Year-Round Backyard Living</a>
+  `Design`
+  *Jul 27*
+
+- <a href="https://www.veranda.com/decorating-ideas/g61422604/screened-in-porch-ideas/" target="_blank" rel="noopener">The 33 Best Screened-In Porch Ideas for a Dreamy Indoor-Outdoor Retreat</a>
+  `Design`
+  *Jul 27*
 
 - <a href="https://www.veranda.com/shopping/furniture/a62765681/best-teak-outdoor-patio-furniture/" target="_blank" rel="noopener">How to Choose and Care for Teak Outdoor Furniture That Lasts for Decades</a>
   `Design`
@@ -514,6 +590,10 @@ lang: en
   `Business`
   *Jul 27*
 
+- <a href="https://www.forbes.com/sites/forbes-global-properties/2026/07/27/this-995-million-los-angeles-landmark-time-travels-to-midcentury-designs-heyday/" target="_blank" rel="noopener">This $9.95 Million Los Angeles Landmark Time Travels To Midcentury Design’s Heyday</a>
+  `Business`
+  *Jul 27*
+
 - <a href="https://www.forbes.com/sites/amandalauren/2026/07/27/inside-sydney-sadicks-chic-sagaponack-home-in-the-hamptons/" target="_blank" rel="noopener">Inside Sydney Sadick’s Chic Sagaponack Home In The Hamptons</a>
   `Business`
   *Jul 27*
@@ -546,10 +626,6 @@ lang: en
   `Business`
   *Jul 27*
 
-- <a href="https://www.forbes.com/sites/forbes-global-properties/2026/07/21/how-commodity-trading-is-quietly-shaping-genevas-prestige-property-market/" target="_blank" rel="noopener">How Commodity Trading Is Quietly Shaping Geneva’s Prestige Property Market</a>
-  `Business`
-  *Jul 27*
-
 
 <a id="source-wall-street-journal"></a>
 ## Wall Street Journal (8)
@@ -557,6 +633,14 @@ lang: en
 - <a href="https://www.wsj.com/real-estate/luxury-homes/deal-new-jersey-luxury-housing-market-c7c395dd?mod=LatestNewsRealEstate" target="_blank" rel="noopener">The Tiny Beach Borough With Some of the Jersey Shore’s Priciest Homes</a>
   `Real Estate`
   *by Jessica Flint · Jul 27*
+
+- <a href="https://www.wsj.com/real-estate/new-york-city-halts-construction-at-another-office-to-residential-conversion-aad0daaa?mod=LatestNewsRealEstate" target="_blank" rel="noopener">New York City Halts Construction at Another Office-to-Residential Conversion</a>
+  `Real Estate`
+  *by James Fanelli · Jul 27*
+
+- <a href="https://www.wsj.com/opinion/it-bears-repeating-your-life-is-in-your-own-hands-a46aeee9" target="_blank" rel="noopener">Opinion | It Bears Repeating: Your Life Is in Your Own Hands</a>
+  `Lifestyle`
+  *Jul 27*
 
 - <a href="https://www.wsj.com/buyside/personal-finance/mortgage/home-equity-loan-rates?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Current Home Equity Loan Rates</a>
   `Real Estate`
@@ -577,14 +661,6 @@ lang: en
 - <a href="https://www.wsj.com/business/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-f4974e99" target="_blank" rel="noopener">Big Companies Are Starting to Hire Again, Defying Predictions of AI Wipeout</a>
   `Lifestyle`
   *by Chip Cutter · Jul 27*
-
-- <a href="https://www.wsj.com/opinion/the-happiness-industrial-complex-82f551d2" target="_blank" rel="noopener">Opinion | The Happiness Industrial Complex</a>
-  `Lifestyle`
-  *by Andy Kessler · Jul 26*
-
-- <a href="https://www.wsj.com/opinion/at-home-in-floridas-wild-kingdom-afe078c2" target="_blank" rel="noopener">Opinion | At Home in Florida’s Wild Kingdom</a>
-  `Lifestyle`
-  *by Dennis Kneale · Jul 26*
 
 
 <a id="source-elle-decor-usa"></a>
@@ -635,7 +711,7 @@ lang: en
   `Reality TV` `California` `Decor` `Green` `HGTV` `Lessons From Reality TV`
   *by Karli Mullane · Jul 27*
 
-- <a href="https://www.realtor.com/news/celebrity-real-estate/carly-simon-marthas-vineyard-home-james-taylor-parkinsons/" target="_blank" rel="noopener">Inside Carly Simon’s Idyllic Martha’s Vineyard Retreat Where She ‘Withdrew from Public View’ Amid Parkinson’s Diagnosis</a>
+- <a href="https://www.realtor.com/news/celebrity-real-estate/carly-simon-marthas-vineyard-home-james-taylor-parkinsons/" target="_blank" rel="noopener">Inside Carly Simon’s Idyllic Martha’s Vineyard Retreat Where She ‘Withdrew From Public View’ Amid Parkinson’s Diagnosis</a>
   `Celebrity Real Estate` `Celebrity Homes` `Compound` `Famous Musician Homes` `Martha's Vineyard MA` `Massachusetts`
   *by Charlie Lankston · Jul 27*
 
@@ -673,27 +749,27 @@ lang: en
 ## Dengarden (6)
 
 - <a href="https://dengarden.com/design/thrift-store-table-baseball-man-cave-makeover" target="_blank" rel="noopener">Man Turns $3 Coffee Table Into a Man Cave Masterpiece</a>
-  `Thrifting` `Tiktok` `Furniture Flip` `Design & Decor` `TikTok DIY & Hacks` `Home Furnishings`
+  `Thrifting` `Tiktok` `Furniture Flip` `TikTok DIY & Hacks` `Home Furnishings`
   *by Mary Boldish James · Jul 27*
 
 - <a href="https://dengarden.com/home-projects/antique-furniture-flip-no-sanding-method" target="_blank" rel="noopener">Furniture Flipper Shares How She Updates a Vintage Dresser 'Without Chemical Stripper and Hours of Sanding'</a>
-  `Design & Decor` `DIY Decor` `Home Décor` `Furniture Flip` `Flip` `Hacks & DIY`
+  `DIY Decor` `Furniture Flip` `Flip` `Hacks & DIY`
   *by Lauren Wellbank · Jul 27*
 
 - <a href="https://dengarden.com/home-projects/1890s-home-wallpaper-renovation-reaction" target="_blank" rel="noopener">Couple Replaces the Wallpaper From Their 1890 House With a More Modern Pattern and the Internet Has a Surprising Response to the Upgrade</a>
-  `Old House` `Home Projects` `Design & Decor` `Paint` `Painting` `Home Décor`
+  `Old House` `Home Projects` `Paint` `Painting`
   *by Lauren Wellbank · Jul 27*
 
 - <a href="https://dengarden.com/design/dollar-general-patio-makeover-under-50" target="_blank" rel="noopener">How to Upgrade Your Entire Patio for Under $50 Using Only Dollar General Finds</a>
-  `Outdoor Decor` `Outdoor Entertaining` `Dollar General` `Patio` `Home Décor` `Design & Decor`
+  `Outdoor Decor` `Outdoor Entertaining` `Dollar General` `Patio`
   *by Julie Andrews · Jul 27*
 
 - <a href="https://dengarden.com/design/interior-designer-hobby-lobby-elevated-finds" target="_blank" rel="noopener">Interior Designer Says This Is the Best $10 You Can Spend at Hobby Lobby</a>
-  `Interior Design` `Hobby Lobby` `Home Decor Ideas` `Candle Holder` `Home Décor` `Design & Decor`
+  `Interior Design` `Hobby Lobby` `Home Decor Ideas` `Candle Holder`
   *by Jessica Kaplan · Jul 27*
 
 - <a href="https://dengarden.com/design/diy-decor-jewelry-holder" target="_blank" rel="noopener">This Charming DIY Jewelry Holder Is Surprisingly Simple</a>
-  `Easy DIY` `TikTok DIY & Hacks` `DIY Projects & Hacks` `Design & Decor` `Organization & Storage` `Jewelry`
+  `Easy DIY` `TikTok DIY & Hacks` `DIY Projects & Hacks` `Organization & Storage` `Jewelry`
   *by Jessica Kaplan · Jul 27*
 
 
@@ -794,34 +870,30 @@ lang: en
 
 
 <a id="source-new-york-times"></a>
-## New York Times (4)
+## New York Times (3)
 
 - <a href="https://www.nytimes.com/2026/07/27/realestate/renters-queens-artist.html" target="_blank" rel="noopener">She Got an Apartment in Queens, Thanks to a Benevolent Aunt</a>
-  `Renting and Leasing (Real Estate)` `Real Estate and Housing (Residential)`
+  `Renting and Leasing (Real Estate)`
   *by D.W. Gibson · Jul 27*
 
 - <a href="https://www.nytimes.com/2026/07/27/realestate/mcalpine-hotel-des-artistes-new-york-apartment-renovation.html" target="_blank" rel="noopener">They Bought a Piece of Old New York, Then Gave It a Contemporary Spin</a>
-  `Home Repairs and Improvements` `Real Estate and Housing (Residential)` `Content Type: Personal Profile` `Hotel des Artistes` `Upper West Side (Manhattan, NY)`
+  `Home Repairs and Improvements` `Content Type: Personal Profile` `Hotel des Artistes` `Upper West Side (Manhattan, NY)`
   *by Tim McKeough · Jul 27*
 
 - <a href="https://www.nytimes.com/2026/07/27/realestate/adam-driver-helen-mirren-celebrity-home-sales.html" target="_blank" rel="noopener">Adam Driver Sells a Brooklyn Condo and Buys Three More</a>
-  `Real Estate and Housing (Residential)` `Ayer, David` `Duhamel, Josh` `Lang, Michael` `Hackford, Taylor` `Kaka (1982- )`
+  `Ayer, David` `Duhamel, Josh` `Lang, Michael` `Hackford, Taylor` `Kaka (1982- )`
   *by Vivian Marino · Jul 27*
-
-- <a href="https://www.nytimes.com/2026/07/26/realestate/a-captain-calls-this-yacht-his-home-the-owner-is-selling-it.html" target="_blank" rel="noopener">A Captain Calls This Yacht His Home. The Owner Is Selling It.</a>
-  `internal-open-access-from-nl` `Sailboats and Sailing` `Boats and Boating` `Content Type: Personal Profile` `Luxury Goods and Services` `Gavin Bladen`
-  *by Ronda Kaysen and Jonathan Stokes · Jul 26*
 
 
 <a id="source-kitchen-bath-design"></a>
 ## Kitchen Bath Design (2)
 
 - <a href="https://www.kitchenbathdesign.com/nahb-pinpoints-factors-impacting-housing-remodeling/" target="_blank" rel="noopener">NAHB Pinpoints Factors Impacting Housing, Remodeling</a>
-  `News` `housing challenges` `NAHB survey` `National Association of Home Builders`
+  `housing challenges` `NAHB survey` `National Association of Home Builders`
   *by Anita Shaw · Jul 27*
 
 - <a href="https://www.kitchenbathdesign.com/home-affordability-struggles-detailed-in-report/" target="_blank" rel="noopener">Home Affordability Struggles Detailed in Report</a>
-  `News` `Surveys/Statistics` `affordability survey` `Housing affordability` `Unlock Technologies`
+  `Surveys/Statistics` `affordability survey` `Housing affordability` `Unlock Technologies`
   *by Anita Shaw · Jul 27*
 
 
@@ -885,12 +957,16 @@ lang: en
 ## Sonoma Magazine (1)
 
 - <a href="https://www.sonomamag.com/a-return-to-christo-and-jeanne-claudes-running-fence-after-50-years/" target="_blank" rel="noopener">A Return to Christo and Jeanne-Claude’s ‘Running Fence’ After 50 Years</a>
-  `Magazine` `Sonoma People` `Things To Do in Sonoma` `Trending` `What's New in Wine Country` `art installation`
+  `Magazine` `Sonoma People` `art installation`
   *by John Beck · Jul 27*
 
 
 <a id="source-style-at-home"></a>
-## Style at Home (2)
+## Style at Home (3)
+
+- <a href="https://www.styleathome.com/shopping/mediagallery/10-canadian-made-throw-pillows-worth-buying-now-and-keeping-all-fall" target="_blank" rel="noopener">10 Canadian-Made Throw Pillows Worth Buying Now (and Keeping All Fall)</a>
+  `Home`
+  *Jul 27*
 
 - <a href="https://www.styleathome.com/outdoor-living/home-exteriors/article/6-exterior-paint-colour-combos-you-won-t-regret-in-5-years" target="_blank" rel="noopener">6 Exterior Paint Colour Combos You Won't Regret in 5 Years</a>
   `Home`
