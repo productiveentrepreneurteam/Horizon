@@ -294,31 +294,192 @@ def get_clean_sources() -> list:
     return names
 
 
-def find_press_club_sources(url: str) -> list:
-    """Return any client designer full names found in the article's page text."""
+# A designer name found ONLY outside the article body, in a related-articles
+# sidebar, a nav promo, an image alt attribute, a byline or a script payload,
+# is discarded. Set to False to go back to "report anything found anywhere",
+# which is the behaviour that produced Liz Ferriera's 2026-08-06 false
+# positives. Do not set it to False without a reason written down.
+STRICT_ARTICLE_BODY_ONLY = True
+
+# Whole elements that never contain the article's own text.
+_NON_ARTICLE_TAGS = (
+    "script", "style", "noscript", "template", "svg", "iframe", "object",
+    "nav", "header", "footer", "aside", "form", "figcaption", "picture",
+    "source", "img", "video", "audio", "button", "select", "option",
+)
+
+# Containers whose class/id says "this is other articles, not this one".
+_NON_ARTICLE_HINTS = (
+    "related", "recirc", "recommend", "more-from", "morefrom", "most-read",
+    "mostread", "popular", "trending", "promo", "sidebar", "side-bar",
+    "newsletter", "subscribe", "signup", "comment", "footer", "header",
+    "nav", "menu", "social", "share", "widget", "carousel", "teaser",
+    "taboola", "outbrain", "advert", "ad-", "-ad", "sponsor", "breadcrumb",
+    "up-next", "upnext", "you-may", "youmay", "read-next", "readnext",
+    "latest", "editors-pick", "editorspick", "playlist", "gallery-nav",
+    "tags", "topic-list", "cookie", "modal", "popup", "masthead",
+)
+
+# Containers that are the byline, not the story.
+_BYLINE_HINTS = (
+    "byline", "by-line", "by_line", "author", "contributor", "writer",
+    "credit", "reporter",
+)
+
+# Words that, immediately before a name, mean "this is a credit line".
+_BYLINE_CUES = ("by", "words", "story", "text", "reporting", "photography",
+                "photographs", "photos", "written", "edited")
+
+_NON_WORD = re.compile(r"[^a-z0-9]+")
+
+
+def _flatten(text: str) -> str:
+    """Lowercase, collapse every non-alphanumeric run to one space, pad ends.
+
+    Padding lets a plain `in` test behave like a word-boundary match, so
+    "Sarah Storms" no longer matches inside "Sarah Stormsworth", and a
+    possessive, a non-breaking space or a curly apostrophe still match.
+    """
+    return " " + _NON_WORD.sub(" ", str(text or "").lower()).strip() + " "
+
+
+def _hinted(tag, hints) -> bool:
+    """True when a tag's class/id/testid/role matches one of the hints.
+
+    Returns False for a tag that has already been decomposed: find_all()
+    hands back a snapshot, and decomposing a parent leaves its children in
+    that list with their attrs stripped to None.
+    """
+    if getattr(tag, "decomposed", False) or tag.attrs is None:
+        return False
+    classes = tag.get("class") or []
+    if not isinstance(classes, list):
+        classes = [classes]
+    bag = " ".join(
+        [" ".join(str(c) for c in classes), str(tag.get("id") or ""),
+         str(tag.get("data-testid") or ""), str(tag.get("role") or "")]
+    ).lower()
+    return any(h in bag for h in hints)
+
+
+def _split_article_text(html: str):
+    """Return (article_text, byline_text) for one fetched page.
+
+    article_text is the story's own visible words. Every attribute value,
+    script payload, nav, sidebar and recirculation module is gone, because
+    get_text() reads text nodes only and the rest is decomposed first.
+    byline_text is kept separately so a writer can be told apart from a
+    designer quoted in the story.
+
+    Falls back to a tag-stripping regex if BeautifulSoup is missing. The
+    fallback still drops every attribute value, which is where the Business
+    of Home false positive lived, but it cannot drop recirculation modules.
+    """
+    try:
+        from bs4 import BeautifulSoup
+    except Exception:
+        stripped = re.sub(
+            r"(?is)<(script|style|noscript|template|svg)[^>]*>.*?</\1\s*>", " ", html
+        )
+        return re.sub(r"(?s)<[^>]*>", " ", stripped), ""
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    byline_bits = []
+    for tag in list(soup.find_all(True)):
+        if _hinted(tag, _BYLINE_HINTS):
+            byline_bits.append(tag.get_text(" ", strip=True))
+    for meta in soup.find_all("meta"):
+        if str(meta.get("name") or meta.get("property") or "").lower().endswith("author"):
+            byline_bits.append(str(meta.get("content") or ""))
+
+    for tag in list(soup.find_all(_NON_ARTICLE_TAGS)):
+        if not getattr(tag, "decomposed", False):
+            tag.decompose()
+    for tag in list(soup.find_all(True)):
+        if getattr(tag, "decomposed", False):
+            continue
+        if _hinted(tag, _NON_ARTICLE_HINTS) or _hinted(tag, _BYLINE_HINTS):
+            tag.decompose()
+
+    # The LARGEST surviving <article>, not the first one. Business of Home
+    # wraps each related-story card in its own <article>, so "the first one"
+    # can be a teaser for a different story.
+    articles = [a for a in soup.find_all("article") if not getattr(a, "decomposed", False)]
+    root = None
+    if articles:
+        root = max(articles, key=lambda a: len(a.get_text(" ", strip=True)))
+    if root is None or len(root.get_text(" ", strip=True)) < 200:
+        root = soup.find("main") or soup.body or soup
+    return root.get_text(" ", strip=True), " ".join(byline_bits)
+
+
+def _mentioned_outside_a_credit(body: str, pad: str) -> bool:
+    """True if the name occurs at least once not directly after a credit cue."""
+    start = 0
+    while True:
+        i = body.find(pad, start)
+        if i < 0:
+            return False
+        before = body[:i + 1].split()
+        if not before or before[-1] not in _BYLINE_CUES:
+            return True
+        start = i + 1
+
+
+def find_press_club_sources(url: str, author: str = "") -> list:
+    """Return client designer full names named in the article's own body text.
+
+    Only the story's visible words count. A name that appears solely in a
+    related-articles module, an image alt attribute, a nav promo, a script
+    payload or the byline is NOT a source. Reporting one as a source is the
+    defect Liz Ferriera found on 2026-08-06: "Nureed Saeed" was in the alt
+    text of a thumbnail for a different Business of Home article, and the old
+    substring test read the whole raw HTML file as if it were the story.
+
+    Pass the item's author so a writer who shares a client designer's name is
+    not filed as a win. The name is still reported when it also appears in the
+    story itself, which is the case where she really was interviewed.
+    """
     url = str(url or "")
     if not url.lower().startswith("http"):
         return []
-    if url in _ARTICLE_SOURCE_CACHE:
-        return _ARTICLE_SOURCE_CACHE[url]
+    key = (url, _flatten(author))
+    if key in _ARTICLE_SOURCE_CACHE:
+        return _ARTICLE_SOURCE_CACHE[key]
     found = []
     sources = get_clean_sources()
     if sources:
         try:
             req = _urlreq.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             with _urlreq.urlopen(req, timeout=8) as resp:
-                body = resp.read().decode("utf-8", errors="replace").lower()
+                html = resp.read().decode("utf-8", errors="replace")
+            if STRICT_ARTICLE_BODY_ONLY:
+                article, byline = _split_article_text(html)
+            else:
+                article, byline = html, ""
+            body = _flatten(article)
+            byline_flat = _flatten(byline) + _flatten(author)
             seen = set()
             for name in sources:
-                low = name.lower()
-                if low in body and low not in seen:
-                    seen.add(low)
-                    found.append(name)
+                low = _flatten(name).strip()
+                if not low or low in seen:
+                    continue
+                pad = " " + low + " "
+                if pad not in body:
+                    continue
+                # If this name is also the writer's, keep it only when it
+                # appears somewhere that is not a credit line. A byline in
+                # markup we did not recognise reads "... by Lauren Smith ...";
+                # a real mention reads "... says designer Lauren Smith ...".
+                if pad in byline_flat and not _mentioned_outside_a_credit(body, pad):
+                    continue
+                seen.add(low)
+                found.append(name)
         except Exception:
             found = []
-    _ARTICLE_SOURCE_CACHE[url] = found
+    _ARTICLE_SOURCE_CACHE[key] = found
     return found
-
 
 _CJK = r"[\u4e00-\u9fff\u3400-\u4dbf]"
 _ASCII = r"[A-Za-z0-9]"
@@ -521,7 +682,7 @@ class DailySummarizer:
 
        # --- 🏆 Press House Wins: today's auto-detected client articles + recent logged wins ---
         wins_parts = []
-        todays = [it for it in items if find_press_club_sources(it.url)]
+        todays = [it for it in items if find_press_club_sources(it.url, it.author)]
         today_urls = {_normalize_url(it.url) for it in todays}
         recent_wins = [w for w in get_recent_press_house_wins()
                        if _normalize_url(w["url"]) not in today_urls]
@@ -548,7 +709,7 @@ class DailySummarizer:
             if _nu in _sheet_wins:
                 _designers.update(d.strip() for d in (_sheet_wins[_nu] or "").replace(";", ",").split(",") if d.strip())
             else:
-                _f = find_press_club_sources(_it.url)
+                _f = find_press_club_sources(_it.url, _it.author)
                 if _f:
                     _designers.update(_f)
                     _to_file += 1
@@ -599,7 +760,7 @@ class DailySummarizer:
         elif _designer == "":
             lines.append("  `⭐ Press Club Source ⭐`")
         else:
-            _found = find_press_club_sources(item.url)
+            _found = find_press_club_sources(item.url, item.author)
             if _found:
                 # Detected in a fresh scraped article but NOT in the tracker sheet -> champagne marker.
                 lines.append(f"  `🍾 Press Club Source: {', '.join(_found)} 🍾`")
