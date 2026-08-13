@@ -122,6 +122,8 @@ _WRITER_RANK_INDEX = {name.strip().lower(): i for i, name in enumerate(WRITER_RA
 import csv as _csv
 import io as _io
 import json as _json
+import sys as _sys
+import time as _time
 import os as _os
 import urllib.parse as _urlparse
 import urllib.request as _urlreq
@@ -135,25 +137,53 @@ PRESS_FEED_TOKEN = _os.getenv("PRESS_FEED_TOKEN", "")
 _FEED_CACHE = None
 
 
+PRESS_FEED_HOST_HINT = "the press tracker feed (Apps Script)"
+_FEED_FAILED = []
+
+
+def feed_failed() -> bool:
+    """True when this run could not read the roster/wins feed at all."""
+    return bool(_FEED_FAILED)
+
+
 def get_feed() -> dict:
     """Fetch the private press feed once (students + wins). Cached per run."""
     global _FEED_CACHE
     if _FEED_CACHE is not None:
         return _FEED_CACHE
-    data = {"students": [], "wins": []}
+    data = {"students": [], "wins": [], "ok": False}
     if PRESS_FEED_URL and PRESS_FEED_TOKEN:
-        try:
-            sep = "&" if "?" in PRESS_FEED_URL else "?"
-            url = f"{PRESS_FEED_URL}{sep}token={_urlparse.quote(PRESS_FEED_TOKEN)}"
-            req = _urlreq.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with _urlreq.urlopen(req, timeout=30) as resp:
-                payload = _json.loads(resp.read().decode("utf-8", errors="replace"))
-            if isinstance(payload, dict) and isinstance(payload.get("students"), list):
-                data = {"students": payload.get("students", []),
-                        "wins": payload.get("wins", []),
-                        "stats": payload.get("stats", {})}
-        except Exception:
-            data = {"students": [], "wins": []}
+        sep = "&" if "?" in PRESS_FEED_URL else "?"
+        url = f"{PRESS_FEED_URL}{sep}token={_urlparse.quote(PRESS_FEED_TOKEN)}"
+        last = None
+        # Retry, because one blip here silently blanks the entire Press House
+        # Wins section: no roster means no designer can be detected in any
+        # article, and no wins means the section is not rendered at all. That
+        # is what happened on 2026-08-12 - a digest that looked normal and
+        # quietly reported zero wins on a day that had them.
+        for attempt in range(4):
+            try:
+                req = _urlreq.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                with _urlreq.urlopen(req, timeout=30) as resp:
+                    payload = _json.loads(resp.read().decode("utf-8", errors="replace"))
+                if isinstance(payload, dict) and isinstance(payload.get("students"), list):
+                    data = {"students": payload.get("students", []),
+                            "wins": payload.get("wins", []),
+                            "stats": payload.get("stats", {}),
+                            "ok": True}
+                    break
+                last = "feed returned an unexpected shape"
+            except Exception as e:
+                last = e
+            if attempt < 3:
+                _time.sleep(2 ** attempt * 5)
+        if not data.get("ok"):
+            # Loud, and non-zero exit, so a blackout shows up as a red run
+            # instead of a quiet digest with the wins section missing.
+            print(f"::error title=Press feed unreachable::{PRESS_FEED_HOST_HINT} "
+                  f"failed 4 times, last error: {last}. Press House Wins will be "
+                  f"empty for this run.", file=_sys.stderr)
+            _FEED_FAILED.append(str(last))
     _FEED_CACHE = data
     return data
 
@@ -686,7 +716,16 @@ class DailySummarizer:
         today_urls = {_normalize_url(it.url) for it in todays}
         recent_wins = [w for w in get_recent_press_house_wins()
                        if _normalize_url(w["url"]) not in today_urls]
-        if todays or recent_wins:
+        if feed_failed():
+            # Never let a feed outage look like a quiet day with no press.
+            wins_parts.append(
+                "## 🏆 Press House Wins\n\n"
+                "> ⚠️ **Wins could not be checked today.** The press tracker feed did not "
+                "respond, so no designer detection ran on this digest. Today's articles are "
+                "below and are complete; only the wins layer is missing. This is a systems "
+                "problem, not a quiet news day.\n\n---\n\n"
+            )
+        elif todays or recent_wins:
             wins_parts.append("## 🏆 Press House Wins\n\n")
             for item in todays:
                 wins_parts.append(self._format_item_simple(item, language, wins_mode=True))
