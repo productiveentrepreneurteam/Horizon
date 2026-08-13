@@ -127,6 +127,8 @@ import time as _time
 import os as _os
 import urllib.parse as _urlparse
 import urllib.request as _urlreq
+import html as _html
+import re as _re
 
 # Private feed: a token-gated Apps Script web app bound to the PRC Master Press
 # Tracker. Returns {"students": [names...], "wins": [{story,outlet,writer,
@@ -281,6 +283,40 @@ def _parse_win_date(s):
     return None
 
 
+_WIN_HEADLINE_CACHE = {}
+
+
+def _real_headline(url: str) -> str:
+    """The article's own headline, or "" if it cannot be read.
+
+    Wins are logged by hand in the press tracker, and the Story column is often a
+    shorthand note rather than the headline: "Dark bedrooms" for an article
+    actually titled "25 Chic Dark Bedroom Ideas for a Cozy Escape". The digest is
+    a client-facing document, so it should carry the real headline and keep the
+    typed note only as a fallback.
+    """
+    if url in _WIN_HEADLINE_CACHE:
+        return _WIN_HEADLINE_CACHE[url]
+    title = ""
+    try:
+        req = _urlreq.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with _urlreq.urlopen(req, timeout=10) as resp:
+            html = resp.read(200_000).decode("utf-8", errors="replace")
+        m = _re.search(
+            r'<meta[^>]+property=["\']og:title["\'][^>]+content=["\']([^"\']+)',
+            html, _re.I)
+        if not m:
+            m = _re.search(r"<title[^>]*>(.*?)</title>", html, _re.I | _re.S)
+        if m:
+            title = _html.unescape(m.group(1)).strip()
+            # Strip the trailing site name most outlets append.
+            title = _re.sub(r"\s*[|\-–—]\s*[^|\-–—]{2,40}$", "", title).strip()
+    except Exception:
+        title = ""
+    _WIN_HEADLINE_CACHE[url] = title
+    return title
+
+
 def get_recent_press_house_wins(limit: int = 12) -> list:
     """Most recent confirmed wins (tracked outlets, real link), newest first."""
     global _RECENT_WINS_CACHE
@@ -294,8 +330,9 @@ def get_recent_press_house_wins(limit: int = 12) -> list:
         writer = str(w.get("writer") or "").strip()
         if "choose writer" in writer.lower():
             writer = ""
+        logged = str(w.get("story") or "").strip()
         out.append({
-            "story": str(w.get("story") or "").strip() or str(w.get("outlet") or "").strip(),
+            "story": _real_headline(link) or logged or str(w.get("outlet") or "").strip(),
             "url": link,
             "outlet": str(w.get("outlet") or "").strip(),
             "designer": str(w.get("sources") or "").strip(),
