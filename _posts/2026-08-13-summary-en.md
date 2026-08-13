@@ -5,30 +5,35 @@ date: 2026-08-13
 lang: en
 ---
 
-> 145 articles published in the last 24 hours
+> 144 articles published in the last 24 hours
 > 44 sources monitored
 
 ---
-<div id="kpi-data" style="display:none" data-designers-today="1" data-designers-month="1" data-record="3171"></div>
+<div id="kpi-data" style="display:none" data-designers-today="2" data-designers-month="1" data-record="3171"></div>
 
 ## 🏆 Press House Wins
+
+- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a73426587/bow-decor-trend/" target="_blank" rel="noopener">Designers Agree: Bow Decor Will Take Over This Fall</a>
+  `Good Housekeeping`
+  `🍾 Press Club Source: Amy Peltier 🍾`
+  *Aug 13*
 
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a71910713/small-decor-choices/" target="_blank" rel="noopener">6 Small Design Choices That Have a Big Impact</a>
   `Good Housekeeping`
   `🍾 Press Club Source: Gail Jamentz 🍾`
   *Aug 13*
 
-- [Hot takes and horror stories, exterior paint colors can you not stand](https://www.housebeautiful.com/design-inspiration/a73347077/exterior-house-colors-tacky/) `⭐ Diane Luna ⭐` `⭐ Lauren Smith ⭐` `⭐ Hallie Malitsky ⭐` `House Beautiful` *by Janae McKenzie · Aug 6*
+- [5 Exterior Paint Colors That Instantly Make Your Home Look "Tacky," According to Designers](https://www.housebeautiful.com/design-inspiration/a73347077/exterior-house-colors-tacky/) `⭐ Diane Luna ⭐` `⭐ Lauren Smith ⭐` `⭐ Hallie Malitsky ⭐` `House Beautiful` *by Janae McKenzie · Aug 6*
 - [Paint Colors That Look Worse in Sunny Rooms](https://www.thespruce.com/paint-colors-look-bad-in-sunny-rooms-12016606) `⭐ Sophia deDomenico ⭐` `The Spruce` *by Michelle Mastro · Aug 2*
-- [Best patio umbrellas](https://nymag.com/strategist/article/best-patio-umbrellas.html) `⭐ Hallie Malitsky ⭐` `NEW YORK MAGAZINE` *by Tobey Grumet · Aug 2*
-- [Tacky paint colors designers wish you would stop using](https://www.veranda.com/decorating-ideas/advice-from-designers/a73307991/tacky-paint-colors-designers-hate/) `⭐ Courtney B Smith ⭐` `⭐ Tracy Mowschenson ⭐` `Veranda` *by Shelby Deering · Jul 30*
-- [Room Divider Ideas](https://www.goodhousekeeping.com/home/decorating-ideas/g73318296/creative-room-divider-ideas/) `⭐ Terri Fiori ⭐` `Good Housekeeping` *by Monique Valeris · Jul 30*
-- [Dark bedrooms](https://www.goodhousekeeping.com/home/decorating-ideas/g73288062/stylish-dark-bedroom-ideas/) `⭐ Amy Lamb ⭐` `Good Housekeeping` *by Monique Valeris · Jul 30*
-- [Things You Should Get Rid of in Your Kitchen This Summer](https://www.countryliving.com/home-design/decorating-ideas/a71551539/kitchen-items-to-get-rid-of/) `⭐ Alexa Kingery ⭐` `Country Living` *by Kelsey Mulvey · Jul 29*
-- [Predictions for 2027 home renovation trends](https://www.veranda.com/home-decorators/design-trends/a73286095/2027-renovating-trends/) `⭐ Peggy Haddad ⭐` `⭐ Lara Kimmerer ⭐` `Veranda` *by Nina Derwin · Jul 29*
+- [The Best Patio Umbrellas, According to Designers](https://nymag.com/strategist/article/best-patio-umbrellas.html) `⭐ Hallie Malitsky ⭐` `NEW YORK MAGAZINE` *by Tobey Grumet · Aug 2*
+- [7 “Tacky” Paint Colors Interior Designers Wish You Would Stop Using](https://www.veranda.com/decorating-ideas/advice-from-designers/a73307991/tacky-paint-colors-designers-hate/) `⭐ Courtney B Smith ⭐` `⭐ Tracy Mowschenson ⭐` `Veranda` *by Shelby Deering · Jul 30*
+- [28 Creative Room Divider Ideas for a More Functional Layout](https://www.goodhousekeeping.com/home/decorating-ideas/g73318296/creative-room-divider-ideas/) `⭐ Terri Fiori ⭐` `Good Housekeeping` *by Monique Valeris · Jul 30*
+- [25 Inspiring Dark Bedroom Design Ideas for a Moody Retreat](https://www.goodhousekeeping.com/home/decorating-ideas/g73288062/stylish-dark-bedroom-ideas/) `⭐ Amy Lamb ⭐` `Good Housekeeping` *by Monique Valeris · Jul 30*
+- [Designers Say These 7 Kitchen Items Need to Go Before Summer Ends](https://www.countryliving.com/home-design/decorating-ideas/a71551539/kitchen-items-to-get-rid-of/) `⭐ Alexa Kingery ⭐` `Country Living` *by Kelsey Mulvey · Jul 29*
+- [Interior Designers Predict These 11 Home Renovation Trends Will Be Everywhere in 2027](https://www.veranda.com/home-decorators/design-trends/a73286095/2027-renovating-trends/) `⭐ Peggy Haddad ⭐` `⭐ Lara Kimmerer ⭐` `Veranda` *by Nina Derwin · Jul 29*
 - [Iridescent Details](https://www.apartmenttherapy.com/shinemaxxing-iridescent-interior-design-trend-37683177) `⭐ Genna Jacobs-Freeman ⭐` `Apartment Therapy` *by Zee Krstic · Jul 29*
 - [The Worst Kitchen Wall Colors](https://www.thespruce.com/worst-kitchen-wall-colors-12016825) `⭐ Lauren Smith ⭐` `The Spruce` *by Melissa Epifano Varley · Jul 26*
-- [gingham bedding trending](https://www.goodhousekeeping.com/home/decorating-ideas/a73246143/gingham-bedding-trend/) `⭐ Diane Luna ⭐` `Good Housekeeping` *by Monique Valeris · Jul 26*
+- [Designers Say This Surprising Retro Trend Is Taking Over Bedrooms](https://www.goodhousekeeping.com/home/decorating-ideas/a73246143/gingham-bedding-trend/) `⭐ Diane Luna ⭐` `Good Housekeeping` *by Monique Valeris · Jul 26*
 - [kitchen backsplashes add the most resale value and why,](https://www.thespruce.com/kitchen-backsplash-styles-that-add-resale-value-12006354) `⭐ Courtney B Smith ⭐` `The Spruce` *by Sarah Lyon · Jul 25*
 
 ---
@@ -39,12 +44,12 @@ lang: en
 
 - [The Spruce (7)](#source-the-spruce)
 - [Homes & Gardens (5)](#source-homes-gardens)
-- [Good Housekeeping (1)](#source-good-housekeeping)
+- [Good Housekeeping (2)](#source-good-housekeeping)
 - [Better Homes & Gardens (4)](#source-better-homes-gardens)
 - [Livingetc (8)](#source-livingetc)
-- [Real Simple (6)](#source-real-simple)
+- [Real Simple (5)](#source-real-simple)
 - [House Beautiful (10)](#source-house-beautiful)
-- [Apartment Therapy (12)](#source-apartment-therapy)
+- [Apartment Therapy (11)](#source-apartment-therapy)
 - [Mansion Global (1)](#source-mansion-global)
 - [Southern Living (5)](#source-southern-living)
 - [Architectural Digest (6)](#source-architectural-digest)
@@ -64,7 +69,7 @@ lang: en
 - [Morris&Essex (4)](#source-morris-essex)
 - [Style at Home (3)](#source-style-at-home)
 
-**Total Articles Today: 145**
+**Total Articles Today: 144**
 
 ---
 <a id="source-the-spruce"></a>
@@ -123,7 +128,12 @@ lang: en
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (1)
+## Good Housekeeping (2)
+
+- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a73426587/bow-decor-trend/" target="_blank" rel="noopener">Designers Agree: Bow Decor Will Take Over This Fall</a>
+  `Home`
+  `🍾 Press Club Source: Amy Peltier 🍾`
+  *Aug 13*
 
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a71910713/small-decor-choices/" target="_blank" rel="noopener">6 Small Design Choices That Have a Big Impact</a>
   `Home`
@@ -188,11 +198,7 @@ lang: en
 
 
 <a id="source-real-simple"></a>
-## Real Simple (6)
-
-- <a href="https://www.realsimple.com/ideal-temperature-for-water-heater-12028633" target="_blank" rel="noopener">Set Your Water Heater to This Temperature to Save Energy and Help Keep Your Home Safe</a>
-  `Home` `Home Improvement` `Home Maintenance & Repairs`
-  *by Wendy Rose Gould · Aug 12*
+## Real Simple (5)
 
 - <a href="https://www.realsimple.com/best-flannel-sheets-6754405" target="_blank" rel="noopener">We Tested Flannel Sheets: Here Are the 8 Best Ones</a>
   `Bedding & Bath Product Reviews` `Home Product Reviews` `Bedroom Decorating` `Decorating` `Home`
@@ -217,6 +223,10 @@ lang: en
 
 <a id="source-house-beautiful"></a>
 ## House Beautiful (10)
+
+- <a href="https://www.housebeautiful.com/lifestyle/a73427457/beautiful-college-towns-america/" target="_blank" rel="noopener">These Are the 11 Most Beautiful College Towns Across the U.S.</a>
+  `Design`
+  *Aug 13*
 
 - <a href="https://www.housebeautiful.com/lifestyle/a73427285/home-details-guests-think-are-tacky/" target="_blank" rel="noopener">12 “Tacky” Things Guests Notice the Second They Walk Into Your Home</a>
   `Design`
@@ -254,13 +264,9 @@ lang: en
   `Design`
   *Aug 12*
 
-- <a href="https://www.housebeautiful.com/lifestyle/gardening/a73405190/panicle-hydrangeas-planting-guide/" target="_blank" rel="noopener">This Is the One Shrub to Plant Now for Gorgeous Blooms Next Year, According to Experts</a>
-  `Design`
-  *Aug 12*
-
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (12)
+## Apartment Therapy (11)
 
 - <a href="https://www.apartmenttherapy.com/victorian-home-second-floor-kitchen-37685155?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Used to Hate the Weird Kitchen Layout in My 136-Year-Old Home</a>
   `Real Estate` `buying & owning home` `clone republish` `real estate`
@@ -305,10 +311,6 @@ lang: en
 - <a href="https://www.apartmenttherapy.com/moody-paris-inspired-kitchen-ba-37685180?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">2 Paint Colors Made This Tiny Kitchen Feel Cozy Without Adding a Single Inch</a>
   `Home Projects` `before & after` `featured ba` `kitchen` `product text link` `small spaces`
   *by Cullen Ormond · Aug 12*
-
-- <a href="https://www.apartmenttherapy.com/best-quince-bedding-tested-by-editors-37685927?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Is Quince Bedding Worth the Hype? Here’s What Our Editors Actually Sleep On</a>
-  `Life` `bedding & bath` `bedroom` `duvet` `duvet covers` `linen sheets`
-  *by Alexa Casanova · Aug 12*
 
 
 <a id="source-mansion-global"></a>
