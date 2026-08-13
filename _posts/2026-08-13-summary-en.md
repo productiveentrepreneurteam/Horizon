@@ -5,7 +5,7 @@ date: 2026-08-13
 lang: en
 ---
 
-> 144 articles published in the last 24 hours
+> 148 articles published in the last 24 hours
 > 44 sources monitored
 
 ---
@@ -25,15 +25,15 @@ lang: en
 
 - [5 Exterior Paint Colors That Instantly Make Your Home Look "Tacky," According to Designers](https://www.housebeautiful.com/design-inspiration/a73347077/exterior-house-colors-tacky/) `⭐ Diane Luna ⭐` `⭐ Lauren Smith ⭐` `⭐ Hallie Malitsky ⭐` `House Beautiful` *by Janae McKenzie · Aug 6*
 - [Paint Colors That Look Worse in Sunny Rooms](https://www.thespruce.com/paint-colors-look-bad-in-sunny-rooms-12016606) `⭐ Sophia deDomenico ⭐` `The Spruce` *by Michelle Mastro · Aug 2*
-- [The Best Patio Umbrellas, According to Designers](https://nymag.com/strategist/article/best-patio-umbrellas.html) `⭐ Hallie Malitsky ⭐` `NEW YORK MAGAZINE` *by Tobey Grumet · Aug 2*
-- [7 “Tacky” Paint Colors Interior Designers Wish You Would Stop Using](https://www.veranda.com/decorating-ideas/advice-from-designers/a73307991/tacky-paint-colors-designers-hate/) `⭐ Courtney B Smith ⭐` `⭐ Tracy Mowschenson ⭐` `Veranda` *by Shelby Deering · Jul 30*
-- [28 Creative Room Divider Ideas for a More Functional Layout](https://www.goodhousekeeping.com/home/decorating-ideas/g73318296/creative-room-divider-ideas/) `⭐ Terri Fiori ⭐` `Good Housekeeping` *by Monique Valeris · Jul 30*
-- [25 Inspiring Dark Bedroom Design Ideas for a Moody Retreat](https://www.goodhousekeeping.com/home/decorating-ideas/g73288062/stylish-dark-bedroom-ideas/) `⭐ Amy Lamb ⭐` `Good Housekeeping` *by Monique Valeris · Jul 30*
-- [Designers Say These 7 Kitchen Items Need to Go Before Summer Ends](https://www.countryliving.com/home-design/decorating-ideas/a71551539/kitchen-items-to-get-rid-of/) `⭐ Alexa Kingery ⭐` `Country Living` *by Kelsey Mulvey · Jul 29*
-- [Interior Designers Predict These 11 Home Renovation Trends Will Be Everywhere in 2027](https://www.veranda.com/home-decorators/design-trends/a73286095/2027-renovating-trends/) `⭐ Peggy Haddad ⭐` `⭐ Lara Kimmerer ⭐` `Veranda` *by Nina Derwin · Jul 29*
+- [The 7 Best Patio Umbrellas in 2026 | The Strategist](https://nymag.com/strategist/article/best-patio-umbrellas.html) `⭐ Hallie Malitsky ⭐` `NEW YORK MAGAZINE` *by Tobey Grumet · Aug 2*
+- [7 “Tacky” Paint Colors Interior Designers Hate—and What They Want You to Use Instead](https://www.veranda.com/decorating-ideas/advice-from-designers/a73307991/tacky-paint-colors-designers-hate/) `⭐ Courtney B Smith ⭐` `⭐ Tracy Mowschenson ⭐` `Veranda` *by Shelby Deering · Jul 30*
+- [28 Unique Room Divider Ideas for a Smarter Layout](https://www.goodhousekeeping.com/home/decorating-ideas/g73318296/creative-room-divider-ideas/) `⭐ Terri Fiori ⭐` `Good Housekeeping` *by Monique Valeris · Jul 30*
+- [25 Chic Dark Bedroom Ideas for a Cozy Escape](https://www.goodhousekeeping.com/home/decorating-ideas/g73288062/stylish-dark-bedroom-ideas/) `⭐ Amy Lamb ⭐` `Good Housekeeping` *by Monique Valeris · Jul 30*
+- [These 7 Kitchen Items Need to Go Before Summer Ends, Designers Say](https://www.countryliving.com/home-design/decorating-ideas/a71551539/kitchen-items-to-get-rid-of/) `⭐ Alexa Kingery ⭐` `Country Living` *by Kelsey Mulvey · Jul 29*
+- [The 11 Biggest Home Renovating Trends for 2027, According to Interior Designers](https://www.veranda.com/home-decorators/design-trends/a73286095/2027-renovating-trends/) `⭐ Peggy Haddad ⭐` `⭐ Lara Kimmerer ⭐` `Veranda` *by Nina Derwin · Jul 29*
 - [Iridescent Details](https://www.apartmenttherapy.com/shinemaxxing-iridescent-interior-design-trend-37683177) `⭐ Genna Jacobs-Freeman ⭐` `Apartment Therapy` *by Zee Krstic · Jul 29*
 - [The Worst Kitchen Wall Colors](https://www.thespruce.com/worst-kitchen-wall-colors-12016825) `⭐ Lauren Smith ⭐` `The Spruce` *by Melissa Epifano Varley · Jul 26*
-- [Designers Say This Surprising Retro Trend Is Taking Over Bedrooms](https://www.goodhousekeeping.com/home/decorating-ideas/a73246143/gingham-bedding-trend/) `⭐ Diane Luna ⭐` `Good Housekeeping` *by Monique Valeris · Jul 26*
+- [The Surprising Nostalgic Trend That’s Dominating Bedrooms](https://www.goodhousekeeping.com/home/decorating-ideas/a73246143/gingham-bedding-trend/) `⭐ Diane Luna ⭐` `Good Housekeeping` *by Monique Valeris · Jul 26*
 - [kitchen backsplashes add the most resale value and why,](https://www.thespruce.com/kitchen-backsplash-styles-that-add-resale-value-12006354) `⭐ Courtney B Smith ⭐` `The Spruce` *by Sarah Lyon · Jul 25*
 
 ---
@@ -44,32 +44,33 @@ lang: en
 
 - [The Spruce (7)](#source-the-spruce)
 - [Homes & Gardens (5)](#source-homes-gardens)
-- [Good Housekeeping (2)](#source-good-housekeeping)
+- [Good Housekeeping (3)](#source-good-housekeeping)
 - [Better Homes & Gardens (4)](#source-better-homes-gardens)
 - [Livingetc (8)](#source-livingetc)
 - [Real Simple (5)](#source-real-simple)
 - [House Beautiful (10)](#source-house-beautiful)
-- [Apartment Therapy (11)](#source-apartment-therapy)
+- [Apartment Therapy (12)](#source-apartment-therapy)
 - [Mansion Global (1)](#source-mansion-global)
 - [Southern Living (5)](#source-southern-living)
 - [Architectural Digest (6)](#source-architectural-digest)
 - [Sunset (3)](#source-sunset)
-- [Veranda (16)](#source-veranda)
+- [Veranda (15)](#source-veranda)
 
 **More outlets**
 
 - [Wall Street Journal (10)](#source-wall-street-journal)
 - [C+B Print (6)](#source-c-b-print)
 - [Country Living (3)](#source-country-living)
-- [Business of Home (2)](#source-business-of-home)
-- [Dengarden (6)](#source-dengarden)
+- [Business of Home (3)](#source-business-of-home)
+- [Dengarden (5)](#source-dengarden)
 - [American Farmhouse (3)](#source-american-farmhouse)
 - [New York Times (10)](#source-new-york-times)
+- [House & Home (2)](#source-house-home)
 - [Luxe Magazine (14)](#source-luxe-magazine)
 - [Morris&Essex (4)](#source-morris-essex)
-- [Style at Home (3)](#source-style-at-home)
+- [Style at Home (4)](#source-style-at-home)
 
-**Total Articles Today: 144**
+**Total Articles Today: 148**
 
 ---
 <a id="source-the-spruce"></a>
@@ -128,7 +129,11 @@ lang: en
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (2)
+## Good Housekeeping (3)
+
+- <a href="https://www.goodhousekeeping.com/home/renovation/a73255921/features-home-renovators-say-make-life-easier/" target="_blank" rel="noopener">4 Home Features Pros Say Will Make Your Life Easier</a>
+  `Home`
+  *Aug 13*
 
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a73426587/bow-decor-trend/" target="_blank" rel="noopener">Designers Agree: Bow Decor Will Take Over This Fall</a>
   `Home`
@@ -224,6 +229,10 @@ lang: en
 <a id="source-house-beautiful"></a>
 ## House Beautiful (10)
 
+- <a href="https://www.housebeautiful.com/shopping/furniture/a73416041/sundays-form-storage-bed-review/" target="_blank" rel="noopener">Sundays Form Storage Bed Review: It Doubles as an Extra Closet in My Small Apartment</a>
+  `Design`
+  *Aug 13*
+
 - <a href="https://www.housebeautiful.com/lifestyle/a73427457/beautiful-college-towns-america/" target="_blank" rel="noopener">These Are the 11 Most Beautiful College Towns Across the U.S.</a>
   `Design`
   *Aug 13*
@@ -260,13 +269,9 @@ lang: en
   `Design`
   *Aug 13*
 
-- <a href="https://www.housebeautiful.com/lifestyle/a73416114/adu-home-investment-benefits/" target="_blank" rel="noopener">We Bought a House With an ADU. It Became the Best Investment We Never Could’ve Planned.</a>
-  `Design`
-  *Aug 12*
-
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (11)
+## Apartment Therapy (12)
 
 - <a href="https://www.apartmenttherapy.com/victorian-home-second-floor-kitchen-37685155?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Used to Hate the Weird Kitchen Layout in My 136-Year-Old Home</a>
   `Real Estate` `buying & owning home` `clone republish` `real estate`
@@ -275,6 +280,10 @@ lang: en
 - <a href="https://www.apartmenttherapy.com/nightstand-closet-storage-37685271?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Put a Nightstand in My Closet, and It Was a Practical Small-Space Storage Hack</a>
   `Organizing` `closet` `organizing` `organizing & storage`
   *by Heather Bien · Aug 13*
+
+- <a href="https://www.apartmenttherapy.com/best-floor-cushions-for-reading-nooks-37686176?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">10 Floor Cushions That Instantly Create Cozy Reading Nooks (and Extra Seating!)</a>
+  `Decorating` `chairs` `decorating` `entertaining at home` `furniture` `living room`
+  *by Alexa Casanova · Aug 13*
 
 - <a href="https://www.apartmenttherapy.com/best-renter-friendly-bathroom-storage-amazon-august-2026-37685979?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">12 Renter-Friendly Finds That Bring Instant Storage to Small Bathrooms, Starting at $13</a>
   `Organizing` `amazon` `bathroom` `organization` `organization & storage` `product catalog`
@@ -316,7 +325,7 @@ lang: en
 <a id="source-mansion-global"></a>
 ## Mansion Global (1)
 
-- <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNc0hmTXdHRGRuRGtJaUFYd19UQ2JIR2xhZEZaaXlVR21rTmY0WXJqRlk4cDZrRTVhNHI3b3pxLVlkY2FTYlBBZTRCajlyQnpiYnVLUFUyQkFMMWpOWFdWRmtPRkxBNFJTNzNFWFFTemZfNDJPRThqYWhXdzVZaGktTFo2UW80ZXcwTG5sUjhHeFRnN2FiZTY1YWgtdHBtNVhWU3JxQmdlZ00tS01SRmJ5a09pY0t2Y0lBYVdGQTR30gHDAUFVX3lxTE1qZEZlUEREZUtUZWJIcEJsWFo0emxGMWlGWTlJaFZDQU0zRVVZMnFFMVMtaGx3Ni1tTEdXckhLMF9oeXRYRjlXbjV0LXEtLXowcmY2UVg3bEVvNVQ0d3U0WnY3Y3lXV2Q1cXZsUlh4cTU0T09wY0JnMS01VzMzVkdUWF9KMkxQT290WlpSWEczSHdHdXluYUhDcl96SGVfeHZVQUxGanpsNTkzUmVxbHN6YUxCRGpsWnJTMkZWdU9aanAyZw?oc=5" target="_blank" rel="noopener">Former Nuggets GM Calvin Booth Lists Home Outside Denver for $5.15M</a>
+- <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNc0hmTXdHRGRuRGtJaUFYd19UQ2JIR2xhZEZaaXlVR21rTmY0WXJqRlk4cDZrRTVhNHI3b3pxLVlkY2FTYlBBZTRCajlyQnpiYnVLUFUyQkFMMWpOWFdWRmtPRkxBNFJTNzNFWFFTemZfNDJPRThqYWhXdzVZaGktTFo2UW80ZXcwTG5sUjhHeFRnN2FiZTY1YWgtdHBtNVhWU3JxQmdlZ00tS01SRmJ5a09pY0t2Y0lBYVdGQTR30gHDAUFVX3lxTE1qZEZlUEREZUtUZWJIcEJsWFo0emxGMWlGWTlJaFZDQU0zRVVZMnFFMVMtaGx3Ni1tTEdXckhLMF9oeXRYRjlXbjV0LXEtLXowcmY2UVg3bEVvNVQ0d3U0WnY3Y3lXV2Q1cXZsUlh4cTU0T09wY0JnMS01VzMzVkdUWF9KMkxQT290WlpSWEczSHdHdXluYUhDcl96SGVfeHZVQUxGanpsNTkzUmVxbHN6YUxCRGpsWnJTMkZWdU9aanAyZw?oc=5" target="_blank" rel="noopener">Former Nuggets GM Calvin Booth Lists Home Outside Denver for $5.15M - mansionglobal.com</a>
   `Real Estate`
   *Aug 13*
 
@@ -348,6 +357,14 @@ lang: en
 <a id="source-architectural-digest"></a>
 ## Architectural Digest (6)
 
+- <a href="https://www.architecturaldigest.com/story/where-does-mick-jagger-live-examining-the-rock-stars-global-real-estate-portfolio" target="_blank" rel="noopener">Where Does Mick Jagger Live? Exploring the Rock Star’s Global Real Estate Portfolio</a>
+  `Celebrity Style` `Real Estate / Celebrity Real Estate` `Portfolio` `celebrity` `Celebrity Real Estate`
+  *by Katie Schultz · Aug 13*
+
+- <a href="https://www.architecturaldigest.com/story/best-nightstands-and-bedside-tables" target="_blank" rel="noopener">11 Best Nightstands & Bedside Tables for Stylish Bedrooms (2026)</a>
+  `Shopping` `furniture`
+  *by Audrey Lee, Kate McGregor · Aug 13*
+
 - <a href="https://www.architecturaldigest.com/story/coco-brandolini-dadda-milan-apartment" target="_blank" rel="noopener">Coco Brandolini d’Adda Collects the Way She Designs Fashion, and Her Milan Apartment Overflows with the Proof</a>
   `Magazine` `magazine` `international home tour` `Architecture + design` `home tour`
   *by Derek Blasberg · Aug 13*
@@ -363,14 +380,6 @@ lang: en
 - <a href="https://www.architecturaldigest.com/story/the-le-corbusier-buildings-everyone-should-know" target="_blank" rel="noopener">The 15 Le Corbusier Buildings Everyone Should Know</a>
   `Architecture + Design` `le corbusier`
   *by Stefanie Waldek, Elizabeth Stamp · Aug 12*
-
-- <a href="https://www.architecturaldigest.com/story/katey-sagal-and-kurt-sutter-los-angeles-home" target="_blank" rel="noopener">Katey Sagal and Kurt Sutter's Eclectic Los Angeles Home Combines Red Walls and Guitars Hung Like Art</a>
-  `Celebrity Style` `home tour` `web exclusive home tour` `domestic home tour` `celebrity` `celebrity home tours`
-  *by Juliet Izon · Aug 12*
-
-- <a href="https://www.architecturaldigest.com/story/decor-sales-08-12-26" target="_blank" rel="noopener">Best Decor and Furniture Sales This Week (2026): AD Editor Picks</a>
-  `Shopping` `sale`
-  *by Kate McGregor, Julia Harrison · Aug 12*
 
 
 <a id="source-sunset"></a>
@@ -390,7 +399,7 @@ lang: en
 
 
 <a id="source-veranda"></a>
-## Veranda (16)
+## Veranda (15)
 
 - <a href="https://www.veranda.com/decorating-ideas/advice-from-designers/a73338756/designer-paint-colors-guide/" target="_blank" rel="noopener">How to Choose Paint Colors *Exactly* Like a Designer</a>
   `Design`
@@ -451,10 +460,6 @@ lang: en
 - <a href="https://www.veranda.com/decorating-ideas/house-tours/a73308772/michael-s-smith-majorca-home-garden/" target="_blank" rel="noopener">Every Room of This Michael S. Smith-Designed Villa in Majorca Has Breathtaking Garden Views</a>
   `Design`
   *Aug 13*
-
-- <a href="https://www.veranda.com/travel/g40338994/most-beautiful-beaches-in-the-world/" target="_blank" rel="noopener">34 Breathtaking Beaches Around the World to Inspire Your Next Vacation</a>
-  `Design`
-  *Aug 12*
 
 
 
@@ -551,7 +556,7 @@ lang: en
 
 
 <a id="source-business-of-home"></a>
-## Business of Home (2)
+## Business of Home (3)
 
 - <a href="https://businessofhome.com/articles/how-mellow-tapped-tiktok-and-sleep-obsession-to-dtc-success.html" target="_blank" rel="noopener">How Mellow tapped TikTok and ‘sleep obsession’ to DTC success</a>
   `retail watch`
@@ -561,9 +566,13 @@ lang: en
   `the tearsheet,meet the makers`
   *by Caroline Biggs · Aug 13*
 
+- <a href="https://businessofhome.com/articles/how-five-designers-are-giving-back-to-their-community-one-cabin-at-a-time.html" target="_blank" rel="noopener">How five designers are giving back to their community, one cabin at a time</a>
+  `showhouses`
+  *by Aidan Taylor · Aug 13*
+
 
 <a id="source-dengarden"></a>
-## Dengarden (6)
+## Dengarden (5)
 
 - <a href="https://dengarden.com/news/ikea-wooden-bowl-diy-side-table" target="_blank" rel="noopener">You Can Build a Designer-Looking Coffee Table From IKEA Wooden Bowls for Less</a>
   `Hacks & DIY` `Home Projects` `News` `Coffee Table`
@@ -584,10 +593,6 @@ lang: en
 - <a href="https://dengarden.com/news/water-marbling-pumpkin-halloween-diy" target="_blank" rel="noopener">Give Your Pumpkins a Glam Marbled Makeover With This Nail Polish DIY</a>
   `Hacks & DIY` `Home Projects` `News` `Cute Diy`
   *by Emily Clements · Aug 12*
-
-- <a href="https://dengarden.com/shopping/aldi-kirkton-house-faux-floral-drop-in-mum" target="_blank" rel="noopener">Aldi's New Faux Mums Are Perfect for Autumn and So Budget-Friendly</a>
-  `Shopping` `Aldi Deals & Hacks` `Fall Season` `Flowers`
-  *by Jessica Kaplan · Aug 12*
 
 
 <a id="source-american-farmhouse"></a>
@@ -647,6 +652,18 @@ lang: en
 - <a href="https://www.nytimes.com/2026/08/12/realestate/a-pasadena-craftsman-bursting-with-color.html" target="_blank" rel="noopener">A Pasadena Craftsman Bursting With Color</a>
   `Pasadena (Calif)` `Interior Design and Furnishings`
   *by Tim McKeough · Aug 12*
+
+
+<a id="source-house-home"></a>
+## House & Home (2)
+
+- <a href="https://houseandhome.com/decorating-and-design/best-west-coast-homes/" target="_blank" rel="noopener">The Best of the West: Inside Homes From Canada’s Pacific Coast</a>
+  `B.C.` `BC homes` `best west coast homes` `British Columbia` `Calgary`
+  *by Wendy Jacob · Aug 13*
+
+- <a href="https://houseandhome.com/rooms/outdoors/modern-firepit-ideas-to-inspire-you/" target="_blank" rel="noopener">A Modern Firepit is the Spark Your Backyard Needs</a>
+  `Outdoors` `Rooms` `Backyard Firepit` `fire bowl` `fire feature`
+  *by Talia Hart · Aug 13*
 
 
 <a id="source-luxe-magazine"></a>
@@ -726,7 +743,11 @@ lang: en
 
 
 <a id="source-style-at-home"></a>
-## Style at Home (3)
+## Style at Home (4)
+
+- <a href="https://www.styleathome.com/how-to/before-and-after/article/before-after-this-narrow-toronto-home-went-from-cramped-to-candy-coloured" target="_blank" rel="noopener">Before & After: This Narrow Toronto Home Went From Cramped to Candy-Coloured</a>
+  `Home`
+  *by Sara Romano · Aug 13*
 
 - <a href="https://www.styleathome.com/interiors/bathroom/article/5-bathroom-items-you-should-get-rid-of-right-now" target="_blank" rel="noopener">5 Bathroom Items You Should Get Rid of Right Now</a>
   `Home`
