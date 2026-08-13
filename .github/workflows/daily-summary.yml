@@ -18,6 +18,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # need history to find the last digest timestamp
+
+      - name: Fetch gh-pages for the window calculation
+        run: git fetch --no-tags --depth=50 origin gh-pages || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,6 +45,26 @@ jobs:
       - name: Build in-house feeds
         run: uv run python -m src.scrapers.sitefeed || echo "feed build had problems, continuing"
 
+      # The lookback window must reach back to the PREVIOUS run, not a flat 24h.
+      # GitHub runs scheduled jobs on a best-effort basis and routinely starts
+      # this one 30-90 minutes late. Whenever two runs land more than 24h apart,
+      # a flat --hours 24 never looks at the articles published in the overrun,
+      # and nothing ever goes back for them. Measured on gh-pages: 7 of the 17
+      # days after the 27 Jul rebuild lost time this way, 10 hours in total.
+      - name: Work out the lookback window
+        run: |
+          LAST=$(git log -1 --format=%cI origin/gh-pages -- _posts 2>/dev/null || true)
+          if [ -z "$LAST" ]; then
+            HOURS=24
+          else
+            NOW=$(date -u +%s); THEN=$(date -u -d "$LAST" +%s)
+            HOURS=$(( (NOW - THEN + 3599) / 3600 + 1 ))   # round up, +1h overlap
+            [ "$HOURS" -lt 24 ] && HOURS=24
+            [ "$HOURS" -gt 72 ] && HOURS=72               # cap after a long outage
+          fi
+          echo "Last digest: ${LAST:-none}. Looking back $HOURS hours."
+          echo "HOURS=$HOURS" >> $GITHUB_ENV
+
       - name: Run Horizon
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
@@ -48,7 +73,7 @@ jobs:
           LWN_KEY: ${{ secrets.LWN_KEY }}
           PRESS_FEED_URL: ${{ secrets.PRESS_FEED_URL }}
           PRESS_FEED_TOKEN: ${{ secrets.PRESS_FEED_TOKEN }}
-        run: uv run horizon --hours 24
+        run: uv run horizon --hours "${HOURS:-24}"
 
       - name: Set current date as environment variable
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV

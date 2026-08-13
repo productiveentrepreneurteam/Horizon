@@ -122,8 +122,9 @@
       {
         "name": "Forbes",
         "url": "file://docs/feeds/forbes.xml",
-        "enabled": true,
-        "category": "business"
+        "enabled": false,
+        "category": "business",
+        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "Wall Street Journal",
@@ -164,14 +165,16 @@
       {
         "name": "Modern Luxury",
         "url": "https://modernluxury.com/feed/",
-        "enabled": true,
-        "category": "lifestyle"
+        "enabled": false,
+        "category": "lifestyle",
+        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "Realtor.com",
         "url": "https://www.realtor.com/news/feed/",
-        "enabled": true,
-        "category": "real-estate"
+        "enabled": false,
+        "category": "real-estate",
+        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "HGTV",
@@ -254,8 +257,9 @@
       {
         "name": "The Kitchn",
         "url": "https://www.thekitchn.com/main.rss",
-        "enabled": true,
-        "category": "home"
+        "enabled": false,
+        "category": "home",
+        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "AOL.com",
@@ -272,8 +276,9 @@
       {
         "name": "Hunker",
         "url": "https://www.hunker.com/feed/",
-        "enabled": true,
-        "category": "home"
+        "enabled": false,
+        "category": "home",
+        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "Colorado Homes",
@@ -356,14 +361,16 @@
       {
         "name": "The Philadelphia Inquirer",
         "url": "https://www.inquirer.com/arc/outboundfeeds/rss/category/real-estate/?outputType=xml",
-        "enabled": true,
-        "category": "lifestyle"
+        "enabled": false,
+        "category": "lifestyle",
+        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "Vogue",
         "url": "https://www.vogue.com/feed/rss",
-        "enabled": true,
-        "category": "design"
+        "enabled": false,
+        "category": "design",
+        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       }
     ],
     "reddit": {

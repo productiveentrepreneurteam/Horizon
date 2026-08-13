@@ -38,6 +38,10 @@ from pathlib import Path
 _RULES = None
 BRANDING_THRESHOLD = 0.7
 
+# Collapse every non-alphanumeric run to a single space, so a category tag
+# is compared word by word instead of as a raw substring.
+_NON_WORD_RUN = re.compile(r"[^a-z0-9]+")
+
 
 def _load() -> dict:
     global _RULES
@@ -73,6 +77,8 @@ def rules_for(outlet: str) -> dict:
         "require_titles": list(over.get("require_titles") or []),
         "rescue_titles": list(base.get("rescue_titles") or [])
                          + list(over.get("rescue_titles_add") or []),
+        "keep_categories": list(base.get("keep_categories") or [])
+                           + list(over.get("keep_categories_add") or []),
     }
 
 
@@ -98,9 +104,19 @@ def check(outlet: str, title: str, categories: list, url: str = "",
     for c in categories or []:
         if c in branding:
             continue
-        cl = c.lower()
+        cl = " " + _NON_WORD_RUN.sub(" ", c.lower()).strip() + " "
+        # An explicit keep wins. These are interiors categories that happen to
+        # contain a denied word: "Animal Print" is a decor trend, "Restaurant
+        # Design" and "Wellness Design" are commercial interiors, and Alex's
+        # designers get quoted in all three.
+        if any(" " + k + " " in cl for k in r["keep_categories"]):
+            continue
         for d in r["deny_categories"]:
-            if d in cl:
+            # Whole words only, singular or plural. A plain substring test
+            # deleted real press: "pet" sits inside "Carpet", "fashion" inside
+            # "Old-Fashioned". A category match is never rescued later, so
+            # those articles vanished with nothing in the digest to show it.
+            if " " + d + " " in cl or " " + d + "s " in cl:
                 return False, "category '%s'" % c
 
     for pat in r["deny_titles"]:

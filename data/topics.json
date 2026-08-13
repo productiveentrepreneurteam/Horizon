@@ -58,7 +58,21 @@
       "\\brenovat",
       "\\bhome office\\b"
     ],
-    "_rescue_note": "rescue_titles override a deny_titles match, never a deny_categories match. A category tag is the outlet's own classification and is trusted; a title keyword is a guess."
+    "_rescue_note": "rescue_titles override a deny_titles match, never a deny_categories match. A category tag is the outlet's own classification and is trusted; a title keyword is a guess.",
+    "keep_categories": [
+      "animal print",
+      "restaurant design",
+      "restaurant interior",
+      "wellness design",
+      "spa design",
+      "old fashioned",
+      "pet friendly",
+      "travel trailer",
+      "hotel design",
+      "food styling",
+      "kitchen"
+    ],
+    "_keep_note": "keep_categories beats deny_categories. For interiors tags that legitimately contain a denied word. Matched as whole words on the tag."
   },
   "outlets": {
     "Martha Stewart": {
