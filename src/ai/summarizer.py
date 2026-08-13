@@ -298,23 +298,59 @@ def _real_headline(url: str) -> str:
     if url in _WIN_HEADLINE_CACHE:
         return _WIN_HEADLINE_CACHE[url]
     title = ""
+    why = ""
     try:
-        req = _urlreq.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with _urlreq.urlopen(req, timeout=10) as resp:
-            html = resp.read(200_000).decode("utf-8", errors="replace")
-        m = _re.search(
-            r'<meta[^>]+property=["\']og:title["\'][^>]+content=["\']([^"\']+)',
-            html, _re.I)
+        # A bare "Mozilla/5.0" is not enough for several of these outlets; they
+        # want a request that looks like a browser or they hand back a challenge
+        # page. The first version of this shipped with a plain UA and silently
+        # fell back on every single win.
+        req = _urlreq.Request(url, headers={
+            "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                           "AppleWebKit/537.36 (KHTML, like Gecko) "
+                           "Chrome/126.0.0.0 Safari/537.36"),
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        })
+        with _urlreq.urlopen(req, timeout=15) as resp:
+            html = resp.read(300_000).decode("utf-8", errors="replace")
+        # <title> first: it is what the outlet shows in the browser tab and it
+        # matches what a person sees. og:title is often an A/B-tested variant.
+        m = _re.search(r"<title[^>]*>(.*?)</title>", html, _re.I | _re.S)
         if not m:
-            m = _re.search(r"<title[^>]*>(.*?)</title>", html, _re.I | _re.S)
+            m = _re.search(
+                r'<meta[^>]+property=["\']og:title["\'][^>]+content=["\']([^"\']+)',
+                html, _re.I)
         if m:
-            title = _html.unescape(m.group(1)).strip()
-            # Strip the trailing site name most outlets append.
-            title = _re.sub(r"\s*[|\-–—]\s*[^|\-–—]{2,40}$", "", title).strip()
-    except Exception:
-        title = ""
+            title = _html.unescape(_re.sub(r"\s+", " ", m.group(1))).strip()
+        else:
+            why = "no <title> or og:title in the response"
+    except Exception as e:
+        why = str(e)
+    if not title:
+        # Loud on purpose. The fallback below is correct but invisible, and an
+        # invisible fallback is how the shorthand titles survived unnoticed.
+        print(f"::warning title=Win headline unread::{url} -> {why or 'empty title'}. "
+              f"Falling back to the tracker's typed note.", file=_sys.stderr)
     _WIN_HEADLINE_CACHE[url] = title
     return title
+
+
+def _strip_outlet_suffix(title: str, outlet: str) -> str:
+    """Drop a trailing " | Outlet" / " - Outlet" that the site appended.
+
+    Only strips when the tail actually looks like the outlet's name, so a
+    headline that legitimately contains a dash keeps all of its words.
+    """
+    if not title or not outlet:
+        return title
+    m = _re.search(r"^(.*?)\s*[|\-–—]\s*([^|\-–—]{2,60})$", title)
+    if not m:
+        return title
+    head, tail = m.group(1).strip(), m.group(2).strip().lower()
+    o = outlet.strip().lower()
+    words = [w for w in _re.split(r"\W+", o) if len(w) > 2]
+    looks_like_outlet = tail == o or (words and all(w in tail for w in words))
+    return head if (head and looks_like_outlet) else title
 
 
 def get_recent_press_house_wins(limit: int = 12) -> list:
@@ -331,8 +367,10 @@ def get_recent_press_house_wins(limit: int = 12) -> list:
         if "choose writer" in writer.lower():
             writer = ""
         logged = str(w.get("story") or "").strip()
+        outlet = str(w.get("outlet") or "").strip()
+        headline = _strip_outlet_suffix(_real_headline(link), outlet)
         out.append({
-            "story": _real_headline(link) or logged or str(w.get("outlet") or "").strip(),
+            "story": headline or logged or outlet,
             "url": link,
             "outlet": str(w.get("outlet") or "").strip(),
             "designer": str(w.get("sources") or "").strip(),
