@@ -353,13 +353,25 @@ def _strip_outlet_suffix(title: str, outlet: str) -> str:
     return head if (head and looks_like_outlet) else title
 
 
-def get_recent_press_house_wins(limit: int = 12) -> list:
-    """Most recent confirmed wins (tracked outlets, real link), newest first."""
+def get_recent_press_house_wins(limit: int = 0) -> list:
+    """Most recent confirmed wins (tracked outlets, real link), newest first.
+
+    limit=0 (the default) means NO cap: every win the feed provides is
+    rendered. The old default of 12 meant the digest could only ever show
+    the newest handful of logged wins, however many were in the tracker -
+    Alyssa's 2026-08-13 "i thought we had more". NOTE: the sheet-side Apps
+    Script doGet feed was built with its own "newest 12" slice (2026-07-22);
+    if the live page still shows ~12 after this ships, the remaining cap is
+    that slice in the Apps Script project, not this function.
+    """
     global _RECENT_WINS_CACHE
     if _RECENT_WINS_CACHE is not None:
         return _RECENT_WINS_CACHE
     out = []
-    for w in get_feed().get("wins", [])[:limit]:
+    wins = get_feed().get("wins", [])
+    if limit:
+        wins = wins[:limit]
+    for w in wins:
         link = str(w.get("url") or "").strip()
         if not link.lower().startswith("http"):
             continue
