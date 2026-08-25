@@ -59,6 +59,16 @@ jobs:
           else
             NOW=$(date -u +%s); THEN=$(date -u -d "$LAST" +%s)
             HOURS=$(( (NOW - THEN + 3599) / 3600 + 1 ))   # round up, +1h overlap
+            # A RE-RUN OF A DAY ALREADY PUBLISHED MUST REACH BACK PAST THE RUN IT
+            # REPLACES. The floor below is 24h from NOW, so re-running at 19:00 after a
+            # 13:32 run moved the window START forward by 5.5h and the replacement page
+            # silently lost every article in that gap. Measured 2026-08-25: a re-run
+            # rewrote that day's digest from 146 articles to 111 and dropped Martha
+            # Stewart entirely, which then read as an outlet going dark. Same-day re-run
+            # gets +24h so the window covers the replaced run's own start.
+            if [ "$(date -u -d "$LAST" +%F)" = "$(date -u +%F)" ]; then
+              HOURS=$(( HOURS + 24 ))
+            fi
             [ "$HOURS" -lt 24 ] && HOURS=24
             [ "$HOURS" -gt 72 ] && HOURS=72               # cap after a long outage
           fi
