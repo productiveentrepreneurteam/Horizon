@@ -469,6 +469,18 @@ def _hinted(tag, hints) -> bool:
     """
     if getattr(tag, "decomposed", False) or tag.attrs is None:
         return False
+
+    # A PAGE-LEVEL ELEMENT IS NEVER A SIDEBAR (2026-08-25). These hints exist to
+    # remove recirculation modules from INSIDE a page. <html>, <body> and <main>
+    # are the page. Matching one of them and decomposing it deletes the article,
+    # the matcher then finds nobody in it, and the digest reports a quiet day.
+    # Measured: Architectural Digest's body carries "onenav-site-navigation", so
+    # the bare hint "nav" matched it and a 24,949-character article became 74
+    # characters. Homes & Gardens and Livingetc die the same way on
+    # "vanilla-centered-header", "sticky-navigation" and "articletype-advice".
+    if tag.name in ("html", "body", "main"):
+        return False
+
     classes = tag.get("class") or []
     if not isinstance(classes, list):
         classes = [classes]
@@ -476,7 +488,29 @@ def _hinted(tag, hints) -> bool:
         [" ".join(str(c) for c in classes), str(tag.get("id") or ""),
          str(tag.get("data-testid") or ""), str(tag.get("role") or "")]
     ).lower()
-    return any(h in bag for h in hints)
+
+    # WHOLE TOKENS, NOT BARE SUBSTRINGS. This is the same defect as the topic
+    # filter denying "Carpet" because "pet" is inside it, which was fixed there
+    # on 2026-08-13 and left unfixed here. A hint matches a class token, the
+    # start or end of one at a dash boundary, or a hint that already carries its
+    # own dash. "nav" no longer matches "sticky-navigation"; "header" no longer
+    # matches "vanilla-centered-header"; "-ad" no longer matches
+    # "articletype-advice". "related-stories" still matches "related".
+    tokens = [t for t in _NON_WORD.split(bag) if t]
+    joined = " ".join(tokens)
+    for h in hints:
+        hl = h.strip("-")
+        if not hl:
+            continue
+        if hl in tokens:
+            return True
+        # dashed compounds: "related-stories", "recirc-module", "ad-slot"
+        if any(t == hl or t.startswith(hl + "-") or t.endswith("-" + hl)
+               for t in _NON_WORD.sub(" ", bag).split()):
+            return True
+        if (" " + hl + " ") in (" " + joined + " "):
+            return True
+    return False
 
 
 def _split_article_text(html: str):
@@ -513,10 +547,30 @@ def _split_article_text(html: str):
     for tag in list(soup.find_all(_NON_ARTICLE_TAGS)):
         if not getattr(tag, "decomposed", False):
             tag.decompose()
+
+    # A RECIRCULATION MODULE IS A SMALL PART OF A PAGE. That is what makes it a
+    # module. So a container that holds most of the page's words is not one,
+    # whatever its class says, and deleting it deletes the story.
+    #
+    # This is the general form of a bug that kept arriving one site at a time.
+    # Architectural Digest's <body> says "onenav-site-navigation". Homes &
+    # Gardens and Livingetc put the whole article inside
+    # "widget-area ... page-widget-area-4". Both are honest class names; neither
+    # names a sidebar. Guarding page-level tags and matching whole tokens fixed
+    # AD and would not have fixed the other two, and the next CMS would have
+    # been a third patch. A size test needs no per-site knowledge at all.
+    #
+    # 50% is deliberately generous. A real "related stories" rail is a few
+    # percent of a page; nothing legitimate to strip comes near half.
+    page_chars = len(soup.get_text(" ", strip=True))
+    bulk = max(400, page_chars * 0.5)
+
     for tag in list(soup.find_all(True)):
         if getattr(tag, "decomposed", False):
             continue
         if _hinted(tag, _NON_ARTICLE_HINTS) or _hinted(tag, _BYLINE_HINTS):
+            if page_chars and len(tag.get_text(" ", strip=True)) >= bulk:
+                continue
             tag.decompose()
 
     # The LARGEST surviving <article>, not the first one. Business of Home
@@ -528,7 +582,22 @@ def _split_article_text(html: str):
         root = max(articles, key=lambda a: len(a.get_text(" ", strip=True)))
     if root is None or len(root.get_text(" ", strip=True)) < 200:
         root = soup.find("main") or soup.body or soup
-    return root.get_text(" ", strip=True), " ".join(byline_bits)
+
+    text = root.get_text(" ", strip=True)
+
+    # NEVER GO SILENTLY BLIND. If stripping removed essentially the whole page,
+    # the stripping is wrong, not the page. Falling back to the unstripped text
+    # risks the sidebar false positives this function exists to stop, so it does
+    # NOT fall back -- it raises, and the caller records a real failure instead of
+    # an empty result that reads as "no designers in this article". An article
+    # nobody could read is a different fact from an article with nobody in it.
+    whole = len(BeautifulSoup(html, "html.parser").get_text(" ", strip=True))
+    if whole > 2000 and len(text) < max(200, whole * 0.05):
+        raise ValueError(
+            "article body extraction collapsed: %d chars of %d survived. The "
+            "page was not read, so no conclusion about designers can be drawn "
+            "from it." % (len(text), whole))
+    return text, " ".join(byline_bits)
 
 
 def _mentioned_outside_a_credit(body: str, pad: str) -> bool:
@@ -568,8 +637,24 @@ def find_press_club_sources(url: str, author: str = "") -> list:
     sources = get_clean_sources()
     if sources:
         try:
-            req = _urlreq.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with _urlreq.urlopen(req, timeout=8) as resp:
+            # A BARE "Mozilla/5.0" IS REFUSED BY THE BIGGEST OUTLETS ON THE LIST.
+            # Measured 2026-08-25: thespruce.com, bhg.com, realsimple.com and
+            # southernliving.com (all Dotdash Meredith) answer HTTP 402 to that
+            # user agent and HTTP 200 to a realistic browser header set. Those are
+            # four of the highest-volume outlets in the digest -- The Spruce and
+            # Better Homes & Gardens alone are ~250 articles a week. Every one of
+            # those fetches raised, hit `except Exception: found = []`, and became
+            # a silent zero. Nothing distinguished it from "no designer in this
+            # article", which is why it went unnoticed.
+            req = _urlreq.Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                              "AppleWebKit/537.36 (KHTML, like Gecko) "
+                              "Chrome/126.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
+                          "image/avif,image/webp,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+            })
+            with _urlreq.urlopen(req, timeout=15) as resp:
                 html = resp.read().decode("utf-8", errors="replace")
             if STRICT_ARTICLE_BODY_ONLY:
                 article, byline = _split_article_text(html)
