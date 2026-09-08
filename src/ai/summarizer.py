@@ -683,6 +683,63 @@ def find_press_club_sources(url: str, author: str = "") -> list:
     _ARTICLE_SOURCE_CACHE[key] = found
     return found
 
+def export_untracked_finds(items, date: str, path: str = "docs/untracked-finds.json") -> str:
+    """Write today's champagne detections to a small JSON file on GitHub Pages.
+
+    An untracked find = a client designer's full name detected inside a fresh
+    scraped article whose URL is NOT logged in the tracker sheet's wins -- the
+    same rule that renders the Press Club Source marker on the digest. The
+    Press House Daily Report (Apps Script) fetches this file with UrlFetchApp
+    and renders its "Spotted, not logged" section from it.
+
+    Call AFTER the digest render so find_press_club_sources() hits the per-run
+    _ARTICLE_SOURCE_CACHE -- zero extra network calls. The digest page already
+    shows these detections publicly, so this JSON exposes nothing new.
+    Never raises: a failed export must not kill the digest run.
+    """
+    try:
+        tracked = get_press_house_wins()
+        finds = []
+        for it in items:
+            try:
+                if _normalize_url(it.url) in tracked:
+                    continue  # already logged in the sheet -> a star, not a champagne
+                # Pass the byline: the matcher's cache key is (url, author)
+                # since the 2026-08-11 false-positive fix, and omitting it
+                # misses the warm cache and refetches every article.
+                found = find_press_club_sources(it.url, getattr(it, "author", "") or "")
+                if not found:
+                    continue
+                meta = getattr(it, "metadata", {}) or {}
+                outlet = str(meta.get("feed_name") or it.author or it.source_type.value)
+                published = ""
+                if getattr(it, "published_at", None):
+                    published = it.published_at.strftime("%Y-%m-%d")
+                finds.append({
+                    "designers": found,
+                    "title": str(it.title or "").strip(),
+                    "url": str(it.url),
+                    "outlet": outlet,
+                    "published": published,
+                })
+            except Exception:
+                continue  # one bad item never kills the export
+        payload = {
+            "date": date,
+            "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "count": len(finds),
+            "finds": finds,
+        }
+        _os.makedirs(_os.path.dirname(path) or ".", exist_ok=True)
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write(_json.dumps(payload, ensure_ascii=False, indent=2))
+        _os.replace(tmp, path)
+        return path
+    except Exception:
+        return ""
+
+
 _CJK = r"[\u4e00-\u9fff\u3400-\u4dbf]"
 _ASCII = r"[A-Za-z0-9]"
 
