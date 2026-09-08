@@ -5,23 +5,17 @@ date: 2026-09-08
 lang: en
 ---
 
-> 60 articles published in the last 24 hours
+> 70 articles published in the last 24 hours
 > 44 sources monitored
 
 ---
-<div id="kpi-data" style="display:none" data-designers-today="1" data-designers-month="8" data-record="3407"></div>
+<div id="kpi-data" style="display:none" data-designers-today="0" data-designers-month="8" data-record="3407"></div>
 
 ## 🏆 Press House Wins
-
-- <a href="https://www.goodhousekeeping.com/home/g73556492/popular-architectural-house-styles/" target="_blank" rel="noopener">26 Charming Architectural House Styles—and What Makes Each Unique</a>
-  `Good Housekeeping`
-  `🍾 Press Club Source: Patricia Burke 🍾`
-  *Sep 7*
 
 - [7 Biggest Color Trends to Watch for in 2027](https://www.homesandgardens.com/decor/paint/color-trends-2027) `⭐ Courtney Klinger ⭐` `⭐ Hallie Malitsky ⭐` `⭐ Kelly Bartley ⭐` `Homes & Gardens` *by Eleanor Richardson · Sep 6*
 - [The Bathroom Vanity Trend That Makes Any Space Feel Warmer](https://www.homesandgardens.com/decor/bathrooms/wooden-vanity-bathroom-trend) `⭐ Amy Peltier ⭐` `Homes & Gardens` *by Molly Malsom · Sep 6*
 - [What's Replacing Navy Blue Kitchen Cabinets?](https://www.homesandgardens.com/decor/kitchens/whats-replacing-navy-blue-kitchen-cabinets-2027) `⭐ Lauren Saab ⭐` `Homes & Gardens` *by Molly Malsom · Sep 5*
-- [Accent Wall Mistakes Interior Designers Want You to Avoid](https://www.goodhousekeeping.com/home/decorating-ideas/a73606684/accent-wall-mistakes-designers/) `⭐ Patricia Burke ⭐` `⭐ Lara Kimmerer ⭐` `Good Housekeeping` *by Laura Millar · Sep 4*
 - [Adding print or pattern to a desk/dresser/cabinet rather than by using textiles](https://www.mansionglobal.com/articles/its-time-to-paint-and-wallpaper-your-cabinet-29f43dbb?mod=) `⭐ Colleen Simonds ⭐` `⭐ Caroline Kopp ⭐` `Mansion Global` *by Tracy Kaler · Sep 2*
 - [8 Ways to Decorate Like Dolly Parton, According to Designers](https://www.housebeautiful.com/design-inspiration/a73593816/how-to-decorate-like-dolly-parton/) `⭐ Colleen Simonds ⭐` `⭐ Danielle Domingues ⭐` `⭐ Courtney B Smith ⭐` `House Beautiful` *by Shelby Deering · Sep 2*
 - [Dropbox](https://www.dropbox.com/scl/fi/18sbps7rya3emvq1gzzd5/Lara-Kimmerer-in-Boston-Home-Mag.pdf?rlkey=rcutfp9ofnytyec0jw2lsq88g&st=uhxy1bu6&dl=0) `⭐ Lara Kimmerer ⭐` `Boston Home Magazine` *by Annie Sherman · Sep 1*
@@ -30,6 +24,7 @@ lang: en
 - [The Rug-to-Coffee Table Ratio Interior Designers Always Use](https://www.livingetc.com/advice/rug-to-coffee-table-ratio) `⭐ Lauren Saab ⭐` `Livingetc` *by Emily Moorman · Aug 31*
 - [2026 Fall Color Trend Predictions](https://www.bhg.com/fall-color-predictions-2026-12061597) `⭐ Lauren Covino-Smith ⭐` `⭐ Diane Luna ⭐` `⭐ Genna Jacobs-Freeman ⭐` `⭐ Hallie Malitsky ⭐` `Better Homes & Gardens` *by Patricia Shannon · Aug 29*
 - [The Biggest Mistakes People Make When Shopping Online Thrift Stores—and How to Avoid Them](https://www.realsimple.com/online-thrifting-mistakes-12024863) `⭐ Genna Jacobs-Freeman ⭐` `⭐ Terri Fiori ⭐` `Real Simple` *by Amanda Lauren · Aug 29*
+- [fall porch ideas](https://dengarden.com/design/fall-porch-ideas) `⭐ Amy Peltier ⭐` `Dengarden` *by Sarah Lyon · Aug 29*
 
 ---
 
@@ -38,13 +33,13 @@ lang: en
 **Priority outlets**
 
 - [The Spruce (6)](#source-the-spruce)
-- [Homes & Gardens (4)](#source-homes-gardens)
-- [Good Housekeeping (1)](#source-good-housekeeping)
-- [Better Homes & Gardens (6)](#source-better-homes-gardens)
+- [Homes & Gardens (5)](#source-homes-gardens)
+- [Good Housekeeping (3)](#source-good-housekeeping)
+- [Better Homes & Gardens (7)](#source-better-homes-gardens)
 - [Livingetc (7)](#source-livingetc)
 - [Real Simple (4)](#source-real-simple)
-- [House Beautiful (2)](#source-house-beautiful)
-- [Apartment Therapy (5)](#source-apartment-therapy)
+- [House Beautiful (4)](#source-house-beautiful)
+- [Apartment Therapy (6)](#source-apartment-therapy)
 - [Mansion Global (2)](#source-mansion-global)
 - [Martha Stewart (1)](#source-martha-stewart)
 - [Southern Living (1)](#source-southern-living)
@@ -53,13 +48,14 @@ lang: en
 **More outlets**
 
 - [Wall Street Journal (10)](#source-wall-street-journal)
-- [Elle Decor USA (1)](#source-elle-decor-usa)
+- [Elle Decor USA (2)](#source-elle-decor-usa)
+- [Country Living (2)](#source-country-living)
 - [Dengarden (2)](#source-dengarden)
 - [MyDomaine (3)](#source-mydomaine)
 - [Daily Mail (1)](#source-daily-mail)
 - [New York Times (3)](#source-new-york-times)
 
-**Total Articles Today: 60**
+**Total Articles Today: 70**
 
 ---
 <a id="source-the-spruce"></a>
@@ -91,13 +87,17 @@ lang: en
 
 
 <a id="source-homes-gardens"></a>
-## Homes & Gardens (4)
+## Homes & Gardens (5)
 
 - <a href="https://www.homesandgardens.com/decor/target-chrome-portable-lamp" target="_blank" rel="noopener">I’m Over ‘Unexpected Red’ This Autumn – Target’s $25 ‘Unexpected Chrome’ Lamp Is the Cooler Coffee Table Trick for Fall</a>
   *by Julia Demer · Sep 8*
 
 - <a href="https://www.homesandgardens.com/collection/decor/lakeside-home-decor" target="_blank" rel="noopener">The ‘Lakeside Aesthetic’ Is Fall’s Most Livable Luxe Trend – It’s the New Stealth Wealth for Cozy Homes</a>
   *by Julia Demer · Sep 8*
+
+- <a href="https://www.homesandgardens.com/decor/kitchens/small-but-clever-new-york-kitchen" target="_blank" rel="noopener">This Small New York Kitchen Proves a Closed-Concept Layout and Thoughtful Color Scheme Can Make a Tight Space Feel Truly Luxurious</a>
+  `Kitchens` `Rooms`
+  *by Molly Malsom · Sep 7*
 
 - <a href="https://www.homesandgardens.com/decor/the-color-combination-designers-avoid-in-a-living-room" target="_blank" rel="noopener">The Once Popular Color Combination Designers Would Now Avoid in a Living Room</a>
   *by Elizabeth Bennett · Sep 8*
@@ -108,16 +108,27 @@ lang: en
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (1)
+## Good Housekeeping (3)
 
 - <a href="https://www.goodhousekeeping.com/home/g73556492/popular-architectural-house-styles/" target="_blank" rel="noopener">26 Charming Architectural House Styles—and What Makes Each Unique</a>
   `Home`
-  `🍾 Press Club Source: Patricia Burke 🍾`
+  *Sep 7*
+
+- <a href="https://www.goodhousekeeping.com/home/organizing/a73447478/mail-clutter-organizing-tips/" target="_blank" rel="noopener">How to Stop Mail Clutter for Good, According to Professional Organizers</a>
+  `Home`
+  *Sep 7*
+
+- <a href="https://www.goodhousekeeping.com/home/a73607249/devices-never-plug-into-same-outlet/" target="_blank" rel="noopener">5 Things You Should Never Plug Into the Same Outlet</a>
+  `Home`
   *Sep 7*
 
 
 <a id="source-better-homes-gardens"></a>
-## Better Homes & Gardens (6)
+## Better Homes & Gardens (7)
+
+- <a href="https://www.bhg.com/outdated-countertop-materials-11846962" target="_blank" rel="noopener">5 Countertop Materials Designers Say Are Dating Your Kitchen</a>
+  `Decorating and Design` `Room Decorating and Design Ideas` `Kitchen Decorating and Design Ideas` `Kitchen Countertops`
+  *by Tessa Cooper · Sep 7*
 
 - <a href="https://www.bhg.com/grandmacore-hobbies-to-try-12067253" target="_blank" rel="noopener">10 Delightfully Wholesome Grandmacore Hobbies to Try at Home</a>
   `News` `Home Trends`
@@ -197,7 +208,7 @@ lang: en
 
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (2)
+## House Beautiful (4)
 
 - <a href="https://www.housebeautiful.com/design-inspiration/a73608266/formal-dining-room-trend/" target="_blank" rel="noopener">The Surprising Reason Formal Dining Rooms Are Making a Comeback</a>
   `Design`
@@ -207,9 +218,17 @@ lang: en
   `Design`
   *Sep 7*
 
+- <a href="https://www.housebeautiful.com/lifestyle/gardening/g73594998/best-fall-flowers/" target="_blank" rel="noopener">35 Beautiful Fall Flowers to Plant Now for a Vibrant Yard</a>
+  `Design`
+  *Sep 7*
+
+- <a href="https://www.housebeautiful.com/shopping/best-stores/a73515592/anthropologie-fall-2026-home-collection/" target="_blank" rel="noopener">Anthropologie Designers Say These 3 Home Trends Will Be Everywhere for Fall</a>
+  `Design`
+  *Sep 7*
+
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (5)
+## Apartment Therapy (6)
 
 - <a href="https://www.apartmenttherapy.com/ispecle-chest-freezer-organizer-37689177?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Your Chest Freezer Will Finally Be Organized with This 8-Piece Storage Set</a>
   `Organizing` `amazon` `fridge` `kitchen` `lifestyle news` `news`
@@ -230,6 +249,10 @@ lang: en
 - <a href="https://www.apartmenttherapy.com/saatva-arden-nightstand-review-37689722?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This Gorgeous Nightstand Gives Me Almost as Much Storage as a Small Dresser</a>
   `Decorating` `decor` `furniture` `love letter` `product module`
   *by Charli Penn · Sep 7*
+
+- <a href="https://www.apartmenttherapy.com/hanging-art-rule-60-inches-designers-hack-37689462?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The “60 Inches” Rule Is Instagram’s Buzzy Way to Improve Your Home Overnight</a>
+  `Decorating` `decor & accessories` `diy` `ideas & inspiration` `rules` `styles & trends`
+  *by Olivia Harvey · Sep 7*
 
 
 <a id="source-mansion-global"></a>
@@ -318,10 +341,26 @@ lang: en
 
 
 <a id="source-elle-decor-usa"></a>
-## Elle Decor USA (1)
+## Elle Decor USA (2)
 
 - <a href="https://www.elledecor.com/design-decorate/trends/a73618362/kitchen-trends-2027/" target="_blank" rel="noopener">The 4 Kitchen Trends Designers Are Watching This Fall</a>
   `Design`
+  *Sep 7*
+
+- <a href="https://www.elledecor.com/design-decorate/a73611601/annie-meyers-shyer-this-oak-house-excerpt/" target="_blank" rel="noopener">Annie Meyers-Shyer of @ThisOakHouse Creates Her Perfect Dining Room</a>
+  `Design`
+  *Sep 7*
+
+
+<a id="source-country-living"></a>
+## Country Living (2)
+
+- <a href="https://www.countryliving.com/shopping/antiques/a73463329/facebook-marketplace-shopping-tips/" target="_blank" rel="noopener">The Antiques Lover’s Guide to Shopping Facebook Marketplace</a>
+  `Home`
+  *Sep 8*
+
+- <a href="https://www.countryliving.com/gardening/garden-ideas/a73595258/bulb-lasagne-planting-guide/" target="_blank" rel="noopener">How to Plant a “Bulb Lasagne” in 5 Easy Steps</a>
+  `Home`
   *Sep 7*
 
 
