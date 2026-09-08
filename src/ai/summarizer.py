@@ -613,6 +613,45 @@ def _mentioned_outside_a_credit(body: str, pad: str) -> bool:
         start = i + 1
 
 
+# A PHOTOGRAPHER IS NOT A SOURCE. Deliberately narrower than _BYLINE_CUES,
+# which contains a bare "by": rejecting every "by" would also reject
+# "designed by Colleen Simonds", which IS a real feature win. Only
+# photo-shaped credits belong here.
+#
+# Found 2026-09-08 on the first day the untracked-finds export ran. Good
+# Housekeeping's slideshows print "Photo by: <name>" under each image, inside
+# the article body, so a photographer on the client roster read as a designer
+# quoted in the story. Two names went into the client's tracker as wins before
+# anyone read the surrounding sentence. Confirmed on three separate Good
+# Housekeeping pages; the designers actually quoted in them were different
+# people entirely.
+_PHOTO_CREDIT_CUES = (
+    "photo by", "photos by", "photograph by", "photographs by",
+    "photography by", "photographed by", "image by", "images by",
+    "picture by", "pictures by", "shot by", "styling by", "courtesy of",
+    "photo", "photos", "photography", "credit",
+)
+
+
+def _only_a_photo_credit(body: str, pad: str) -> bool:
+    """True if EVERY occurrence of the name is a photo or styling credit.
+
+    One mention anywhere else in the story is enough to keep the name: a
+    designer who is both photographed and quoted is still quoted.
+    """
+    seen_any = False
+    start = 0
+    while True:
+        i = body.find(pad, start)
+        if i < 0:
+            return seen_any
+        seen_any = True
+        before = body[:i + 1].rstrip()
+        if not any(before.endswith(" " + c) for c in _PHOTO_CREDIT_CUES):
+            return False
+        start = i + 1
+
+
 def find_press_club_sources(url: str, author: str = "") -> list:
     """Return client designer full names named in the article's own body text.
 
@@ -675,6 +714,10 @@ def find_press_club_sources(url: str, author: str = "") -> list:
                 # markup we did not recognise reads "... by Lauren Smith ...";
                 # a real mention reads "... says designer Lauren Smith ...".
                 if pad in byline_flat and not _mentioned_outside_a_credit(body, pad):
+                    continue
+                # Every mention is a photo credit -> this is the photographer,
+                # not someone quoted in the story. See _PHOTO_CREDIT_CUES.
+                if _only_a_photo_credit(body, pad):
                     continue
                 seen.add(low)
                 found.append(name)
