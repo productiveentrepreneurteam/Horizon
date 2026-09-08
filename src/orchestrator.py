@@ -263,6 +263,18 @@ class HorizonOrchestrator:
                     f"[yellow]⚠️  Failed to publish {lang.upper()} full digest to docs/: {e}[/yellow]\n"
                 )
 
+        # Export today's untracked finds (client designers detected in fresh
+        # articles but not logged in the tracker) for the Press House Daily
+        # Report to fetch from GitHub Pages. Runs after the digest render so
+        # the detection cache is warm -- no extra network calls. Never raises.
+        from .ai.summarizer import export_untracked_finds
+
+        finds_path = export_untracked_finds(items, today)
+        if finds_path:
+            self.console.print(f"\U0001f37e Wrote untracked-finds export: {finds_path}\n")
+        else:
+            self.console.print("[yellow]\u26a0\ufe0f  Untracked-finds export failed (digest unaffected)[/yellow]\n")
+
     def _determine_time_window(self, force_hours: int = None) -> datetime:
         if force_hours:
             since = datetime.now(timezone.utc) - timedelta(hours=force_hours)
