@@ -726,8 +726,126 @@ def find_press_club_sources(url: str, author: str = "") -> list:
     _ARTICLE_SOURCE_CACHE[key] = found
     return found
 
-def export_untracked_finds(items, date: str, path: str = "docs/untracked-finds.json") -> str:
+# --- 🍾 The finds ledger: every champagne find, kept until it is logged ----------
+#
+# Before 2026-09-10 a champagne find lived on the digest for exactly one day:
+# the day the article was scraped. The next morning it was neither in today's
+# items nor in the tracker sheet, so it fell out of the Press House Wins box and
+# out of untracked-finds.json, and the only record of it was an old page in
+# _posts. If nobody logged it that day, it was gone from anything anyone looks
+# at. Alyssa, 2026-09-10: "if the team missed it one day and didnt put it on the
+# sheet then it wouldnt be in the top box? fix that".
+#
+# The ledger is the fix. Every find is appended with the date it was first seen
+# and stays until one of two things happens: its URL shows up in the tracker
+# sheet's wins (it was logged, so it is a star now and leaves the ledger), or it
+# is older than LEDGER_KEEP_DAYS (a rolling month, so the 1st never wipes the box) with nobody having logged it. The digest shows
+# the whole ledger under Press House Wins every day, and the KPI row carries
+# the count, so a find is in front of the reader until it is dealt with.
+#
+# The file is published with the rest of docs/ to gh-pages. The daily workflow
+# restores the previous day's copy from gh-pages before the run, so the ledger
+# accumulates across runs even though main never carries it.
+LEDGER_PATH = "docs/untracked-finds-ledger.json"
+LEDGER_KEEP_DAYS = 31
+
+
+def load_finds_ledger(path: str = LEDGER_PATH) -> list:
+    """The previous ledger, or [] when there is none or it cannot be read. Never raises."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = _json.load(f)
+        finds = data.get("finds", []) if isinstance(data, dict) else data
+        return [x for x in finds if isinstance(x, dict) and x.get("url")]
+    except Exception:
+        return []
+
+
+def merge_finds_ledger(prior: list, todays: list, tracked: dict, today: str,
+                       keep_days: int = LEDGER_KEEP_DAYS) -> list:
+    """One ledger from yesterday's ledger plus today's finds.
+
+    Rules, in order: a find whose URL is now in the tracker's wins leaves (it
+    was logged); a find first seen more than keep_days ago leaves (the trail is
+    cold); the same URL seen again keeps its original first_seen and gets
+    today's last_seen; everything else is kept, newest first_seen first.
+    Pure: no I/O, so it is testable without a network or a sheet.
+    """
+    try:
+        today_dt = _dt.datetime.strptime(today, "%Y-%m-%d")
+    except Exception:
+        today_dt = _dt.datetime.now(timezone.utc).replace(tzinfo=None)
+    tracked_keys = {_normalize_url(k) for k in (tracked or {}).keys()}
+    merged: dict = {}
+    for entry in list(prior) + list(todays):
+        url = str(entry.get("url") or "").strip()
+        key = _normalize_url(url)
+        if not key or key in tracked_keys:
+            continue
+        first_seen = str(entry.get("first_seen") or entry.get("published") or today)[:10]
+        if key in merged:
+            keep = merged[key]
+            if first_seen < keep["first_seen"]:
+                keep["first_seen"] = first_seen
+            keep["last_seen"] = max(str(keep.get("last_seen") or ""), str(entry.get("last_seen") or today)[:10])
+            if entry.get("designers"):
+                keep["designers"] = sorted(set(keep.get("designers", [])) | set(entry["designers"]))
+            continue
+        merged[key] = {
+            "designers": sorted(set(entry.get("designers") or [])),
+            "title": str(entry.get("title") or "").strip(),
+            "url": url,
+            "outlet": str(entry.get("outlet") or "").strip(),
+            "published": str(entry.get("published") or "")[:10],
+            "first_seen": first_seen,
+            "last_seen": str(entry.get("last_seen") or today)[:10],
+        }
+    out = []
+    for e in merged.values():
+        try:
+            age = (today_dt - _dt.datetime.strptime(e["first_seen"], "%Y-%m-%d")).days
+        except Exception:
+            age = 0
+        if age <= keep_days:
+            out.append(e)
+    out.sort(key=lambda e: (e["first_seen"], e["url"]), reverse=True)
+    return out
+
+
+def _todays_finds(items, tracked: dict) -> list:
+    """Today's champagne finds in ledger shape. Uses the warm detection cache."""
+    finds = []
+    for it in items:
+        try:
+            if _normalize_url(it.url) in tracked:
+                continue
+            found = find_press_club_sources(it.url, getattr(it, "author", "") or "")
+            if not found:
+                continue
+            meta = getattr(it, "metadata", {}) or {}
+            outlet = str(meta.get("feed_name") or it.author or it.source_type.value)
+            published = ""
+            if getattr(it, "published_at", None):
+                published = it.published_at.strftime("%Y-%m-%d")
+            finds.append({
+                "designers": found,
+                "title": str(it.title or "").strip(),
+                "url": str(it.url),
+                "outlet": outlet,
+                "published": published,
+            })
+        except Exception:
+            continue
+    return finds
+
+
+def export_untracked_finds(items, date: str, path: str = "docs/untracked-finds.json",
+                           ledger_path: str = LEDGER_PATH) -> str:
     """Write today's champagne detections to a small JSON file on GitHub Pages.
+
+    Since 2026-09-10 it also rewrites the finds ledger (see LEDGER_PATH): the
+    previous ledger merged with today's finds, minus anything now logged in the
+    tracker. Today's file keeps its old shape for the report that reads it.
 
     An untracked find = a client designer's full name detected inside a fresh
     scraped article whose URL is NOT logged in the tracker sheet's wins -- the
@@ -742,31 +860,10 @@ def export_untracked_finds(items, date: str, path: str = "docs/untracked-finds.j
     """
     try:
         tracked = get_press_house_wins()
-        finds = []
-        for it in items:
-            try:
-                if _normalize_url(it.url) in tracked:
-                    continue  # already logged in the sheet -> a star, not a champagne
-                # Pass the byline: the matcher's cache key is (url, author)
-                # since the 2026-08-11 false-positive fix, and omitting it
-                # misses the warm cache and refetches every article.
-                found = find_press_club_sources(it.url, getattr(it, "author", "") or "")
-                if not found:
-                    continue
-                meta = getattr(it, "metadata", {}) or {}
-                outlet = str(meta.get("feed_name") or it.author or it.source_type.value)
-                published = ""
-                if getattr(it, "published_at", None):
-                    published = it.published_at.strftime("%Y-%m-%d")
-                finds.append({
-                    "designers": found,
-                    "title": str(it.title or "").strip(),
-                    "url": str(it.url),
-                    "outlet": outlet,
-                    "published": published,
-                })
-            except Exception:
-                continue  # one bad item never kills the export
+        # The matcher's cache key is (url, author) since the 2026-08-11
+        # false-positive fix; _todays_finds passes the byline so this hits
+        # the warm cache and refetches nothing.
+        finds = _todays_finds(items, tracked)
         payload = {
             "date": date,
             "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -778,6 +875,24 @@ def export_untracked_finds(items, date: str, path: str = "docs/untracked-finds.j
         with open(tmp, "w", encoding="utf-8") as f:
             f.write(_json.dumps(payload, ensure_ascii=False, indent=2))
         _os.replace(tmp, path)
+
+        # The ledger: yesterday's ledger plus today, minus anything now logged.
+        # Its own try, so a ledger problem never costs today's file.
+        try:
+            ledger = merge_finds_ledger(load_finds_ledger(ledger_path), finds, tracked, date)
+            ledger_payload = {
+                "date": date,
+                "generated_utc": payload["generated_utc"],
+                "keep_days": LEDGER_KEEP_DAYS,
+                "count": len(ledger),
+                "finds": ledger,
+            }
+            ltmp = ledger_path + ".tmp"
+            with open(ltmp, "w", encoding="utf-8") as f:
+                f.write(_json.dumps(ledger_payload, ensure_ascii=False, indent=2))
+            _os.replace(ltmp, ledger_path)
+        except Exception:
+            pass
         return path
     except Exception:
         return ""
@@ -997,11 +1112,40 @@ class DailySummarizer:
                 "below and are complete; only the wins layer is missing. This is a systems "
                 "problem, not a quiet news day.\n\n---\n\n"
             )
-        elif todays or recent_wins:
+        # 🍾 Finds from earlier days that nobody has logged yet. Read from the
+        # ledger the previous run published (restored from gh-pages by the
+        # workflow), minus anything scraped again today and anything the sheet
+        # now carries. Shown every day until logged: the top box no longer
+        # forgets a find the morning after it was made.
+        _tracked_now = get_press_house_wins()
+        _earlier_finds = [
+            e for e in merge_finds_ledger(load_finds_ledger(), [], _tracked_now,
+                                          datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+            if _normalize_url(e["url"]) not in today_urls
+        ]
+        if feed_failed():
+            _earlier_finds = []  # the "now logged" filter could not run; do not guess
+
+        if feed_failed():
+            pass
+        elif todays or recent_wins or _earlier_finds:
             wins_parts.append("## 🏆 Press House Wins\n\n")
             for item in todays:
                 wins_parts.append(self._format_item_simple(item, language, wins_mode=True))
                 wins_parts.append("\n")
+            if _earlier_finds:
+                wins_parts.append("\n### 🍾 Found this month, not logged yet\n\n")
+                for e in _earlier_finds:
+                    _title = str(e.get("title") or e.get("outlet") or e["url"]).replace("[", "(").replace("]", ")")
+                    _names = ", ".join(e.get("designers") or []) or "Press Club Source"
+                    _seen = e.get("first_seen") or e.get("published") or ""
+                    wins_parts.append(
+                        f'- <a href="{e["url"]}" target="_blank" rel="noopener">{_title}</a>\n'
+                        f'  `{e.get("outlet") or ""}`\n'
+                        f'  `🍾 Press Club Source: {_names} 🍾`\n'
+                        f'  *found {_seen}, not in the tracker yet*\n'
+                    )
+                    wins_parts.append("\n")
             for w in recent_wins:
                 designers = [d.strip() for d in (w["designer"] or "").replace(";", ",").split(",") if d.strip()]
                 source_tags = " ".join(f"`⭐ {d} ⭐`" for d in designers) or "`⭐ Press Club Source ⭐`"
@@ -1025,9 +1169,12 @@ class DailySummarizer:
                     _designers.update(_f)
                     _to_file += 1
         _stats = get_feed().get("stats", {}) or {}
+        # Everything found and not yet logged: today's finds plus the ledger.
+        _unlogged = len(_earlier_finds) + _to_file
         kpi_data = (
             '<div id="kpi-data" style="display:none"'
             f' data-designers-today="{len(_designers)}"'
+            f' data-found-unlogged="{_unlogged}"'
             f' data-designers-month="{str(_stats.get("designers_this_month", "") or "").strip()}"'
             f' data-record="{str(_stats.get("all_time", "") or "").strip()}"></div>\n\n'
         )
