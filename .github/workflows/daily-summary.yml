@@ -24,6 +24,20 @@ jobs:
       - name: Fetch gh-pages for the window calculation
         run: git fetch --no-tags --depth=50 origin gh-pages || true
 
+      # The finds ledger accumulates across runs but main never carries it:
+      # it is published to gh-pages with the rest of docs/. Restore yesterday's
+      # copy before the run so today's finds are added to it rather than
+      # replacing it. On the first run (nothing on gh-pages yet) the seed file
+      # committed on main stands. Never fails the run.
+      - name: Restore the finds ledger from gh-pages
+        run: |
+          if git show origin/gh-pages:untracked-finds-ledger.json > /tmp/ledger.json 2>/dev/null && [ -s /tmp/ledger.json ]; then
+            cp /tmp/ledger.json docs/untracked-finds-ledger.json
+            echo "Restored the finds ledger from gh-pages."
+          else
+            echo "No ledger on gh-pages yet; using the copy on main."
+          fi
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
