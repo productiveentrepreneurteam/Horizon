@@ -1,9 +1,31 @@
 {
-  "date": "2026-09-14",
-  "generated_utc": "2026-09-14T18:32:50Z",
+  "date": "2026-09-15",
+  "generated_utc": "2026-09-15T17:36:31Z",
   "keep_days": 31,
-  "count": 7,
+  "count": 8,
   "finds": [
+    {
+      "designers": [
+        "Colleen Simonds"
+      ],
+      "title": "10 Stylish Pink Bedroom Ideas You'll Want to Recreate",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a73672289/pink-bedroom-design-ideas/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-09-15",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15"
+    },
+    {
+      "designers": [
+        "Kira Young"
+      ],
+      "title": "The Most Popular Paint Colors for 2027",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a73582492/trending-paint-colors-2027/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-09-15",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15"
+    },
     {
       "designers": [
         "Shani Core"
@@ -36,18 +58,6 @@
       "published": "2026-09-13",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13"
-    },
-    {
-      "designers": [
-        "Genna Jacobs-Freeman",
-        "Terri Fiori"
-      ],
-      "title": "9 Designer Secrets for Making Your Home Feel Instantly Cozier",
-      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a73585021/cozy-home-design-mistakes/",
-      "outlet": "Good Housekeeping",
-      "published": "2026-09-12",
-      "first_seen": "2026-09-12",
-      "last_seen": "2026-09-12"
     },
     {
       "designers": [
