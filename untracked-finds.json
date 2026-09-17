@@ -1,6 +1,26 @@
 {
-  "date": "2026-09-16",
-  "generated_utc": "2026-09-16T17:45:53Z",
-  "count": 0,
-  "finds": []
+  "date": "2026-09-17",
+  "generated_utc": "2026-09-17T15:40:59Z",
+  "count": 2,
+  "finds": [
+    {
+      "designers": [
+        "Tiffani Baumgart"
+      ],
+      "title": "39 Desk Organization Ideas to Clear Clutter and Boost Productivity",
+      "url": "https://www.goodhousekeeping.com/home/organizing/g73763088/best-desk-organization-ideas/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-09-16"
+    },
+    {
+      "designers": [
+        "Mugdha Girish Uma",
+        "Lauren Saab"
+      ],
+      "title": "12 No-Reno Finds Interior Designers Says Will Make Any Room Feel Refreshed",
+      "url": "https://www.housebeautiful.com/shopping/home-accessories/g73744191/best-under-50-home-upgrades-designers/",
+      "outlet": "House Beautiful",
+      "published": "2026-09-17"
+    }
+  ]
 }
