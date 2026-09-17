@@ -5,7 +5,7 @@ date: 2026-09-17
 lang: en
 ---
 
-> 120 articles published in the last 24 hours
+> 135 articles published in the last 24 hours
 > 44 sources monitored
 
 ---
@@ -29,32 +29,32 @@ lang: en
 - <a href="https://www.architecturaldigest.com/story/paint-colors-that-instantly-update-any-home" target="_blank" rel="noopener">10 Paint Colors That Instantly Update Any Home</a>
   `Architectural Digest`
   `🍾 Press Club Source: Shani Core 🍾`
-  *found 2026-09-14, not in the tracker yet*
+  *Sep 14 [untracked]*
 
 - <a href="https://www.architecturaldigest.com/story/10-ad-approved-millworkers" target="_blank" rel="noopener">10 “AD”-Approved Millworkers to Perfect Your Next Project’s Built-Ins</a>
   `Architectural Digest`
   `🍾 Press Club Source: Holly Freres 🍾`
-  *found 2026-09-14, not in the tracker yet*
+  *Sep 14 [untracked]*
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/mushroom-kitchen-colors" target="_blank" rel="noopener">The Understated Kitchen Shade That Makes a Space Feel Warm, Calm, and Expensive</a>
   `Homes & Gardens`
   `🍾 Press Club Source: Alexa Kingery 🍾`
-  *found 2026-09-13, not in the tracker yet*
+  *Sep 13 [untracked]*
 
 - <a href="https://www.homesandgardens.com/decor/bathrooms/wooden-vanity-bathroom-trend" target="_blank" rel="noopener">Meet the Bathroom Vanity Trend That Makes Every Space Feel Warmer</a>
   `Homes & Gardens`
   `🍾 Press Club Source: Amy Peltier 🍾`
-  *found 2026-09-06, not in the tracker yet*
+  *Sep 6 [untracked]*
 
 - <a href="https://www.homesandgardens.com/decor/kitchens/whats-replacing-navy-blue-kitchen-cabinets-2027" target="_blank" rel="noopener">What's Replacing Navy Blue Kitchen Cabinets?</a>
   `Homes & Gardens`
   `🍾 Press Club Source: Lauren Saab 🍾`
-  *found 2026-09-05, not in the tracker yet*
+  *Sep 5 [untracked]*
 
 - <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a73606684/accent-wall-mistakes-designers/" target="_blank" rel="noopener">The Biggest Accent Wall Mistakes That Can Throw Off Your Whole Room</a>
   `Good Housekeeping`
   `🍾 Press Club Source: Lara Kimmerer, Patricia Burke 🍾`
-  *found 2026-09-04, not in the tracker yet*
+  *Sep 4 [untracked]*
 
 - [Bookcase doors](https://www.mansionglobal.com/articles/create-your-own-personal-hideaway-with-bookcase-doors-that-lead-to-a-secret-space-dcc3bf4a?mod=) `⭐ Terri Fiori ⭐` `Mansion Global` *by Tracy Kaler · Sep 16*
 - [living room layouts](https://www.apartmenttherapy.com/living-room-furniture-layout-mistake-37690680) `⭐ Genna Jacobs-Freeman ⭐` `Apartment Therapy` *by Sarah Lyon · Sep 16*
@@ -75,39 +75,41 @@ lang: en
 
 **Priority outlets**
 
-- [The Spruce (9)](#source-the-spruce)
+- [The Spruce (10)](#source-the-spruce)
 - [Homes & Gardens (7)](#source-homes-gardens)
-- [Good Housekeeping (3)](#source-good-housekeeping)
-- [Better Homes & Gardens (4)](#source-better-homes-gardens)
+- [Good Housekeeping (4)](#source-good-housekeeping)
+- [Better Homes & Gardens (9)](#source-better-homes-gardens)
 - [Livingetc (7)](#source-livingetc)
-- [Real Simple (4)](#source-real-simple)
-- [House Beautiful (9)](#source-house-beautiful)
-- [Apartment Therapy (12)](#source-apartment-therapy)
-- [Southern Living (5)](#source-southern-living)
-- [Architectural Digest (2)](#source-architectural-digest)
+- [Real Simple (5)](#source-real-simple)
+- [House Beautiful (11)](#source-house-beautiful)
+- [Apartment Therapy (15)](#source-apartment-therapy)
+- [Southern Living (6)](#source-southern-living)
+- [Architectural Digest (3)](#source-architectural-digest)
 - [Sunset (3)](#source-sunset)
-- [Veranda (2)](#source-veranda)
+- [Veranda (3)](#source-veranda)
 
 **More outlets**
 
-- [Wall Street Journal (14)](#source-wall-street-journal)
+- [Wall Street Journal (16)](#source-wall-street-journal)
 - [Elle Decor USA (3)](#source-elle-decor-usa)
 - [Country Living (4)](#source-country-living)
-- [Business of Home (2)](#source-business-of-home)
+- [Business of Home (3)](#source-business-of-home)
 - [Cubby (1)](#source-cubby)
 - [Dengarden (3)](#source-dengarden)
 - [Daily Mail (1)](#source-daily-mail)
-- [New York Times (5)](#source-new-york-times)
-- [House & Home (1)](#source-house-home)
-- [Kitchen Bath Design (4)](#source-kitchen-bath-design)
+- [New York Times (6)](#source-new-york-times)
 - [Luxe Magazine (14)](#source-luxe-magazine)
 - [Style at Home (1)](#source-style-at-home)
 
-**Total Articles Today: 120**
+**Total Articles Today: 135**
 
 ---
 <a id="source-the-spruce"></a>
-## The Spruce (9)
+## The Spruce (10)
+
+- <a href="https://www.thespruce.com/best-carbon-monoxide-detectors-11686459" target="_blank" rel="noopener">The 10 Best Carbon Monoxide Detectors The Spruce Has Tested and Vetted</a>
+  `Home Security Products: Reviews and Buying Guides` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products`
+  *by Mia Gitto · Sep 17*
 
 - <a href="https://www.thespruce.com/furniture-designers-wouldnt-buy-again-12113169" target="_blank" rel="noopener">We Asked Designers About the Furniture They’d Never Buy Again—and They Did Not Hold Back</a>
   `Home & Gardening Trends` `Home News` `Furniture` `Decorating` `Home Design & Decorating`
@@ -178,7 +180,11 @@ lang: en
 
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (3)
+## Good Housekeeping (4)
+
+- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a73719545/indoor-trelliage-design-ideas/" target="_blank" rel="noopener">Why Designers Love Indoor Treillage and How to Use It at Home</a>
+  `Home`
+  *Sep 17*
 
 - <a href="https://www.goodhousekeeping.com/home/organizing/g73763088/best-desk-organization-ideas/" target="_blank" rel="noopener">39 Desk Organization Ideas to Clear Clutter and Boost Productivity</a>
   `Home`
@@ -195,7 +201,7 @@ lang: en
 
 
 <a id="source-better-homes-gardens"></a>
-## Better Homes & Gardens (4)
+## Better Homes & Gardens (9)
 
 - <a href="https://www.bhg.com/90s-kitchen-trends-are-back-12067297" target="_blank" rel="noopener">6 Charming ‘90s Kitchen Trends That Are Back In Style</a>
   `Decorating and Design` `Room Decorating and Design Ideas` `Home Trends` `News` `Home Features`
@@ -212,6 +218,26 @@ lang: en
 - <a href="https://www.bhg.com/gardening/houseplants/projects/tropical-flowers-for-the-home/" target="_blank" rel="noopener">11 Plants with Tropical Flowers That Will Enliven Any Room</a>
   `Choosing Houseplants` `Houseplants` `Flowers` `Gardening`
   *by Andrea Beck · Sep 16*
+
+- <a href="https://www.bhg.com/harvesting-tips-zucchini-11742019" target="_blank" rel="noopener">The Right Way to Harvest Zucchini and Their Tasty Flowers—Plus Must-Know Storage Tips</a>
+  `Vegetable Gardening` `Edible Gardening` `Gardening`
+  *by Lauren Landers · Sep 16*
+
+- <a href="https://www.bhg.com/kitchens-with-black-cabinets-7099272" target="_blank" rel="noopener">The 10 Best Black Kitchen Cabinets for a Luxurious Look</a>
+  `Kitchen Cabinets` `Kitchen Decorating and Design Ideas` `Kitchen Color Schemes` `Room Decorating and Design Ideas` `Decorating and Design`
+  *by Emerson Latham · Sep 16*
+
+- <a href="https://www.bhg.com/decorating/small-spaces/strategies/space-solution-every-room/" target="_blank" rel="noopener">31 Small-Space Solutions for Every Room in Your Home</a>
+  `Decorating Small Spaces` `Decorating and Design`
+  *by Jessica Bennett · Sep 16*
+
+- <a href="https://www.bhg.com/how-much-does-a-fence-cost-8622760" target="_blank" rel="noopener">How Much Does a Fence Cost? 3 Factors That Impact the Price</a>
+  `Fences` `Outdoor Structures` `Curb Appeal Ideas, Makeovers and Photos` `Home Exteriors` `Remodeling Advice & Planning` `Home Improvement Ideas`
+  *by Nafeesah Allen · Sep 16*
+
+- <a href="https://www.bhg.com/best-gift-baskets-7482426" target="_blank" rel="noopener">The 25 Best Gift Baskets of 2026, According to Our Taste Tests</a>
+  `The Best Gifts of 2025` `Gifts and Holiday Reviews` `BHG Recommends` `Shopping`
+  *by Molly Blanco · Sep 16*
 
 
 <a id="source-livingetc"></a>
@@ -247,11 +273,15 @@ lang: en
 
 
 <a id="source-real-simple"></a>
-## Real Simple (4)
+## Real Simple (5)
 
 - <a href="https://www.realsimple.com/larders-kitchen-storage-method-12070299" target="_blank" rel="noopener">This Charming Old-School Kitchen Feature Is Making a Comeback—and It Keeps Clutter at Bay</a>
   `Organizing` `Home`
   *by Sarah Lyon · Sep 16*
+
+- <a href="https://www.realsimple.com/how-to-soundproof-bedroom-12070307" target="_blank" rel="noopener">How to Soundproof Your Bedroom for a Quieter and More Restful Space</a>
+  `Home` `Decorating` `Bedroom Decorating`
+  *by Amanda Lauren · Sep 17*
 
 - <a href="https://www.realsimple.com/best-drinking-glasses-11712894" target="_blank" rel="noopener">The 10 Best Drinking Glasses, According to Our Editors</a>
   `Shopping` `Tabletop Product Reviews` `Kitchen Product Reviews`
@@ -267,7 +297,15 @@ lang: en
 
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (9)
+## House Beautiful (11)
+
+- <a href="https://www.housebeautiful.com/shopping/home-accessories/a73726108/joanna-gaines-magnolia-home-loloi-collection-fall-2026/" target="_blank" rel="noopener">3 Trends From Joanna Gaines's New Fall 2026 Rug Collection That Will Be Everywhere</a>
+  `Design`
+  *Sep 17*
+
+- <a href="https://www.housebeautiful.com/design-inspiration/a73762332/how-to-design-a-non-working-fireplace/" target="_blank" rel="noopener">Designers Never Leave a Non-Working Fireplace Empty. Here's What They Do Instead</a>
+  `Design`
+  *Sep 17*
 
 - <a href="https://www.housebeautiful.com/shopping/home-accessories/g73744191/best-under-50-home-upgrades-designers/" target="_blank" rel="noopener">12 No-Reno Finds Interior Designers Says Will Make Any Room Feel Refreshed</a>
   `Design`
@@ -308,7 +346,7 @@ lang: en
 
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (12)
+## Apartment Therapy (15)
 
 - <a href="https://www.apartmenttherapy.com/living-room-furniture-layout-mistake-37690680?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The Furniture Mistake That Makes Your Living Room Look Sad and Empty</a>
   `Decorating` `decorating` `design` `furniture` `ideas & inspiration` `living room`
@@ -319,6 +357,14 @@ lang: en
   `Decorating` `decorating` `design` `ideas & inspiration` `living room` `rugs`
   *by Heather Bien · Sep 16*
 
+- <a href="https://www.apartmenttherapy.com/colorful-236-square-foot-paris-apartment-2-37559816?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This 236-Square-Foot Paris Apartment Makes the Most of Every Inch</a>
+  `Tours` `clone republish` `featured tour` `house tours tmobile 2026` `tours` `Apartment`
+  *by Adrienne Breaux · Sep 17*
+
+- <a href="https://www.apartmenttherapy.com/is-castlery-furniture-worth-it-37344754?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This DTC Home Brand Sells the Most Gorgeous Quiet Luxury-Inspired Finds</a>
+  `Decorating` `castlery` `furniture` `product catalog` `product module` `product roundup`
+  *by Kelly Dawson · Sep 17*
+
 - <a href="https://www.apartmenttherapy.com/bonne-maman-advent-calendar-2026-2-37691027?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Finally Tried the Bonne Maman Advent Calendar That Keeps Selling Out (and Now I Want It Every Year!)</a>
   `Life` `advent calendar` `bonne maman` `holidays` `news` `product announcement`
   *by Megan Gray · Sep 17*
@@ -326,6 +372,10 @@ lang: en
 - <a href="https://www.apartmenttherapy.com/rocco-super-smart-fridge-the-classic-fridge-review-37690834?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Finally Got My Hands on the Viral Beverage Fridge That’s Always Sold Out — It’s Worth Every Penny</a>
   `Life` `home tech` `living` `product module` `product review` `product text link`
   *by Lizzy Francis · Sep 17*
+
+- <a href="https://www.apartmenttherapy.com/table-lamp-on-bathroom-counter-idea-37690290?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Put a Lamp on My Bathroom Counter, and It’s the Smartest Thing I’ve Ever Done</a>
+  `Life` `bathroom` `clone republish` `cozy` `product module` `shopping`
+  *by Shifrah Combiths · Sep 17*
 
 - <a href="https://www.apartmenttherapy.com/best-places-to-buy-washable-rugs-36885743?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">12 Best Places to Shop for Machine-Washable Rugs</a>
   `Decorating` `boutique rugs` `decor & accessories` `furniture` `news` `product module`
@@ -361,11 +411,15 @@ lang: en
 
 
 <a id="source-southern-living"></a>
-## Southern Living (5)
+## Southern Living (6)
 
 - <a href="https://www.southernliving.com/wash-pillows-in-washing-machine-12120111" target="_blank" rel="noopener">Can You Wash Pillows In The Washer Without Ruining Them?</a>
   `Laundry`
   *by Ashlyn Needham · Sep 17*
+
+- <a href="https://www.southernliving.com/making-towels-less-absorbent-12112328" target="_blank" rel="noopener">The 1 Thing You Should Stop Doing If You Want More Absorbent Towels</a>
+  `Laundry`
+  *by Mary Marlowe Leverette · Sep 17*
 
 - <a href="https://www.southernliving.com/how-to-clean-pot-lids-12112323" target="_blank" rel="noopener">How To Clean Greasy Pot Lids And Remove That Sticky Film</a>
   *by Jessica Safavimehr · Sep 16*
@@ -383,7 +437,7 @@ lang: en
 
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (2)
+## Architectural Digest (3)
 
 - <a href="https://www.architecturaldigest.com/story/lucy-hale-los-angeles-home" target="_blank" rel="noopener">Lucy Hale Embraced Her Good Witchy Style—and Found Herself—in Her Los Angeles Sanctuary</a>
   `Celebrity Style` `Architecture + Design / Architecture` `home tour` `web exclusive home tour` `celebrity` `Celebrity Homes`
@@ -392,6 +446,10 @@ lang: en
 - <a href="https://www.architecturaldigest.com/story/clint-eastwood-at-home-the-spaghetti-western-legends-off-set-life-in-photos" target="_blank" rel="noopener">Clint Eastwood at Home: The Spaghetti Western Legend’s Off-Set Life in 10 Photos</a>
   `Celebrity Style` `vintage celeb lifestyle` `celebrity` `celebrity style`
   *by Michael Gioia · Sep 16*
+
+- <a href="https://www.architecturaldigest.com/story/diane-keatons-last-home-project-lists" target="_blank" rel="noopener">This Diane Keaton–Designed Beach House Is Hitting the Market for $10.3 Million</a>
+  `Celebrity Style` `Real Estate / Celebrity Real Estate` `Real Estate` `ad` `celebrity` `Celebrity Real Estate`
+  *by India Roby · Sep 16*
 
 
 <a id="source-sunset"></a>
@@ -411,13 +469,17 @@ lang: en
 
 
 <a id="source-veranda"></a>
-## Veranda (2)
+## Veranda (3)
 
 - <a href="https://www.veranda.com/decorating-ideas/advice-from-designers/a73764209/how-to-design-for-comfort-you-feel-but-dont-see/" target="_blank" rel="noopener">How to Design for Comfort You Feel, But Don’t See</a>
   `Design`
   *Sep 17*
 
 - <a href="https://www.veranda.com/decorating-ideas/g1638/living-room-ideas/" target="_blank" rel="noopener">87 Designer Living Room Ideas That Perfectly Balance Comfort and Style</a>
+  `Design`
+  *Sep 16*
+
+- <a href="https://www.veranda.com/decorating-ideas/a73747421/brown-furniture-decorating-ideas-designer-tips/" target="_blank" rel="noopener">Every Room Deserves at Least One Piece of Brown Furniture, According to Designers</a>
   `Design`
   *Sep 16*
 
@@ -428,7 +490,15 @@ lang: en
 ### More outlets
 
 <a id="source-wall-street-journal"></a>
-## Wall Street Journal (14)
+## Wall Street Journal (16)
+
+- <a href="https://www.wsj.com/personal-finance/mortgages/the-new-rules-for-selling-your-home-with-mortgage-rates-near-7-b4628469?mod=LatestNewsRealEstate" target="_blank" rel="noopener">The New Rules for Selling Your Home With Mortgage Rates Near 7%</a>
+  `Real Estate`
+  *by Nicholas G. Miller · Sep 17*
+
+- <a href="https://www.wsj.com/real-estate/luxury-homes/costa-smeralda-sardinia-italy-b1e468fc?mod=LatestNewsRealEstate" target="_blank" rel="noopener">The Italian Resort Area Selling Yacht Life, Longevity—and $100 Million Villas</a>
+  `Real Estate`
+  *by J.S. Marcus · Sep 17*
 
 - <a href="https://www.wsj.com/arts-culture/books/the-25th-hour-review-mind-over-meetings-8a7de8d3?mod=rss_lifestyle" target="_blank" rel="noopener">‘The 25th Hour’ Review: Mind Over Meetings</a>
   `Lifestyle`
@@ -445,10 +515,6 @@ lang: en
 - <a href="https://www.wsj.com/real-estate/luxury-homes/wenatchee-valley-washington-home-bffe68b0?mod=LatestNewsRealEstate" target="_blank" rel="noopener">These Remote Workers Built a $861,000 Custom Home Without Blowing Their Budget</a>
   `Real Estate`
   *by Nancy Keates · Sep 17*
-
-- <a href="https://www.wsj.com/personal-finance/mortgages/the-new-rules-for-selling-your-home-with-mortgage-rates-near-7-b4628469?mod=LatestNewsRealEstate" target="_blank" rel="noopener">The New Rules for Selling Your Home With Mortgage Rates Near 7%</a>
-  `Real Estate`
-  *by Nicholas G. Miller · Sep 17*
 
 - <a href="https://www.wsj.com/lifestyle/careers/why-the-purge-of-middle-managers-could-backfire-6f9168bc?mod=rss_lifestyle" target="_blank" rel="noopener">Why the Purge of Middle Managers Could Backfire</a>
   `Lifestyle`
@@ -485,6 +551,10 @@ lang: en
 - <a href="https://www.wsj.com/lifestyle/the-wedding-guests-guide-to-saying-no-1d2b973d?mod=rss_lifestyle" target="_blank" rel="noopener">The Wedding Guests’ Guide to Saying No</a>
   `Lifestyle`
   *by Perri Ormont Blumberg · Sep 16*
+
+- <a href="https://www.wsj.com/tech/ai/the-24-new-rules-for-making-work-better-c59ee821?mod=rss_lifestyle" target="_blank" rel="noopener">The 24 New Rules for Making Work Better</a>
+  `Lifestyle`
+  *by Vanessa Fuhrmans · Sep 16*
 
 
 <a id="source-elle-decor-usa"></a>
@@ -524,7 +594,7 @@ lang: en
 
 
 <a id="source-business-of-home"></a>
-## Business of Home (2)
+## Business of Home (3)
 
 - <a href="https://businessofhome.com/articles/why-the-design-industry-needs-anonymous-critics.html" target="_blank" rel="noopener">Why the design industry needs anonymous critics</a>
   `weekly feature`
@@ -532,6 +602,10 @@ lang: en
 
 - <a href="https://businessofhome.com/articles/how-do-i-get-a-handle-on-my-firm-s-finances.html" target="_blank" rel="noopener">How do I get a handle on my firm’s finances?</a>
   `trade tales podcast,podcast`
+  *by Caroline Bourque · Sep 16*
+
+- <a href="https://businessofhome.com/articles/why-caren-rideau-insists-on-taking-cues-from-the-house-and-the-client.html" target="_blank" rel="noopener">Why Caren Rideau insists on taking cues from the house and the client</a>
+  `kitchen & bath`
   *by Caroline Bourque · Sep 16*
 
 
@@ -568,55 +642,31 @@ lang: en
 
 
 <a id="source-new-york-times"></a>
-## New York Times (5)
+## New York Times (6)
 
 - <a href="https://www.nytimes.com/quiz/2026/09/17/realestate/home-sales-barrington-rhode-island.html" target="_blank" rel="noopener">They Traded L.A. for Rhode Island. Which House Did They Choose?</a>
   `Real Estate`
   *by The New York Times · Sep 17*
 
 - <a href="https://www.nytimes.com/2026/09/17/realestate/housing-market-nyc.html" target="_blank" rel="noopener">Homes for Sale in Manhattan and Queens</a>
-  `Real Estate and Housing (Residential)` `Gramercy Park (Manhattan, NY)` `Lenox Hill (Manhattan, NY)` `Sunnyside (Queens, NY)`
+  `Gramercy Park (Manhattan, NY)` `Lenox Hill (Manhattan, NY)` `Sunnyside (Queens, NY)`
   *by Heather Senison · Sep 17*
 
 - <a href="https://www.nytimes.com/2026/09/17/realestate/housing-market-near-nyc.html" target="_blank" rel="noopener">Homes for Sale in New York and New Jersey</a>
-  `Real Estate and Housing (Residential)` `Washington (NJ)` `Yorktown Heights (NY)`
+  `Washington (NJ)` `Yorktown Heights (NY)`
   *by Anne Mancuso and Jill P. Capuzzo · Sep 17*
 
 - <a href="https://www.nytimes.com/2026/09/16/realestate/real-estate-guide-to-youngstown-ohio.html" target="_blank" rel="noopener">A Real Estate Guide to Youngstown, Ohio</a>
-  `Real Estate and Housing (Residential)` `Youngstown (Ohio)`
+  `Youngstown (Ohio)`
   *by Dorie Chevlen and Maddie McGarvey · Sep 16*
 
 - <a href="https://www.nytimes.com/2026/09/16/realestate/a-bathroom-that-doesnt-skirt-away-from-fun.html" target="_blank" rel="noopener">A Bathroom That Doesn’t Skirt Away From Fun</a>
-  `Interior Design and Furnishings` `Real Estate and Housing (Residential)` `Bathrooms and Toilets` `Provo (Utah)`
+  `Interior Design and Furnishings` `Bathrooms and Toilets` `Provo (Utah)`
   *by Sydney Gore and Lindsay D’Addato · Sep 16*
 
-
-<a id="source-house-home"></a>
-## House & Home (1)
-
-- <a href="https://houseandhome.com/decorating-and-design/petite-parisian-style-apartment/" target="_blank" rel="noopener">Inside a Shop Owner’s Petite Parisian-Style Apartment</a>
-  `Small Spaces` `Kitchens` `Bathrooms` `Home Tours` `Living Rooms`
-  *by Aisha Duldul · Sep 16*
-
-
-<a id="source-kitchen-bath-design"></a>
-## Kitchen Bath Design (4)
-
-- <a href="https://www.kitchenbathdesign.com/houzz-accepting-entries-for-scholarship-program/" target="_blank" rel="noopener">Houzz Accepting Entries for Scholarship Program</a>
-  `design careers` `Education` `Houzz` `industry update` `Scholarship`
-  *by Caroline Hetzel · Sep 16*
-
-- <a href="https://www.kitchenbathdesign.com/coverings-announces-2027-return-to-orlando/" target="_blank" rel="noopener">Coverings Announces 2027 Return to Orlando</a>
-  `Events` `Show News` `Coverings` `industry update` `Orlando`
-  *by Caroline Hetzel · Sep 16*
-
-- <a href="https://www.kitchenbathdesign.com/bath-exhaust-fans-added-to-aham-verifide-program/" target="_blank" rel="noopener">Bath Exhaust Fans Added to AHAM ‘Verifide’ Program</a>
-  `AHAM` `Certification` `Indoor Air Quality` `industry update` `Ventilation`
-  *by Caroline Hetzel · Sep 16*
-
-- <a href="https://www.kitchenbathdesign.com/ge-appliances-to-expand-louisville-headquarters/" target="_blank" rel="noopener">GE Appliances to Expand Louisville Headquarters</a>
-  `Appliance Park` `GE Appliances` `industry update` `Louisville` `Manufacturing`
-  *by Caroline Hetzel · Sep 16*
+- <a href="https://www.nytimes.com/2026/09/16/realestate/california-wildfire-smoke-damange-law.html" target="_blank" rel="noopener">California Sets Standards for Homes Tainted by Wildfire Smoke</a>
+  `Wildfires` `California` `Law and Legislation` `Hazardous and Toxic Substances` `Southern California Wildfires (Jan 2025)`
+  *by Rukmini Callimachi and Blacki Migliozzi · Sep 16*
 
 
 <a id="source-luxe-magazine"></a>
