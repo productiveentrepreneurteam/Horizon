@@ -1139,11 +1139,19 @@ class DailySummarizer:
                     _title = str(e.get("title") or e.get("outlet") or e["url"]).replace("[", "(").replace("]", ")")
                     _names = ", ".join(e.get("designers") or []) or "Press Club Source"
                     _seen = e.get("first_seen") or e.get("published") or ""
+                    # Match the "Sep 14" stamp the tracked rows use, then mark it
+                    # untracked, instead of a second date format inside a sentence.
+                    _seen_label = "[untracked]"
+                    try:
+                        _sd = datetime.strptime(_seen[:10], "%Y-%m-%d")
+                        _seen_label = _sd.strftime("%b ") + _sd.strftime("%d").lstrip("0") + " [untracked]"
+                    except Exception:
+                        pass
                     wins_parts.append(
                         f'- <a href="{e["url"]}" target="_blank" rel="noopener">{_title}</a>\n'
                         f'  `{e.get("outlet") or ""}`\n'
                         f'  `🍾 Press Club Source: {_names} 🍾`\n'
-                        f'  *found {_seen}, not in the tracker yet*\n'
+                        f'  *{_seen_label}*\n'
                     )
                     wins_parts.append("\n")
             for w in recent_wins:
