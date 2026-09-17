@@ -76,9 +76,9 @@ lang: en
 **Priority outlets**
 
 - [The Spruce (10)](#source-the-spruce)
-- [Homes & Gardens (7)](#source-homes-gardens)
+- [Homes & Gardens (8)](#source-homes-gardens)
 - [Good Housekeeping (4)](#source-good-housekeeping)
-- [Better Homes & Gardens (9)](#source-better-homes-gardens)
+- [Better Homes & Gardens (8)](#source-better-homes-gardens)
 - [Livingetc (7)](#source-livingetc)
 - [Real Simple (5)](#source-real-simple)
 - [House Beautiful (11)](#source-house-beautiful)
@@ -93,11 +93,11 @@ lang: en
 - [Wall Street Journal (16)](#source-wall-street-journal)
 - [Elle Decor USA (3)](#source-elle-decor-usa)
 - [Country Living (4)](#source-country-living)
-- [Business of Home (3)](#source-business-of-home)
+- [Business of Home (2)](#source-business-of-home)
 - [Cubby (1)](#source-cubby)
 - [Dengarden (3)](#source-dengarden)
 - [Daily Mail (1)](#source-daily-mail)
-- [New York Times (6)](#source-new-york-times)
+- [New York Times (7)](#source-new-york-times)
 - [Luxe Magazine (14)](#source-luxe-magazine)
 - [Style at Home (1)](#source-style-at-home)
 
@@ -149,7 +149,7 @@ lang: en
 
 
 <a id="source-homes-gardens"></a>
-## Homes & Gardens (7)
+## Homes & Gardens (8)
 
 - <a href="https://www.homesandgardens.com/decor/bedrooms/easy-fall-bedroom-swaps" target="_blank" rel="noopener">5 Easy Bedroom Swaps Interior Designers Always Make Before Fall</a>
   `Bedrooms` `Rooms`
@@ -173,6 +173,10 @@ lang: en
 - <a href="https://www.homesandgardens.com/decor/kitchens/warm-kitchen-colors" target="_blank" rel="noopener">The Warm Kitchen Colors That Make a Room Feel Inviting – Without Making It Feel Smaller or Darker</a>
   `Kitchens` `Rooms`
   *by Molly Malsom · Sep 17*
+
+- <a href="https://www.homesandgardens.com/decor/kitchens/the-cozy-kitchen-issue" target="_blank" rel="noopener">The Cozy Kitchen Issue</a>
+  `Kitchens` `Rooms`
+  *by Hebe Hatton · Sep 17*
 
 - <a href="https://www.homesandgardens.com/collection/decor/kitchens/cozymaxxing-kitchen-shopping" target="_blank" rel="noopener">How to Cozymax Your Kitchen – 20 Fall Finds to Hunker Down With</a>
   `Kitchens` `Rooms`
@@ -201,7 +205,7 @@ lang: en
 
 
 <a id="source-better-homes-gardens"></a>
-## Better Homes & Gardens (9)
+## Better Homes & Gardens (8)
 
 - <a href="https://www.bhg.com/90s-kitchen-trends-are-back-12067297" target="_blank" rel="noopener">6 Charming ‘90s Kitchen Trends That Are Back In Style</a>
   `Decorating and Design` `Room Decorating and Design Ideas` `Home Trends` `News` `Home Features`
@@ -234,10 +238,6 @@ lang: en
 - <a href="https://www.bhg.com/how-much-does-a-fence-cost-8622760" target="_blank" rel="noopener">How Much Does a Fence Cost? 3 Factors That Impact the Price</a>
   `Fences` `Outdoor Structures` `Curb Appeal Ideas, Makeovers and Photos` `Home Exteriors` `Remodeling Advice & Planning` `Home Improvement Ideas`
   *by Nafeesah Allen · Sep 16*
-
-- <a href="https://www.bhg.com/best-gift-baskets-7482426" target="_blank" rel="noopener">The 25 Best Gift Baskets of 2026, According to Our Taste Tests</a>
-  `The Best Gifts of 2025` `Gifts and Holiday Reviews` `BHG Recommends` `Shopping`
-  *by Molly Blanco · Sep 16*
 
 
 <a id="source-livingetc"></a>
@@ -594,7 +594,7 @@ lang: en
 
 
 <a id="source-business-of-home"></a>
-## Business of Home (3)
+## Business of Home (2)
 
 - <a href="https://businessofhome.com/articles/why-the-design-industry-needs-anonymous-critics.html" target="_blank" rel="noopener">Why the design industry needs anonymous critics</a>
   `weekly feature`
@@ -602,10 +602,6 @@ lang: en
 
 - <a href="https://businessofhome.com/articles/how-do-i-get-a-handle-on-my-firm-s-finances.html" target="_blank" rel="noopener">How do I get a handle on my firm’s finances?</a>
   `trade tales podcast,podcast`
-  *by Caroline Bourque · Sep 16*
-
-- <a href="https://businessofhome.com/articles/why-caren-rideau-insists-on-taking-cues-from-the-house-and-the-client.html" target="_blank" rel="noopener">Why Caren Rideau insists on taking cues from the house and the client</a>
-  `kitchen & bath`
   *by Caroline Bourque · Sep 16*
 
 
@@ -642,7 +638,11 @@ lang: en
 
 
 <a id="source-new-york-times"></a>
-## New York Times (6)
+## New York Times (7)
+
+- <a href="https://www.nytimes.com/2026/09/11/realestate/manhattan-chelsea-renovation.html" target="_blank" rel="noopener">It Went From Sailors’ Quarters to Notoriety. They Aim to Make It a ‘Refuge.’</a>
+  `Chelsea (Manhattan, NY)` `Buildings (Structures)` `Restoration and Renovation` `Affordable Housing` `Architecture` `Bayview Correctional Facility`
+  *by Jane Margolies and Graham Dickie · Sep 17*
 
 - <a href="https://www.nytimes.com/quiz/2026/09/17/realestate/home-sales-barrington-rhode-island.html" target="_blank" rel="noopener">They Traded L.A. for Rhode Island. Which House Did They Choose?</a>
   `Real Estate`
