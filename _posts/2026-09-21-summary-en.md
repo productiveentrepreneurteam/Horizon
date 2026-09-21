@@ -5,7 +5,7 @@ date: 2026-09-21
 lang: en
 ---
 
-> 118 articles published in the last 24 hours
+> 154 articles published in the last 24 hours
 > 44 sources monitored
 
 ---
@@ -82,25 +82,31 @@ lang: en
 
 - [The Spruce (44)](#source-the-spruce)
 - [Homes & Gardens (3)](#source-homes-gardens)
-- [Better Homes & Gardens (17)](#source-better-homes-gardens)
-- [Livingetc (5)](#source-livingetc)
+- [Good Housekeeping (2)](#source-good-housekeeping)
+- [Better Homes & Gardens (27)](#source-better-homes-gardens)
+- [Livingetc (7)](#source-livingetc)
 - [Real Simple (3)](#source-real-simple)
-- [Apartment Therapy (9)](#source-apartment-therapy)
-- [Southern Living (2)](#source-southern-living)
-- [Architectural Digest (1)](#source-architectural-digest)
+- [House Beautiful (4)](#source-house-beautiful)
+- [Apartment Therapy (12)](#source-apartment-therapy)
+- [Mansion Global (1)](#source-mansion-global)
+- [Southern Living (4)](#source-southern-living)
+- [Architectural Digest (2)](#source-architectural-digest)
 - [Sunset (1)](#source-sunset)
-- [Veranda (1)](#source-veranda)
+- [Veranda (2)](#source-veranda)
 - [Parade Home & Garden (1)](#source-parade-home-garden)
 
 **More outlets**
 
-- [Wall Street Journal (7)](#source-wall-street-journal)
-- [Country Living (2)](#source-country-living)
+- [Wall Street Journal (10)](#source-wall-street-journal)
+- [Country Living (3)](#source-country-living)
+- [Business of Home (2)](#source-business-of-home)
 - [Dengarden (4)](#source-dengarden)
+- [Florida Design (3)](#source-florida-design)
+- [Colorado Homes (1)](#source-colorado-homes)
 - [New York Times (4)](#source-new-york-times)
 - [Luxe Magazine (14)](#source-luxe-magazine)
 
-**Total Articles Today: 118**
+**Total Articles Today: 154**
 
 ---
 <a id="source-the-spruce"></a>
@@ -298,8 +304,24 @@ lang: en
   *by Devin Toolen · Sep 21*
 
 
+<a id="source-good-housekeeping"></a>
+## Good Housekeeping (2)
+
+- <a href="https://www.goodhousekeeping.com/home/organizing/g64275789/things-organizers-always-buy-at-dollar-tree/" target="_blank" rel="noopener">15 Things You Should Always Buy at Dollar Tree, According to Organizers</a>
+  `Home`
+  *Sep 21*
+
+- <a href="https://www.goodhousekeeping.com/home/organizing/g66012555/things-pro-organizers-always-do-in-september/" target="_blank" rel="noopener">11 Clever Things Pro Organizers Do Every September to Be More Productive</a>
+  `Home`
+  *Sep 21*
+
+
 <a id="source-better-homes-gardens"></a>
-## Better Homes & Gardens (17)
+## Better Homes & Gardens (27)
+
+- <a href="https://www.bhg.com/georgian-architecture-7965912" target="_blank" rel="noopener">Georgian Architecture: Key Features and Design Ideas</a>
+  `Traditional Decorating and Design Ideas` `Decorating Styles and Themes` `Decorating and Design`
+  *by Patricia Shannon · Sep 21*
 
 - <a href="https://www.bhg.com/blue-living-room-ideas-8701447" target="_blank" rel="noopener">25 Stunning Blue Living Room Ideas</a>
   `Color Schemes for Decorating` `Living Room Decorating and Design Ideas` `Room Decorating and Design Ideas` `Decorating with Color` `Decorating and Design`
@@ -309,9 +331,45 @@ lang: en
   `Laundry & Linens` `Housekeeping` `Laundry Tips & Checklists`
   *by Patricia Shannon · Sep 20*
 
+- <a href="https://www.bhg.com/greige-paint-colors-8690967" target="_blank" rel="noopener">20 Greige Paint Colors the Pros Swear By</a>
+  `Color Schemes for Decorating` `Decorating with Color` `Paint Colors` `Interior Painting` `Decorating and Design`
+  *by Maria Sabella · Sep 21*
+
 - <a href="https://www.bhg.com/small-bathroom-ideas-8655829" target="_blank" rel="noopener">50 Small Bathroom Ideas That Maximize Style</a>
   `Decorating Advice` `Decorating and Design` `Decorating Small Spaces` `Bathroom Decorating and Design Ideas` `Room Decorating and Design Ideas`
   *by Maria Sabella · Sep 21*
+
+- <a href="https://www.bhg.com/bathroom-rug-ideas-7504547" target="_blank" rel="noopener">20 Bathroom Rug Ideas to Make a Space More Comfortable</a>
+  `Bathroom Decorating and Design Ideas` `Room Decorating and Design Ideas` `Decorating and Design`
+  *by Mary Cornetta · Sep 21*
+
+- <a href="https://www.bhg.com/rooms/bedroom/themes/cozy-cottage-style-bedrooms/" target="_blank" rel="noopener">20 Cottage Bedroom Ideas for the Coziest Retreat</a>
+  `Cottage-Style Decorating and Design Ideas` `Decorating Styles and Themes` `Bedroom Decorating Styles` `Room Decorating and Design Ideas` `Decorating and Design`
+  *by Caitlin Sole · Sep 21*
+
+- <a href="https://www.bhg.com/bathroom/decorating/farmhouse-bathrooms-281474979492030/" target="_blank" rel="noopener">20 Farmhouse Bathroom Ideas We’re Swooning For</a>
+  `Farmhouse Decorating and Design Ideas` `Bathroom Decorating Styles` `Bathroom Decorating and Design Ideas` `Room Decorating and Design Ideas` `Decorating Styles and Themes` `Decorating and Design`
+  *by Ann Wilson · Sep 21*
+
+- <a href="https://www.bhg.com/decorating/storage/mudroom/do-it-all-entryways/" target="_blank" rel="noopener">Drop-Zone Ideas to Inspire Your Entryway Makeover</a>
+  `Entryway and Mudroom Decorating and Design Ideas` `Room Decorating and Design Ideas` `Decorating and Design`
+  *by Jessica Bennett · Sep 21*
+
+- <a href="https://www.bhg.com/playroom-storage-ideas-7555140" target="_blank" rel="noopener">Playroom Storage Ideas to Help Keep Your Kids’ Space Clutter-Free</a>
+  `Decorating and Design` `Room Decorating and Design Ideas` `Kids Room Decorating and Design Ideas`
+  *by Mary Cornetta · Sep 21*
+
+- <a href="https://www.bhg.com/gardening/design/styles/cottage-style-landscape-design/" target="_blank" rel="noopener">Cottage Landscaping Ideas for a Natural, Romantic Garden Style</a>
+  `Garden Styles` `Garden Design` `Gardening`
+  *by Deb Wiley · Sep 21*
+
+- <a href="https://www.bhg.com/porch-ceiling-ideas-7509122" target="_blank" rel="noopener">19 Porch Ceiling Ideas That Transform Your Outdoor Space</a>
+  `Home Improvement Ideas` `Porches` `Porches & Outdoor Rooms`
+  *by Andrea Beck · Sep 21*
+
+- <a href="https://www.bhg.com/gardening/flowers/perennials/staking-and-training-perennials/" target="_blank" rel="noopener">A Guide to Staking Plants and Training Perennials for the Best Blooms</a>
+  `Perennials` `Flowers` `Gardening`
+  *by Viveka Neveln · Sep 21*
 
 - <a href="https://www.bhg.com/do-filtered-showerheads-work-8734194" target="_blank" rel="noopener">Do Filtered Showerheads Actually Work? Here’s What Experts Say</a>
   `Shower and Baths` `Bathroom Remodeling Ideas` `Remodeling Advice & Planning` `Home Improvement Ideas` `Plumbing Installations & Repairs`
@@ -371,7 +429,7 @@ lang: en
 
 
 <a id="source-livingetc"></a>
-## Livingetc (5)
+## Livingetc (7)
 
 - <a href="https://www.livingetc.com/ideas/details-spotted-in-unlocked-kitchen-by-naked-kitchens" target="_blank" rel="noopener">I Spent All Day in This Luxury Kitchen in Clapham — These Are the 5 Details You Miss at First Glance, but Make It Feel So Well-Finished</a>
   `Design Ideas`
@@ -384,6 +442,14 @@ lang: en
 - <a href="https://www.livingetc.com/shopping/calming-home-fragrances" target="_blank" rel="noopener">The Most Calming Home Fragrances for a Relaxing Ambiance — Each Recommendation Is Set to Unwind</a>
   `Shopping`
   *by Amiya Baratan · Sep 21*
+
+- <a href="https://www.livingetc.com/features/curated-finds-for-selina-hallway-bench" target="_blank" rel="noopener">Curated Finds for Selina | Hallway Bench</a>
+  `Shopping`
+  *by Miaad Latoof · Sep 21*
+
+- <a href="https://www.livingetc.com/features/curated-finds-for-kaye-floor-lamps" target="_blank" rel="noopener">Curated Finds for Kaye | Floor Lamps</a>
+  `Shopping`
+  *by Miaad Latoof · Sep 21*
 
 - <a href="https://www.livingetc.com/features/mary-ratcliffes-insider-guide-to-toronto" target="_blank" rel="noopener">Around Toronto With a Local Designer — "There Is Always Something to Explore Here"</a>
   `Lifestyle`
@@ -410,8 +476,28 @@ lang: en
   *by Kelly Dawson · Sep 21*
 
 
+<a id="source-house-beautiful"></a>
+## House Beautiful (4)
+
+- <a href="https://www.housebeautiful.com/design-inspiration/a73820407/fall-lighting-trends-2026/" target="_blank" rel="noopener">Forget the Big Light. Designers Say These 5 Lighting Updates Will Make Your Home Feel Warmer This Fall</a>
+  `Design`
+  *Sep 21*
+
+- <a href="https://www.housebeautiful.com/lifestyle/a73311160/haunted-college-campuses-in-the-us/" target="_blank" rel="noopener">The 10 Most Eerie Campus Legends That College Students Are Still Whispering About</a>
+  `Design`
+  *Sep 21*
+
+- <a href="https://www.housebeautiful.com/design-inspiration/a73790216/anders-light-fixture-trend/" target="_blank" rel="noopener">Designers Agree This Is the "It" Light Fixture of 2026, and It Signals a Surprising Shift</a>
+  `Design`
+  *Sep 21*
+
+- <a href="https://www.housebeautiful.com/design-inspiration/a73644948/archive-dive-truman-capote/" target="_blank" rel="noopener">From the Archive: The Rare Truman Capote Essay Hidden in House Beautiful's 1969 Issue</a>
+  `Design`
+  *Sep 20*
+
+
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (9)
+## Apartment Therapy (12)
 
 - <a href="https://www.apartmenttherapy.com/dryer-lint-fire-starter-hack-37691296?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Never Throw Away Dryer Lint — I Use It for This Smart Hack Instead</a>
   `Life` `fall` `hacks` `living`
@@ -420,6 +506,10 @@ lang: en
 - <a href="https://www.apartmenttherapy.com/bathroom-tiles-trends-one-will-regret-in-five-years-37690307?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">5 Bathroom Tile Trends You’ll Regret in 5 Years, According to Designers</a>
   `Decorating` `clone republish` `decor & accessories` `decorating` `ideas & inspiration` `renovating`
   *by Heather Bien · Sep 21*
+
+- <a href="https://www.apartmenttherapy.com/colorful-1930s-california-rental-apartment-37691220?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">A 1930s Rental Got a Colorful, Collected Makeover From a Professional Stylist</a>
+  `Tours` `featured tour` `house tours tmobile 2026` `tours` `Apartment` `Glam`
+  *by Adrienne Breaux · Sep 21*
 
 - <a href="https://www.apartmenttherapy.com/h-and-m-chrome-calla-lilly-candlesticks-37690971?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">H&M Just Dropped a $25 Version of a Viral Candlestick (Instagram Is Obsessed!)</a>
   `Decorating` `candles` `decor & accessories` `h&m` `news` `product catalog`
@@ -449,9 +539,29 @@ lang: en
   `Organizing` `ikea` `kitchen` `lifestyle news` `news` `organizing`
   *by Cassidy Dawn Graves · Sep 20*
 
+- <a href="https://www.apartmenttherapy.com/11-small-space-storage-finds-2026-37689553?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">11 Small-Space-Friendly Storage Finds I Wish I'd Known About Sooner</a>
+  `Organizing` `organization awards 2026` `organizing` `organizing & storage` `product catalog` `product module`
+  *by Stephanie Nguyen · Sep 20*
+
+- <a href="https://www.apartmenttherapy.com/orange-fall-decor-mistakes-according-to-designers-37691261?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">How to Make Orange Fall Decor Look Cozy, Not "Tacky"</a>
+  `Decorating` `according to designers` `decorating` `designer` `fall` `ideas & inspiration`
+  *by Pallavi Mehra · Sep 20*
+
+
+<a id="source-mansion-global"></a>
+## Mansion Global (1)
+
+- <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGxpRmlIclNwcFBwc3E2Z1BKeERRV1hUNk14ZnlIZTQyRklKYklTMC1QRE1vLUhTYU05S1lHZk53TTJHODlBaDJETkJ5SkFTMXZwdWthVjlvRkdwZXpwX2gzWUNvUGM2STFfQXNfX3R3SVRnSUFPeDNXX0w5TlBpLVpkTzRvdko3QW5YNFVEMXB0WXhXVkNrYi1YeUZxSmFTYkHSAacBQVVfeXFMTzdPbHVhQWJuRVk3REFwNnRTX1NXbVpFUnFFcGRxRE1SYzNhNmRUVVhkVDJJeDZrMFBZNjhmdm5SMnlNLUE5amhFM0xoLUI4TkF3RURZR28yUm4xZktjQmFNdXJodTNsSW9FS0VscF9TTGVYY2VzTE9KR2RwOXBIZzNaN3dPd3VVVVdHM01PSXF0WXFhNlBZenp1UWFBU0V5anJkRVlIT2c?oc=5" target="_blank" rel="noopener">Travis Kelce and Taylor Swift’s New Ohio House Has a Twin in Illinois. You Can Buy It for $1.75 Million.</a>
+  `Real Estate`
+  *Sep 21*
+
 
 <a id="source-southern-living"></a>
-## Southern Living (2)
+## Southern Living (4)
+
+- <a href="https://www.southernliving.com/things-people-regret-throwing-away-12111575" target="_blank" rel="noopener">9 Things People Wish They Hadn’t Thrown Away</a>
+  `Home Organization`
+  *by Sarah Lyon · Sep 21*
 
 - <a href="https://www.southernliving.com/things-designers-buy-at-target-12066786" target="_blank" rel="noopener">8 Target Finds Interior Designers Swear By</a>
   `Home Decor Ideas`
@@ -461,9 +571,17 @@ lang: en
   `Home Organization`
   *by Patricia Shannon · Sep 20*
 
+- <a href="https://www.southernliving.com/designers-hobby-lobby-finds-12066774" target="_blank" rel="noopener">7 Hobby Lobby Finds Interior Designers Swear By</a>
+  `Home Decor Ideas`
+  *by Hallie Milstein · Sep 20*
+
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (1)
+## Architectural Digest (2)
+
+- <a href="https://www.architecturaldigest.com/story/best-tv-stands" target="_blank" rel="noopener">12 Best TV Stands and Media Consoles That Are Actually Cute (2026)</a>
+  `Shopping` `furniture`
+  *by Julia Harrison · Sep 21*
 
 - <a href="https://www.architecturaldigest.com/story/ryan-hughes-forges-new-connections-with-the-past-and-his-design-peers-in-atlanta" target="_blank" rel="noopener">Styles and Perspectives Converge at This Renovated Atlanta Home</a>
   `Architecture + Design` `Magazine` `magazine` `domestic home tour` `discoveries`
@@ -479,7 +597,11 @@ lang: en
 
 
 <a id="source-veranda"></a>
-## Veranda (1)
+## Veranda (2)
+
+- <a href="https://www.veranda.com/decorating-ideas/house-tours/a73779484/maureen-footer-new-york-house-tour/" target="_blank" rel="noopener">A Design Historian’s New York City Apartment Is a Colorful Tribute to Dior–Era Paris</a>
+  `Design`
+  *Sep 21*
 
 - <a href="https://www.veranda.com/decorating-ideas/a73779180/kips-bay-decorator-show-house-dallas-2026-designers/" target="_blank" rel="noopener">Meet the Designers Taking Over the 2026 Kips Bay Decorator Show House Dallas</a>
   `Design`
@@ -499,7 +621,15 @@ lang: en
 ### More outlets
 
 <a id="source-wall-street-journal"></a>
-## Wall Street Journal (7)
+## Wall Street Journal (10)
+
+- <a href="https://www.wsj.com/lifestyle/ari-emanuel-on-risk-rage-and-not-caring-about-other-peoples-money-502f4939?mod=rss_lifestyle" target="_blank" rel="noopener">Ari Emanuel on Risk, Rage and Not Caring About Other People’s Money</a>
+  `Lifestyle`
+  *by Holly Peterson · Sep 21*
+
+- <a href="https://www.wsj.com/opinion/praying-for-football-games-and-the-longer-game-of-life-6850047b?mod=rss_lifestyle" target="_blank" rel="noopener">Opinion | Praying for Football Games And the Longer Game of Life</a>
+  `Lifestyle`
+  *Sep 21*
 
 - <a href="https://www.wsj.com/buyside/personal-finance/mortgage/home-equity-loan-rates?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Current Home Equity Loan Rates</a>
   `Real Estate`
@@ -529,9 +659,13 @@ lang: en
   `Lifestyle`
   *by Jacob Passy · Sep 20*
 
+- <a href="https://www.wsj.com/business/media/how-everyday-tiktokers-are-making-6-000-a-month-posting-stealth-ads-225d6f32?mod=rss_lifestyle" target="_blank" rel="noopener">How Everyday Tiktokers Are Making $6,000 a Month Posting Stealth Ads</a>
+  `Lifestyle`
+  *by Celia Bernhardt · Sep 20*
+
 
 <a id="source-country-living"></a>
-## Country Living (2)
+## Country Living (3)
 
 - <a href="https://www.countryliving.com/gardening/garden-ideas/a73763467/buying-mums-mistakes/" target="_blank" rel="noopener">4 Mistakes to Avoid When Buying Mums</a>
   `Home`
@@ -540,6 +674,22 @@ lang: en
 - <a href="https://www.countryliving.com/life/entertainment/a73749174/could-dolly-parton-win-an-egot-posthumously/" target="_blank" rel="noopener">Could Dolly Parton Win an EGOT Posthumously? She Only Needs One Award</a>
   `Home`
   *Sep 21*
+
+- <a href="https://www.countryliving.com/life/entertainment/a73779476/yellowstone-jimmy-returns-marshals/" target="_blank" rel="noopener">‘Yellowstone’ Fans Finally Got the Jimmy News They’ve Been Waiting For</a>
+  `Home`
+  *Sep 20*
+
+
+<a id="source-business-of-home"></a>
+## Business of Home (2)
+
+- <a href="https://businessofhome.com/articles/a-double-opening-for-ernesta-phillip-jeffries-opens-in-the-charleston-design-district-and-more.html" target="_blank" rel="noopener">A double opening for Ernesta, Phillip Jeffries opens in the Charleston Design District, and more</a>
+  `show-rumors`
+  *by Aidan Taylor · Sep 21*
+
+- <a href="https://businessofhome.com/articles/ali-henrie-s-romantic-flat-lay-channels-windswept-moors-and-coastal-comfort.html" target="_blank" rel="noopener">Ali Henrie’s romantic flat lay channels windswept moors and coastal comfort</a>
+  `what i love`
+  *by Jennifer Fernandez · Sep 21*
 
 
 <a id="source-dengarden"></a>
@@ -560,6 +710,30 @@ lang: en
 - <a href="https://dengarden.com/news/cape-cod-basements-will-send-shivers-down-your-spine" target="_blank" rel="noopener">The Little-Known Secret Hiding in Antique Cape Cod Basements Will Send Shivers Down Your Spine</a>
   `News` `Organization & Storage` `Basement` `Creepy, Scary, Spooky` `Halloween`
   *by Michelle Nati · Sep 20*
+
+
+<a id="source-florida-design"></a>
+## Florida Design (3)
+
+- <a href="https://www.floridadesign.com/florida-homes/central-florida/inside-a-central-florida-retreat-inspired-by-the-everglades/" target="_blank" rel="noopener">Inside a Central Florida Retreat Inspired by the Everglades</a>
+  `Central Florida`
+  *by Florida Design Editors · Sep 21*
+
+- <a href="https://www.floridadesign.com/florida-homes/central-florida/qa-with-winter-park-designer-ashley-martin/" target="_blank" rel="noopener">Q&A with Winter Park Designer Ashley Martin</a>
+  `Central Florida`
+  *by Florida Design Editors · Sep 21*
+
+- <a href="https://www.floridadesign.com/florida-homes/miami/miami-beach-home-is-an-unfolding-design-story/" target="_blank" rel="noopener">Miami Beach Home is An Unfolding Design Story</a>
+  `Miami`
+  *by Florida Design Editors · Sep 21*
+
+
+<a id="source-colorado-homes"></a>
+## Colorado Homes (1)
+
+- <a href="https://www.coloradohomesmag.com/a-storied-past-denver-womans-press-clubs-architectural-legacy/" target="_blank" rel="noopener">A Storied Past: Denver Woman’s Press Club’s Architectural Legacy</a>
+  `Uncategorized`
+  *by Darla Worden · Sep 21*
 
 
 <a id="source-new-york-times"></a>
