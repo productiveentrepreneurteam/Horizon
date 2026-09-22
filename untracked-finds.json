@@ -1,6 +1,16 @@
 {
-  "date": "2026-09-21",
-  "generated_utc": "2026-09-21T18:42:10Z",
-  "count": 0,
-  "finds": []
+  "date": "2026-09-22",
+  "generated_utc": "2026-09-22T17:35:50Z",
+  "count": 1,
+  "finds": [
+    {
+      "designers": [
+        "Shani Core"
+      ],
+      "title": "Inside AD PRO Design Dialogues 2026, AD’s Designer Summit",
+      "url": "https://www.architecturaldigest.com/story/ad-pro-design-dialogues-recap",
+      "outlet": "Architectural Digest",
+      "published": "2026-09-21"
+    }
+  ]
 }

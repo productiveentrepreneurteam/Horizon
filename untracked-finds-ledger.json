@@ -1,9 +1,20 @@
 {
-  "date": "2026-09-21",
-  "generated_utc": "2026-09-21T18:42:10Z",
+  "date": "2026-09-22",
+  "generated_utc": "2026-09-22T17:35:50Z",
   "keep_days": 31,
-  "count": 9,
+  "count": 10,
   "finds": [
+    {
+      "designers": [
+        "Shani Core"
+      ],
+      "title": "Inside AD PRO Design Dialogues 2026, AD’s Designer Summit",
+      "url": "https://www.architecturaldigest.com/story/ad-pro-design-dialogues-recap",
+      "outlet": "Architectural Digest",
+      "published": "2026-09-21",
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-22"
+    },
     {
       "designers": [
         "Courtney B Smith",
