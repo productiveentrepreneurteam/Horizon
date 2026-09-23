@@ -698,11 +698,9 @@ def find_press_club_sources(url: str, author: str = "") -> list:
             # Upgrade-Insecure-Requests) and retry once on a 403, since the retry
             # alone recovered every case tested. Apartment Therapy and the Wall
             # Street Journal are a different, unrelated fault (PerimeterX / DataDome
-            # JS-captcha walls, not header-fixable) and Alyssa ruled 2026-09-10 that
-            # those two stay as they are: "2 is not important dw". This is a
-            # separate, unstacked fix -- see Studio/Clients/Alex/horizon-unread-
-            # articles-2026-09-09.patch for the (still unshipped) change that
-            # would tell the two apart in the run log.
+            # JS-captcha walls, not header-fixable); they are deliberately left
+            # alone here, and distinguishing that kind of hard wall from a genuine
+            # no-designer result in the run log is a separate change.
             _headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                               "AppleWebKit/537.36 (KHTML, like Gecko) "
