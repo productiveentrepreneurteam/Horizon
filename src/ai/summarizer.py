@@ -8,7 +8,7 @@ from typing import List, Dict
 from ..models import ContentItem
 
 
-# Outlet display order - Alyssa's ranking, 2026-07-27.
+# Outlet display order - the press tracker's ranking, 2026-07-27.
 #
 # Built by combining BOTH frequency columns of the "Ranked Outlets" tab:
 # an outlet's rank by 2026 story count and its rank by all-time story
@@ -80,8 +80,8 @@ OUTLET_RANKING = [
 ]
 
 # How many outlets lead the page. The top 15 account for roughly 87% of
-# Alyssa's 2026 press; the top 20 for about 92%. Everything below still
-# gets scraped and still gets scanned for her designers - the tail is
+# the tracked 2026 press; the top 20 for about 92%. Everything below still
+# gets scraped and still gets scanned for roster designers - the tail is
 # where an untracked find shows up - it just renders lower down.
 TIER_1_SIZE = 15
 
@@ -116,7 +116,7 @@ _WRITER_RANK_INDEX = {name.strip().lower(): i for i, name in enumerate(WRITER_RA
 # A row in the tracker's "2026 Active Stories" tab is a WIN when "Published" is
 # TRUE and "Published Url" is a real link. "Sources" = the designer, "Outlet" =
 # the publication. We match a digest article to a win by its link (exact, no
-# scraping) AND only keep wins from Alyssa's tracked outlets (her ranked list of
+# scraping) AND only keep wins from the tracked outlets (the ranked list of
 # outlets with 3+ all-time appearances). Fetched once per run; if the sheet
 # can't be reached the digest still publishes normally.
 import csv as _csv
@@ -189,7 +189,7 @@ def get_feed() -> dict:
     _FEED_CACHE = data
     return data
 
-# Alyssa's tracked outlets — "Top Outlets by Overall Frequency", 3+ appearances.
+# Tracked outlets — the tracker's "Top Outlets by Overall Frequency", 3+ appearances.
 # Only wins from these outlets show in Press House Wins. Edit this list to
 # add/remove outlets (keep the exact outlet name as it appears in the tracker).
 TRACKED_OUTLETS = {
@@ -358,8 +358,9 @@ def get_recent_press_house_wins(limit: int = 0) -> list:
 
     limit=0 (the default) means NO cap: every win the feed provides is
     rendered. The old default of 12 meant the digest could only ever show
-    the newest handful of logged wins, however many were in the tracker -
-    Alyssa's 2026-08-13 "i thought we had more". NOTE: the sheet-side Apps
+    the newest handful of logged wins, however many were in the tracker,
+    which is what the 2026-08-13 review of the box found and why the cap
+    came off. NOTE: the sheet-side Apps
     Script doGet feed was built with its own "newest 12" slice (2026-07-22);
     if the live page still shows ~12 after this ships, the remaining cap is
     that slice in the Apps Script project, not this function.
@@ -614,8 +615,8 @@ def _mentioned_outside_a_credit(body: str, pad: str) -> bool:
 
 
 # A PHOTOGRAPHER IS NOT A SOURCE. Deliberately narrower than _BYLINE_CUES,
-# which contains a bare "by": rejecting every "by" would also reject
-# "designed by Colleen Simonds", which IS a real feature win. Only
+# which contains a bare "by": rejecting every "by" would also reject a
+# "designed by ..." credit, which IS a real feature win. Only
 # photo-shaped credits belong here.
 #
 # Found 2026-09-08 on the first day the untracked-finds export ran. Good
@@ -748,8 +749,8 @@ def find_press_club_sources(url: str, author: str = "") -> list:
                     continue
                 # If this name is also the writer's, keep it only when it
                 # appears somewhere that is not a credit line. A byline in
-                # markup we did not recognise reads "... by Lauren Smith ...";
-                # a real mention reads "... says designer Lauren Smith ...".
+                # markup we did not recognise reads "... by <that name> ...";
+                # a real mention reads "... says designer <that name> ...".
                 if pad in byline_flat and not _mentioned_outside_a_credit(body, pad):
                     continue
                 # Every mention is a photo credit -> this is the photographer,
@@ -770,8 +771,9 @@ def find_press_club_sources(url: str, author: str = "") -> list:
 # items nor in the tracker sheet, so it fell out of the Press House Wins box and
 # out of untracked-finds.json, and the only record of it was an old page in
 # _posts. If nobody logged it that day, it was gone from anything anyone looks
-# at. Alyssa, 2026-09-10: "if the team missed it one day and didnt put it on the
-# sheet then it wouldnt be in the top box? fix that".
+# at. Reported 2026-09-10: a find that was missed for a day and never reached
+# the sheet dropped out of the top box entirely, which is the bug the ledger
+# below exists to fix.
 #
 # The ledger is the fix. Every find is appended with the date it was first seen
 # and stays until one of two things happens: its URL shows up in the tracker
@@ -1287,7 +1289,7 @@ class DailySummarizer:
 
     @staticmethod
     def _is_tier_1(outlet: str) -> bool:
-        """True for the top TIER_1_SIZE outlets in Alyssa's combined ranking."""
+        """True for the top TIER_1_SIZE outlets in the combined ranking."""
         idx = _OUTLET_RANK_INDEX.get(outlet.strip().lower())
         return idx is not None and idx < TIER_1_SIZE
 
