@@ -1,20 +1,25 @@
 {
-  "date": "2026-09-10",
-  "generated_utc": "2026-09-10T02:00:00Z",
+  "date": "2026-09-23",
+  "generated_utc": "2026-09-23T17:45:31Z",
   "keep_days": 31,
-  "count": 4,
+  "count": 5,
   "finds": [
     {
-      "designers": ["Amy Peltier"],
-      "title": "Meet the Bathroom Vanity Trend That Makes Every Space Feel Warmer",
-      "url": "https://www.homesandgardens.com/decor/bathrooms/wooden-vanity-bathroom-trend",
-      "outlet": "Homes & Gardens",
-      "published": "2026-09-06",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-06"
+      "designers": [
+        "Amy Kartheiser"
+      ],
+      "title": "6 Stylish Ways to Hide an Ugly Radiator Without Sacrificing Style",
+      "url": "https://www.housebeautiful.com/design-inspiration/a73826619/how-to-hide-your-radiator/",
+      "outlet": "House Beautiful",
+      "published": "2026-09-23",
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23"
     },
     {
-      "designers": ["Courtney Klinger", "Kelly Bartley"],
+      "designers": [
+        "Courtney Klinger",
+        "Kelly Bartley"
+      ],
       "title": "The Biggest Color Trends To Look Out For In 2027",
       "url": "https://www.homesandgardens.com/decor/paint/color-trends-2027",
       "outlet": "Homes & Gardens",
@@ -23,7 +28,20 @@
       "last_seen": "2026-09-06"
     },
     {
-      "designers": ["Lauren Saab"],
+      "designers": [
+        "Amy Peltier"
+      ],
+      "title": "Meet the Bathroom Vanity Trend That Makes Every Space Feel Warmer",
+      "url": "https://www.homesandgardens.com/decor/bathrooms/wooden-vanity-bathroom-trend",
+      "outlet": "Homes & Gardens",
+      "published": "2026-09-06",
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06"
+    },
+    {
+      "designers": [
+        "Lauren Saab"
+      ],
       "title": "What's Replacing Navy Blue Kitchen Cabinets?",
       "url": "https://www.homesandgardens.com/decor/kitchens/whats-replacing-navy-blue-kitchen-cabinets-2027",
       "outlet": "Homes & Gardens",
@@ -32,7 +50,10 @@
       "last_seen": "2026-09-05"
     },
     {
-      "designers": ["Lara Kimmerer", "Patricia Burke"],
+      "designers": [
+        "Lara Kimmerer",
+        "Patricia Burke"
+      ],
       "title": "The Biggest Accent Wall Mistakes That Can Throw Off Your Whole Room",
       "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a73606684/accent-wall-mistakes-designers/",
       "outlet": "Good Housekeeping",
