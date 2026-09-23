@@ -106,7 +106,7 @@
         "url": "https://sunset.com/?cat=43207&feed=rss2",
         "enabled": true,
         "category": "lifestyle",
-        "_url_note": "Narrowed 2026-08-20 to the Home and Garden category feed, on Alyssa's 2026-08-13 note that the digest was carrying travel beside home tours. DO NOT tidy this into a slug URL. https://www.sunset.com/home-garden/feed, /home-garden/feed/ and /category/home-garden/feed all return HTTP 200 with ZERO items, so a status-code health check calls them healthy while the outlet silently vanishes. The category feed is only reachable by id. Id 43207 came from https://sunset.com/wp-json/wp/v2/categories?slug=home-garden, 4081 posts. Measured 2026-08-20: sitewide 20 items to 9 past the topic filter, of which 1 was a CMS junk page and 1 was travel; this feed 20 items to 18 past the filter, all home, losing none of the 7 genuine home items the sitewide feed carried in the same window."
+        "_url_note": "Narrowed 2026-08-20 to the Home and Garden category feed, on a 2026-08-13 review note that the digest was carrying travel beside home tours. DO NOT tidy this into a slug URL. https://www.sunset.com/home-garden/feed, /home-garden/feed/ and /category/home-garden/feed all return HTTP 200 with ZERO items, so a status-code health check calls them healthy while the outlet silently vanishes. The category feed is only reachable by id. Id 43207 came from https://sunset.com/wp-json/wp/v2/categories?slug=home-garden, 4081 posts. Measured 2026-08-20: sitewide 20 items to 9 past the topic filter, of which 1 was a CMS junk page and 1 was travel; this feed 20 items to 18 past the filter, all home, losing none of the 7 genuine home items the sitewide feed carried in the same window."
       },
       {
         "name": "Veranda",
@@ -125,7 +125,7 @@
         "url": "file://docs/feeds/forbes.xml",
         "enabled": false,
         "category": "business",
-        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
+        "_disabled_note": "Off 2026-08-13 on the outlet review: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "Wall Street Journal",
@@ -168,14 +168,14 @@
         "url": "https://modernluxury.com/feed/",
         "enabled": false,
         "category": "lifestyle",
-        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
+        "_disabled_note": "Off 2026-08-13 on the outlet review: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "Realtor.com",
         "url": "https://www.realtor.com/news/feed/",
         "enabled": false,
         "category": "real-estate",
-        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
+        "_disabled_note": "Off 2026-08-13 on the outlet review: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "HGTV",
@@ -260,7 +260,7 @@
         "url": "https://www.thekitchn.com/main.rss",
         "enabled": false,
         "category": "home",
-        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
+        "_disabled_note": "Off 2026-08-13 on the outlet review: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "AOL.com",
@@ -279,7 +279,7 @@
         "url": "https://www.hunker.com/feed/",
         "enabled": false,
         "category": "home",
-        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
+        "_disabled_note": "Off 2026-08-13 on the outlet review: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "Colorado Homes",
@@ -364,14 +364,14 @@
         "url": "https://www.inquirer.com/arc/outboundfeeds/rss/category/real-estate/?outputType=xml",
         "enabled": false,
         "category": "lifestyle",
-        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
+        "_disabled_note": "Off 2026-08-13 on the outlet review: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       },
       {
         "name": "Vogue",
         "url": "https://www.vogue.com/feed/rss",
         "enabled": false,
         "category": "design",
-        "_disabled_note": "Off 2026-08-13 on Alyssa's list: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
+        "_disabled_note": "Off 2026-08-13 on the outlet review: high volume, no Press Club wins detected. Historical wins from this outlet still show, TRACKED_OUTLETS is unchanged."
       }
     ],
     "reddit": {

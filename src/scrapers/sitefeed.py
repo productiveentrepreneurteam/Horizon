@@ -1,6 +1,6 @@
 """Build RSS feeds for outlets that don't publish one.
 
-Some of Alyssa's ranked outlets have no RSS feed at all. Those used to be
+Some of the ranked outlets have no RSS feed at all. Those used to be
 covered by rss.app-generated feeds, which all went dark at once when the
 trial account behind them lapsed (every one started answering HTTP 402
 Payment Required). This module replaces that paid service with about a

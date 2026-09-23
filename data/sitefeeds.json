@@ -1,5 +1,5 @@
 {
-  "_comment": "Outlets from Alyssa's ranked list that publish no RSS feed. Built by src/scrapers/sitefeed.py into docs/feeds/*.xml and read by config.github.json via file:// URLs. Replaces the lapsed rss.app account at zero cost. Mansion Global is NOT here: it returns 401 to GitHub Actions runner IPs on every entry point, so it is read through Google News in config.github.json instead.",
+  "_comment": "Outlets from the ranked outlet list that publish no RSS feed. Built by src/scrapers/sitefeed.py into docs/feeds/*.xml and read by config.github.json via file:// URLs. Replaces the lapsed rss.app account at zero cost. Mansion Global is NOT here: it returns 401 to GitHub Actions runner IPs on every entry point, so it is read through Google News in config.github.json instead.",
   "sites": [
     {
       "name": "Forbes",
