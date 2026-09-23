@@ -191,7 +191,7 @@
       },
       {
         "name": "RUE",
-        "url": "https://ruemag.com/category/decorating/feed",
+        "url": "https://ruemag.com/feed",
         "enabled": true,
         "category": "design"
       },
@@ -222,7 +222,7 @@
       {
         "name": "Real Homes",
         "url": "https://www.realhomes.com/feeds.xml",
-        "enabled": true,
+        "enabled": false,
         "category": "home"
       },
       {
@@ -251,7 +251,7 @@
       },
       {
         "name": "Ranch & Coast",
-        "url": "https://ranchandcoast.com/living/interior-design/feed/",
+        "url": "https://ranchandcoast.com/living/feed/",
         "enabled": true,
         "category": "lifestyle"
       },
@@ -270,7 +270,7 @@
       },
       {
         "name": "Boston Home Magazine",
-        "url": "https://www.bostonmagazine.com/tag/home-design/feed/",
+        "url": "https://www.bostonmagazine.com/property/feed/",
         "enabled": true,
         "category": "design"
       },
@@ -355,7 +355,7 @@
       },
       {
         "name": "The Atlanta Magazine",
-        "url": "https://www.atlantamagazine.com/category/home-garden-shops/design-advice/feed/",
+        "url": "https://www.atlantamagazine.com/category/home-garden-shops/feed/",
         "enabled": true,
         "category": "design"
       },

@@ -685,16 +685,53 @@ def find_press_club_sources(url: str, author: str = "") -> list:
             # those fetches raised, hit `except Exception: found = []`, and became
             # a silent zero. Nothing distinguished it from "no designer in this
             # article", which is why it went unnoticed.
-            req = _urlreq.Request(url, headers={
+            #
+            # THE SAME FOUR OUTLETS STARTED REFUSING THIS HEADER SET TOO.
+            # Measured 2026-09-10 across 28 interleaved requests: this header set
+            # (matcher headers) was refused 7 times with HTTP 403, a full browser
+            # header set (below) was refused 0 times. Re-run the same day, same
+            # outlets, different sample: 2 of 28 matcher requests refused, 0 of 28
+            # browser requests refused, and the SAME url 403'd once and 200'd on a
+            # bare retry -- so this is not a hard wall, it is a probabilistic check
+            # on header completeness. Add the fields an actual browser navigation
+            # sends that were missing before (Sec-Fetch-*, client hints,
+            # Upgrade-Insecure-Requests) and retry once on a 403, since the retry
+            # alone recovered every case tested. Apartment Therapy and the Wall
+            # Street Journal are a different, unrelated fault (PerimeterX / DataDome
+            # JS-captcha walls, not header-fixable); they are deliberately left
+            # alone here, and distinguishing that kind of hard wall from a genuine
+            # no-designer result in the run log is a separate change.
+            _headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                               "AppleWebKit/537.36 (KHTML, like Gecko) "
                               "Chrome/126.0.0.0 Safari/537.36",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
                           "image/avif,image/webp,*/*;q=0.8",
                 "Accept-Language": "en-US,en;q=0.9",
-            })
-            with _urlreq.urlopen(req, timeout=15) as resp:
-                html = resp.read().decode("utf-8", errors="replace")
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "none",
+                "Sec-Fetch-User": "?1",
+                "sec-ch-ua": '"Chromium";v="126", "Google Chrome";v="126", '
+                             '"Not.A/Brand";v="24"',
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"Windows"',
+            }
+            try:
+                req = _urlreq.Request(url, headers=_headers)
+                with _urlreq.urlopen(req, timeout=15) as resp:
+                    html = resp.read().decode("utf-8", errors="replace")
+            except _urlreq.HTTPError as _e:
+                # A 403 on this header set has proven intermittent, not a wall --
+                # retry once before treating it as a real failure. Anything other
+                # than 403 (including a second 403) is a real failure and falls
+                # through to the outer except below unchanged.
+                if _e.code != 403:
+                    raise
+                req = _urlreq.Request(url, headers=_headers)
+                with _urlreq.urlopen(req, timeout=15) as resp:
+                    html = resp.read().decode("utf-8", errors="replace")
             if STRICT_ARTICLE_BODY_ONLY:
                 article, byline = _split_article_text(html)
             else:
