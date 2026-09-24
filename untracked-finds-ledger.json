@@ -1,9 +1,54 @@
 {
-  "date": "2026-09-23",
-  "generated_utc": "2026-09-23T17:45:31Z",
+  "date": "2026-09-24",
+  "generated_utc": "2026-09-24T17:55:38Z",
   "keep_days": 31,
-  "count": 5,
+  "count": 9,
   "finds": [
+    {
+      "designers": [
+        "Bridget Tiek",
+        "TIEK BYDAY"
+      ],
+      "title": "I Asked Designers Which Paint Color Makes a Bedroom Look the Most Expensive, and They All Said the Same Thing",
+      "url": "https://www.housebeautiful.com/design-inspiration/a73855385/designer-advice-expensive-bedroom-paint-colors/",
+      "outlet": "House Beautiful",
+      "published": "2026-09-24",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "designers": [
+        "Lauren Covino-Smith"
+      ],
+      "title": "Burrowcore Is the Cozy Fall Trend That Makes You Want to Stay Home",
+      "url": "https://www.homesandgardens.com/decor/seasonal/burrowcore-trend",
+      "outlet": "Homes & Gardens",
+      "published": "2026-09-24",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "designers": [
+        "Hallie Malitsky"
+      ],
+      "title": "7 Trends Replacing the Basic Beige Rug in 2027 – ‘Clients Are Thinking About Rugs the Way They Think About Art’",
+      "url": "https://www.homesandgardens.com/decor/rug-trends-for-2027",
+      "outlet": "Homes & Gardens",
+      "published": "2026-09-24",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "designers": [
+        "Lauren McKay"
+      ],
+      "title": "7 Things That Make Your Living Room Look More Expensive, According to Designers",
+      "url": "https://www.veranda.com/decorating-ideas/advice-from-designers/a73848000/how-to-make-living-room-look-more-expensive/",
+      "outlet": "Veranda",
+      "published": "2026-09-23",
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-24"
+    },
     {
       "designers": [
         "Amy Kartheiser"
