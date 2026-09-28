@@ -1,9 +1,31 @@
 {
-  "date": "2026-09-27",
-  "generated_utc": "2026-09-27T17:27:30Z",
+  "date": "2026-09-28",
+  "generated_utc": "2026-09-28T20:14:04Z",
   "keep_days": 31,
-  "count": 9,
+  "count": 11,
   "finds": [
+    {
+      "designers": [
+        "Katie Goodrich"
+      ],
+      "title": "How to Make Your Guest Room Feel More Welcoming",
+      "url": "https://www.elledecor.com/design-decorate/interior-designers/a73854473/guest-room-tips-hosting/",
+      "outlet": "Elle Decor USA",
+      "published": "2026-09-28",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    {
+      "designers": [
+        "Allison Knizek"
+      ],
+      "title": "11 Spanish-Style Homes That Are Warm and Inviting",
+      "url": "https://www.thespruce.com/spanish-style-homes-5224378",
+      "outlet": "The Spruce",
+      "published": "2026-09-27",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-28"
+    },
     {
       "designers": [
         "Lauren Saab"
