@@ -1,9 +1,21 @@
 {
-  "date": "2026-09-30",
-  "generated_utc": "2026-09-30T18:22:23Z",
+  "date": "2026-10-01",
+  "generated_utc": "2026-10-01T18:52:43Z",
   "keep_days": 31,
   "count": 13,
   "finds": [
+    {
+      "designers": [
+        "Sarah Bowman",
+        "Sophia deDomenico"
+      ],
+      "title": "Experts Say the “Golden Age of Thrifting” Is Here. These Are the Finds You Should Grab Now.",
+      "url": "https://www.housebeautiful.com/design-inspiration/a73981344/golden-age-of-thrifting-baby-boomers/",
+      "outlet": "House Beautiful",
+      "published": "2026-10-01",
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01"
+    },
     {
       "designers": [
         "Lauren Saab",
@@ -25,18 +37,6 @@
       "outlet": "Homes & Gardens",
       "published": "2026-09-30",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
-    },
-    {
-      "designers": [
-        "Courtney Klinger",
-        "Diane Luna"
-      ],
-      "title": "Designers Say This Surprisingly Chic Fruit Is Replacing Pumpkins in Fall Decor",
-      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a73877229/pear-fall-decor-trend/",
-      "outlet": "Good Housekeeping",
-      "published": "2026-09-29",
-      "first_seen": "2026-09-29",
       "last_seen": "2026-09-30"
     },
     {
