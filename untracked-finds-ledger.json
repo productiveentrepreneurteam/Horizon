@@ -1,9 +1,31 @@
 {
-  "date": "2026-10-01",
-  "generated_utc": "2026-10-01T18:52:43Z",
+  "date": "2026-10-02",
+  "generated_utc": "2026-10-02T18:25:04Z",
   "keep_days": 31,
-  "count": 13,
+  "count": 15,
   "finds": [
+    {
+      "designers": [
+        "Jessica Hobson"
+      ],
+      "title": "7 Designer-Approved Ways to Make a Room Feel Brighter Without Changing the Color",
+      "url": "https://www.homesandgardens.com/decor/how-to-make-a-room-feel-brighter",
+      "outlet": "Homes & Gardens",
+      "published": "2026-10-02",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02"
+    },
+    {
+      "designers": [
+        "Nureed Saeed"
+      ],
+      "title": "This Is the FIRST Thing You Should Fix in a Bathroom Renovation, According to Designers",
+      "url": "https://www.housebeautiful.com/home-remodeling/a73948470/bathroom-renovation-layout-function/",
+      "outlet": "House Beautiful",
+      "published": "2026-10-01",
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-02"
+    },
     {
       "designers": [
         "Sarah Bowman",
@@ -14,7 +36,7 @@
       "outlet": "House Beautiful",
       "published": "2026-10-01",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-01"
+      "last_seen": "2026-10-02"
     },
     {
       "designers": [
