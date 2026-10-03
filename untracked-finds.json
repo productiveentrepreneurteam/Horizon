@@ -1,35 +1,26 @@
 {
-  "date": "2026-10-02",
-  "generated_utc": "2026-10-02T18:25:04Z",
-  "count": 3,
+  "date": "2026-10-03",
+  "generated_utc": "2026-10-03T16:58:18Z",
+  "count": 2,
   "finds": [
     {
       "designers": [
-        "Jessica Hobson"
+        "Peggy Haddad"
       ],
-      "title": "7 Designer-Approved Ways to Make a Room Feel Brighter Without Changing the Color",
-      "url": "https://www.homesandgardens.com/decor/how-to-make-a-room-feel-brighter",
+      "title": "Designers Say This Outdated Cabinet Trend Is Making a Major Comeback in 2026 Kitchens",
+      "url": "https://www.thespruce.com/2026-outdated-cabinet-trend-comeback-12147763",
+      "outlet": "The Spruce",
+      "published": "2026-10-03"
+    },
+    {
+      "designers": [
+        "Sarah Bowman",
+        "Jen Bedford"
+      ],
+      "title": "5 Easy Ways to Make Your Living Room Furniture Look Expensive, According to Designers",
+      "url": "https://www.homesandgardens.com/decor/living-rooms/what-makes-living-room-furniture-look-expensive",
       "outlet": "Homes & Gardens",
-      "published": "2026-10-02"
-    },
-    {
-      "designers": [
-        "Nureed Saeed"
-      ],
-      "title": "This Is the FIRST Thing You Should Fix in a Bathroom Renovation, According to Designers",
-      "url": "https://www.housebeautiful.com/home-remodeling/a73948470/bathroom-renovation-layout-function/",
-      "outlet": "House Beautiful",
-      "published": "2026-10-01"
-    },
-    {
-      "designers": [
-        "Sophia deDomenico",
-        "Sarah Bowman"
-      ],
-      "title": "Experts Say the “Golden Age of Thrifting” Is Here. These Are the Finds You Should Grab Now.",
-      "url": "https://www.housebeautiful.com/design-inspiration/a73981344/golden-age-of-thrifting-baby-boomers/",
-      "outlet": "House Beautiful",
-      "published": "2026-10-01"
+      "published": "2026-10-03"
     }
   ]
 }

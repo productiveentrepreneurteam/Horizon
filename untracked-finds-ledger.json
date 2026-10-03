@@ -1,9 +1,32 @@
 {
-  "date": "2026-10-02",
-  "generated_utc": "2026-10-02T18:25:04Z",
+  "date": "2026-10-03",
+  "generated_utc": "2026-10-03T16:58:18Z",
   "keep_days": 31,
-  "count": 15,
+  "count": 17,
   "finds": [
+    {
+      "designers": [
+        "Peggy Haddad"
+      ],
+      "title": "Designers Say This Outdated Cabinet Trend Is Making a Major Comeback in 2026 Kitchens",
+      "url": "https://www.thespruce.com/2026-outdated-cabinet-trend-comeback-12147763",
+      "outlet": "The Spruce",
+      "published": "2026-10-03",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03"
+    },
+    {
+      "designers": [
+        "Jen Bedford",
+        "Sarah Bowman"
+      ],
+      "title": "5 Easy Ways to Make Your Living Room Furniture Look Expensive, According to Designers",
+      "url": "https://www.homesandgardens.com/decor/living-rooms/what-makes-living-room-furniture-look-expensive",
+      "outlet": "Homes & Gardens",
+      "published": "2026-10-03",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03"
+    },
     {
       "designers": [
         "Jessica Hobson"
