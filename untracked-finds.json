@@ -1,6 +1,25 @@
 {
-  "date": "2026-10-04",
-  "generated_utc": "2026-10-04T17:11:42Z",
-  "count": 0,
-  "finds": []
+  "date": "2026-10-05",
+  "generated_utc": "2026-10-05T21:08:44Z",
+  "count": 2,
+  "finds": [
+    {
+      "designers": [
+        "Terri Fiori"
+      ],
+      "title": "Is Your Closet Designed for Aging in Place? These 7 Details Will Make Getting Dressed Easier Down the Line",
+      "url": "https://www.thespruce.com/closet-design-for-aging-in-place-12027211",
+      "outlet": "The Spruce",
+      "published": "2026-10-05"
+    },
+    {
+      "designers": [
+        "J Banks Design"
+      ],
+      "title": "We Asked Designers How to Make a Home Aging-in-Place Friendly for Under $25—and Their Tips Are Key",
+      "url": "https://www.thespruce.com/how-to-make-a-home-aging-in-place-friendly-on-a-budget-11894065",
+      "outlet": "The Spruce",
+      "published": "2026-10-04"
+    }
+  ]
 }

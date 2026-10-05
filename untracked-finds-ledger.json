@@ -1,9 +1,31 @@
 {
-  "date": "2026-10-04",
-  "generated_utc": "2026-10-04T17:11:42Z",
+  "date": "2026-10-05",
+  "generated_utc": "2026-10-05T21:08:44Z",
   "keep_days": 31,
-  "count": 17,
+  "count": 15,
   "finds": [
+    {
+      "designers": [
+        "Terri Fiori"
+      ],
+      "title": "Is Your Closet Designed for Aging in Place? These 7 Details Will Make Getting Dressed Easier Down the Line",
+      "url": "https://www.thespruce.com/closet-design-for-aging-in-place-12027211",
+      "outlet": "The Spruce",
+      "published": "2026-10-05",
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "designers": [
+        "J Banks Design"
+      ],
+      "title": "We Asked Designers How to Make a Home Aging-in-Place Friendly for Under $25—and Their Tips Are Key",
+      "url": "https://www.thespruce.com/how-to-make-a-home-aging-in-place-friendly-on-a-budget-11894065",
+      "outlet": "The Spruce",
+      "published": "2026-10-04",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-05"
+    },
     {
       "designers": [
         "Peggy Haddad"
@@ -26,52 +48,6 @@
       "published": "2026-10-03",
       "first_seen": "2026-10-03",
       "last_seen": "2026-10-03"
-    },
-    {
-      "designers": [
-        "Jessica Hobson"
-      ],
-      "title": "7 Designer-Approved Ways to Make a Room Feel Brighter Without Changing the Color",
-      "url": "https://www.homesandgardens.com/decor/how-to-make-a-room-feel-brighter",
-      "outlet": "Homes & Gardens",
-      "published": "2026-10-02",
-      "first_seen": "2026-10-02",
-      "last_seen": "2026-10-02"
-    },
-    {
-      "designers": [
-        "Nureed Saeed"
-      ],
-      "title": "This Is the FIRST Thing You Should Fix in a Bathroom Renovation, According to Designers",
-      "url": "https://www.housebeautiful.com/home-remodeling/a73948470/bathroom-renovation-layout-function/",
-      "outlet": "House Beautiful",
-      "published": "2026-10-01",
-      "first_seen": "2026-10-01",
-      "last_seen": "2026-10-02"
-    },
-    {
-      "designers": [
-        "Sarah Bowman",
-        "Sophia deDomenico"
-      ],
-      "title": "Experts Say the “Golden Age of Thrifting” Is Here. These Are the Finds You Should Grab Now.",
-      "url": "https://www.housebeautiful.com/design-inspiration/a73981344/golden-age-of-thrifting-baby-boomers/",
-      "outlet": "House Beautiful",
-      "published": "2026-10-01",
-      "first_seen": "2026-10-01",
-      "last_seen": "2026-10-02"
-    },
-    {
-      "designers": [
-        "Lauren Saab",
-        "Nureed Saeed"
-      ],
-      "title": "Is Midcentury Modern Still in Style? Designers Share Where the Trend Stands Today",
-      "url": "https://www.thespruce.com/is-midcentury-modern-decor-out-of-style-12136333",
-      "outlet": "The Spruce",
-      "published": "2026-09-30",
-      "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
     },
     {
       "designers": [
