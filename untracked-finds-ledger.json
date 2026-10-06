@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-05",
-  "generated_utc": "2026-10-05T21:08:44Z",
+  "date": "2026-10-06",
+  "generated_utc": "2026-10-06T18:52:24Z",
   "keep_days": 31,
-  "count": 15,
+  "count": 14,
   "finds": [
     {
       "designers": [
@@ -13,7 +13,7 @@
       "outlet": "The Spruce",
       "published": "2026-10-05",
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-05"
+      "last_seen": "2026-10-06"
     },
     {
       "designers": [
@@ -159,18 +159,6 @@
       "published": "2026-09-05",
       "first_seen": "2026-09-05",
       "last_seen": "2026-09-05"
-    },
-    {
-      "designers": [
-        "Lara Kimmerer",
-        "Patricia Burke"
-      ],
-      "title": "The Biggest Accent Wall Mistakes That Can Throw Off Your Whole Room",
-      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a73606684/accent-wall-mistakes-designers/",
-      "outlet": "Good Housekeeping",
-      "published": "2026-09-04",
-      "first_seen": "2026-09-04",
-      "last_seen": "2026-09-04"
     }
   ]
 }
