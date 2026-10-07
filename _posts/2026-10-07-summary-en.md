@@ -5,16 +5,13 @@ date: 2026-10-07
 lang: en
 ---
 
-> 123 articles published in the last 24 hours
+> 135 articles published in the last 24 hours
 > 43 sources monitored
 
 ---
-<div id="kpi-data" style="display:none" data-designers-today="0" data-found-unlogged="13" data-designers-month="1" data-record="3422"></div>
+<div id="kpi-data" style="display:none" data-designers-today="0" data-found-unlogged="13" data-designers-month="9" data-record="3468"></div>
 
 ## 🏆 Press House Wins
-
-
-### 🍾 Found this month, not logged yet
 
 - <a href="https://www.thespruce.com/closet-design-for-aging-in-place-12027211" target="_blank" rel="noopener">Is Your Closet Designed for Aging in Place? These 7 Details Will Make Getting Dressed Easier Down the Line</a>
   `The Spruce`
@@ -36,11 +33,22 @@ lang: en
   `🍾 Press Club Source: Jen Bedford, Sarah Bowman 🍾`
   *Oct 3 [untracked]*
 
+- [2026 Halloween decorating trends](https://www.bhg.com/halloween-decorating-trends-2026-12141657) `⭐ Lauren Covino-Smith ⭐` `⭐ Caroline Kopp ⭐` `Better Homes & Gardens` *by Tessa Cooper · Oct 3*
+- [Outdated Flooring Trends Designers Never Want to See Again](https://www.thespruce.com/outdated-flooring-trends-designers-never-want-to-see-again-12139949) `⭐ Lauren Covino-Smith ⭐` `⭐ Tracy Mowschenson ⭐` `The Spruce` *by Tessa Cooper · Oct 3*
+- [Articles by Eleanor Richardson, Interior Design Content Editor](https://www.homesandgardens.com/author/eleanor-richardson) `⭐ Sarah Bowman ⭐` `⭐ Jen Bedford ⭐` `Homes & Gardens` *by Eleanor Richardson · Oct 2*
+- [How To Make a Room Feel Brighter, Without Relying on Color](https://www.homesandgardens.com/decor/how-to-make-a-room-feel-brighter) `⭐ Jessica Hobson ⭐` `Homes & Gardens` *by Emily Moorman · Oct 2*
+- [This Is the FIRST Thing You Should Fix in a Bathroom Renovation, According to Designers](https://www.housebeautiful.com/home-remodeling/a73948470/bathroom-renovation-layout-function/) `⭐ Nureed Saeed ⭐` `House Beautiful` *by Shelby Deering · Oct 1*
+- [Experts Say the “Golden Age of Thrifting” Is Here. These Are the Finds You Should Grab Now.](https://www.housebeautiful.com/design-inspiration/a73981344/golden-age-of-thrifting-baby-boomers/) `⭐ Sarah Bowman ⭐` `⭐ Sophia deDomenico ⭐` `House Beautiful` *by Brittany Anas · Oct 1*
+- [B&A Julia Child Inspired Image](https://www.apartmenttherapy.com/before-and-after-julia-child-kitchen-37692782) `⭐ Dijana Savic-Jambert ⭐` `Apartment Therapy` *by Danielle Blundell · Oct 1*
 - <a href="https://www.homesandgardens.com/decor/kitchens/curves-in-kitchens" target="_blank" rel="noopener">Curves Are the Answer to a Soft, Lived-In Kitchen – Here's How Designers Use Them to Create a Timeless Look</a>
   `Homes & Gardens`
   `🍾 Press Club Source: Alexa Kingery 🍾`
   *Sep 30 [untracked]*
 
+- [Is Midcentury Modern Still in Style? Designers Share Where the Trend Stands Today](https://www.thespruce.com/is-midcentury-modern-decor-out-of-style-12136333) `⭐ Nureed Saeed ⭐` `The Spruce` *by Cori Sears · Sep 30*
+- [Olive Green and natural fabrics give a space in your home a sophisticated fall makeover?](https://dengarden.com/design/fall-decorating-ideas-no-orange) `⭐ Genna Jacobs-Freeman ⭐` `Dengarden` *by Morgan McMurrin · Sep 29*
+- [How to Make Your Guest Room Feel More Welcoming, According to Experts](https://www.elledecor.com/design-decorate/interior-designers/a73854473/guest-room-tips-hosting/) `⭐ Amy Lamb ⭐` `Elle Decor` *by Julia Cancilla · Sep 29*
+- [Why Designers Are Decorating With Pears Instead of Pumpkins This Fall](https://www.goodhousekeeping.com/home/decorating-ideas/a73877229/pear-fall-decor-trend/) `⭐ Courtney Klinger ⭐` `⭐ Diane Luna ⭐` `Good Housekeeping` *by Maria Sabella · Sep 29*
 - <a href="https://www.thespruce.com/spanish-style-homes-5224378" target="_blank" rel="noopener">11 Spanish-Style Homes That Are Warm and Inviting</a>
   `The Spruce`
   `🍾 Press Club Source: Allison Knizek 🍾`
@@ -51,6 +59,7 @@ lang: en
   `🍾 Press Club Source: Lauren Saab 🍾`
   *Sep 26 [untracked]*
 
+- [All-White Bathrooms Are Losing Their Grip—Designers Say This Moodier Look Is Taking Over.](https://parade.com/living/moody-bathrooms-replacing-all-white-bathrooms) `⭐ Elizabeth Cross-Beard ⭐` `Parade Home & Garden` *by Sophie Hirsh · Sep 26*
 - <a href="https://www.livingetc.com/ideas/mismatched-bathroom-trend" target="_blank" rel="noopener">Why Designers Have Stopped Trying to Make Every Part of a Bathroom Match (and How to Make It Still Feel Intentional)</a>
   `Livingetc`
   `🍾 Press Club Source: Amy Peltier 🍾`
@@ -81,18 +90,6 @@ lang: en
   `🍾 Press Club Source: Amy Peltier 🍾`
   *Sep 6 [untracked]*
 
-- [2026 Halloween decorating trends](https://www.bhg.com/halloween-decorating-trends-2026-12141657) `⭐ Lauren Covino-Smith ⭐` `⭐ Caroline Kopp ⭐` `Better Homes & Gardens` *by Tessa Cooper · Oct 3*
-- [Outdated Flooring Trends Designers Never Want to See Again](https://www.thespruce.com/outdated-flooring-trends-designers-never-want-to-see-again-12139949) `⭐ Lauren Covino-Smith ⭐` `⭐ Tracy Mowschenson ⭐` `The Spruce` *by Tessa Cooper · Oct 3*
-- [Articles by Eleanor Richardson, Interior Design Content Editor](https://www.homesandgardens.com/author/eleanor-richardson) `⭐ Sarah Bowman ⭐` `⭐ Jen Bedford ⭐` `Homes & Gardens` *by Eleanor Richardson · Oct 2*
-- [How To Make a Room Feel Brighter, Without Relying on Color](https://www.homesandgardens.com/decor/how-to-make-a-room-feel-brighter) `⭐ Jessica Hobson ⭐` `Homes & Gardens` *by Emily Moorman · Oct 2*
-- [This Is the FIRST Thing You Should Fix in a Bathroom Renovation, According to Designers](https://www.housebeautiful.com/home-remodeling/a73948470/bathroom-renovation-layout-function/) `⭐ Nureed Saeed ⭐` `House Beautiful` *by Shelby Deering · Oct 1*
-- [Experts Say the “Golden Age of Thrifting” Is Here. These Are the Finds You Should Grab Now.](https://www.housebeautiful.com/design-inspiration/a73981344/golden-age-of-thrifting-baby-boomers/) `⭐ Sarah Bowman ⭐` `⭐ Sophia deDomenico ⭐` `House Beautiful` *by Brittany Anas · Oct 1*
-- [B&A Julia Child Inspired Image](https://www.apartmenttherapy.com/before-and-after-julia-child-kitchen-37692782) `⭐ Dijana Savic-Jambert ⭐` `Apartment Therapy` *by Danielle Blundell · Oct 1*
-- [Is Midcentury Modern Still in Style? Designers Share Where the Trend Stands Today](https://www.thespruce.com/is-midcentury-modern-decor-out-of-style-12136333) `⭐ Nureed Saeed ⭐` `The Spruce` *by Cori Sears · Sep 30*
-- [Olive Green and natural fabrics give a space in your home a sophisticated fall makeover?](https://dengarden.com/design/fall-decorating-ideas-no-orange) `⭐ Genna Jacobs-Freeman ⭐` `Dengarden` *by Morgan McMurrin · Sep 29*
-- [How to Make Your Guest Room Feel More Welcoming, According to Experts](https://www.elledecor.com/design-decorate/interior-designers/a73854473/guest-room-tips-hosting/) `⭐ Amy Lamb ⭐` `Elle Decor` *by Julia Cancilla · Sep 29*
-- [Why Designers Are Decorating With Pears Instead of Pumpkins This Fall](https://www.goodhousekeeping.com/home/decorating-ideas/a73877229/pear-fall-decor-trend/) `⭐ Courtney Klinger ⭐` `⭐ Diane Luna ⭐` `Good Housekeeping` *by Maria Sabella · Sep 29*
-- [All-White Bathrooms Are Losing Their Grip—Designers Say This Moodier Look Is Taking Over.](https://parade.com/living/moody-bathrooms-replacing-all-white-bathrooms) `⭐ Elizabeth Cross-Beard ⭐` `Parade Home & Garden` *by Sophie Hirsh · Sep 26*
 
 ---
 
@@ -100,15 +97,15 @@ lang: en
 
 **Priority outlets**
 
-- [The Spruce (8)](#source-the-spruce)
-- [Homes & Gardens (4)](#source-homes-gardens)
-- [Good Housekeeping (10)](#source-good-housekeeping)
-- [Better Homes & Gardens (8)](#source-better-homes-gardens)
+- [The Spruce (10)](#source-the-spruce)
+- [Homes & Gardens (5)](#source-homes-gardens)
+- [Good Housekeeping (11)](#source-good-housekeeping)
+- [Better Homes & Gardens (10)](#source-better-homes-gardens)
 - [Livingetc (6)](#source-livingetc)
 - [Real Simple (1)](#source-real-simple)
-- [House Beautiful (7)](#source-house-beautiful)
-- [Apartment Therapy (9)](#source-apartment-therapy)
-- [Southern Living (8)](#source-southern-living)
+- [House Beautiful (8)](#source-house-beautiful)
+- [Apartment Therapy (11)](#source-apartment-therapy)
+- [Southern Living (9)](#source-southern-living)
 - [Architectural Digest (9)](#source-architectural-digest)
 - [Veranda (3)](#source-veranda)
 
@@ -119,7 +116,8 @@ lang: en
 - [Country Living (4)](#source-country-living)
 - [Mountain Living (8)](#source-mountain-living)
 - [Business of Home (2)](#source-business-of-home)
-- [Dengarden (7)](#source-dengarden)
+- [Cubby (1)](#source-cubby)
+- [Dengarden (8)](#source-dengarden)
 - [New York Times (4)](#source-new-york-times)
 - [House & Home (1)](#source-house-home)
 - [Kitchen Bath Design (1)](#source-kitchen-bath-design)
@@ -127,11 +125,11 @@ lang: en
 - [Morris&Essex (1)](#source-morris-essex)
 - [Style at Home (1)](#source-style-at-home)
 
-**Total Articles Today: 123**
+**Total Articles Today: 135**
 
 ---
 <a id="source-the-spruce"></a>
-## The Spruce (8)
+## The Spruce (10)
 
 - <a href="https://www.thespruce.com/quick-fixes-to-sell-your-home-faster-12147815" target="_blank" rel="noopener">These 10 Easy Fixes Will Help Your Home Sell Faster and for a Higher Price, Real Estate Pros Say</a>
   `Home & Gardening Trends` `Home News` `Exterior Remodel & Repair` `Home Improvement`
@@ -165,9 +163,17 @@ lang: en
   `Furniture Reviews and Buying Guides` `Home Decor: Product Reviews & Buying Guides` `Best Home Products`
   *by Dena Ogden · Oct 6*
 
+- <a href="https://www.thespruce.com/aerating-lawn-in-fall-12147804" target="_blank" rel="noopener">This Is the One Fall Lawn Task You Should Do Now Before It Gets Too Cold</a>
+  `Home & Gardening Trends` `Home News` `Lawn Care` `Landscaping` `Gardening`
+  *by David Beaulieu · Oct 6*
+
+- <a href="https://www.thespruce.com/best-grass-seed-4174720" target="_blank" rel="noopener">These Are the Top 6 Grass Seeds We Tested for Thick, Healthy Lawns</a>
+  `Lawn & Gardening: Product Reviews and Buying Guides` `Gardening & Outdoors: Product Reviews and Buying Guides` `Best Home Products`
+  *by Sheri Kaz · Oct 6*
+
 
 <a id="source-homes-gardens"></a>
-## Homes & Gardens (4)
+## Homes & Gardens (5)
 
 - <a href="https://www.homesandgardens.com/decor/paint/little-greene-color-of-the-year-2027" target="_blank" rel="noopener">Forget Everything You Know About 1970s Brown – Little Greene’s Color of the Year 2027 Is a Gentle, Whisper-Soft Brown That’s 'Quietly Confident'</a>
   `Paint` `Fixtures & Finishes`
@@ -183,9 +189,13 @@ lang: en
   `Seasonal`
   *by Devin Toolen · Oct 7*
 
+- <a href="https://www.homesandgardens.com/decor/furniture/how-to-choose-a-couch" target="_blank" rel="noopener">How to Choose a Couch – The Expert Guide to Color, Construction, and Comfort</a>
+  `Living Rooms` `Rooms`
+  *by Isabella Charlesworth · Oct 7*
+
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (10)
+## Good Housekeeping (11)
 
 - <a href="https://www.goodhousekeeping.com/home/a74052765/how-to-stop-spider-webs-on-windows/" target="_blank" rel="noopener">This 2-Second Hack Stops Spiders From Making Webs on Windows</a>
   `Home`
@@ -227,9 +237,13 @@ lang: en
   `Home`
   *Oct 6*
 
+- <a href="https://www.goodhousekeeping.com/home/cleaning/a74036883/how-long-do-bath-towels-last/" target="_blank" rel="noopener">How Long Do Towels Last? Probably Not as Long as You Think</a>
+  `Home`
+  *Oct 6*
+
 
 <a id="source-better-homes-gardens"></a>
-## Better Homes & Gardens (8)
+## Better Homes & Gardens (10)
 
 - <a href="https://www.bhg.com/are-dining-tables-obsolete-12136854" target="_blank" rel="noopener">Are Dining Tables Going Out of Style? What Designers Are Choosing Instead</a>
   `Decorating and Design` `Room Decorating and Design Ideas` `Dining Room Decorating and Design Ideas`
@@ -262,6 +276,14 @@ lang: en
 - <a href="https://www.bhg.com/best-beanbag-chairs-11730157" target="_blank" rel="noopener">The 5 Best Beanbag Chairs We Tested for Ultimate Lounging</a>
   `Home Reviews` `Shopping` `Furniture Reviews`
   *by Kathleen Felton · Oct 6*
+
+- <a href="https://www.bhg.com/best-shower-curtain-liners-7970363" target="_blank" rel="noopener">The 10 Best Shower Curtain Liners for Your Home</a>
+  `Bath Product Reviews` `Home Reviews` `Shopping`
+  *by Alice Knisley Matthias · Oct 6*
+
+- <a href="https://www.bhg.com/best-air-purifiers-for-smoke-7558963" target="_blank" rel="noopener">The 10 Best Air Purifiers for Smoke, Tested by BHG</a>
+  `Small Appliance Product Reviews` `Home Reviews` `BHG Recommends` `Shopping`
+  *by Alida Nugent · Oct 6*
 
 
 <a id="source-livingetc"></a>
@@ -301,7 +323,7 @@ lang: en
 
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (7)
+## House Beautiful (8)
 
 - <a href="https://www.housebeautiful.com/lifestyle/g74040117/what-american-homes-looked-like-the-year-you-were-born/" target="_blank" rel="noopener">The Average American Home Looked Very Different the Year You Were Born</a>
   `Design`
@@ -331,9 +353,13 @@ lang: en
   `Design`
   *Oct 6*
 
+- <a href="https://www.housebeautiful.com/shopping/best-stores/a73988630/saatva-prime-big-deal-days-sale/" target="_blank" rel="noopener">Our Exclusive Saatva Code Can Save You Up to $1,000 on a New Luxury Mattress</a>
+  `Design`
+  *Oct 6*
+
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (9)
+## Apartment Therapy (11)
 
 - <a href="https://www.apartmenttherapy.com/how-to-style-vintage-china-hutch-37693490?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The Vintage Furniture That's Hiding in Thrift Stores Is Suddenly Cool Again</a>
   `Decorating` `clone republish` `decorating` `design ideas` `furniture` `ideas & inspiration`
@@ -342,6 +368,14 @@ lang: en
 - <a href="https://www.apartmenttherapy.com/crate-and-barrel-york-wallpaper-collection-37693696?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Crate & Barrel Launched 99 Wallpapers — These Are the 7 I’m Eyeing</a>
   `Decorating` `crate & barrel` `crate & kids` `decorating` `design` `ideas & inspiration`
   *by Danielle Blundell · Oct 6*
+
+- <a href="https://www.apartmenttherapy.com/niuyichee-water-absorbent-trays-amazon-prime-big-deal-days-2026-37694147?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The “Stylish” Gem My Mom Swears By for Keeping Bathroom Counters Dry</a>
+  `Life` `amazon` `amazon prime big deal days` `amazon prime day` `bathroom` `clone republish`
+  *by Nikol Slatinska · Oct 7*
+
+- <a href="https://www.apartmenttherapy.com/vintage-cd-holder-for-bathroom-storage-idea-37693496?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">My Mom Told Me to Put a CD Holder in My Bathroom, and It’s the Smartest Storage Trick</a>
+  `Organizing` `amazon` `bathroom` `clone republish` `dynamic pricing test` `organizing`
+  *by Meg Hemphill · Oct 7*
 
 - <a href="https://www.apartmenttherapy.com/dunn-edwards-2027-color-french-press-brown-37693940?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Dunn-Edwards Gave This Neutral a Purple Twist for Its 2027 Color of the Year</a>
   `Decorating` `color` `ideas & inspiration` `news` `paint` `styles & trends`
@@ -373,7 +407,7 @@ lang: en
 
 
 <a id="source-southern-living"></a>
-## Southern Living (8)
+## Southern Living (9)
 
 - <a href="https://www.southernliving.com/daily-habits-home-cluttered-12162339" target="_blank" rel="noopener">7 Everyday Habits That Are Secretly Making Your Home More Cluttered</a>
   `Home Organization`
@@ -402,6 +436,9 @@ lang: en
 - <a href="https://www.southernliving.com/what-is-laundry-bluing-12116226" target="_blank" rel="noopener">This Old-School Laundry Trick Keeps Whites Bright Without A Drop Of Bleach</a>
   `Laundry`
   *by Alexandra Emanuelli · Oct 6*
+
+- <a href="https://www.southernliving.com/remove-hard-water-stains-from-glass-12116222" target="_blank" rel="noopener">How To Remove Hard Water Stains From Glass, Even Those Cloudy White Spots</a>
+  *by Mary Catherine McAnnally Scott · Oct 6*
 
 
 <a id="source-architectural-digest"></a>
@@ -573,8 +610,16 @@ lang: en
   *by Sean Low · Oct 6*
 
 
+<a id="source-cubby"></a>
+## Cubby (1)
+
+- <a href="https://www.cubbyathome.com/10-things-to-declutter-every-fall-family-life-80051884?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The 10 Things I Declutter Every Fall Once My Kid Is Back in School</a>
+  `Family Homes` `advice` `clone republish` `decluttering`
+  *by Laura Fenton · Oct 7*
+
+
 <a id="source-dengarden"></a>
-## Dengarden (7)
+## Dengarden (8)
 
 - <a href="https://dengarden.com/design/gallery-wall-layout-tips" target="_blank" rel="noopener">The Gallery Wall Layout Trick That Made My Vintage Frames Look Collected, Not Cluttered</a>
   `Home Décor` `Apartment` `Art` `DIY Decor` `Gallery Wall`
@@ -603,6 +648,10 @@ lang: en
 - <a href="https://dengarden.com/shopping/walmarts-vintage-holiday-lights-christmas" target="_blank" rel="noopener">Walmart's $10 Vintage Holiday Lights 'Make Christmas Feel Like Christmas Again'</a>
   `Holidays` `Shopping` `Christmas` `Christmas Decor`
   *by Julie Ryan Evans · Oct 6*
+
+- <a href="https://dengarden.com/shopping/costco-pfaltzgraff-tranquility-cream-dinnerware-set-12-piece" target="_blank" rel="noopener">Costco's Chic 12-Piece Stoneware Dish Set Is Made for Beautiful Tables</a>
+  `Shopping` `Costco` `Dishes (Plates, Bowls, Cups)` `Home Finds`
+  *by Julie Andrews · Oct 6*
 
 
 <a id="source-new-york-times"></a>
