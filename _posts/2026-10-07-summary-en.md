@@ -5,7 +5,7 @@ date: 2026-10-07
 lang: en
 ---
 
-> 138 articles published in the last 24 hours
+> 139 articles published in the last 24 hours
 > 43 sources monitored
 
 ---
@@ -70,16 +70,6 @@ lang: en
   `🍾 Press Club Source: Hallie Malitsky 🍾`
   *Sep 24 [untracked]*
 
-- <a href="https://www.veranda.com/decorating-ideas/advice-from-designers/a73848000/how-to-make-living-room-look-more-expensive/" target="_blank" rel="noopener">7 Things That Make Your Living Room Look More Expensive, According to Designers</a>
-  `Veranda`
-  `🍾 Press Club Source: Lauren McKay 🍾`
-  *Sep 23 [untracked]*
-
-- <a href="https://www.housebeautiful.com/design-inspiration/a73826619/how-to-hide-your-radiator/" target="_blank" rel="noopener">6 Stylish Ways to Hide an Ugly Radiator Without Sacrificing Style</a>
-  `House Beautiful`
-  `🍾 Press Club Source: Amy Kartheiser 🍾`
-  *Sep 23 [untracked]*
-
 
 ---
 
@@ -87,38 +77,39 @@ lang: en
 
 **Priority outlets**
 
-- [The Spruce (9)](#source-the-spruce)
+- [The Spruce (8)](#source-the-spruce)
 - [Homes & Gardens (5)](#source-homes-gardens)
 - [Good Housekeeping (10)](#source-good-housekeeping)
-- [Better Homes & Gardens (8)](#source-better-homes-gardens)
-- [Livingetc (6)](#source-livingetc)
+- [Better Homes & Gardens (6)](#source-better-homes-gardens)
+- [Livingetc (5)](#source-livingetc)
 - [Real Simple (1)](#source-real-simple)
-- [House Beautiful (10)](#source-house-beautiful)
+- [House Beautiful (9)](#source-house-beautiful)
 - [Apartment Therapy (12)](#source-apartment-therapy)
-- [Southern Living (11)](#source-southern-living)
-- [Architectural Digest (9)](#source-architectural-digest)
-- [Veranda (3)](#source-veranda)
+- [Mansion Global (1)](#source-mansion-global)
+- [Southern Living (12)](#source-southern-living)
+- [Architectural Digest (10)](#source-architectural-digest)
+- [Veranda (4)](#source-veranda)
 
 **More outlets**
 
-- [Wall Street Journal (9)](#source-wall-street-journal)
+- [Wall Street Journal (10)](#source-wall-street-journal)
 - [Elle Decor USA (1)](#source-elle-decor-usa)
-- [Country Living (5)](#source-country-living)
+- [Country Living (6)](#source-country-living)
 - [Mountain Living (8)](#source-mountain-living)
-- [Business of Home (2)](#source-business-of-home)
+- [Business of Home (1)](#source-business-of-home)
 - [Cubby (1)](#source-cubby)
 - [Dengarden (7)](#source-dengarden)
+- [Daily Mail (1)](#source-daily-mail)
 - [New York Times (4)](#source-new-york-times)
-- [Kitchen Bath Design (1)](#source-kitchen-bath-design)
 - [Luxe Magazine (13)](#source-luxe-magazine)
 - [Morris&Essex (1)](#source-morris-essex)
-- [Style at Home (2)](#source-style-at-home)
+- [Style at Home (3)](#source-style-at-home)
 
-**Total Articles Today: 138**
+**Total Articles Today: 139**
 
 ---
 <a id="source-the-spruce"></a>
-## The Spruce (9)
+## The Spruce (8)
 
 - <a href="https://www.thespruce.com/quick-fixes-to-sell-your-home-faster-12147815" target="_blank" rel="noopener">These 10 Easy Fixes Will Help Your Home Sell Faster and for a Higher Price, Real Estate Pros Say</a>
   `Home & Gardening Trends` `Home News` `Exterior Remodel & Repair` `Home Improvement`
@@ -151,10 +142,6 @@ lang: en
 - <a href="https://www.thespruce.com/best-loft-beds-4688992" target="_blank" rel="noopener">The 10 Best Loft Beds We’ve Tested for Kids, Teens, and Small Spaces</a>
   `Furniture Reviews and Buying Guides` `Home Decor: Product Reviews & Buying Guides` `Best Home Products`
   *by Dena Ogden · Oct 6*
-
-- <a href="https://www.thespruce.com/aerating-lawn-in-fall-12147804" target="_blank" rel="noopener">This Is the One Fall Lawn Task You Should Do Now Before It Gets Too Cold</a>
-  `Home & Gardening Trends` `Home News` `Lawn Care` `Landscaping` `Gardening`
-  *by David Beaulieu · Oct 6*
 
 
 <a id="source-homes-gardens"></a>
@@ -224,15 +211,11 @@ lang: en
 
 
 <a id="source-better-homes-gardens"></a>
-## Better Homes & Gardens (8)
+## Better Homes & Gardens (6)
 
 - <a href="https://www.bhg.com/are-dining-tables-obsolete-12136854" target="_blank" rel="noopener">Are Dining Tables Going Out of Style? What Designers Are Choosing Instead</a>
   `Decorating and Design` `Room Decorating and Design Ideas` `Dining Room Decorating and Design Ideas`
   *by Maria Sabella · Oct 7*
-
-- <a href="https://www.bhg.com/gardening/gardening-trends/best-plant-stands/" target="_blank" rel="noopener">The 25 Best Plant Stands to Showcase Your Indoor and Outdoor Plants</a>
-  `Shopping` `Gardening Reviews` `Home Reviews` `Home Decor Product Reviews` `Gardening Tool Product Reviews`
-  *by Quincy Bulin · Oct 6*
 
 - <a href="https://www.bhg.com/outdated-cabinet-colors-12136852" target="_blank" rel="noopener">Designers Say These 2 Cabinet Colors Can Quickly Make Your Kitchen Look Outdated</a>
   `Decorating and Design` `Room Decorating and Design Ideas` `Kitchen Decorating and Design Ideas` `Kitchen Cabinets` `Kitchen Color Schemes`
@@ -254,13 +237,9 @@ lang: en
   `Caring for Trees & Shrubs` `Trees, Shrubs & Vines` `Gardening` `Garden Care` `Caring for Your Yard`
   *by Leanne Potts · Oct 6*
 
-- <a href="https://www.bhg.com/best-beanbag-chairs-11730157" target="_blank" rel="noopener">The 5 Best Beanbag Chairs We Tested for Ultimate Lounging</a>
-  `Home Reviews` `Shopping` `Furniture Reviews`
-  *by Kathleen Felton · Oct 6*
-
 
 <a id="source-livingetc"></a>
-## Livingetc (6)
+## Livingetc (5)
 
 - <a href="https://www.livingetc.com/ideas/blue-kitchen-countertop-trend" target="_blank" rel="noopener">The Strange Beauty of Blue Countertops — Why This Ethereal Kitchen Trend Is the Most Interesting Design Idea Right Now</a>
   `Design Ideas`
@@ -282,10 +261,6 @@ lang: en
   `Modern Homes`
   *by Simone Lorusso · Oct 7*
 
-- <a href="https://www.livingetc.com/features/oak-furnitureland-curates" target="_blank" rel="noopener">Livingetc Curates: Furniture Collections That Create Atmosphere in Living and Dining Spaces</a>
-  `Design Ideas`
-  *by Sponsored · Oct 6*
-
 
 <a id="source-real-simple"></a>
 ## Real Simple (1)
@@ -296,7 +271,7 @@ lang: en
 
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (10)
+## House Beautiful (9)
 
 - <a href="https://www.housebeautiful.com/design-inspiration/a74054767/what-is-cabbageware/" target="_blank" rel="noopener">This Antique Dishware Is Coming Back, and It Might Be Hiding in Your Grandma's Kitchen</a>
   `Design`
@@ -334,21 +309,21 @@ lang: en
   `Design`
   *Oct 6*
 
-- <a href="https://www.housebeautiful.com/lifestyle/entertainment/a74030855/madonna-buys-angelina-jolies-los-feliz-la-estate/" target="_blank" rel="noopener">Madonna Just Bought Angelina Jolie’s Iconic L.A. Estate for a Jaw-Dropping Amount</a>
-  `Design`
-  *Oct 6*
-
 
 <a id="source-apartment-therapy"></a>
 ## Apartment Therapy (12)
 
-- <a href="https://www.apartmenttherapy.com/how-to-style-vintage-china-hutch-37693490?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The Vintage Furniture That's Hiding in Thrift Stores Is Suddenly Cool Again</a>
-  `Decorating` `clone republish` `decorating` `design ideas` `furniture` `ideas & inspiration`
-  *by Shelby Deering · Oct 6*
-
 - <a href="https://www.apartmenttherapy.com/crate-and-barrel-york-wallpaper-collection-37693696?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Crate & Barrel Launched 99 Wallpapers — These Are the 7 I’m Eyeing</a>
   `Decorating` `crate & barrel` `crate & kids` `decorating` `design` `ideas & inspiration`
   *by Danielle Blundell · Oct 6*
+
+- <a href="https://www.apartmenttherapy.com/176-square-foot-california-studio-apartment-37694004?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">A 176-Square-Foot Studio Feels Surprisingly Spacious, Thanks to 10-Foot Ceilings</a>
+  `Tours` `featured tour` `Studio` `Eclectic` `Midcentury Modern` `Slideshow`
+  *by Adrienne Breaux · Oct 7*
+
+- <a href="https://www.apartmenttherapy.com/amazon-taymac-coverup-wall-plates-product-review-37693501?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I Didn’t Realize How Ugly My Outlets Were Until I Found This Clever $3 Find</a>
+  `Decorating` `amazon` `clone republish` `decor & accessories` `dynamic pricing test` `news`
+  *by Olivia Harvey · Oct 7*
 
 - <a href="https://www.apartmenttherapy.com/amazon-prime-big-deal-days-sofa-deals-37693401?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">The 7 Best Small-Space Sofa Deals to Shop During Prime Big Deal Days</a>
   `Decorating` `amazon` `amazon prime big deal days` `furniture` `product catalog`
@@ -386,13 +361,17 @@ lang: en
   `Tours` `featured tour` `Apartment` `Contemporary` `Eclectic` `Parisian`
   *by Adrienne Breaux · Oct 6*
 
-- <a href="https://www.apartmenttherapy.com/best-wayfair-coffee-tables-37455335?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">We Tested (and Rated!) Wayfair Coffee Tables — Here Are the Best to Suit Your Style and Space</a>
-  `Decorating` `coffee tables` `furniture` `inspo roundup` `personal shopper`
-  *by Alicia Kort · Oct 6*
+
+<a id="source-mansion-global"></a>
+## Mansion Global (1)
+
+- <a href="https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNUV0SFRCN1c4TTNwY001OXY1aEhnVDFmbnRZTC1BWGNsZzQ2XzhmSE1SZEdVMVo4bklabzJ4VXNjTDVCTDBORnFadnBpcnNBRG0wRmtLUUhEMjZsNUZvS01SOFhKYW16alF4bGxOOEQyQ1FNT3FGQkVDZ3N6a01qWFZyV0k4QXZub0NBbm5DVk5rN2dqWExVSlhWVWQxQ1Y0a0NvZlJMdU5yVWpCaWNRVHNnWUhNeG82T28zWE9YYUE3ODJ3dERoRmtBYUMtMl96cng3Nm44VXMxSEJnVFp2QjhB0gHnAUFVX3lxTE1hNXF0eXNXWkpOZ0Q0bTdVaHhsbjh0WUZlZFYycFFoVlNhM1FuRHVXYXlMdFNUZjVudlJjTlVmbnJHcmM5SFJIaEdUUDQ5QzhYWGRkcm9qVVZHanYxVnRiTUlia29OcVFCWWcyOGYtVEtRd1NzU2dnaW5YVTNaelV0aTJPQUVLbjUzRm9oeURZY1htQk1uaXNNRC1wVGZJREZEd2tDWFhSSXgtRUI0NkRnVnJhQWhmNnBISGROOTFHM0dvaUN3d0docVZ1dF9rMXp6ZUZoWUVSQUJUWjhvRjNxX0JmT2Z1cw?oc=5" target="_blank" rel="noopener">A Texas Ranch Nearly as Big as Philly Lists for $180 Million After Revival From Devastating Wildfires</a>
+  `Real Estate`
+  *Oct 6*
 
 
 <a id="source-southern-living"></a>
-## Southern Living (11)
+## Southern Living (12)
 
 - <a href="https://www.southernliving.com/daily-habits-home-cluttered-12162339" target="_blank" rel="noopener">7 Everyday Habits That Are Secretly Making Your Home More Cluttered</a>
   `Home Organization`
@@ -400,6 +379,10 @@ lang: en
 
 - <a href="https://www.southernliving.com/habits-people-kitchens-smelling-12159697" target="_blank" rel="noopener">8 Things People Whose Kitchens Always Smell Good Do Differently</a>
   *by Patricia Shannon · Oct 7*
+
+- <a href="https://www.southernliving.com/unclog-drain-with-baking-soda-12116245" target="_blank" rel="noopener">Can Baking Soda Really Unclog A Drain? Plumbers Explain When It Works</a>
+  `Home Maintenance`
+  *by Ashlyn Needham · Oct 7*
 
 - <a href="https://www.southernliving.com/appliances-to-unplug-12116238" target="_blank" rel="noopener">8 Appliances You Should Unplug More Often Than You Probably Do</a>
   `Home Maintenance`
@@ -435,11 +418,15 @@ lang: en
 
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (9)
+## Architectural Digest (10)
 
 - <a href="https://www.architecturaldigest.com/gallery/the-most-beautiful-gothic-revival-buildings-prove-some-design-is-too-good-to-stay-gone" target="_blank" rel="noopener">The 9 Most Beautiful Gothic Revival Buildings Prove Some Design Is Too Good to Stay Gone</a>
   `Architecture + Design` `Architecture + Design / Architecture`
   *by Maya Chawla · Oct 7*
+
+- <a href="https://www.architecturaldigest.com/story/best-dorai-stone-bath-mat-reviewed" target="_blank" rel="noopener">Dorai Stone Bath Mat Review, Tested and Reviewed (2026)</a>
+  `Shopping` `I Tried It` `Amazon Prime Day`
+  *by Julia Harrison · Oct 7*
 
 - <a href="https://www.architecturaldigest.com/story/julianne-moore-trades-her-west-village-town-house-for-a-serene-light-filled-duplex" target="_blank" rel="noopener">Julianne Moore Trades Her Manhattan Town House for a Serene, Light-Filled Duplex Atop a 1920s Building</a>
   `Magazine` `Architecture + Design` `Celebrity Style / Celebrity Homes` `Celebrity Style` `magazine` `domestic home tour`
@@ -475,7 +462,11 @@ lang: en
 
 
 <a id="source-veranda"></a>
-## Veranda (3)
+## Veranda (4)
+
+- <a href="https://www.veranda.com/decorating-ideas/advice-from-designers/a74058038/when-to-start-decorating-for-christmas/" target="_blank" rel="noopener">Here’s When Editors Say You Should Start Decorating for Christmas</a>
+  `Design`
+  *Oct 7*
 
 - <a href="https://www.veranda.com/outdoor-garden/a73826776/toad-lily-perennial-guide/" target="_blank" rel="noopener">Toad Lilies Are the Shade-Loving Perennials Your Fall Garden Needs</a>
   `Design`
@@ -496,11 +487,15 @@ lang: en
 ### More outlets
 
 <a id="source-wall-street-journal"></a>
-## Wall Street Journal (9)
+## Wall Street Journal (10)
 
 - <a href="https://www.wsj.com/real-estate/luxury-homes/stowe-vermont-ski-real-estate-d3fe9670?mod=LatestNewsRealEstate" target="_blank" rel="noopener">This Small Mountain Community Has the East Coast’s Most Expensive Ski Homes</a>
   `Real Estate`
   *by Jessica Flint · Oct 7*
+
+- <a href="https://www.wsj.com/lifestyle/travel/the-latest-nuisance-on-flights-is-a-zoom-call-at-30-000-feet-af093074?mod=rss_lifestyle" target="_blank" rel="noopener">The Latest Nuisance on Flights Is a Zoom Call at 30,000 Feet</a>
+  `Lifestyle`
+  *by Alison Sider · Oct 7*
 
 - <a href="https://www.wsj.com/lifestyle/careers/how-a-reply-all-email-after-oct-7-ripped-an-office-apart-defbf455?mod=rss_lifestyle" target="_blank" rel="noopener">How a Reply-All Email After Oct. 7 Ripped an Office Apart</a>
   `Lifestyle`
@@ -544,7 +539,11 @@ lang: en
 
 
 <a id="source-country-living"></a>
-## Country Living (5)
+## Country Living (6)
+
+- <a href="https://www.countryliving.com/life/travel/a74054393/how-to-have-the-perfect-fall-weekend-in-big-sky/" target="_blank" rel="noopener">I Found the Perfect Fall Getaway for Fans of ‘Yellowstone’ and ‘The Madison’</a>
+  `Home`
+  *Oct 7*
 
 - <a href="https://www.countryliving.com/life/entertainment/a74066132/comedy-wildlife-photography-awards-2026-funniest-photos/" target="_blank" rel="noopener">The Funniest Wildlife Photos of 2026 Have Finally Been Revealed</a>
   `Home`
@@ -604,15 +603,11 @@ lang: en
 
 
 <a id="source-business-of-home"></a>
-## Business of Home (2)
+## Business of Home (1)
 
 - <a href="https://businessofhome.com/articles/california-races-toward-quartz-ban-the-death-of-the-dinner-party-and-more.html" target="_blank" rel="noopener">California races toward quartz ban, the death of the dinner party, and more</a>
   `news digest`
   *by Caroline Bourque · Oct 6*
-
-- <a href="https://businessofhome.com/articles/what-does-a-design-firm-need-to-be-successful-in-a-rapidly-changing-world.html" target="_blank" rel="noopener">What does a design firm need to be successful in a rapidly changing world?</a>
-  `business advice`
-  *by Sean Low · Oct 6*
 
 
 <a id="source-cubby"></a>
@@ -655,6 +650,14 @@ lang: en
   *by Julie Ryan Evans · Oct 6*
 
 
+<a id="source-daily-mail"></a>
+## Daily Mail (1)
+
+- <a href="https://www.dailymail.com/lifestyle/homes/article-16136631/autumn-home-reset-ideas.html?ns_mchannel=rss&ns_campaign=1490&ito=1490" target="_blank" rel="noopener">The 22 clever buys I use to give my home an autumn reset, from £6 storage solutions to £13 kitchen organisers</a>
+  `Home`
+  *Oct 7*
+
+
 <a id="source-new-york-times"></a>
 ## New York Times (4)
 
@@ -673,14 +676,6 @@ lang: en
 - <a href="https://www.nytimes.com/2026/10/07/realestate/how-do-i-decorate-a-big-concrete-wall.html" target="_blank" rel="noopener">How Do I Decorate a Big Concrete Wall?</a>
   `Interior Design and Furnishings` `Content Type: Service`
   *by Talia Mayden · Oct 7*
-
-
-<a id="source-kitchen-bath-design"></a>
-## Kitchen Bath Design (1)
-
-- <a href="https://www.kitchenbathdesign.com/its-only-natural/" target="_blank" rel="noopener">It’s Only Natural</a>
-  `Newsletter` `bath sinks` `PI newsletter`
-  *by Autumn McGarr · Oct 6*
 
 
 <a id="source-luxe-magazine"></a>
@@ -748,7 +743,11 @@ lang: en
 
 
 <a id="source-style-at-home"></a>
-## Style at Home (2)
+## Style at Home (3)
+
+- <a href="https://www.styleathome.com/decorating-design/article/splurge-or-save-merino-wool-throws-for-a-cozier-fall" target="_blank" rel="noopener">Splurge or Save: Merino Wool Throws for a Cozier Fall</a>
+  `Home`
+  *Oct 7*
 
 - <a href="https://www.styleathome.com/decorating-design/article/is-wall-to-wall-carpeting-really-making-a-comeback" target="_blank" rel="noopener">Is Wall-to-Wall Carpeting Really Making a Comeback?</a>
   `Home`
