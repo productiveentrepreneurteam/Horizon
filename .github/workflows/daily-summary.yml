@@ -6,7 +6,7 @@ on:
     # GitHub queues scheduled jobs on a best-effort basis and the top of
     # the hour is the most contended slot on the platform. Running at :00
     # was landing between 7:20 and 8:30 AM LA.
-    - cron: '47 12 * * *'
+    - cron: '17 8 * * *'   # was 47 12; GitHub runs this 4-8h late, so start early enough to land by LA morning
   workflow_dispatch:       # Allow manual trigger at any time
 
 jobs:

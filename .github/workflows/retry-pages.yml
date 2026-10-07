@@ -1,0 +1,29 @@
+# Retry a failed GitHub Pages build once, so a GitHub-side timeout does not
+# leave the day's digest unpublished. 2026-10-05: the digest built fine, the
+# Pages build timed out at 15 minutes, and a plain re-run published it.
+name: Retry failed Pages build
+
+on:
+  page_build:
+
+permissions:
+  pages: write
+
+jobs:
+  retry:
+    if: github.event.build.status == 'errored'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request one rebuild, unless the previous build also failed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          # The two most recent builds are this failure and the one before it.
+          # If that one errored too, a retry already happened: stop, don't loop.
+          prev=$(gh api "repos/$REPO/pages/builds?per_page=2" --jq '.[1].status')
+          if [ "$prev" = "errored" ]; then
+            echo "Previous build also errored; not retrying again."
+            exit 1
+          fi
+          gh api -X POST "repos/$REPO/pages/builds"
