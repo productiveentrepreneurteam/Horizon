@@ -345,10 +345,10 @@
     /* Same column widths on every outlet table, so the columns line up down
        the whole page instead of each table sizing itself to its own words. */
     .article-table { table-layout: fixed; }
-    .article-table th:nth-child(1) { width: 44%; }
-    .article-table th:nth-child(2) { width: 28%; }
-    .article-table th:nth-child(3) { width: 16%; }
-    .article-table th:nth-child(4) { width: 12%; }
+    .article-table th:nth-child(1) { width: 40%; }
+    .article-table th:nth-child(2) { width: 32%; }
+    .article-table th:nth-child(3) { width: 14%; }
+    .article-table th:nth-child(4) { width: 14%; }
     .article-table td { overflow-wrap: anywhere; }
 
     .article-title a {
@@ -383,13 +383,12 @@
     /* One line of tags per row: long pills end in "...", extras sit behind
        a "+N more" pill that opens them in place. */
     .article-table .tags { flex-wrap: nowrap; overflow: hidden; }
-    .article-table .tag { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
-    .tags-extra { display: none; }
+    .article-table .tag { flex: 0 0 auto; overflow: hidden; text-overflow: ellipsis; }
+    .article-table .tags--squeeze .tag:first-child { flex-shrink: 1; min-width: 0; }
     .article-table .tags.tags--open { flex-wrap: wrap; }
-    .tags--open .tags-extra { display: contents; }
-    .tags--open .tag--more { display: none; }
-    .tag--more {
-      flex: 0 0 auto;
+    .article-table .tags--open .tag[hidden] { display: inline-block; }
+    .article-table .tags--open .tag--more { display: none; }
+    .article-table .tag--more {
       border: 1px solid var(--border);
       background: transparent;
       color: var(--text-muted);
@@ -667,6 +666,8 @@
       });
 
       main.appendChild(cardsWrap);
+      fitTags();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => fitTags());
 
       /* ── Sidebar ── */
       buildSidebar(sources);
@@ -681,7 +682,36 @@
       if (lastUpdate) lastUpdate.textContent = 'Updated ' + dateStr;
     }
 
-    const TAGS_SHOWN = 2;
+    // Show as many whole tags as fit on one line; the rest go behind "+N more".
+    // The first tag always shows, cut with "..." if it alone is too wide.
+    function fitTags(root) {
+      (root || document).querySelectorAll('.article-table .tags').forEach(box => {
+        // Open, or inside a section that is filtered out or collapsed (no width yet).
+        if (box.classList.contains('tags--open') || box.clientWidth === 0) return;
+        const more = box.querySelector('.tag--more');
+        if (!more) return;
+        const pills = [...box.querySelectorAll('.tag:not(.tag--more)')];
+        pills.forEach(p => { p.hidden = false; });
+        more.hidden = true;
+        if (box.scrollWidth <= box.clientWidth) return;
+        more.hidden = false;
+        let shown = pills.length;
+        while (shown > 1 && box.scrollWidth > box.clientWidth) {
+          pills[--shown].hidden = true;
+          more.textContent = `+${pills.length - shown} more`;
+        }
+        if (shown === pills.length) more.hidden = true;
+        box.classList.toggle('tags--squeeze', box.scrollWidth > box.clientWidth);
+      });
+    }
+    let _fitTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(_fitTimer);
+      _fitTimer = setTimeout(() => fitTags(), 120);
+    });
+    // A sidebar filter or a section toggle can reveal a table that had no
+    // width when the page first fitted it.
+    document.addEventListener('click', () => requestAnimationFrame(() => fitTags()));
 
     function renderTableRows(table, articles) {
       const tbody = table.querySelector('tbody');
@@ -690,17 +720,13 @@
         const tr = document.createElement('tr');
 
         // Designer tags first, so the "+N more" pill never hides a designer
-        // behind a topic tag. Only the first TAGS_SHOWN show until clicked.
+        // behind a topic tag. fitTags() then hides whatever does not fit.
         const isDesigner = t => /⭐|🍾|Press Club/.test(t);
         const ordered = art.tags.filter(isDesigner).concat(art.tags.filter(t => !isDesigner(t)));
         const pill = t => `<span class="tag tag--${tagClass(t)}" title="${t.replace(/"/g, '&quot;')}">${t}</span>`;
-        const hidden = ordered.length - TAGS_SHOWN;
         const tagsHtml = ordered.length
-          ? ordered.slice(0, TAGS_SHOWN).map(pill).join('')
-            + (hidden > 0
-              ? `<span class="tags-extra">${ordered.slice(TAGS_SHOWN).map(pill).join('')}</span>`
-                + `<button type="button" class="tag tag--more" onclick="this.parentElement.classList.add('tags--open')">+${hidden} more</button>`
-              : '')
+          ? ordered.map(pill).join('')
+            + `<button type="button" class="tag tag--more" onclick="this.parentElement.classList.add('tags--open')"></button>`
           : `<span class="tag tag--${tagClass(art.outlet||'home')}">—</span>`;
 
         // Author: use whatever was parsed; if empty show outlet name
