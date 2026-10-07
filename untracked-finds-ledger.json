@@ -1,147 +1,11 @@
 {
-  "date": "2026-10-06",
-  "generated_utc": "2026-10-06T18:52:24Z",
+  "date": "2026-09-10",
+  "generated_utc": "2026-09-10T02:00:00Z",
   "keep_days": 31,
-  "count": 14,
+  "count": 4,
   "finds": [
     {
-      "designers": [
-        "Terri Fiori"
-      ],
-      "title": "Is Your Closet Designed for Aging in Place? These 7 Details Will Make Getting Dressed Easier Down the Line",
-      "url": "https://www.thespruce.com/closet-design-for-aging-in-place-12027211",
-      "outlet": "The Spruce",
-      "published": "2026-10-05",
-      "first_seen": "2026-10-05",
-      "last_seen": "2026-10-06"
-    },
-    {
-      "designers": [
-        "J Banks Design"
-      ],
-      "title": "We Asked Designers How to Make a Home Aging-in-Place Friendly for Under $25—and Their Tips Are Key",
-      "url": "https://www.thespruce.com/how-to-make-a-home-aging-in-place-friendly-on-a-budget-11894065",
-      "outlet": "The Spruce",
-      "published": "2026-10-04",
-      "first_seen": "2026-10-04",
-      "last_seen": "2026-10-05"
-    },
-    {
-      "designers": [
-        "Peggy Haddad"
-      ],
-      "title": "Designers Say This Outdated Cabinet Trend Is Making a Major Comeback in 2026 Kitchens",
-      "url": "https://www.thespruce.com/2026-outdated-cabinet-trend-comeback-12147763",
-      "outlet": "The Spruce",
-      "published": "2026-10-03",
-      "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03"
-    },
-    {
-      "designers": [
-        "Jen Bedford",
-        "Sarah Bowman"
-      ],
-      "title": "5 Easy Ways to Make Your Living Room Furniture Look Expensive, According to Designers",
-      "url": "https://www.homesandgardens.com/decor/living-rooms/what-makes-living-room-furniture-look-expensive",
-      "outlet": "Homes & Gardens",
-      "published": "2026-10-03",
-      "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03"
-    },
-    {
-      "designers": [
-        "Alexa Kingery"
-      ],
-      "title": "Curves Are the Answer to a Soft, Lived-In Kitchen – Here's How Designers Use Them to Create a Timeless Look",
-      "url": "https://www.homesandgardens.com/decor/kitchens/curves-in-kitchens",
-      "outlet": "Homes & Gardens",
-      "published": "2026-09-30",
-      "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
-    },
-    {
-      "designers": [
-        "Allison Knizek"
-      ],
-      "title": "11 Spanish-Style Homes That Are Warm and Inviting",
-      "url": "https://www.thespruce.com/spanish-style-homes-5224378",
-      "outlet": "The Spruce",
-      "published": "2026-09-27",
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28"
-    },
-    {
-      "designers": [
-        "Lauren Saab"
-      ],
-      "title": "5 Inexpensive Upgrades Designers Swear By for Increasing Home Value—and They’re Easy to DIY",
-      "url": "https://www.thespruce.com/affordable-upgrades-for-home-value-12126306",
-      "outlet": "The Spruce",
-      "published": "2026-09-26",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26"
-    },
-    {
-      "designers": [
-        "Amy Peltier"
-      ],
-      "title": "Why Designers Have Stopped Trying to Make Every Part of a Bathroom Match (and How to Make It Still Feel Intentional)",
-      "url": "https://www.livingetc.com/ideas/mismatched-bathroom-trend",
-      "outlet": "Livingetc",
-      "published": "2026-09-25",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25"
-    },
-    {
-      "designers": [
-        "Hallie Malitsky"
-      ],
-      "title": "7 Trends Replacing the Basic Beige Rug in 2027 – ‘Clients Are Thinking About Rugs the Way They Think About Art’",
-      "url": "https://www.homesandgardens.com/decor/rug-trends-for-2027",
-      "outlet": "Homes & Gardens",
-      "published": "2026-09-24",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24"
-    },
-    {
-      "designers": [
-        "Lauren McKay"
-      ],
-      "title": "7 Things That Make Your Living Room Look More Expensive, According to Designers",
-      "url": "https://www.veranda.com/decorating-ideas/advice-from-designers/a73848000/how-to-make-living-room-look-more-expensive/",
-      "outlet": "Veranda",
-      "published": "2026-09-23",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-24"
-    },
-    {
-      "designers": [
-        "Amy Kartheiser"
-      ],
-      "title": "6 Stylish Ways to Hide an Ugly Radiator Without Sacrificing Style",
-      "url": "https://www.housebeautiful.com/design-inspiration/a73826619/how-to-hide-your-radiator/",
-      "outlet": "House Beautiful",
-      "published": "2026-09-23",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23"
-    },
-    {
-      "designers": [
-        "Courtney Klinger",
-        "Kelly Bartley"
-      ],
-      "title": "The Biggest Color Trends To Look Out For In 2027",
-      "url": "https://www.homesandgardens.com/decor/paint/color-trends-2027",
-      "outlet": "Homes & Gardens",
-      "published": "2026-09-06",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-06"
-    },
-    {
-      "designers": [
-        "Amy Peltier"
-      ],
+      "designers": ["Amy Peltier"],
       "title": "Meet the Bathroom Vanity Trend That Makes Every Space Feel Warmer",
       "url": "https://www.homesandgardens.com/decor/bathrooms/wooden-vanity-bathroom-trend",
       "outlet": "Homes & Gardens",
@@ -150,15 +14,31 @@
       "last_seen": "2026-09-06"
     },
     {
-      "designers": [
-        "Lauren Saab"
-      ],
+      "designers": ["Courtney Klinger", "Kelly Bartley"],
+      "title": "The Biggest Color Trends To Look Out For In 2027",
+      "url": "https://www.homesandgardens.com/decor/paint/color-trends-2027",
+      "outlet": "Homes & Gardens",
+      "published": "2026-09-06",
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06"
+    },
+    {
+      "designers": ["Lauren Saab"],
       "title": "What's Replacing Navy Blue Kitchen Cabinets?",
       "url": "https://www.homesandgardens.com/decor/kitchens/whats-replacing-navy-blue-kitchen-cabinets-2027",
       "outlet": "Homes & Gardens",
       "published": "2026-09-05",
       "first_seen": "2026-09-05",
       "last_seen": "2026-09-05"
+    },
+    {
+      "designers": ["Lara Kimmerer", "Patricia Burke"],
+      "title": "The Biggest Accent Wall Mistakes That Can Throw Off Your Whole Room",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a73606684/accent-wall-mistakes-designers/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-09-04",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04"
     }
   ]
 }
