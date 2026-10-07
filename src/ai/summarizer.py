@@ -353,6 +353,30 @@ def _strip_outlet_suffix(title: str, outlet: str) -> str:
     return head if (head and looks_like_outlet) else title
 
 
+def _win_sort_date(value) -> datetime:
+    """A sortable date for a Press House Wins row. Unreadable dates sort last."""
+    if isinstance(value, datetime):
+        return value.replace(tzinfo=None)
+    text = str(value or "").strip()
+    try:
+        return datetime.fromisoformat(text.replace("Z", "+00:00")).replace(tzinfo=None)
+    except ValueError:
+        pass
+    for fmt in ("%Y-%m-%d", "%m/%d/%Y", "%m/%d/%y", "%b %d, %Y", "%B %d, %Y", "%d %b %Y"):
+        try:
+            return datetime.strptime(text, fmt)
+        except ValueError:
+            pass
+    now = datetime.now()
+    for fmt in ("%b %d", "%B %d"):
+        try:
+            d = datetime.strptime(text, fmt).replace(year=now.year)
+            return d if d <= now else d.replace(year=now.year - 1)
+        except ValueError:
+            pass
+    return datetime.min
+
+
 def get_recent_press_house_wins(limit: int = 0) -> list:
     """Most recent confirmed wins (tracked outlets, real link), newest first.
 
@@ -1169,37 +1193,38 @@ class DailySummarizer:
             pass
         elif todays or recent_wins or _earlier_finds:
             wins_parts.append("## 🏆 Press House Wins\n\n")
+            # One list, newest first. Today's detections, unlogged finds and
+            # logged wins all sort together by date, so an unlogged find never
+            # sits above a newer logged win.
+            _rows = []
             for item in todays:
-                wins_parts.append(self._format_item_simple(item, language, wins_mode=True))
-                wins_parts.append("\n")
-            if _earlier_finds:
-                wins_parts.append("\n### 🍾 Found this month, not logged yet\n\n")
-                for e in _earlier_finds:
-                    _title = str(e.get("title") or e.get("outlet") or e["url"]).replace("[", "(").replace("]", ")")
-                    _names = ", ".join(e.get("designers") or []) or "Press Club Source"
-                    _seen = e.get("first_seen") or e.get("published") or ""
-                    # Match the "Sep 14" stamp the tracked rows use, then mark it
-                    # untracked, instead of a second date format inside a sentence.
-                    _seen_label = "[untracked]"
-                    try:
-                        _sd = datetime.strptime(_seen[:10], "%Y-%m-%d")
-                        _seen_label = _sd.strftime("%b ") + _sd.strftime("%d").lstrip("0") + " [untracked]"
-                    except Exception:
-                        pass
-                    wins_parts.append(
-                        f'- <a href="{e["url"]}" target="_blank" rel="noopener">{_title}</a>\n'
-                        f'  `{e.get("outlet") or ""}`\n'
-                        f'  `🍾 Press Club Source: {_names} 🍾`\n'
-                        f'  *{_seen_label}*\n'
-                    )
-                    wins_parts.append("\n")
+                _rows.append((_win_sort_date(getattr(item, "published_at", None)),
+                              self._format_item_simple(item, language, wins_mode=True) + "\n"))
+            for e in _earlier_finds:
+                _title = str(e.get("title") or e.get("outlet") or e["url"]).replace("[", "(").replace("]", ")")
+                _names = ", ".join(e.get("designers") or []) or "Press Club Source"
+                _seen = e.get("first_seen") or e.get("published") or ""
+                # Match the "Sep 14" stamp the tracked rows use, then mark it
+                # untracked, instead of a second date format inside a sentence.
+                _seen_label = "[untracked]"
+                try:
+                    _sd = datetime.strptime(_seen[:10], "%Y-%m-%d")
+                    _seen_label = _sd.strftime("%b ") + _sd.strftime("%d").lstrip("0") + " [untracked]"
+                except Exception:
+                    pass
+                _rows.append((_win_sort_date(_seen),
+                    f'- <a href="{e["url"]}" target="_blank" rel="noopener">{_title}</a>\n'
+                    f'  `{e.get("outlet") or ""}`\n'
+                    f'  `🍾 Press Club Source: {_names} 🍾`\n'
+                    f'  *{_seen_label}*\n\n'))
             for w in recent_wins:
                 designers = [d.strip() for d in (w["designer"] or "").replace(";", ",").split(",") if d.strip()]
                 source_tags = " ".join(f"`⭐ {d} ⭐`" for d in designers) or "`⭐ Press Club Source ⭐`"
                 meta = f"by {w['writer']} · {w['date']}" if w["writer"] else w["date"]
-                wins_parts.append(
-                    f"- [{w['story']}]({w['url']}) {source_tags} `{w['outlet']}` *{meta}*\n"
-                )
+                _rows.append((_win_sort_date(w["date"]),
+                    f"- [{w['story']}]({w['url']}) {source_tags} `{w['outlet']}` *{meta}*\n"))
+            _rows.sort(key=lambda r: r[0], reverse=True)
+            wins_parts.extend(r[1] for r in _rows)
             wins_parts.append("\n---\n\n")
 
         # --- KPI data for the header cards (read by the layout JS) ---
@@ -1216,13 +1241,23 @@ class DailySummarizer:
                     _designers.update(_f)
                     _to_file += 1
         _stats = get_feed().get("stats", {}) or {}
+        # Designers this month, counted from the logged wins on this page plus
+        # today's detections, so the box always agrees with the table under it.
+        # Unlogged finds are not counted. The sheet's own monthly stat read 1
+        # on 2026-10-07 while the table held ten designers' October wins.
+        _now = datetime.now()
+        _month_designers = set(_designers)
+        for w in recent_wins:
+            _wd = _win_sort_date(w["date"])
+            if _wd.year == _now.year and _wd.month == _now.month:
+                _month_designers.update(d.strip() for d in (w["designer"] or "").replace(";", ",").split(",") if d.strip())
         # Everything found and not yet logged: today's finds plus the ledger.
         _unlogged = len(_earlier_finds) + _to_file
         kpi_data = (
             '<div id="kpi-data" style="display:none"'
             f' data-designers-today="{len(_designers)}"'
             f' data-found-unlogged="{_unlogged}"'
-            f' data-designers-month="{str(_stats.get("designers_this_month", "") or "").strip()}"'
+            f' data-designers-month="{len(_month_designers)}"'
             f' data-record="{str(_stats.get("all_time", "") or "").strip()}"></div>\n\n'
         )
         return header + kpi_data + "".join(wins_parts) + overview + "".join(section_parts)
