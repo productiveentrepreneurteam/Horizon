@@ -1223,9 +1223,9 @@ class DailySummarizer:
                 meta = f"by {w['writer']} · {w['date']}" if w["writer"] else w["date"]
                 _rows.append((_win_sort_date(w["date"]),
                     f"- [{w['story']}]({w['url']}) {source_tags} `{w['outlet']}` *{meta}*\n"))
-            # Show three weeks of wins, not a month: a longer list buried the
+            # Show two weeks of wins, not a month: a longer list buried the
             # newest rows.
-            _cutoff = datetime.now() - timedelta(days=21)
+            _cutoff = datetime.now() - timedelta(days=14)
             _rows = [r for r in _rows if r[0] >= _cutoff]
             _rows.sort(key=lambda r: r[0], reverse=True)
             wins_parts.extend(r[1] for r in _rows)
