@@ -342,6 +342,15 @@
     .article-table tr { transition: background .1s; }
     .article-table tr:hover td { background: var(--bg-hover); }
 
+    /* Same column widths on every outlet table, so the columns line up down
+       the whole page instead of each table sizing itself to its own words. */
+    .article-table { table-layout: fixed; }
+    .article-table th:nth-child(1) { width: 44%; }
+    .article-table th:nth-child(2) { width: 28%; }
+    .article-table th:nth-child(3) { width: 16%; }
+    .article-table th:nth-child(4) { width: 12%; }
+    .article-table td { overflow-wrap: anywhere; }
+
     .article-title a {
       color: var(--text-primary);
       font-weight: 500;
@@ -370,6 +379,24 @@
     .tag--lifestyle { background: var(--tag-lifestyle); color: var(--tag-lifestyle-fg); }
     .tag--realestate{ background: var(--tag-realestate);color: var(--tag-realestate-fg);}
     .tag--business  { background: var(--tag-business);  color: var(--tag-business-fg);  }
+
+    /* One line of tags per row: long pills end in "...", extras sit behind
+       a "+N more" pill that opens them in place. */
+    .article-table .tags { flex-wrap: nowrap; overflow: hidden; }
+    .article-table .tag { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+    .tags-extra { display: none; }
+    .article-table .tags.tags--open { flex-wrap: wrap; }
+    .tags--open .tags-extra { display: contents; }
+    .tags--open .tag--more { display: none; }
+    .tag--more {
+      flex: 0 0 auto;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      font-family: inherit;
+      cursor: pointer;
+    }
+    .tag--more:hover { color: var(--bourbon); border-color: var(--bourbon); }
 
     /* ─── Empty states ─────────────────────────────────────────────────────── */
     .empty {
@@ -654,14 +681,26 @@
       if (lastUpdate) lastUpdate.textContent = 'Updated ' + dateStr;
     }
 
+    const TAGS_SHOWN = 2;
+
     function renderTableRows(table, articles) {
       const tbody = table.querySelector('tbody');
       tbody.innerHTML = '';
       articles.forEach(art => {
         const tr = document.createElement('tr');
 
-        const tagsHtml = art.tags.length
-          ? art.tags.map(t => `<span class="tag tag--${tagClass(t)}">${t}</span>`).join('')
+        // Designer tags first, so the "+N more" pill never hides a designer
+        // behind a topic tag. Only the first TAGS_SHOWN show until clicked.
+        const isDesigner = t => /⭐|🍾|Press Club/.test(t);
+        const ordered = art.tags.filter(isDesigner).concat(art.tags.filter(t => !isDesigner(t)));
+        const pill = t => `<span class="tag tag--${tagClass(t)}" title="${t.replace(/"/g, '&quot;')}">${t}</span>`;
+        const hidden = ordered.length - TAGS_SHOWN;
+        const tagsHtml = ordered.length
+          ? ordered.slice(0, TAGS_SHOWN).map(pill).join('')
+            + (hidden > 0
+              ? `<span class="tags-extra">${ordered.slice(TAGS_SHOWN).map(pill).join('')}</span>`
+                + `<button type="button" class="tag tag--more" onclick="this.parentElement.classList.add('tags--open')">+${hidden} more</button>`
+              : '')
           : `<span class="tag tag--${tagClass(art.outlet||'home')}">—</span>`;
 
         // Author: use whatever was parsed; if empty show outlet name
