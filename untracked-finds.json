@@ -1,6 +1,35 @@
 {
-  "date": "2026-10-07",
-  "generated_utc": "2026-10-07T17:03:45Z",
-  "count": 0,
-  "finds": []
+  "date": "2026-10-08",
+  "generated_utc": "2026-10-08T16:03:40Z",
+  "count": 3,
+  "finds": [
+    {
+      "designers": [
+        "Kristina Lawrence"
+      ],
+      "title": "Brown Is the New Backbone of Interior Styling—Here’s How Pros Are Making It Feel Fresh",
+      "url": "https://www.realsimple.com/interior-designer-approved-brown-decor-amazon-october-2026-12162738",
+      "outlet": "Real Simple",
+      "published": "2026-10-08"
+    },
+    {
+      "designers": [
+        "Caroline Kopp",
+        "Lauren Saab"
+      ],
+      "title": "Designers Reveal 5 Rules That Make Halloween Decor Look Instantly More Elevated",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74051663/halloween-decor-designer-rules/",
+      "outlet": "House Beautiful",
+      "published": "2026-10-07"
+    },
+    {
+      "designers": [
+        "Sarah Storms"
+      ],
+      "title": "Designers Say That Emerald Green Is the Accent Color of the Moment. Here’s How They’re Using It Now.",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74055116/emerald-green-decor-ideas/",
+      "outlet": "House Beautiful",
+      "published": "2026-10-07"
+    }
+  ]
 }
