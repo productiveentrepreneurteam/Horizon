@@ -1,9 +1,20 @@
 {
-  "date": "2026-10-08",
-  "generated_utc": "2026-10-08T16:03:40Z",
+  "date": "2026-10-09",
+  "generated_utc": "2026-10-09T15:41:15Z",
   "keep_days": 31,
-  "count": 3,
+  "count": 4,
   "finds": [
+    {
+      "designers": [
+        "Lauren Saab"
+      ],
+      "title": "5 Things Designers Put Away to Make a Bedroom Feel Cozier for Fall",
+      "url": "https://www.countryliving.com/home-design/decorating-ideas/a73880866/things-designers-remove-bedroom-fall/",
+      "outlet": "Country Living",
+      "published": "2026-10-09",
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09"
+    },
     {
       "designers": [
         "Kristina Lawrence"
@@ -13,7 +24,7 @@
       "outlet": "Real Simple",
       "published": "2026-10-08",
       "first_seen": "2026-10-08",
-      "last_seen": "2026-10-08"
+      "last_seen": "2026-10-09"
     },
     {
       "designers": [

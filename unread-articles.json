@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-09",
+  "generated_utc": "2026-10-09T15:41:15Z",
+  "unread_total": 40,
+  "outlets": [
+    {
+      "outlet": "Apartment Therapy",
+      "count": 13,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 13
+      },
+      "sample_urls": [
+        "https://www.apartmenttherapy.com/o-rule-for-shopping-tjmaxx-marshalls-october-37694346?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/kitchen-cabinet-cut-out-trend-coming-back-37693516?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/coop-copper-plus-bedding-review-37694342?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "Wall Street Journal",
+      "count": 9,
+      "reasons": {
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 9
+      },
+      "sample_urls": [
+        "https://www.wsj.com/lifestyle/travel/the-popular-tool-united-is-using-to-woo-delta-loyalists-df44f5a6?mod=rss_lifestyle",
+        "https://www.wsj.com/health/wellness/superagers-longevity-72b64c63?mod=rss_lifestyle",
+        "https://www.wsj.com/real-estate/luxury-homes/crested-butte-luxury-home-market-7f0f3b0d?mod=LatestNewsRealEstate"
+      ]
+    },
+    {
+      "outlet": "New York Times",
+      "count": 4,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 4
+      },
+      "sample_urls": [
+        "https://www.nytimes.com/2026/10/08/realestate/how-much-space-does-400000-get-you.html",
+        "https://www.nytimes.com/2026/10/09/realestate/touching-up-a-damaged-wood-floor.html",
+        "https://www.nytimes.com/2026/10/08/realestate/tribeca-loft-keith-haring-mural-listed-25-million.html"
+      ]
+    },
+    {
+      "outlet": "The Spruce",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 3
+      },
+      "sample_urls": [
+        "https://www.thespruce.com/tacky-tile-trend-to-avoid-12159860",
+        "https://www.thespruce.com/best-landscape-lighting-5324204",
+        "https://www.thespruce.com/best-reverse-osmosis-systems-4586893"
+      ]
+    },
+    {
+      "outlet": "Dengarden",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
+      },
+      "sample_urls": [
+        "https://dengarden.com/shopping/target-watercolor-christmas-story-dinnerware-set",
+        "https://dengarden.com/shopping/dollar-tree-seasonal-collection-solar-stake-light",
+        "https://dengarden.com/shopping/aldi-kirkton-house-mid-large-faux-fur-rug"
+      ]
+    },
+    {
+      "outlet": "Style at Home",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - refused by the publisher": 3
+      },
+      "sample_urls": [
+        "https://www.styleathome.com/travel/article/charlevoix-quebec-a-fall-getaway-guide-to-local-makers-food-and-stays",
+        "https://www.styleathome.com/travel/article/10-canadian-wineries-worth-a-fall-road-trip",
+        "https://www.styleathome.com/how-to/housekeeping/article/how-often-should-you-wash-your-kitchen-towels-and-when-to-throw-them-out"
+      ]
+    },
+    {
+      "outlet": "Better Homes & Gardens",
+      "count": 2,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 2
+      },
+      "sample_urls": [
+        "https://www.bhg.com/make-washing-machine-last-longer-11801457",
+        "https://www.bhg.com/halloween/crafts/braided-spiderweb/"
+      ]
+    },
+    {
+      "outlet": "Real Simple",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.realsimple.com/food-recipes/recipe-collections-favorites/seasonal/how-long-to-cook-a-turkey"
+      ]
+    },
+    {
+      "outlet": "Business of Home",
+      "count": 1,
+      "reasons": {
+        "HTTP 404 - HTTP 404": 1
+      },
+      "sample_urls": [
+        "https://businessofhome.com/articles/15-striped-designs-to-discover-at-fall-market.html"
+      ]
+    },
+    {
+      "outlet": "Luxe Magazine",
+      "count": 1,
+      "reasons": {
+        "ValueError: article body extraction collapsed: 174 chars of 2790 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+      },
+      "sample_urls": [
+        "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
+      ]
+    }
+  ]
+}
