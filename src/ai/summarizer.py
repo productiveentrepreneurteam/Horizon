@@ -420,6 +420,174 @@ def get_recent_press_house_wins(limit: int = 0) -> list:
 _CLEAN_SOURCES_CACHE = None
 _ARTICLE_SOURCE_CACHE = {}
 
+# AN ARTICLE NOBODY COULD READ IS NOT AN ARTICLE WITH NO DESIGNER IN IT.
+#
+# find_press_club_sources() used to swallow every fetch failure into a bare
+# `found = []`, so a bot wall and a designer-free story produced the identical
+# answer. That is the fault that hid Architectural Digest, Homes & Gardens and
+# Livingetc for two weeks in August 2026, and it is the fault that hid
+# Apartment Therapy and the Wall Street Journal until 2026-09-09: roughly 148
+# articles a week counted as "no designer in this one" when not one word of
+# them was ever read, which reads on the health log as a quiet week.
+#
+# The list return is deliberately unchanged -- four call sites depend on it --
+# and the failure is recorded HERE instead, keyed by url. Anything that wants
+# an honest count reads unread_articles() or docs/unread-articles.json.
+_ARTICLE_UNREAD = {}
+
+
+def unread_articles() -> dict:
+    """URLs whose fetch failed this run -> {outlet, status, reason, wall}.
+
+    An empty dict is a real answer, not a missing one: it means every article
+    in this run was actually read.
+    """
+    return dict(_ARTICLE_UNREAD)
+
+
+def reset_unread_articles() -> None:
+    """Clear the per-run record. Used by the tests and by any repeat run."""
+    _ARTICLE_UNREAD.clear()
+
+
+# Bot walls announce themselves, in a response header more reliably than in the
+# body. Measured against the live refusals on 2026-09-09:
+#   Apartment Therapy   403  Via: varnish + X-flog   body: _pxAppId, px-captcha
+#   Wall Street Journal 401  x-datadome: protected   body: captcha-delivery.com
+# Both are JS/captcha challenges, so neither is recoverable by sending better
+# headers the way the four Dotdash Meredith outlets were on 2026-08-25. Naming
+# the vendor is what stops that being re-litigated every time it resurfaces.
+_WALL_HEADER_CUES = (
+    ("x-datadome", "DataDome bot wall (JS/captcha challenge)"),
+    ("x-px-", "PerimeterX/HUMAN bot wall (JS/captcha challenge)"),
+    ("x-cdn-px", "PerimeterX/HUMAN bot wall (JS/captcha challenge)"),
+    ("cf-mitigated", "Cloudflare bot wall"),
+    ("cf-chl-out", "Cloudflare bot wall"),
+)
+_WALL_BODY_CUES = (
+    ("_pxappid", "PerimeterX/HUMAN bot wall (JS/captcha challenge)"),
+    ("px-captcha", "PerimeterX/HUMAN bot wall (JS/captcha challenge)"),
+    ("perimeterx", "PerimeterX/HUMAN bot wall (JS/captcha challenge)"),
+    ("captcha-delivery.com", "DataDome bot wall (JS/captcha challenge)"),
+    ("datadome", "DataDome bot wall (JS/captcha challenge)"),
+    ("cf-chl", "Cloudflare bot wall"),
+    ("/cdn-cgi/challenge-platform", "Cloudflare bot wall"),
+    ("_abck", "Akamai Bot Manager"),
+)
+
+
+def _classify_wall(status, headers, body: str, exc=None) -> str:
+    """Name the thing that refused us, when it names itself.
+
+    Header cues beat body cues: the WSJ's 401 body is eight lines of obfuscated
+    JavaScript, but its `x-datadome: protected` header is unambiguous.
+    """
+    # The 2026-08-25 safety rail in _split_article_text() raises when extraction
+    # collapses below 5% of the page. That is a fetch that SUCCEEDED and a page
+    # that could not be read, which is a different repair from a bot wall, so it
+    # must not be filed under one.
+    if status is None and isinstance(exc, ValueError):
+        return "fetched, but the article body could not be extracted"
+    try:
+        keys = " ".join(str(k).lower() for k in (headers or {}))
+    except Exception:
+        keys = ""
+    for cue, name in _WALL_HEADER_CUES:
+        if cue in keys:
+            return name
+    low = (body or "")[:8000].lower()
+    for cue, name in _WALL_BODY_CUES:
+        if cue in low:
+            return name
+    if status == 401:
+        return "authentication or subscription required"
+    if status == 402:
+        return "refused to this user agent (headers may fix it)"
+    if status == 403:
+        return "refused by the publisher"
+    if status is not None:
+        return "HTTP %s" % status
+    return "fetch failed before any response"
+
+
+def _record_unread(url: str, outlet: str, exc: Exception) -> None:
+    """Record one article the matcher could not read.
+
+    Never raises: this is a reporting path and it must not be able to take the
+    digest down. It is also the ONLY thing standing between a bot wall and a
+    silent zero, so it does not get to be clever.
+    """
+    try:
+        status = getattr(exc, "code", None)
+        headers = getattr(exc, "headers", None) or {}
+        body = ""
+        try:
+            if hasattr(exc, "read"):
+                raw = exc.read()
+                if isinstance(raw, bytes):
+                    body = raw.decode("utf-8", errors="replace")
+                else:
+                    body = str(raw or "")
+        except Exception:
+            body = ""
+        if status is not None:
+            reason = "HTTP %s" % status
+        else:
+            reason = "%s: %s" % (type(exc).__name__, exc)
+        entry = {
+            "outlet": str(outlet or ""),
+            "status": status,
+            "reason": reason,
+            "wall": _classify_wall(status, headers, body, exc),
+        }
+        first = url not in _ARTICLE_UNREAD
+        _ARTICLE_UNREAD[url] = entry
+        if first:
+            # Loud on purpose, and the same shape as the "Win headline unread"
+            # warning PR #4 added on 2026-08-13. A silent fallback is how both
+            # of these faults survived; a line in the run log is what ends it.
+            print("::warning title=Article unread::%s -> %s (%s). Counted as "
+                  "UNREAD, not as 'no designer in this article'."
+                  % (url, reason, entry["wall"]), file=_sys.stderr)
+    except Exception:
+        pass
+
+
+def export_unread_articles(date: str, path: str = "docs/unread-articles.json") -> str:
+    """Publish this run's unreadable articles beside docs/untracked-finds.json.
+
+    The health check reads this to count an outlet honestly. "Blocked, never
+    read" and "read, nobody in it" are different facts, and until this file
+    existed nothing outside the process could tell them apart -- which is the
+    whole reason two outlets went missing for a week without a single alarm.
+    Never raises: a failed export must not kill the digest run.
+    """
+    try:
+        by_outlet = {}
+        for url, e in _ARTICLE_UNREAD.items():
+            o = e.get("outlet") or "unknown"
+            slot = by_outlet.setdefault(o, {"outlet": o, "count": 0,
+                                            "reasons": {}, "sample_urls": []})
+            slot["count"] += 1
+            r = "%s - %s" % (e.get("reason"), e.get("wall"))
+            slot["reasons"][r] = slot["reasons"].get(r, 0) + 1
+            if len(slot["sample_urls"]) < 3:
+                slot["sample_urls"].append(url)
+        payload = {
+            "date": date,
+            "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "unread_total": len(_ARTICLE_UNREAD),
+            "outlets": sorted(by_outlet.values(), key=lambda x: -x["count"]),
+        }
+        _os.makedirs(_os.path.dirname(path) or ".", exist_ok=True)
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write(_json.dumps(payload, ensure_ascii=False, indent=2))
+        _os.replace(tmp, path)
+        return path
+    except Exception:
+        return ""
+
 
 def get_clean_sources() -> list:
     """Client designer full names, from the private feed's students list."""
@@ -677,7 +845,7 @@ def _only_a_photo_credit(body: str, pad: str) -> bool:
         start = i + 1
 
 
-def find_press_club_sources(url: str, author: str = "") -> list:
+def find_press_club_sources(url: str, author: str = "", outlet: str = "") -> list:
     """Return client designer full names named in the article's own body text.
 
     Only the story's visible words count. A name that appears solely in a
@@ -783,8 +951,13 @@ def find_press_club_sources(url: str, author: str = "") -> list:
                     continue
                 seen.add(low)
                 found.append(name)
-        except Exception:
+        except Exception as exc:
+            # WAS a bare `found = []`, which made a bot wall and a designer-free
+            # article the same answer and is the whole defect. The list return
+            # is unchanged so no call site moves; the failure is recorded so
+            # the count can be honest. See _ARTICLE_UNREAD above.
             found = []
+            _record_unread(url, outlet, exc)
     _ARTICLE_SOURCE_CACHE[key] = found
     return found
 
@@ -882,7 +1055,9 @@ def _todays_finds(items, tracked: dict) -> list:
         try:
             if _normalize_url(it.url) in tracked:
                 continue
-            found = find_press_club_sources(it.url, getattr(it, "author", "") or "")
+            found = find_press_club_sources(
+                    it.url, getattr(it, "author", "") or "",
+                    str((getattr(it, "metadata", {}) or {}).get("feed_name") or ""))
             if not found:
                 continue
             meta = getattr(it, "metadata", {}) or {}
@@ -1162,7 +1337,10 @@ class DailySummarizer:
 
        # --- 🏆 Press House Wins: today's auto-detected client articles + recent logged wins ---
         wins_parts = []
-        todays = [it for it in items if find_press_club_sources(it.url, it.author)]
+        todays = [it for it in items
+                  if find_press_club_sources(
+                      it.url, it.author,
+                      str((getattr(it, "metadata", {}) or {}).get("feed_name") or ""))]
         today_urls = {_normalize_url(it.url) for it in todays}
         recent_wins = [w for w in get_recent_press_house_wins()
                        if _normalize_url(w["url"]) not in today_urls]
@@ -1240,7 +1418,9 @@ class DailySummarizer:
             if _nu in _sheet_wins:
                 _designers.update(d.strip() for d in (_sheet_wins[_nu] or "").replace(";", ",").split(",") if d.strip())
             else:
-                _f = find_press_club_sources(_it.url, _it.author)
+                _f = find_press_club_sources(
+                    _it.url, _it.author,
+                    str((getattr(_it, "metadata", {}) or {}).get("feed_name") or ""))
                 if _f:
                     _designers.update(_f)
                     _to_file += 1
@@ -1304,7 +1484,9 @@ class DailySummarizer:
         elif _designer == "":
             lines.append("  `⭐ Press Club Source ⭐`")
         else:
-            _found = find_press_club_sources(item.url, item.author)
+            _found = find_press_club_sources(
+                item.url, item.author,
+                str((getattr(item, "metadata", {}) or {}).get("feed_name") or ""))
             if _found:
                 # Detected in a fresh scraped article but NOT in the tracker sheet -> champagne marker.
                 lines.append(f"  `🍾 Press Club Source: {', '.join(_found)} 🍾`")

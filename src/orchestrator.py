@@ -275,6 +275,31 @@ class HorizonOrchestrator:
         else:
             self.console.print("[yellow]\u26a0\ufe0f  Untracked-finds export failed (digest unaffected)[/yellow]\n")
 
+        # Export the articles the matcher could NOT read this run. Same timing
+        # rule as above: the detection cache is warm, so this costs no network.
+        # Until this file existed, an outlet behind a bot wall was indistinguish-
+        # able from an outlet having a quiet week, which is how Apartment Therapy
+        # and the Wall Street Journal went a full week without a single alarm.
+        from .ai.summarizer import export_unread_articles, unread_articles
+
+        unread = unread_articles()
+        unread_path = export_unread_articles(today)
+        if unread:
+            by_outlet = {}
+            for _e in unread.values():
+                _name = _e.get("outlet") or "unknown"
+                by_outlet[_name] = by_outlet.get(_name, 0) + 1
+            listed = ", ".join(
+                f"{_n} ({_c})"
+                for _n, _c in sorted(by_outlet.items(), key=lambda kv: -kv[1])
+            )
+            self.console.print(
+                f"[yellow]\u26a0\ufe0f  {len(unread)} article(s) could not be read: {listed}. "
+                f"These are NOT 'no designer found' -- nobody read them.[/yellow]\n"
+            )
+        if unread_path:
+            self.console.print(f"\U0001f4d3 Wrote unread-articles export: {unread_path}\n")
+
     def _determine_time_window(self, force_hours: int = None) -> datetime:
         if force_hours:
             since = datetime.now(timezone.utc) - timedelta(hours=force_hours)
