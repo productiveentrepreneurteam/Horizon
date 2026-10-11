@@ -1,85 +1,98 @@
 {
-  "date": "2026-10-10",
-  "generated_utc": "2026-10-10T14:48:23Z",
-  "unread_total": 35,
+  "date": "2026-10-11",
+  "generated_utc": "2026-10-11T15:06:34Z",
+  "unread_total": 46,
   "outlets": [
     {
-      "outlet": "Apartment Therapy",
-      "count": 12,
+      "outlet": "The Spruce",
+      "count": 17,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 12
+        "HTTP 403 - Cloudflare bot wall": 17
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/i-put-a-spice-rack-in-my-tiny-shower-and-it-s-brilliant-37694363?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/midea-5050-flex-convertible-upright-freezer-review-37692842?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/dish-drying-rack-hack-for-bathroom-37694534?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.thespruce.com/the-one-home-feature-that-attracts-buyers-12159868",
+        "https://www.thespruce.com/living-room-paint-colors-homeowners-regret-12159878",
+        "https://www.thespruce.com/how-long-to-grow-pineapple-7109411"
+      ]
+    },
+    {
+      "outlet": "Apartment Therapy",
+      "count": 9,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 9
+      },
+      "sample_urls": [
+        "https://www.apartmenttherapy.com/silk-scarf-diy-pillowcase-cover-instagram-37694424?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/pink-tile-bathroom-makeover-750-dollars-budget-ba-37694330?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/west-elm-shelter-sleeper-sofa-review-37411143?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "Southern Living",
+      "count": 6,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 6
+      },
+      "sample_urls": [
+        "https://www.southernliving.com/universal-design-house-plans-12122558",
+        "https://www.southernliving.com/tell-neighbors-before-repairs-done-on-house-12167660",
+        "https://www.southernliving.com/quartz-vs-quartzite-12167773"
       ]
     },
     {
       "outlet": "Wall Street Journal",
-      "count": 9,
+      "count": 4,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 9
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 4
       },
       "sample_urls": [
-        "https://www.wsj.com/real-estate/luxury-homes/kauai-home-sugar-plantation-00935741?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/style/lets-talk-about-erling-haalands-hair-d272bc53?mod=rss_style",
-        "https://www.wsj.com/lifestyle/relationships/is-your-grown-child-pulling-away-these-are-the-early-signs-of-estrangement-3b610bce?mod=rss_lifestyle"
+        "https://www.wsj.com/real-estate/luxury-homes/carey-north-carolina-property-toma-family-4a588114?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/lifestyle/careers/the-sunday-scaries-are-realand-theyre-getting-worse-1f27c82e?mod=rss_lifestyle",
+        "https://www.wsj.com/lifestyle/fitness/shoes-cushion-feet-health-8f5d83a8?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "Dengarden",
-      "count": 5,
-      "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 5
-      },
-      "sample_urls": [
-        "https://dengarden.com/design/india-hicks-dinner-party-hosting-rule",
-        "https://dengarden.com/news/ikea-nalblecka-spice-rack-diy-tiktok",
-        "https://dengarden.com/news/diy-heirloom-pumpkin-candle-centerpiece"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
       "count": 4,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 4
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 4
       },
       "sample_urls": [
-        "https://www.thespruce.com/outdated-hardware-finishes-8750334",
-        "https://www.thespruce.com/vaulted-ceilings-homeowners-love-to-hate-1822820",
-        "https://www.thespruce.com/fireplace-built-in-ideas-8358115"
+        "https://dengarden.com/shopping/dollar-tree-royal-norfolk-winter-green-plate",
+        "https://dengarden.com/shopping/aldi-kirkton-house-makeup-drawer",
+        "https://dengarden.com/news/ikea-nalblecka-spice-rack-diy-tiktok"
       ]
     },
     {
-      "outlet": "New York Times",
+      "outlet": "Better Homes & Gardens",
       "count": 2,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 2
+        "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/10/10/realestate/accessible-parking-apartment-building.html",
-        "https://www.nytimes.com/2026/10/09/realestate/touching-up-a-damaged-wood-floor.html"
+        "https://www.bhg.com/evergreen-shrubs-12136875",
+        "https://www.bhg.com/shower-and-washing-machine-together-12136888"
       ]
     },
     {
-      "outlet": "Business of Home",
-      "count": 1,
+      "outlet": "Real Simple",
+      "count": 2,
       "reasons": {
-        "HTTP 404 - HTTP 404": 1
+        "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://businessofhome.com/articles/14-of-our-favorite-design-duos-returning-to-high-point-market-this-season.html"
+        "https://www.realsimple.com/colors-that-look-good-together-12149610",
+        "https://www.realsimple.com/how-to-clean-quartz-countertops-12149608"
       ]
     },
     {
-      "outlet": "Cubby",
+      "outlet": "Parade Home & Garden",
       "count": 1,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://www.cubbyathome.com/best-kids-movies-streaming-80043505?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://paradehomeandgarden.com/home/vegetables-to-plant-in-november"
       ]
     },
     {
