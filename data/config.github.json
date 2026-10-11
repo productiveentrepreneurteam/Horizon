@@ -228,8 +228,9 @@
       {
         "name": "MyDomaine",
         "url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/0dd5fa9f-868d-43a0-a672-26bd6c47de87",
-        "enabled": true,
-        "category": "design"
+        "enabled": false,
+        "category": "design",
+        "_disabled_note": "Off 2026-10-11: the publisher stopped, not the feed. This feed answers HTTP 200 with 50 dated items and its newest is 2026-09-08, 33 days before this edit, against a feed whose own median gap between publication days is 9. Three independent reads agree on that date, so there is no fresher URL to swap in: this feed, the site's own sitemap at https://www.mydomaine.com/sitemap_1.xml (2,199 URLs, newest lastmod 2026-09-08), and a Google News query for site:mydomaine.com over 90 days (3 results, newest 2026-09-08). No native feed exists to replace it either: www.mydomaine.com/rss is HTTP 404, and /feed, /rss.xml, /feeds/all.rss and /index.xml all return HTTP 403. Left enabled, it made the outlet list claim a magazine the summary was getting nothing from. Re-enable if the brand resumes publishing; TRACKED_OUTLETS is unchanged, so historical detections still show."
       },
       {
         "name": "Florida Design",
