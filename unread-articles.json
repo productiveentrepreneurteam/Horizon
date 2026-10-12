@@ -1,105 +1,132 @@
 {
-  "date": "2026-10-11",
-  "generated_utc": "2026-10-11T15:06:34Z",
-  "unread_total": 46,
+  "date": "2026-10-12",
+  "generated_utc": "2026-10-12T18:13:29Z",
+  "unread_total": 39,
   "outlets": [
     {
-      "outlet": "The Spruce",
-      "count": 17,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 17
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/the-one-home-feature-that-attracts-buyers-12159868",
-        "https://www.thespruce.com/living-room-paint-colors-homeowners-regret-12159878",
-        "https://www.thespruce.com/how-long-to-grow-pineapple-7109411"
-      ]
-    },
-    {
       "outlet": "Apartment Therapy",
-      "count": 9,
+      "count": 13,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 9
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 13
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/silk-scarf-diy-pillowcase-cover-instagram-37694424?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/pink-tile-bathroom-makeover-750-dollars-budget-ba-37694330?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/west-elm-shelter-sleeper-sofa-review-37411143?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.apartmenttherapy.com/living-in-the-lonelist-city-community-analog-37693035?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/michaels-custom-framing-review-37694391?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/500-square-foot-los-feliz-studio-apartment-37694174?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
-      "outlet": "Southern Living",
+      "outlet": "Wall Street Journal",
+      "count": 8,
+      "reasons": {
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 8
+      },
+      "sample_urls": [
+        "https://www.wsj.com/lifestyle/hardware-stores-secret-weapon-cats-05fecb1e?mod=rss_lifestyle",
+        "https://www.wsj.com/style/the-odyssey-ludwig-goransson-c79daed0?mod=rss_style",
+        "https://www.wsj.com/lifestyle/travel/first-class-amenity-kits-have-become-holy-grail-collectibles-adfbb1a0?mod=rss_lifestyle"
+      ]
+    },
+    {
+      "outlet": "Better Homes & Gardens",
       "count": 6,
       "reasons": {
         "HTTP 403 - Cloudflare bot wall": 6
       },
       "sample_urls": [
-        "https://www.southernliving.com/universal-design-house-plans-12122558",
-        "https://www.southernliving.com/tell-neighbors-before-repairs-done-on-house-12167660",
-        "https://www.southernliving.com/quartz-vs-quartzite-12167773"
+        "https://www.bhg.com/what-is-a-conservatory-8602147",
+        "https://www.bhg.com/how-to-bleed-a-radiator-6825222",
+        "https://www.bhg.com/decorating/seasonal/fall/diy-ways-to-make-your-home-smell-like-fall/"
       ]
     },
     {
-      "outlet": "Wall Street Journal",
-      "count": 4,
-      "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 4
-      },
-      "sample_urls": [
-        "https://www.wsj.com/real-estate/luxury-homes/carey-north-carolina-property-toma-family-4a588114?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/lifestyle/careers/the-sunday-scaries-are-realand-theyre-getting-worse-1f27c82e?mod=rss_lifestyle",
-        "https://www.wsj.com/lifestyle/fitness/shoes-cushion-feet-health-8f5d83a8?mod=rss_lifestyle"
-      ]
-    },
-    {
-      "outlet": "Dengarden",
-      "count": 4,
-      "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 4
-      },
-      "sample_urls": [
-        "https://dengarden.com/shopping/dollar-tree-royal-norfolk-winter-green-plate",
-        "https://dengarden.com/shopping/aldi-kirkton-house-makeup-drawer",
-        "https://dengarden.com/news/ikea-nalblecka-spice-rack-diy-tiktok"
-      ]
-    },
-    {
-      "outlet": "Better Homes & Gardens",
+      "outlet": "The Spruce",
       "count": 2,
       "reasons": {
         "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://www.bhg.com/evergreen-shrubs-12136875",
-        "https://www.bhg.com/shower-and-washing-machine-together-12136888"
+        "https://www.thespruce.com/why-not-grow-butterfly-bush-12159887",
+        "https://www.thespruce.com/should-you-prune-mums-after-flowering-12159879"
+      ]
+    },
+    {
+      "outlet": "Southern Living",
+      "count": 2,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 2
+      },
+      "sample_urls": [
+        "https://www.southernliving.com/christmas-decorations-get-rid-of-12168724",
+        "https://www.southernliving.com/how-to-get-white-socks-white-12170577"
+      ]
+    },
+    {
+      "outlet": "Cubby",
+      "count": 2,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 2
+      },
+      "sample_urls": [
+        "https://www.cubbyathome.com/tween-party-ideas-80051958?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.cubbyathome.com/best-ikea-kids-bookshelf-80051768?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
       "outlet": "Real Simple",
-      "count": 2,
+      "count": 1,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 2
+        "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.realsimple.com/colors-that-look-good-together-12149610",
-        "https://www.realsimple.com/how-to-clean-quartz-countertops-12149608"
+        "https://www.realsimple.com/what-designers-love-buying-at-flea-markets-12149627"
       ]
     },
     {
-      "outlet": "Parade Home & Garden",
+      "outlet": "Martha Stewart",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.marthastewart.com/how-to-keep-mice-away-from-your-garage-12165844"
+      ]
+    },
+    {
+      "outlet": "Business of Home",
+      "count": 1,
+      "reasons": {
+        "HTTP 404 - HTTP 404": 1
+      },
+      "sample_urls": [
+        "https://businessofhome.com/articles/15-striking-silhouettes-making-a-splash-this-season.html"
+      ]
+    },
+    {
+      "outlet": "Dengarden",
       "count": 1,
       "reasons": {
         "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://paradehomeandgarden.com/home/vegetables-to-plant-in-november"
+        "https://dengarden.com/news/diy-mini-pinecone-wreath"
+      ]
+    },
+    {
+      "outlet": "New York Times",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
+      },
+      "sample_urls": [
+        "https://www.nytimes.com/2026/10/12/realestate/in-italy-a-townhouse-where-polished-gives-way-to-ragged-and-raw.html"
       ]
     },
     {
       "outlet": "Luxe Magazine",
       "count": 1,
       "reasons": {
-        "ValueError: article body extraction collapsed: 174 chars of 2790 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+        "ValueError: article body extraction collapsed: 174 chars of 2769 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
