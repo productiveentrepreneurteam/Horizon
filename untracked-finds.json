@@ -1,6 +1,17 @@
 {
-  "date": "2026-10-12",
-  "generated_utc": "2026-10-12T18:13:29Z",
-  "count": 0,
-  "finds": []
+  "date": "2026-10-13",
+  "generated_utc": "2026-10-13T16:16:36Z",
+  "count": 1,
+  "finds": [
+    {
+      "designers": [
+        "Danielle Domingues",
+        "Jody Jones"
+      ],
+      "title": "These 5 Nostalgic Patterns Will Make Your Home Feel Like It Has Evolved Over Time",
+      "url": "https://www.homesandgardens.com/decor/cozy-nostalgic-patterns",
+      "outlet": "Homes & Gardens",
+      "published": "2026-10-13"
+    }
+  ]
 }

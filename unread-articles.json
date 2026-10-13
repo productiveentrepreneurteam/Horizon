@@ -1,42 +1,54 @@
 {
-  "date": "2026-10-12",
-  "generated_utc": "2026-10-12T18:13:29Z",
-  "unread_total": 39,
+  "date": "2026-10-13",
+  "generated_utc": "2026-10-13T16:16:36Z",
+  "unread_total": 25,
   "outlets": [
     {
-      "outlet": "Apartment Therapy",
-      "count": 13,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 13
-      },
-      "sample_urls": [
-        "https://www.apartmenttherapy.com/living-in-the-lonelist-city-community-analog-37693035?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/michaels-custom-framing-review-37694391?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/500-square-foot-los-feliz-studio-apartment-37694174?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
       "outlet": "Wall Street Journal",
-      "count": 8,
+      "count": 6,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 8
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 6
       },
       "sample_urls": [
-        "https://www.wsj.com/lifestyle/hardware-stores-secret-weapon-cats-05fecb1e?mod=rss_lifestyle",
-        "https://www.wsj.com/style/the-odyssey-ludwig-goransson-c79daed0?mod=rss_style",
-        "https://www.wsj.com/lifestyle/travel/first-class-amenity-kits-have-become-holy-grail-collectibles-adfbb1a0?mod=rss_lifestyle"
+        "https://www.wsj.com/us-news/six-flags-closes-several-rides-after-georgia-roller-coaster-death-abae883a?mod=rss_lifestyle",
+        "https://www.wsj.com/real-estate/michael-douglas-one-helluva-ride-a5b81839?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/real-estate/luxury-homes/the-luxury-beverly-hills-condo-project-borrowing-money-from-its-future-residents-18d20fd5?mod=LatestNewsRealEstate"
       ]
     },
     {
       "outlet": "Better Homes & Gardens",
-      "count": 6,
+      "count": 4,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 6
+        "HTTP 403 - Cloudflare bot wall": 4
       },
       "sample_urls": [
         "https://www.bhg.com/what-is-a-conservatory-8602147",
         "https://www.bhg.com/how-to-bleed-a-radiator-6825222",
-        "https://www.bhg.com/decorating/seasonal/fall/diy-ways-to-make-your-home-smell-like-fall/"
+        "https://www.bhg.com/best-dining-chairs-6824890"
+      ]
+    },
+    {
+      "outlet": "New York Times",
+      "count": 4,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 4
+      },
+      "sample_urls": [
+        "https://www.nytimes.com/2026/10/13/realestate/in-atlanta-an-adu-built-with-salvaged-materials-for-50000.html",
+        "https://www.nytimes.com/2026/10/13/realestate/hb-studio-to-say-goodbye-to-its-longtime-village-playground.html",
+        "https://www.nytimes.com/2026/10/08/realestate/housing-market-near-nyc.html"
+      ]
+    },
+    {
+      "outlet": "Apartment Therapy",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 3
+      },
+      "sample_urls": [
+        "https://www.apartmenttherapy.com/declutter-fridge-after-60-37694408?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/light-blue-gray-kitchen-makeover-18000-dollar-budget-ba-37694594?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/west-elm-haven-sofa-review-37372114?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
@@ -46,50 +58,18 @@
         "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://www.thespruce.com/why-not-grow-butterfly-bush-12159887",
-        "https://www.thespruce.com/should-you-prune-mums-after-flowering-12159879"
+        "https://www.thespruce.com/the-one-home-feature-that-attracts-buyers-12159868",
+        "https://www.thespruce.com/fruits-to-grow-indoors-12159903"
       ]
     },
     {
-      "outlet": "Southern Living",
-      "count": 2,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 2
-      },
-      "sample_urls": [
-        "https://www.southernliving.com/christmas-decorations-get-rid-of-12168724",
-        "https://www.southernliving.com/how-to-get-white-socks-white-12170577"
-      ]
-    },
-    {
-      "outlet": "Cubby",
-      "count": 2,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 2
-      },
-      "sample_urls": [
-        "https://www.cubbyathome.com/tween-party-ideas-80051958?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.cubbyathome.com/best-ikea-kids-bookshelf-80051768?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "Real Simple",
+      "outlet": "Parade Home & Garden",
       "count": 1,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://www.realsimple.com/what-designers-love-buying-at-flea-markets-12149627"
-      ]
-    },
-    {
-      "outlet": "Martha Stewart",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
-      },
-      "sample_urls": [
-        "https://www.marthastewart.com/how-to-keep-mice-away-from-your-garage-12165844"
+        "https://paradehomeandgarden.com/home/selling-house-in-fall"
       ]
     },
     {
@@ -109,17 +89,17 @@
         "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://dengarden.com/news/diy-mini-pinecone-wreath"
+        "https://dengarden.com/shopping/marshalls-luxe-habitat-faux-boxwood-hanging-door-pumpkin"
       ]
     },
     {
-      "outlet": "New York Times",
+      "outlet": "Ranch & Coast",
       "count": 1,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
+        "ValueError: article body extraction collapsed: 74 chars of 5480 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/10/12/realestate/in-italy-a-townhouse-where-polished-gives-way-to-ragged-and-raw.html"
+        "https://ranchandcoast.com/dine/parfait-paris-unveils-halloween-and-dia-de-los-muertos-desserts/"
       ]
     },
     {
@@ -130,6 +110,16 @@
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
+      ]
+    },
+    {
+      "outlet": "Southern Living",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.southernliving.com/pre-rinse-dishes-before-dishwasher-12168227"
       ]
     }
   ]
