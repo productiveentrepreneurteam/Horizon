@@ -1,9 +1,21 @@
 {
-  "date": "2026-10-13",
-  "generated_utc": "2026-10-13T16:16:36Z",
+  "date": "2026-10-14",
+  "generated_utc": "2026-10-14T13:59:23Z",
   "keep_days": 31,
-  "count": 1,
+  "count": 2,
   "finds": [
+    {
+      "designers": [
+        "Colleen Simonds",
+        "Sarah Storms"
+      ],
+      "title": "This Historic Home Feature Is Having a Moment—and Taylor Swift Is Clearly a Fan",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74122084/leaded-glass-windows-design/",
+      "outlet": "House Beautiful",
+      "published": "2026-10-13",
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-14"
+    },
     {
       "designers": [
         "Danielle Domingues",
