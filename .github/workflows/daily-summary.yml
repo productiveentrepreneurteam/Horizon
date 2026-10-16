@@ -7,10 +7,37 @@ on:
     # the hour is the most contended slot on the platform. Running at :00
     # was landing between 7:20 and 8:30 AM LA.
     - cron: '17 8 * * *'   # was 47 12; GitHub runs this 4-8h late, so start early enough to land by LA morning
+    # BACKUP START, added 2026-10-16. GitHub did not start the 08:17 run at all on
+    # 15 and 16 October 2026: no run, no failure, nothing queued, so Alex had no
+    # digest for two days. This second start catches a day the first one drops.
+    # The `check` job below skips any scheduled run whose day is already published,
+    # so on a normal day this costs one tiny job and nothing else.
+    - cron: '7 18 * * *'   # 11:07 AM LA
   workflow_dispatch:       # Allow manual trigger at any time
 
 jobs:
+  # Skip a SCHEDULED run when today's digest is already on gh-pages, so the backup
+  # start and a late primary start never publish the same day twice. A hand run
+  # (workflow_dispatch) always goes ahead.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.today.outputs.skip }}
+    steps:
+      - id: today
+        run: |
+          DAY=$(date -u +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && curl -sfI "https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/_posts/${DAY}-summary-en.md" > /dev/null; then
+            echo "Digest for $DAY is already published. Skipping this start."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No digest for $DAY yet (or a hand run). Running."
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
   daily-summary:
+    needs: check
+    if: needs.check.outputs.skip != 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write  # Needed to commit changes
