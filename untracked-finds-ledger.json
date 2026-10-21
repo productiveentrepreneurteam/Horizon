@@ -1,9 +1,65 @@
 {
-  "date": "2026-10-14",
-  "generated_utc": "2026-10-14T13:59:23Z",
+  "date": "2026-10-21",
+  "generated_utc": "2026-10-21T14:08:06Z",
   "keep_days": 31,
-  "count": 2,
+  "count": 7,
   "finds": [
+    {
+      "designers": [
+        "Kristin Kostamo-McNeil",
+        "Lisa Gilmore"
+      ],
+      "title": "39 Bathroom Wallpaper Ideas to Transform Your Space",
+      "url": "https://www.thespruce.com/wallpaper-bathroom-ideas-4147926",
+      "outlet": "The Spruce",
+      "published": "2026-10-21",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21"
+    },
+    {
+      "designers": [
+        "Lisa Gilmore"
+      ],
+      "title": "42 Whimsical Playroom Ideas To Set the Stage for Hours of Endless Fun",
+      "url": "https://www.thespruce.com/decorating-a-kids-playroom-452599",
+      "outlet": "The Spruce",
+      "published": "2026-10-21",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21"
+    },
+    {
+      "designers": [
+        "Elizabeth Drake"
+      ],
+      "title": "13 Laundry Room Ideas That Blend Function and Style",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/g74194868/creative-laundry-room-design-ideas/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-10-20",
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-21"
+    },
+    {
+      "designers": [
+        "Lauren Saab"
+      ],
+      "title": "5 Things Designers Clear Out of Their Living Rooms Come Fall",
+      "url": "https://www.countryliving.com/home-design/decorating-ideas/a74033026/living-room-things-designers-remove-fall/",
+      "outlet": "Country Living",
+      "published": "2026-10-19",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-21"
+    },
+    {
+      "designers": [
+        "Jennifer Beget"
+      ],
+      "title": "Move Over, Subway Tile—This Kitchen Backsplash Trend Is Everywhere This Fall",
+      "url": "https://www.realsimple.com/top-kitchen-backsplash-trend-12175035",
+      "outlet": "Real Simple",
+      "published": "2026-10-18",
+      "first_seen": "2026-10-18",
+      "last_seen": "2026-10-21"
+    },
     {
       "designers": [
         "Colleen Simonds",

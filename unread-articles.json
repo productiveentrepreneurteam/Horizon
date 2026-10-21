@@ -1,81 +1,128 @@
 {
-  "date": "2026-10-14",
-  "generated_utc": "2026-10-14T13:59:23Z",
-  "unread_total": 28,
+  "date": "2026-10-21",
+  "generated_utc": "2026-10-21T14:08:06Z",
+  "unread_total": 86,
   "outlets": [
     {
       "outlet": "Wall Street Journal",
-      "count": 10,
+      "count": 22,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 10
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 22
       },
       "sample_urls": [
-        "https://www.wsj.com/real-estate/luxury-homes/custom-furniture-costs-4ff04b5c?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/lifestyle/careers/mckinsey-interview-process-ai-7d08a69e?mod=rss_lifestyle",
-        "https://www.wsj.com/us-news/law/nyc-mamdani-pied-a-terre-tax-aada2f1f?mod=LatestNewsRealEstate"
+        "https://www.wsj.com/real-estate/luxury-homes/zone-zero-fire-buffer-california-3f5631f6?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/sports/baseball/milwaukee-brewers-world-series-timeless-ticket-be91b6c6?mod=rss_lifestyle",
+        "https://www.wsj.com/arts-culture/modern-day-apple-picking-e65e9f12?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "Dengarden",
-      "count": 6,
+      "count": 21,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 6
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 21
       },
       "sample_urls": [
-        "https://dengarden.com/shopping/marshalls-acorn-and-oak-squirrel-taper-candle-holders",
-        "https://dengarden.com/news/diy-apple-dish-towels",
-        "https://dengarden.com/news/diy-easy-fall-pumpkins"
-      ]
-    },
-    {
-      "outlet": "New York Times",
-      "count": 5,
-      "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 5
-      },
-      "sample_urls": [
-        "https://www.nytimes.com/2026/10/14/realestate/which-400000-dollar-home-would-you-choose.html",
-        "https://www.nytimes.com/2026/10/14/realestate/angelina-jolie-sells-her-los-angeles-estate.html",
-        "https://www.nytimes.com/2026/10/14/realestate/tokyo-building-arimasuton-keisuke-oka.html"
+        "https://dengarden.com/design/facebook-marketplace-shopping-mistakes",
+        "https://dengarden.com/design/plum-decor-ideas",
+        "https://dengarden.com/shopping/sam-club-orcelain-toile-dinnerware-set"
       ]
     },
     {
       "outlet": "Apartment Therapy",
-      "count": 4,
+      "count": 13,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 4
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 13
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/what-designers-hate-seeing-in-bedrooms-37694552?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/london-custom-bookcase-living-room-ba-37693557?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/plow-and-hearth-halloween-collection-37694934?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.apartmenttherapy.com/ikea-tarva-fairytale-dollhouse-diy-transformation-37692083?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/small-balcony-outdoor-seating-design-ba-37695384?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/minimal-modern-bathroom-update-ba-37695627?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
-      "outlet": "Real Simple",
-      "count": 1,
+      "outlet": "The Spruce",
+      "count": 10,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "HTTP 403 - Cloudflare bot wall": 10
       },
       "sample_urls": [
-        "https://www.realsimple.com/unkillable-houseplants-that-practically-take-care-of-themselves-12149641"
+        "https://www.thespruce.com/what-color-goes-with-light-blue-8421633",
+        "https://www.thespruce.com/fluidmaster-fill-valve-repair-2719029",
+        "https://www.thespruce.com/stunning-stone-fireplace-4154484"
       ]
     },
     {
-      "outlet": "Business of Home",
-      "count": 1,
+      "outlet": "New York Times",
+      "count": 9,
       "reasons": {
-        "HTTP 404 - HTTP 404": 1
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 9
       },
       "sample_urls": [
-        "https://businessofhome.com/articles/the-designer-s-guide-to-high-point-market-parties-and-programming-a18c8849-026c-4473-95e3-d688f378172a.html"
+        "https://www.nytimes.com/2026/10/21/realestate/this-shaker-inspired-office-embodies-work-life-balance.html",
+        "https://www.nytimes.com/2026/10/21/realestate/million-dollar-homes-nashville-new-hampshire-wisconsin.html",
+        "https://www.nytimes.com/2026/10/21/realestate/they-promised-luxury-condos-1-billion-later-buyers-are-still-waiting.html"
+      ]
+    },
+    {
+      "outlet": "Better Homes & Gardens",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 3
+      },
+      "sample_urls": [
+        "https://www.bhg.com/best-tree-collars-6825755",
+        "https://www.bhg.com/thanksgiving/planning/thanksgiving-table-setting/",
+        "https://www.bhg.com/thanksgiving/planning/thanksgiving-hosting-hacks/"
+      ]
+    },
+    {
+      "outlet": "Parade Home & Garden",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
+      },
+      "sample_urls": [
+        "https://paradehomeandgarden.com/home/kitchen-trends-going-out-of-style",
+        "https://paradehomeandgarden.com/home/benjamin-moore-2027-color-of-the-year-best-rooms",
+        "https://paradehomeandgarden.com/home/dishwasher-not-cleaning-filter"
+      ]
+    },
+    {
+      "outlet": "Style at Home",
+      "count": 2,
+      "reasons": {
+        "HTTP 403 - refused by the publisher": 2
+      },
+      "sample_urls": [
+        "https://www.styleathome.com/interiors/house-tours/article/inside-an-oceanfront-west-coast-home-where-local-makers-take-centre-stage",
+        "https://www.styleathome.com/decorating-design/article/giving-back-close-to-home-how-to-support-a-local-charity-this-october"
+      ]
+    },
+    {
+      "outlet": "Cubby",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
+      },
+      "sample_urls": [
+        "https://www.cubbyathome.com/lalo-the-chair-ii-review-80052024?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "Ranch & Coast",
+      "count": 1,
+      "reasons": {
+        "ValueError: article body extraction collapsed: 74 chars of 8162 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+      },
+      "sample_urls": [
+        "https://ranchandcoast.com/explore/car-review-2026-lincoln-aviator-black-label-2/"
       ]
     },
     {
       "outlet": "Luxe Magazine",
       "count": 1,
       "reasons": {
-        "ValueError: article body extraction collapsed: 174 chars of 2771 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+        "ValueError: article body extraction collapsed: 174 chars of 2782 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
