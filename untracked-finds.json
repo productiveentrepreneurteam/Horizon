@@ -1,53 +1,61 @@
 {
-  "date": "2026-10-21",
-  "generated_utc": "2026-10-21T14:08:06Z",
-  "count": 5,
+  "date": "2026-10-23",
+  "generated_utc": "2026-10-23T22:03:51Z",
+  "count": 6,
   "finds": [
     {
       "designers": [
-        "Lisa Gilmore"
+        "Colleen Simonds"
       ],
-      "title": "42 Whimsical Playroom Ideas To Set the Stage for Hours of Endless Fun",
-      "url": "https://www.thespruce.com/decorating-a-kids-playroom-452599",
+      "title": "35 Driveway Gate Ideas to Suit Every House Style",
+      "url": "https://www.thespruce.com/driveway-gate-ideas-7546236",
       "outlet": "The Spruce",
-      "published": "2026-10-21"
+      "published": "2026-10-23"
     },
     {
       "designers": [
-        "Kristin Kostamo-McNeil",
-        "Lisa Gilmore"
+        "Sarah Hargrave"
       ],
-      "title": "39 Bathroom Wallpaper Ideas to Transform Your Space",
-      "url": "https://www.thespruce.com/wallpaper-bathroom-ideas-4147926",
+      "title": "Wish Your Small Kitchen Felt Bigger? Designers Share 21 Clever Tricks to Make It Look 10x More Spacious",
+      "url": "https://www.thespruce.com/how-to-make-a-small-kitchen-look-bigger-12167001",
       "outlet": "The Spruce",
-      "published": "2026-10-21"
+      "published": "2026-10-23"
     },
     {
       "designers": [
-        "Elizabeth Drake"
+        "Shani Core"
       ],
-      "title": "13 Laundry Room Ideas That Blend Function and Style",
-      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/g74194868/creative-laundry-room-design-ideas/",
+      "title": "4 Paint Colors That Keep Brown Furniture From Looking Dated, According to Designers",
+      "url": "https://www.homesandgardens.com/decor/colors-to-pair-with-brown-furniture",
+      "outlet": "Homes & Gardens",
+      "published": "2026-10-22"
+    },
+    {
+      "designers": [
+        "Lindsay Thornton"
+      ],
+      "title": "Serious Question: Can Framed Family Photos Ever Look Chic in Your Home?",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a74223562/family-photos-home-decor/",
       "outlet": "Good Housekeeping",
-      "published": "2026-10-20"
+      "published": "2026-10-23"
     },
     {
       "designers": [
-        "Jennifer Beget"
+        "Amy Kartheiser"
       ],
-      "title": "Move Over, Subway Tile—This Kitchen Backsplash Trend Is Everywhere This Fall",
-      "url": "https://www.realsimple.com/top-kitchen-backsplash-trend-12175035",
-      "outlet": "Real Simple",
-      "published": "2026-10-18"
+      "title": "This Moody Color Is Having a Major Design Moment, and You Can Use It in Every Single Room",
+      "url": "https://www.housebeautiful.com/room-decorating/colors/a74181607/plum-home-decor-ideas/",
+      "outlet": "House Beautiful",
+      "published": "2026-10-22"
     },
     {
       "designers": [
-        "Lauren Saab"
+        "Terri Fiori"
       ],
-      "title": "5 Things Designers Clear Out of Their Living Rooms Come Fall",
-      "url": "https://www.countryliving.com/home-design/decorating-ideas/a74033026/living-room-things-designers-remove-fall/",
-      "outlet": "Country Living",
-      "published": "2026-10-19"
+      "title": "You Can Make Your Stairs Safer Without Sacrificing Style. Here Are 4 Tips Designers Always Recommend.",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74158525/stair-safety-design-tips/",
+      "outlet": "House Beautiful",
+      "published": "2026-10-22"
     }
   ]
 }
