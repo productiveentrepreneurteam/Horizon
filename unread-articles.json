@@ -1,176 +1,111 @@
 {
-  "date": "2026-10-23",
-  "generated_utc": "2026-10-23T22:03:51Z",
-  "unread_total": 104,
+  "date": "2026-10-24",
+  "generated_utc": "2026-10-24T13:04:28Z",
+  "unread_total": 61,
   "outlets": [
     {
-      "outlet": "Wall Street Journal",
-      "count": 23,
+      "outlet": "The Spruce",
+      "count": 32,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 23
+        "HTTP 403 - Cloudflare bot wall": 32
       },
       "sample_urls": [
-        "https://www.wsj.com/lifestyle/travel/country-clubs-are-getting-less-exclusiveand-more-fun-c5f410c5?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/real-estate/luxury-homes/frank-mccourt-boca-raton-fl-home-bc6ebd84?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/real-estate/luxury-homes/even-100-million-mansions-are-considered-teardowns-these-days-eee9dd33?mod=LatestNewsRealEstate"
+        "https://www.thespruce.com/mixing-wood-and-white-trim-8638123",
+        "https://www.thespruce.com/feng-shui-office-layout-8599232",
+        "https://www.thespruce.com/underrated-design-secrets-to-transform-a-room-12167002"
+      ]
+    },
+    {
+      "outlet": "Wall Street Journal",
+      "count": 9,
+      "reasons": {
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 9
+      },
+      "sample_urls": [
+        "https://www.wsj.com/real-estate/luxury-homes/french-island-rainy-lake-canada-e275c8c2?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/tech/ai/four-innovators-on-work-and-creativity-da4263e9?mod=rss_style",
+        "https://www.wsj.com/lifestyle/cars/2026-audi-s5-review-17e5ce06?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "Apartment Therapy",
-      "count": 17,
+      "count": 5,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 17
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 5
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/medicine-cabinet-pro-organizer-advice-2-37696169?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/what-is-a-bantry-37692096?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/hm-chrome-silver-decor-fall-2026-37696096?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/kitchen-turned-cozy-bedroom-hideaway-37696501?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
         "https://www.apartmenttherapy.com/ikea-strala-matchstick-lamp-returns-37696416?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
-      "outlet": "The Spruce",
-      "count": 15,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 15
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/kitchen-island-back-panel-ideas-7967361",
-        "https://www.thespruce.com/mixing-wood-and-white-trim-8638123",
-        "https://www.thespruce.com/feng-shui-office-layout-8599232"
-      ]
-    },
-    {
-      "outlet": "Dengarden",
-      "count": 13,
-      "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 13
-      },
-      "sample_urls": [
-        "https://dengarden.com/shopping/world-market-craft-lalita-dusty-blue-velvet-embroidered-butterfly-floral-ottoman",
-        "https://dengarden.com/shopping/walmart-beautiful-mae-end-table",
-        "https://dengarden.com/news/fabric-mini-christmas-tree-diy"
-      ]
-    },
-    {
-      "outlet": "New York Times",
-      "count": 9,
-      "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 9
-      },
-      "sample_urls": [
-        "https://www.nytimes.com/2026/10/23/realestate/choose-your-favorite-2-million-home-in-umbria-italy.html",
-        "https://www.nytimes.com/2026/10/23/realestate/the-high-line-unveils-its-newest-garden.html",
-        "https://www.nytimes.com/2026/10/22/realestate/how-to-buy-a-house-if-you-have-a-gig-economy-income.html"
-      ]
-    },
-    {
       "outlet": "Better Homes & Gardens",
-      "count": 7,
+      "count": 3,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 7
+        "HTTP 403 - Cloudflare bot wall": 3
       },
       "sample_urls": [
-        "https://www.bhg.com/bathroom/shower-bath/best-showerheads/",
-        "https://www.bhg.com/when-to-mulch-fall-garden-12139087",
-        "https://www.bhg.com/storing-summer-bulbs-12139073"
+        "https://www.bhg.com/overnight-energy-mistakes-11954914",
+        "https://www.bhg.com/best-over-the-toilet-storage-8417457",
+        "https://www.bhg.com/hummingbird-feeder-winter-rules-12189847"
       ]
     },
     {
       "outlet": "Real Simple",
-      "count": 5,
+      "count": 3,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 5
+        "HTTP 403 - Cloudflare bot wall": 3
       },
       "sample_urls": [
-        "https://www.realsimple.com/new-holiday-traditions-11860921",
-        "https://www.realsimple.com/holidays-entertaining/gifts/cool-gifts-kids",
-        "https://www.realsimple.com/home-organizing/decorating/decorating-bedroom/best-blackout-curtains"
+        "https://www.realsimple.com/flowers-you-should-never-deadhead-in-fall-for-spring-blooms-12166129",
+        "https://www.realsimple.com/how-to-grow-and-care-for-mums-12166138",
+        "https://www.realsimple.com/best-throw-blankets-7562756"
+      ]
+    },
+    {
+      "outlet": "Dengarden",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
+      },
+      "sample_urls": [
+        "https://dengarden.com/shopping/aldi-biddeford-heated-throw",
+        "https://dengarden.com/shopping/world-market-craft-lalita-dusty-blue-velvet-embroidered-butterfly-floral-ottoman",
+        "https://dengarden.com/shopping/walmart-beautiful-mae-end-table"
+      ]
+    },
+    {
+      "outlet": "New York Times",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
+      },
+      "sample_urls": [
+        "https://www.nytimes.com/2026/10/24/realestate/ai-doorman-new-york-city.html",
+        "https://www.nytimes.com/2026/10/23/realestate/choose-your-favorite-2-million-home-in-umbria-italy.html",
+        "https://www.nytimes.com/2026/10/23/realestate/the-high-line-unveils-its-newest-garden.html"
       ]
     },
     {
       "outlet": "Southern Living",
-      "count": 4,
+      "count": 2,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 4
+        "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://www.southernliving.com/are-stainless-steel-appliances-going-out-of-style-12160235",
         "https://www.southernliving.com/can-you-paint-your-side-of-neighbors-fence-12160914",
-        "https://www.southernliving.com/tips-for-picking-pumpkins-and-gourds-12138994"
+        "https://www.southernliving.com/glass-cleaner-on-tv-scree-12160922"
       ]
     },
     {
       "outlet": "Style at Home",
-      "count": 3,
-      "reasons": {
-        "HTTP 403 - refused by the publisher": 3
-      },
-      "sample_urls": [
-        "https://www.styleathome.com/decorating-design/design-lesson/article/how-to-design-a-home-that-lasts-without-chasing-trends",
-        "https://www.styleathome.com/decorating-design/article/70s-inspired-decor-is-back-4-ways-to-get-the-look",
-        "https://www.styleathome.com/interiors/entryway/article/5-entryway-mistakes-that-create-clutter-and-how-to-fix-them"
-      ]
-    },
-    {
-      "outlet": "Cubby",
-      "count": 2,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 2
-      },
-      "sample_urls": [
-        "https://www.cubbyathome.com/how-to-do-almost-everything-book-review-80052045?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.cubbyathome.com/ikea-billy-studio-apartment-1100-dollars-ba-80052078?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "Kitchen Bath Design",
-      "count": 2,
-      "reasons": {
-        "HTTP 520 - HTTP 520": 2
-      },
-      "sample_urls": [
-        "https://www.kitchenbathdesign.com/remodeling-forecast-to-remain-relatively-flat-in-2027/",
-        "https://www.kitchenbathdesign.com/health-begins-in-the-air/"
-      ]
-    },
-    {
-      "outlet": "Parade Home & Garden",
       "count": 1,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
+        "HTTP 403 - refused by the publisher": 1
       },
       "sample_urls": [
-        "https://paradehomeandgarden.com/home/vintage-flea-market-finds-november"
-      ]
-    },
-    {
-      "outlet": "Business of Home",
-      "count": 1,
-      "reasons": {
-        "HTTP 404 - HTTP 404": 1
-      },
-      "sample_urls": [
-        "https://businessofhome.com/articles/how-this-solo-designer-harnessed-two-platforms-to-maximize-her-time.html"
-      ]
-    },
-    {
-      "outlet": "Ranch & Coast",
-      "count": 1,
-      "reasons": {
-        "ValueError: article body extraction collapsed: 74 chars of 8162 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
-      },
-      "sample_urls": [
-        "https://ranchandcoast.com/explore/car-review-2026-lincoln-aviator-black-label-2/"
-      ]
-    },
-    {
-      "outlet": "Luxe Magazine",
-      "count": 1,
-      "reasons": {
-        "ValueError: article body extraction collapsed: 174 chars of 2782 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
-      },
-      "sample_urls": [
-        "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
+        "https://www.styleathome.com/decorating-design/design-lesson/article/how-to-design-a-home-that-lasts-without-chasing-trends"
       ]
     }
   ]
