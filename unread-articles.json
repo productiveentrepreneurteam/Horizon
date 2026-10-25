@@ -1,111 +1,99 @@
 {
-  "date": "2026-10-24",
-  "generated_utc": "2026-10-24T13:04:28Z",
-  "unread_total": 61,
+  "date": "2026-10-25",
+  "generated_utc": "2026-10-25T13:23:15Z",
+  "unread_total": 45,
   "outlets": [
     {
-      "outlet": "The Spruce",
-      "count": 32,
+      "outlet": "Southern Living",
+      "count": 10,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 32
+        "HTTP 403 - Cloudflare bot wall": 10
       },
       "sample_urls": [
-        "https://www.thespruce.com/mixing-wood-and-white-trim-8638123",
-        "https://www.thespruce.com/feng-shui-office-layout-8599232",
-        "https://www.thespruce.com/underrated-design-secrets-to-transform-a-room-12167002"
-      ]
-    },
-    {
-      "outlet": "Wall Street Journal",
-      "count": 9,
-      "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 9
-      },
-      "sample_urls": [
-        "https://www.wsj.com/real-estate/luxury-homes/french-island-rainy-lake-canada-e275c8c2?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/tech/ai/four-innovators-on-work-and-creativity-da4263e9?mod=rss_style",
-        "https://www.wsj.com/lifestyle/cars/2026-audi-s5-review-17e5ce06?mod=rss_lifestyle"
+        "https://www.southernliving.com/home-stagers-remove-12160935",
+        "https://www.southernliving.com/grandma-house-treasures-12160946",
+        "https://www.southernliving.com/how-to-get-rid-of-termites-12160944"
       ]
     },
     {
       "outlet": "Apartment Therapy",
-      "count": 5,
+      "count": 9,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 5
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 9
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/hm-chrome-silver-decor-fall-2026-37696096?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/kitchen-turned-cozy-bedroom-hideaway-37696501?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/ikea-strala-matchstick-lamp-returns-37696416?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "Better Homes & Gardens",
-      "count": 3,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 3
-      },
-      "sample_urls": [
-        "https://www.bhg.com/overnight-energy-mistakes-11954914",
-        "https://www.bhg.com/best-over-the-toilet-storage-8417457",
-        "https://www.bhg.com/hummingbird-feeder-winter-rules-12189847"
+        "https://www.apartmenttherapy.com/best-wayfair-way-day-designer-picks-october-2026-37696662?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/dramatic-woodland-closet-nursery-ba-37696503?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/renter-friendly-breakfast-nook-diy-ba-37694794?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
       "outlet": "Real Simple",
-      "count": 3,
+      "count": 7,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 3
+        "HTTP 403 - Cloudflare bot wall": 7
       },
       "sample_urls": [
-        "https://www.realsimple.com/flowers-you-should-never-deadhead-in-fall-for-spring-blooms-12166129",
-        "https://www.realsimple.com/how-to-grow-and-care-for-mums-12166138",
-        "https://www.realsimple.com/best-throw-blankets-7562756"
+        "https://www.realsimple.com/what-gardeners-should-always-do-before-the-first-frost-12166178",
+        "https://www.realsimple.com/mistakes-that-attract-skunks-to-your-yard-8666015",
+        "https://www.realsimple.com/hardy-container-plants-that-can-survive-winter-11841549"
+      ]
+    },
+    {
+      "outlet": "Wall Street Journal",
+      "count": 7,
+      "reasons": {
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 7
+      },
+      "sample_urls": [
+        "https://www.wsj.com/arts-culture/food-cooking/all-you-can-eat-buffets-trend-0bac768a?mod=rss_lifestyle",
+        "https://www.wsj.com/lifestyle/boston-logan-international-airport-voice-accent-968ad4e1?mod=rss_lifestyle",
+        "https://www.wsj.com/lifestyle/relationships/is-buying-every-7-stuffie-teaching-my-son-bad-money-habits-e2cfd3bf?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "Dengarden",
-      "count": 3,
+      "count": 5,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 5
       },
       "sample_urls": [
-        "https://dengarden.com/shopping/aldi-biddeford-heated-throw",
-        "https://dengarden.com/shopping/world-market-craft-lalita-dusty-blue-velvet-embroidered-butterfly-floral-ottoman",
-        "https://dengarden.com/shopping/walmart-beautiful-mae-end-table"
+        "https://dengarden.com/shopping/tj-maxx-martha-stewart-led-tree-clip-candles-with-remote-control",
+        "https://dengarden.com/shopping/t-j-maxx-12-days-of-christmas-placemats",
+        "https://dengarden.com/shopping/aldi-kirkton-house-ultra-soft-area-rug"
       ]
     },
     {
-      "outlet": "New York Times",
-      "count": 3,
+      "outlet": "The Spruce",
+      "count": 4,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
+        "HTTP 403 - Cloudflare bot wall": 4
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/10/24/realestate/ai-doorman-new-york-city.html",
-        "https://www.nytimes.com/2026/10/23/realestate/choose-your-favorite-2-million-home-in-umbria-italy.html",
-        "https://www.nytimes.com/2026/10/23/realestate/the-high-line-unveils-its-newest-garden.html"
+        "https://www.thespruce.com/update-kitchen-countertops-on-a-budget-12167024",
+        "https://www.thespruce.com/everyday-items-to-stop-buying-12167038",
+        "https://www.thespruce.com/how-to-clean-a-stainless-steel-sink-12167014"
       ]
     },
     {
-      "outlet": "Southern Living",
+      "outlet": "Better Homes & Gardens",
       "count": 2,
       "reasons": {
         "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://www.southernliving.com/can-you-paint-your-side-of-neighbors-fence-12160914",
-        "https://www.southernliving.com/glass-cleaner-on-tv-scree-12160922"
+        "https://www.bhg.com/when-to-empty-outdoor-containers-12139094",
+        "https://www.bhg.com/appliances-to-clean-more-often-12139099"
       ]
     },
     {
-      "outlet": "Style at Home",
+      "outlet": "Parade Home & Garden",
       "count": 1,
       "reasons": {
-        "HTTP 403 - refused by the publisher": 1
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://www.styleathome.com/decorating-design/design-lesson/article/how-to-design-a-home-that-lasts-without-chasing-trends"
+        "https://paradehomeandgarden.com/home/why-more-families-are-building-backyard-homes"
       ]
     }
   ]
