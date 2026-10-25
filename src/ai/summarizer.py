@@ -845,7 +845,56 @@ def _only_a_photo_credit(body: str, pad: str) -> bool:
         start = i + 1
 
 
-def find_press_club_sources(url: str, author: str = "", outlet: str = "") -> list:
+# THE FEED'S OWN BODY IS A READ WHEN THE ARTICLE PAGE IS WALLED.
+# Dengarden's article pages answer DataDome 403, but its configured feed
+# carries the whole article in content:encoded (measured 2026-10-20: 50 of 50
+# items, mean 3,376 characters). When the page fetch fails and the item's own
+# text is at least this long, the matcher reads that text instead and the
+# article is not counted unread. Short feed summaries (the New York Times
+# sends ~166 characters) stay below the bar and stay unread, which is honest:
+# a teaser is not the article.
+FEED_BODY_MIN_CHARS = 1000
+
+
+def _feed_body_text(text: str) -> str:
+    """Visible words of a feed-supplied HTML fragment. Never raises."""
+    import html as _html
+    try:
+        return _html.unescape(re.sub(r"<[^>]+>", " ", str(text or "")))
+    except Exception:
+        return ""
+
+
+def _match_sources(sources, article: str, byline: str, author: str) -> list:
+    """Client designer names in `article`, by the rules find_press_club_sources documents."""
+    found = []
+    body = _flatten(article)
+    byline_flat = _flatten(byline) + _flatten(author)
+    seen = set()
+    for name in sources:
+        low = _flatten(name).strip()
+        if not low or low in seen:
+            continue
+        pad = " " + low + " "
+        if pad not in body:
+            continue
+        # If this name is also the writer's, keep it only when it
+        # appears somewhere that is not a credit line. A byline in
+        # markup we did not recognise reads "... by <that name> ...";
+        # a real mention reads "... says designer <that name> ...".
+        if pad in byline_flat and not _mentioned_outside_a_credit(body, pad):
+            continue
+        # Every mention is a photo credit -> this is the photographer,
+        # not someone quoted in the story. See _PHOTO_CREDIT_CUES.
+        if _only_a_photo_credit(body, pad):
+            continue
+        seen.add(low)
+        found.append(name)
+    return found
+
+
+def find_press_club_sources(url: str, author: str = "", outlet: str = "",
+                            feed_body: str = "") -> list:
     """Return client designer full names named in the article's own body text.
 
     Only the story's visible words count. A name that appears solely in a
@@ -929,35 +978,24 @@ def find_press_club_sources(url: str, author: str = "", outlet: str = "") -> lis
                 article, byline = _split_article_text(html)
             else:
                 article, byline = html, ""
-            body = _flatten(article)
-            byline_flat = _flatten(byline) + _flatten(author)
-            seen = set()
-            for name in sources:
-                low = _flatten(name).strip()
-                if not low or low in seen:
-                    continue
-                pad = " " + low + " "
-                if pad not in body:
-                    continue
-                # If this name is also the writer's, keep it only when it
-                # appears somewhere that is not a credit line. A byline in
-                # markup we did not recognise reads "... by <that name> ...";
-                # a real mention reads "... says designer <that name> ...".
-                if pad in byline_flat and not _mentioned_outside_a_credit(body, pad):
-                    continue
-                # Every mention is a photo credit -> this is the photographer,
-                # not someone quoted in the story. See _PHOTO_CREDIT_CUES.
-                if _only_a_photo_credit(body, pad):
-                    continue
-                seen.add(low)
-                found.append(name)
+            found = _match_sources(sources, article, byline, author)
         except Exception as exc:
             # WAS a bare `found = []`, which made a bot wall and a designer-free
             # article the same answer and is the whole defect. The list return
             # is unchanged so no call site moves; the failure is recorded so
             # the count can be honest. See _ARTICLE_UNREAD above.
             found = []
-            _record_unread(url, outlet, exc)
+            _fb = _feed_body_text(feed_body)
+            if len(_fb.strip()) >= FEED_BODY_MIN_CHARS:
+                # The page was refused but the feed already handed us the
+                # article. Read that; the article was read, so it is not unread.
+                try:
+                    found = _match_sources(sources, _fb, "", author)
+                except Exception:
+                    found = []
+                    _record_unread(url, outlet, exc)
+            else:
+                _record_unread(url, outlet, exc)
     _ARTICLE_SOURCE_CACHE[key] = found
     return found
 
@@ -1057,7 +1095,8 @@ def _todays_finds(items, tracked: dict) -> list:
                 continue
             found = find_press_club_sources(
                     it.url, getattr(it, "author", "") or "",
-                    str((getattr(it, "metadata", {}) or {}).get("feed_name") or ""))
+                    str((getattr(it, "metadata", {}) or {}).get("feed_name") or ""),
+                    feed_body=getattr(it, "content", "") or "")
             if not found:
                 continue
             meta = getattr(it, "metadata", {}) or {}
@@ -1340,7 +1379,8 @@ class DailySummarizer:
         todays = [it for it in items
                   if find_press_club_sources(
                       it.url, it.author,
-                      str((getattr(it, "metadata", {}) or {}).get("feed_name") or ""))]
+                      str((getattr(it, "metadata", {}) or {}).get("feed_name") or ""),
+                    feed_body=getattr(it, "content", "") or "")]
         today_urls = {_normalize_url(it.url) for it in todays}
         recent_wins = [w for w in get_recent_press_house_wins()
                        if _normalize_url(w["url"]) not in today_urls]
@@ -1420,7 +1460,8 @@ class DailySummarizer:
             else:
                 _f = find_press_club_sources(
                     _it.url, _it.author,
-                    str((getattr(_it, "metadata", {}) or {}).get("feed_name") or ""))
+                    str((getattr(_it, "metadata", {}) or {}).get("feed_name") or ""),
+                    feed_body=getattr(_it, "content", "") or "")
                 if _f:
                     _designers.update(_f)
                     _to_file += 1
@@ -1486,7 +1527,8 @@ class DailySummarizer:
         else:
             _found = find_press_club_sources(
                 item.url, item.author,
-                str((getattr(item, "metadata", {}) or {}).get("feed_name") or ""))
+                str((getattr(item, "metadata", {}) or {}).get("feed_name") or ""),
+                    feed_body=getattr(item, "content", "") or "")
             if _found:
                 # Detected in a fresh scraped article but NOT in the tracker sheet -> champagne marker.
                 lines.append(f"  `🍾 Press Club Source: {', '.join(_found)} 🍾`")

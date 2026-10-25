@@ -19,6 +19,29 @@ from ..models import ContentItem, SourceType, RSSSourceConfig
 logger = logging.getLogger(__name__)
 
 
+# A FEED THAT REFUSES THE BARE HTTPX USER-AGENT GETS ONE RETRY AS A BROWSER.
+# Measured 2026-10-20 from a GitHub Actions runner: The Atlanta Magazine,
+# Florida Design and Northshore Magazine answer 403 to the default
+# python-httpx request and 200 with ten current items to this header set,
+# which is the one src/scrapers/sitefeed.py and the article matcher (PR 8)
+# already send. The retry only fires on 401/403, so every feed that reads
+# today is asked exactly as before. Set per request, not on the shared
+# client, because that client also serves JSON APIs (GitHub, HN, Reddit)
+# that must not receive an HTML Accept header or a browser user-agent.
+FEED_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/rss+xml,application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Upgrade-Insecure-Requests": "1",
+}
+
+
 # Topical relevance filtering lives in src/scrapers/topics.py, driven by
 # data/topics.json. It replaces the old TITLE_EXCLUDE_KEYWORDS dict that
 # used naive substring matching (which also caught "starting" for "star"
@@ -94,6 +117,17 @@ class RSSScraper(BaseScraper):
                 raw = local_path.read_text(encoding="utf-8")
             else:
                 response = await self.client.get(feed_url, follow_redirects=True)
+                if response.status_code in (401, 403):
+                    logger.info(
+                        "RSS feed %s refused the default request (HTTP %s); "
+                        "retrying with browser headers",
+                        source.name, response.status_code,
+                    )
+                    response = await self.client.get(
+                        feed_url, headers=FEED_HEADERS, follow_redirects=True
+                    )
+                    if response.status_code == 200:
+                        logger.info("RSS feed %s read on the browser-header retry", source.name)
                 response.raise_for_status()
                 raw = response.text
 
@@ -293,13 +327,20 @@ class RSSScraper(BaseScraper):
         Returns:
             str: Extracted text content
         """
-        # Try different content fields
-        if "summary" in entry:
-            return entry.summary
-        if "description" in entry:
-            return entry.description
+        # Keep the LONGEST of summary, description and content. This used to
+        # return summary first, so a feed carrying the full article in
+        # content:encoded lost it: Dengarden's feed (measured 2026-10-20) gives
+        # feedparser a 45-character summary and a 4,848-character body, and the
+        # body was thrown away. Dengarden's article pages sit behind DataDome,
+        # so the feed body is the only free copy of the text the matcher needs.
+        candidates = []
+        if entry.get("summary"):
+            candidates.append(str(entry.summary))
+        if entry.get("description"):
+            candidates.append(str(entry.description))
         if "content" in entry and entry.content:
             # content is usually a list
-            return entry.content[0].get("value", "")
-
-        return ""
+            candidates.append(str(entry.content[0].get("value", "") or ""))
+        if not candidates:
+            return ""
+        return max(candidates, key=len)
