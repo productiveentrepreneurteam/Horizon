@@ -1,48 +1,29 @@
 {
-  "date": "2026-10-26",
-  "generated_utc": "2026-10-26T15:29:28Z",
-  "unread_total": 14,
+  "date": "2026-10-27",
+  "generated_utc": "2026-10-27T14:56:51Z",
+  "unread_total": 8,
   "outlets": [
     {
       "outlet": "Wall Street Journal",
-      "count": 10,
+      "count": 5,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 10
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 5
       },
       "sample_urls": [
-        "https://www.wsj.com/style/andy-cohen-the-real-housewives-2ae66c32?mod=rss_style",
-        "https://www.wsj.com/real-estate/commercial/the-once-obscure-corner-of-commercial-real-estate-now-riding-the-ai-boom-0bce5259?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/arts-culture/film/martin-mcdonagh-wild-horse-nine-ee8ba443?mod=rss_style"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/best-garage-door-openers-4110240"
-      ]
-    },
-    {
-      "outlet": "Livingetc",
-      "count": 1,
-      "reasons": {
-        "ValueError: article body extraction collapsed: 0 chars of 3302 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
-      },
-      "sample_urls": [
-        "https://www.livingetc.com/features/oak-furnitureland-dining-rooms-with-personality"
+        "https://www.wsj.com/real-estate/commercial/nycs-office-conversion-projects-are-back-after-a-big-summer-scare-d010bfa5?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/sports/baseball/savannah-bananas-00a6c276?mod=rss_style",
+        "https://www.wsj.com/lifestyle/tough-love-vs-nonstop-treatsthe-civil-war-over-dog-training-54dd190a?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 1,
+      "count": 2,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 2
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/10/26/realestate/on-spains-costa-brava-a-wall-of-glass-opens-to-the-sea.html"
+        "https://www.nytimes.com/2026/10/27/realestate/for-spiegelworlds-founder-making-a-house-a-home-called-for-some-magic.html",
+        "https://www.nytimes.com/2026/10/27/realestate/teenage-entrepreneurs-new-york-city.html"
       ]
     },
     {
