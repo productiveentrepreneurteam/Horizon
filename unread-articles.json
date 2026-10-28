@@ -1,29 +1,42 @@
 {
-  "date": "2026-10-27",
-  "generated_utc": "2026-10-27T14:56:51Z",
-  "unread_total": 8,
+  "date": "2026-10-28",
+  "generated_utc": "2026-10-28T15:31:23Z",
+  "unread_total": 22,
   "outlets": [
     {
       "outlet": "Wall Street Journal",
-      "count": 5,
+      "count": 13,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 5
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 13
       },
       "sample_urls": [
-        "https://www.wsj.com/real-estate/commercial/nycs-office-conversion-projects-are-back-after-a-big-summer-scare-d010bfa5?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/sports/baseball/savannah-bananas-00a6c276?mod=rss_style",
-        "https://www.wsj.com/lifestyle/tough-love-vs-nonstop-treatsthe-civil-war-over-dog-training-54dd190a?mod=rss_lifestyle"
+        "https://www.wsj.com/lifestyle/careers/the-touchy-feely-lessons-of-a-family-firm-that-has-never-had-a-layoff-in-75-years-149f9958?mod=rss_lifestyle",
+        "https://www.wsj.com/real-estate/commercial/nyc-office-conversions-charge-ahead-after-summer-scare-3295ca49?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/articles/what-a-law-firms-chair-learned-about-leadership-in-the-desert-1a90f8ab?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 2,
+      "count": 5,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 2
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 5
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/10/27/realestate/for-spiegelworlds-founder-making-a-house-a-home-called-for-some-magic.html",
-        "https://www.nytimes.com/2026/10/27/realestate/teenage-entrepreneurs-new-york-city.html"
+        "https://www.nytimes.com/2026/10/28/realestate/beata-heuman-interior-design-tweaks.html",
+        "https://www.nytimes.com/2026/10/28/realestate/home-day-cares-new-york-city.html",
+        "https://www.nytimes.com/2026/10/28/realestate/idyllwild-calif-charlottesville-va-washington-dc-homes-for-sale-.html"
+      ]
+    },
+    {
+      "outlet": "Style at Home",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - refused by the publisher": 3
+      },
+      "sample_urls": [
+        "https://www.styleathome.com/how-to/housekeeping/article/how-to-clean-a-dishwasher-and-get-rid-of-the-smell",
+        "https://www.styleathome.com/decorating-design/article/how-to-mix-metals-in-your-home-without-it-looking-chaotic",
+        "https://www.styleathome.com/interiors/bedroom/mediagallery/11-bedrooms-with-headboards-we-love"
       ]
     },
     {
