@@ -1,30 +1,66 @@
 {
-  "date": "2026-10-28",
-  "generated_utc": "2026-10-28T15:31:23Z",
-  "unread_total": 22,
+  "date": "2026-10-29",
+  "generated_utc": "2026-10-29T15:37:09Z",
+  "unread_total": 47,
   "outlets": [
     {
-      "outlet": "Wall Street Journal",
+      "outlet": "Apartment Therapy",
       "count": 13,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 13
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 13
       },
       "sample_urls": [
-        "https://www.wsj.com/lifestyle/careers/the-touchy-feely-lessons-of-a-family-firm-that-has-never-had-a-layoff-in-75-years-149f9958?mod=rss_lifestyle",
-        "https://www.wsj.com/real-estate/commercial/nyc-office-conversions-charge-ahead-after-summer-scare-3295ca49?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/articles/what-a-law-firms-chair-learned-about-leadership-in-the-desert-1a90f8ab?mod=rss_lifestyle"
+        "https://www.apartmenttherapy.com/meghan-markle-as-ever-home-decor-tea-set-37697144?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/cozey-sofas-37502963?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/pink-green-bathroom-wallpaper-clover-mural-ba-37697176?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "Wall Street Journal",
+      "count": 9,
+      "reasons": {
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 9
+      },
+      "sample_urls": [
+        "https://www.wsj.com/style/introducing-wsj-magazines-2026-innovators-a969e3ba?mod=rss_style",
+        "https://www.wsj.com/articles/the-extremely-valuable-question-linda-yaccarino-asks-her-team-bcdbdef0?mod=rss_lifestyle",
+        "https://www.wsj.com/sports/new-york-city-marathon-sunday-shoe-sales-a2621537?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 5,
+      "count": 8,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 5
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 8
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/10/28/realestate/beata-heuman-interior-design-tweaks.html",
-        "https://www.nytimes.com/2026/10/28/realestate/home-day-cares-new-york-city.html",
-        "https://www.nytimes.com/2026/10/28/realestate/idyllwild-calif-charlottesville-va-washington-dc-homes-for-sale-.html"
+        "https://www.nytimes.com/2026/10/26/realestate/on-spains-costa-brava-a-wall-of-glass-opens-to-the-sea.html",
+        "https://www.nytimes.com/2026/10/29/realestate/housing-market-near-nyc.html",
+        "https://www.nytimes.com/2026/10/29/realestate/housing-market-nyc.html"
+      ]
+    },
+    {
+      "outlet": "House Beautiful",
+      "count": 7,
+      "reasons": {
+        "TimeoutError: The read operation timed out - fetch failed before any response": 7
+      },
+      "sample_urls": [
+        "https://www.housebeautiful.com/design-inspiration/house-tours/a74147583/print-home-tour-corine-maggio-mill-valley-california/",
+        "https://www.housebeautiful.com/design-inspiration/house-tours/a74149145/print-home-tour-forward-interiors-toronto-can/",
+        "https://www.housebeautiful.com/design-inspiration/a74252227/best-design-books-2026/"
+      ]
+    },
+    {
+      "outlet": "Kitchen Bath Design",
+      "count": 3,
+      "reasons": {
+        "HTTP 520 - HTTP 520": 3
+      },
+      "sample_urls": [
+        "https://www.kitchenbathdesign.com/kcma-design-contest-open-for-entries/",
+        "https://www.kitchenbathdesign.com/2026-2028-design-council-named-by-thermador/",
+        "https://www.kitchenbathdesign.com/cambria-opens-quartz-processing-center/"
       ]
     },
     {
@@ -34,9 +70,39 @@
         "HTTP 403 - refused by the publisher": 3
       },
       "sample_urls": [
-        "https://www.styleathome.com/how-to/housekeeping/article/how-to-clean-a-dishwasher-and-get-rid-of-the-smell",
-        "https://www.styleathome.com/decorating-design/article/how-to-mix-metals-in-your-home-without-it-looking-chaotic",
-        "https://www.styleathome.com/interiors/bedroom/mediagallery/11-bedrooms-with-headboards-we-love"
+        "https://www.styleathome.com/interiors/kitchen/article/5-ways-to-save-money-on-a-kitchen-renovation",
+        "https://www.styleathome.com/decorating-design/article/7-pet-friendly-upgrades-that-won-t-compromise-your-home-s-design",
+        "https://www.styleathome.com/shopping/article/7-canadian-brands-to-shop-for-cozy-fall-blankets-and-throws"
+      ]
+    },
+    {
+      "outlet": "Good Housekeeping",
+      "count": 1,
+      "reasons": {
+        "TimeoutError: The read operation timed out - fetch failed before any response": 1
+      },
+      "sample_urls": [
+        "https://www.goodhousekeeping.com/home/cleaning/a73824830/5-cleaning-tools-for-the-jobs-youre-probably-putting-off/"
+      ]
+    },
+    {
+      "outlet": "Veranda",
+      "count": 1,
+      "reasons": {
+        "TimeoutError: The read operation timed out - fetch failed before any response": 1
+      },
+      "sample_urls": [
+        "https://www.veranda.com/food-recipes/a74273473/how-ordering-wine-is-like-buying-art-explained/"
+      ]
+    },
+    {
+      "outlet": "Cubby",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
+      },
+      "sample_urls": [
+        "https://www.cubbyathome.com/mustard-made-locker-review-80052207?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
