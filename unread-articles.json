@@ -1,98 +1,73 @@
 {
-  "date": "2026-10-29",
-  "generated_utc": "2026-10-29T15:37:09Z",
-  "unread_total": 47,
+  "date": "2026-10-30",
+  "generated_utc": "2026-10-30T15:24:50Z",
+  "unread_total": 36,
   "outlets": [
     {
       "outlet": "Apartment Therapy",
-      "count": 13,
+      "count": 12,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 13
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 12
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/meghan-markle-as-ever-home-decor-tea-set-37697144?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/cozey-sofas-37502963?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/pink-green-bathroom-wallpaper-clover-mural-ba-37697176?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.apartmenttherapy.com/black-white-vintage-wallpaper-hallway-transformation-ba-37697181?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/green-ikea-built-in-dining-room-ba-37695803?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/solo-stove-summit-fire-pit-review-37697411?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
       "outlet": "Wall Street Journal",
-      "count": 9,
+      "count": 10,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 9
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 10
       },
       "sample_urls": [
-        "https://www.wsj.com/style/introducing-wsj-magazines-2026-innovators-a969e3ba?mod=rss_style",
-        "https://www.wsj.com/articles/the-extremely-valuable-question-linda-yaccarino-asks-her-team-bcdbdef0?mod=rss_lifestyle",
-        "https://www.wsj.com/sports/new-york-city-marathon-sunday-shoe-sales-a2621537?mod=rss_lifestyle"
+        "https://www.wsj.com/lifestyle/travel/i-tested-another-airport-vip-service-this-time-in-rome-abe5682a?mod=rss_lifestyle",
+        "https://www.wsj.com/lifestyle/halloween-decorations-yard-neighbors-ac70eb8c?mod=rss_lifestyle",
+        "https://www.wsj.com/style/wsj-magazine-innovators-2026-moma-c555dcb2?mod=rss_style"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 8,
-      "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 8
-      },
-      "sample_urls": [
-        "https://www.nytimes.com/2026/10/26/realestate/on-spains-costa-brava-a-wall-of-glass-opens-to-the-sea.html",
-        "https://www.nytimes.com/2026/10/29/realestate/housing-market-near-nyc.html",
-        "https://www.nytimes.com/2026/10/29/realestate/housing-market-nyc.html"
-      ]
-    },
-    {
-      "outlet": "House Beautiful",
       "count": 7,
       "reasons": {
-        "TimeoutError: The read operation timed out - fetch failed before any response": 7
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 7
       },
       "sample_urls": [
-        "https://www.housebeautiful.com/design-inspiration/house-tours/a74147583/print-home-tour-corine-maggio-mill-valley-california/",
-        "https://www.housebeautiful.com/design-inspiration/house-tours/a74149145/print-home-tour-forward-interiors-toronto-can/",
-        "https://www.housebeautiful.com/design-inspiration/a74252227/best-design-books-2026/"
+        "https://www.nytimes.com/2026/10/27/realestate/teenage-entrepreneurs-new-york-city.html",
+        "https://www.nytimes.com/2026/10/27/realestate/childrens-furniture-designers.html",
+        "https://www.nytimes.com/2026/10/28/realestate/home-day-cares-new-york-city.html"
       ]
     },
     {
-      "outlet": "Kitchen Bath Design",
-      "count": 3,
+      "outlet": "Real Simple",
+      "count": 2,
       "reasons": {
-        "HTTP 520 - HTTP 520": 3
+        "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://www.kitchenbathdesign.com/kcma-design-contest-open-for-entries/",
-        "https://www.kitchenbathdesign.com/2026-2028-design-council-named-by-thermador/",
-        "https://www.kitchenbathdesign.com/cambria-opens-quartz-processing-center/"
+        "https://www.realsimple.com/home-tasks-to-do-before-daylight-saving-ends-12186773",
+        "https://www.realsimple.com/amazon-interior-designer-luxe-home-finds-october-2026-12200293"
       ]
     },
     {
-      "outlet": "Style at Home",
-      "count": 3,
-      "reasons": {
-        "HTTP 403 - refused by the publisher": 3
-      },
-      "sample_urls": [
-        "https://www.styleathome.com/interiors/kitchen/article/5-ways-to-save-money-on-a-kitchen-renovation",
-        "https://www.styleathome.com/decorating-design/article/7-pet-friendly-upgrades-that-won-t-compromise-your-home-s-design",
-        "https://www.styleathome.com/shopping/article/7-canadian-brands-to-shop-for-cozy-fall-blankets-and-throws"
-      ]
-    },
-    {
-      "outlet": "Good Housekeeping",
+      "outlet": "The Spruce",
       "count": 1,
       "reasons": {
-        "TimeoutError: The read operation timed out - fetch failed before any response": 1
+        "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.goodhousekeeping.com/home/cleaning/a73824830/5-cleaning-tools-for-the-jobs-youre-probably-putting-off/"
+        "https://www.thespruce.com/will-mums-come-back-next-year-12181917"
       ]
     },
     {
-      "outlet": "Veranda",
+      "outlet": "Better Homes & Gardens",
       "count": 1,
       "reasons": {
-        "TimeoutError: The read operation timed out - fetch failed before any response": 1
+        "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.veranda.com/food-recipes/a74273473/how-ordering-wine-is-like-buying-art-explained/"
+        "https://www.bhg.com/christmas/outdoor-decorations/best-christmas-lights/"
       ]
     },
     {
@@ -102,7 +77,7 @@
         "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://www.cubbyathome.com/mustard-made-locker-review-80052207?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.cubbyathome.com/dr-seuss-movies-80052213?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
@@ -113,6 +88,16 @@
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
+      ]
+    },
+    {
+      "outlet": "Southern Living",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.southernliving.com/place-forgetting-dust-12195588"
       ]
     }
   ]
