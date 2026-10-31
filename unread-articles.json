@@ -1,83 +1,66 @@
 {
-  "date": "2026-10-30",
-  "generated_utc": "2026-10-30T15:24:50Z",
-  "unread_total": 36,
+  "date": "2026-10-31",
+  "generated_utc": "2026-10-31T14:54:17Z",
+  "unread_total": 49,
   "outlets": [
     {
-      "outlet": "Apartment Therapy",
-      "count": 12,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 12
-      },
-      "sample_urls": [
-        "https://www.apartmenttherapy.com/black-white-vintage-wallpaper-hallway-transformation-ba-37697181?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/green-ikea-built-in-dining-room-ba-37695803?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/solo-stove-summit-fire-pit-review-37697411?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
       "outlet": "Wall Street Journal",
-      "count": 10,
+      "count": 18,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 10
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 18
       },
       "sample_urls": [
-        "https://www.wsj.com/lifestyle/travel/i-tested-another-airport-vip-service-this-time-in-rome-abe5682a?mod=rss_lifestyle",
-        "https://www.wsj.com/lifestyle/halloween-decorations-yard-neighbors-ac70eb8c?mod=rss_lifestyle",
-        "https://www.wsj.com/style/wsj-magazine-innovators-2026-moma-c555dcb2?mod=rss_style"
-      ]
-    },
-    {
-      "outlet": "New York Times",
-      "count": 7,
-      "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 7
-      },
-      "sample_urls": [
-        "https://www.nytimes.com/2026/10/27/realestate/teenage-entrepreneurs-new-york-city.html",
-        "https://www.nytimes.com/2026/10/27/realestate/childrens-furniture-designers.html",
-        "https://www.nytimes.com/2026/10/28/realestate/home-day-cares-new-york-city.html"
-      ]
-    },
-    {
-      "outlet": "Real Simple",
-      "count": 2,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 2
-      },
-      "sample_urls": [
-        "https://www.realsimple.com/home-tasks-to-do-before-daylight-saving-ends-12186773",
-        "https://www.realsimple.com/amazon-interior-designer-luxe-home-finds-october-2026-12200293"
+        "https://www.wsj.com/tech/personal-tech/home-security-cameras-paranormal-activity-0eb3862f?mod=rss_lifestyle",
+        "https://www.wsj.com/style/a-scientist-a-pop-star-an-author-and-a-banana-walk-into-a-museum-00c2f344?mod=rss_style",
+        "https://www.wsj.com/articles/the-parents-trying-to-teach-their-teens-to-drink-responsibly-95e5e200?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "The Spruce",
-      "count": 1,
+      "count": 10,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "HTTP 403 - Cloudflare bot wall": 10
       },
       "sample_urls": [
-        "https://www.thespruce.com/will-mums-come-back-next-year-12181917"
+        "https://www.thespruce.com/recliners-getting-a-stylish-upgrade-12181938",
+        "https://www.thespruce.com/small-decor-pieces-make-room-feel-chaotic-12181922",
+        "https://www.thespruce.com/diy-christmas-garland-ideas-8303241"
+      ]
+    },
+    {
+      "outlet": "Real Simple",
+      "count": 7,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 7
+      },
+      "sample_urls": [
+        "https://www.realsimple.com/skechers-summits-torretrainers-amazon-deal-october-2026-12199028",
+        "https://www.realsimple.com/food-recipes/recipe-collections-favorites/seasonal/how-long-to-thaw-a-turkey",
+        "https://www.realsimple.com/best-places-to-buy-christmas-trees-8383773"
       ]
     },
     {
       "outlet": "Better Homes & Gardens",
-      "count": 1,
+      "count": 6,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "HTTP 403 - Cloudflare bot wall": 6
       },
       "sample_urls": [
-        "https://www.bhg.com/christmas/outdoor-decorations/best-christmas-lights/"
+        "https://www.bhg.com/online-craft-supplies-12202500",
+        "https://www.bhg.com/recycle-halloween-pumpkins-12202366",
+        "https://www.bhg.com/best-lawn-edgers-7197987"
       ]
     },
     {
-      "outlet": "Cubby",
-      "count": 1,
+      "outlet": "New York Times",
+      "count": 6,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 6
       },
       "sample_urls": [
-        "https://www.cubbyathome.com/dr-seuss-movies-80052213?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.nytimes.com/2026/10/31/realestate/condo-board-members-shortage.html",
+        "https://www.nytimes.com/2026/10/31/realestate/homes-for-sale-athens-greece.html",
+        "https://www.nytimes.com/2026/10/30/realestate/mikie-sherrill-house-listing-montclair.html"
       ]
     },
     {
@@ -97,7 +80,7 @@
         "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.southernliving.com/place-forgetting-dust-12195588"
+        "https://www.southernliving.com/how-to-clean-couch-cushions-12195870"
       ]
     }
   ]
