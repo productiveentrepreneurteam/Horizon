@@ -1,66 +1,51 @@
 {
-  "date": "2026-10-31",
-  "generated_utc": "2026-10-31T14:54:17Z",
-  "unread_total": 49,
+  "date": "2026-11-01",
+  "generated_utc": "2026-11-01T15:25:02Z",
+  "unread_total": 12,
   "outlets": [
     {
+      "outlet": "Southern Living",
+      "count": 4,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 4
+      },
+      "sample_urls": [
+        "https://www.southernliving.com/valuable-estate-sale-finds-12204731",
+        "https://www.southernliving.com/thrift-store-etiquette-rules-12177652",
+        "https://www.southernliving.com/things-thrift-stores-wish-youd-donate-more-often-12177647"
+      ]
+    },
+    {
       "outlet": "Wall Street Journal",
-      "count": 18,
+      "count": 4,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 18
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 4
       },
       "sample_urls": [
-        "https://www.wsj.com/tech/personal-tech/home-security-cameras-paranormal-activity-0eb3862f?mod=rss_lifestyle",
-        "https://www.wsj.com/style/a-scientist-a-pop-star-an-author-and-a-banana-walk-into-a-museum-00c2f344?mod=rss_style",
-        "https://www.wsj.com/articles/the-parents-trying-to-teach-their-teens-to-drink-responsibly-95e5e200?mod=rss_lifestyle"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
-      "count": 10,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 10
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/recliners-getting-a-stylish-upgrade-12181938",
-        "https://www.thespruce.com/small-decor-pieces-make-room-feel-chaotic-12181922",
-        "https://www.thespruce.com/diy-christmas-garland-ideas-8303241"
-      ]
-    },
-    {
-      "outlet": "Real Simple",
-      "count": 7,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 7
-      },
-      "sample_urls": [
-        "https://www.realsimple.com/skechers-summits-torretrainers-amazon-deal-october-2026-12199028",
-        "https://www.realsimple.com/food-recipes/recipe-collections-favorites/seasonal/how-long-to-thaw-a-turkey",
-        "https://www.realsimple.com/best-places-to-buy-christmas-trees-8383773"
+        "https://www.wsj.com/arts-culture/food-cooking/mert-alas-fashion-photographer-seventy-one-gin-d6852ddb?mod=rss_style",
+        "https://www.wsj.com/lifestyle/cars/porsche-hippie-lemans-2a8448e1?mod=rss_style",
+        "https://www.wsj.com/world/china/what-i-learned-in-dalifornia-chinas-laid-back-capital-of-doing-nothing-2fd1266d?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "Better Homes & Gardens",
-      "count": 6,
+      "count": 2,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 6
+        "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://www.bhg.com/online-craft-supplies-12202500",
-        "https://www.bhg.com/recycle-halloween-pumpkins-12202366",
-        "https://www.bhg.com/best-lawn-edgers-7197987"
+        "https://www.bhg.com/smart-home-tech-worth-the-money-12139142",
+        "https://www.bhg.com/mow-lawn-short-or-long-in-fall-12189982"
       ]
     },
     {
-      "outlet": "New York Times",
-      "count": 6,
+      "outlet": "The Spruce",
+      "count": 1,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 6
+        "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/10/31/realestate/condo-board-members-shortage.html",
-        "https://www.nytimes.com/2026/10/31/realestate/homes-for-sale-athens-greece.html",
-        "https://www.nytimes.com/2026/10/30/realestate/mikie-sherrill-house-listing-montclair.html"
+        "https://www.thespruce.com/things-that-make-your-bathroom-look-cramped-12183069"
       ]
     },
     {
@@ -71,16 +56,6 @@
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
-      ]
-    },
-    {
-      "outlet": "Southern Living",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
-      },
-      "sample_urls": [
-        "https://www.southernliving.com/how-to-clean-couch-cushions-12195870"
       ]
     }
   ]
