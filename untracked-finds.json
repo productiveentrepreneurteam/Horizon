@@ -1,17 +1,36 @@
 {
-  "date": "2026-11-01",
-  "generated_utc": "2026-11-01T15:25:02Z",
-  "count": 1,
+  "date": "2026-11-02",
+  "generated_utc": "2026-11-02T18:49:16Z",
+  "count": 3,
   "finds": [
     {
       "designers": [
-        "Valerie Helgeson",
-        "Krystal Reinhard"
+        "Lauren Saab"
+      ],
+      "title": "Designers Say These 2 Decorating Mistakes Can Make a Small Room Feel Even Smaller—Here’s What to Avoid",
+      "url": "https://www.thespruce.com/items-designers-would-never-put-in-a-small-room-12183081",
+      "outlet": "The Spruce",
+      "published": "2026-11-02"
+    },
+    {
+      "designers": [
+        "Krystal Reinhard",
+        "Valerie Helgeson"
       ],
       "title": "Designers Say These Are the 10 Best Antiques to Find at Estate Sales",
       "url": "https://www.housebeautiful.com/design-inspiration/a74275515/estate-sale-antiques-designers/",
       "outlet": "House Beautiful",
       "published": "2026-11-01"
+    },
+    {
+      "designers": [
+        "Amy Kartheiser",
+        "Jen Davidson"
+      ],
+      "title": "65 Chicago Interior Designers to Know From the AD PRO Directory",
+      "url": "https://www.architecturaldigest.com/story/the-best-chicago-interior-designers-on-the-ad-pro-directory",
+      "outlet": "Architectural Digest",
+      "published": "2026-11-02"
     }
   ]
 }
