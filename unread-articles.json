@@ -1,66 +1,42 @@
 {
-  "date": "2026-11-02",
-  "generated_utc": "2026-11-02T18:49:16Z",
-  "unread_total": 28,
+  "date": "2026-11-03",
+  "generated_utc": "2026-11-03T01:15:58Z",
+  "unread_total": 23,
   "outlets": [
     {
       "outlet": "Apartment Therapy",
-      "count": 8,
+      "count": 11,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 8
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 11
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/worst-living-room-decorating-advice-37692080?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
         "https://www.apartmenttherapy.com/gullaberg-ikea-hallway-storage-project-37697220?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/this-is-the-one-gift-im-getting-everyone-this-year-its-great-for-all-ages-37516684?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "Wall Street Journal",
-      "count": 8,
-      "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 8
-      },
-      "sample_urls": [
-        "https://www.wsj.com/world/europe/while-britain-preps-for-doomsday-its-leaders-hoard-mascara-and-sauvignon-blanc-4ccc173b?mod=rss_lifestyle",
-        "https://www.wsj.com/us-news/homeowners-fight-utilities-over-grid-upgrades-in-their-backyards-7e31d36f?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/style/pusha-t-pharrell-coffee-clipse-3a129a90?mod=rss_style"
+        "https://www.apartmenttherapy.com/how-to-declutter-photos-37236300?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/is-article-furniture-worth-it-37302952?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
       "outlet": "New York Times",
+      "count": 6,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 6
+      },
+      "sample_urls": [
+        "https://www.nytimes.com/2026/10/29/realestate/housing-market-nyc.html",
+        "https://www.nytimes.com/2026/10/28/realestate/home-day-cares-new-york-city.html",
+        "https://www.nytimes.com/2026/10/27/realestate/childrens-furniture-designers.html"
+      ]
+    },
+    {
+      "outlet": "Wall Street Journal",
       "count": 5,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 5
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 5
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/10/28/realestate/home-day-cares-new-york-city.html",
-        "https://www.nytimes.com/2026/10/27/realestate/childrens-furniture-designers.html",
-        "https://www.nytimes.com/2026/10/27/realestate/teenage-entrepreneurs-new-york-city.html"
-      ]
-    },
-    {
-      "outlet": "Kitchen Bath Design",
-      "count": 4,
-      "reasons": {
-        "HTTP 520 - HTTP 520": 4
-      },
-      "sample_urls": [
-        "https://www.kitchenbathdesign.com/maximizing-space-reported-among-top-home-trends/",
-        "https://www.kitchenbathdesign.com/report-finds-shift-to-richer-nature-inspired-cabinetry/",
-        "https://www.kitchenbathdesign.com/study-yields-insights-into-bathroom-renovation-trends/"
-      ]
-    },
-    {
-      "outlet": "Better Homes & Gardens",
-      "count": 2,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1,
-        "ValueError: article body extraction collapsed: 126 chars of 5804 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
-      },
-      "sample_urls": [
-        "https://www.bhg.com/how-to-paint-mdf-6747766",
-        "https://www.bhg.com/barbie-storage-ideas-8599723"
+        "https://www.wsj.com/opinion/harford-steele-a-heros-hero-d096998f?mod=rss_lifestyle",
+        "https://www.wsj.com/style/pusha-t-pharrell-coffee-clipse-3a129a90?mod=rss_style",
+        "https://www.wsj.com/world/europe/while-britain-preps-for-doomsday-its-leaders-hoard-mascara-and-sauvignon-blanc-4ccc173b?mod=rss_lifestyle"
       ]
     },
     {
