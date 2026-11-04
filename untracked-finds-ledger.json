@@ -1,9 +1,20 @@
 {
-  "date": "2026-11-03",
-  "generated_utc": "2026-11-03T01:15:58Z",
+  "date": "2026-11-04",
+  "generated_utc": "2026-11-04T16:47:29Z",
   "keep_days": 31,
-  "count": 23,
+  "count": 21,
   "finds": [
+    {
+      "designers": [
+        "Amy Peltier"
+      ],
+      "title": "The 'Sidekick Color' Rule Designers Use to Keep Rooms From Feeling Flat",
+      "url": "https://www.homesandgardens.com/decor/side-kick-colors",
+      "outlet": "Homes & Gardens",
+      "published": "2026-11-03",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-04"
+    },
     {
       "designers": [
         "Lauren Saab"
@@ -26,18 +37,6 @@
       "published": "2026-11-02",
       "first_seen": "2026-11-02",
       "last_seen": "2026-11-03"
-    },
-    {
-      "designers": [
-        "Krystal Reinhard",
-        "Valerie Helgeson"
-      ],
-      "title": "Designers Say These Are the 10 Best Antiques to Find at Estate Sales",
-      "url": "https://www.housebeautiful.com/design-inspiration/a74275515/estate-sale-antiques-designers/",
-      "outlet": "House Beautiful",
-      "published": "2026-11-01",
-      "first_seen": "2026-11-01",
-      "last_seen": "2026-11-02"
     },
     {
       "designers": [
@@ -71,28 +70,6 @@
       "published": "2026-10-30",
       "first_seen": "2026-10-30",
       "last_seen": "2026-10-31"
-    },
-    {
-      "designers": [
-        "Jody Jones"
-      ],
-      "title": "6 Common Fall Decorating Mistakes Pros Want You to Stop Making",
-      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a74284221/common-fall-decorating-mistakes/",
-      "outlet": "Good Housekeeping",
-      "published": "2026-10-30",
-      "first_seen": "2026-10-30",
-      "last_seen": "2026-10-31"
-    },
-    {
-      "designers": [
-        "Peggy Haddad"
-      ],
-      "title": "10 Ways to Make Your Screened Porch Feel Cozy—and Keep Using It Well Into Fall",
-      "url": "https://dengarden.com/design/screened-porch-ideas",
-      "outlet": "Dengarden",
-      "published": "2026-10-28",
-      "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28"
     },
     {
       "designers": [
