@@ -1,16 +1,29 @@
 {
-  "date": "2026-11-04",
-  "generated_utc": "2026-11-04T16:47:29Z",
-  "count": 1,
+  "date": "2026-11-05",
+  "generated_utc": "2026-11-05T16:52:42Z",
+  "count": 2,
   "finds": [
     {
       "designers": [
-        "Amy Peltier"
+        "Amanda Sinistaj"
       ],
-      "title": "The 'Sidekick Color' Rule Designers Use to Keep Rooms From Feeling Flat",
-      "url": "https://www.homesandgardens.com/decor/side-kick-colors",
-      "outlet": "Homes & Gardens",
-      "published": "2026-11-03"
+      "title": "90s Decorating Trends That Should Stay in the Past, According to Designers",
+      "url": "https://www.bhg.com/90s-decor-to-skip-12190017",
+      "outlet": "Better Homes & Gardens",
+      "published": "2026-11-05"
+    },
+    {
+      "designers": [
+        "Elizabeth Cross-Beard",
+        "Courtney B Smith",
+        "Sarah Crawford",
+        "Darci Hether",
+        "Joelle Nesen"
+      ],
+      "title": "9 Curb Appeal Trends That Will Take Over in 2027, According to Designers",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74346205/curb-appeal-trends-2027/",
+      "outlet": "House Beautiful",
+      "published": "2026-11-05"
     }
   ]
 }

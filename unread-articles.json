@@ -1,42 +1,41 @@
 {
-  "date": "2026-11-04",
-  "generated_utc": "2026-11-04T16:47:29Z",
-  "unread_total": 33,
+  "date": "2026-11-05",
+  "generated_utc": "2026-11-05T16:52:42Z",
+  "unread_total": 21,
   "outlets": [
     {
       "outlet": "Wall Street Journal",
-      "count": 17,
+      "count": 10,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 17
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 10
       },
       "sample_urls": [
-        "https://www.wsj.com/lifestyle/careers/the-skilled-trades-are-making-more-room-for-women-22032424?mod=rss_lifestyle",
-        "https://www.wsj.com/real-estate/commercial/brookfield-walks-away-from-luxury-l-a-tower-rather-than-refinance-4ce8f763?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/lifestyle/knicks-fans-second-row-tickets-msg-e29e9ac8?mod=rss_lifestyle"
-      ]
-    },
-    {
-      "outlet": "Apartment Therapy",
-      "count": 8,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 8
-      },
-      "sample_urls": [
-        "https://www.apartmenttherapy.com/what-is-a-dry-sink-vintage-storage-37692088?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/blanket-gift-feels-like-warm-hug-37696309?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/rustic-new-build-fireplace-bedroom-ba-37695844?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.wsj.com/style/fashion/2027-met-gala-theme-galliano-extraordinary-271676e4?mod=rss_style",
+        "https://www.wsj.com/lifestyle/careers/u-s-employer-layoff-plans-tick-up-slightly-in-october-from-september-078fc3d5?mod=rss_lifestyle",
+        "https://www.wsj.com/lifestyle/travel/the-hanoi-lake-where-kids-hustle-american-tourists-for-english-lessons-eacf435e?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 4,
+      "count": 6,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 4
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 6
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/11/04/realestate/homes-for-sale-atlanta-minneapolis-fort-worth.html",
-        "https://www.nytimes.com/2026/11/04/realestate/how-a-historic-harlem-newspaper-is-reimagining-its-headquarters.html",
-        "https://www.nytimes.com/2026/11/03/realestate/munich-living-small.html"
+        "https://www.nytimes.com/2026/11/05/realestate/is-your-hoa-fee-rising-youre-not-alone.html",
+        "https://www.nytimes.com/2026/11/05/realestate/high-end-homes-pied-a-terre-tax.html",
+        "https://www.nytimes.com/2026/11/05/realestate/housing-market-near-nyc.html"
+      ]
+    },
+    {
+      "outlet": "Southern Living",
+      "count": 2,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 2
+      },
+      "sample_urls": [
+        "https://www.southernliving.com/how-to-clean-window-blinds-12183926",
+        "https://www.southernliving.com/how-to-degrease-wood-kitchen-cabinets-12183912"
       ]
     },
     {
@@ -46,34 +45,24 @@
         "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.thespruce.com/best-folding-wagons-7378130"
+        "https://www.thespruce.com/fixes-for-outdated-flooring-12194194"
       ]
     },
     {
-      "outlet": "Better Homes & Gardens",
+      "outlet": "Ranch & Coast",
       "count": 1,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "ValueError: article body extraction collapsed: 74 chars of 8941 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
-        "https://www.bhg.com/rom-com-decorating-style-12189999"
-      ]
-    },
-    {
-      "outlet": "Cubby",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
-      },
-      "sample_urls": [
-        "https://www.cubbyathome.com/london-custom-bookcase-living-room-ba-80052246?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://ranchandcoast.com/explore/cirque-maceo-brings-equestrian-artistry-and-tradition-to-del-mar/"
       ]
     },
     {
       "outlet": "Luxe Magazine",
       "count": 1,
       "reasons": {
-        "ValueError: article body extraction collapsed: 174 chars of 2791 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+        "ValueError: article body extraction collapsed: 174 chars of 2700 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"

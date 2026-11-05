@@ -1,9 +1,35 @@
 {
-  "date": "2026-11-04",
-  "generated_utc": "2026-11-04T16:47:29Z",
+  "date": "2026-11-05",
+  "generated_utc": "2026-11-05T16:52:42Z",
   "keep_days": 31,
-  "count": 21,
+  "count": 23,
   "finds": [
+    {
+      "designers": [
+        "Courtney B Smith",
+        "Darci Hether",
+        "Elizabeth Cross-Beard",
+        "Joelle Nesen",
+        "Sarah Crawford"
+      ],
+      "title": "9 Curb Appeal Trends That Will Take Over in 2027, According to Designers",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74346205/curb-appeal-trends-2027/",
+      "outlet": "House Beautiful",
+      "published": "2026-11-05",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "designers": [
+        "Amanda Sinistaj"
+      ],
+      "title": "90s Decorating Trends That Should Stay in the Past, According to Designers",
+      "url": "https://www.bhg.com/90s-decor-to-skip-12190017",
+      "outlet": "Better Homes & Gardens",
+      "published": "2026-11-05",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
     {
       "designers": [
         "Amy Peltier"
