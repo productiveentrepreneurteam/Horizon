@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-05",
-  "generated_utc": "2026-11-05T16:52:42Z",
-  "unread_total": 21,
+  "date": "2026-11-06",
+  "generated_utc": "2026-11-06T16:24:04Z",
+  "unread_total": 22,
   "outlets": [
     {
       "outlet": "Wall Street Journal",
@@ -10,52 +10,43 @@
         "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 10
       },
       "sample_urls": [
-        "https://www.wsj.com/style/fashion/2027-met-gala-theme-galliano-extraordinary-271676e4?mod=rss_style",
-        "https://www.wsj.com/lifestyle/careers/u-s-employer-layoff-plans-tick-up-slightly-in-october-from-september-078fc3d5?mod=rss_lifestyle",
-        "https://www.wsj.com/lifestyle/travel/the-hanoi-lake-where-kids-hustle-american-tourists-for-english-lessons-eacf435e?mod=rss_lifestyle"
+        "https://www.wsj.com/lifestyle/travel/what-travelers-need-to-watch-out-for-after-the-midterms-eaa35df5?mod=rss_lifestyle",
+        "https://www.wsj.com/arts-culture/film/runpee-movies-run-time-you-can-see-everything-elizabeth-holmes-b2329431?mod=rss_lifestyle",
+        "https://www.wsj.com/real-estate/luxury-homes/prague-real-estate-market-54364b54?mod=LatestNewsRealEstate"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 6,
+      "count": 4,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 6
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 4
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/11/05/realestate/is-your-hoa-fee-rising-youre-not-alone.html",
         "https://www.nytimes.com/2026/11/05/realestate/high-end-homes-pied-a-terre-tax.html",
-        "https://www.nytimes.com/2026/11/05/realestate/housing-market-near-nyc.html"
+        "https://www.nytimes.com/2026/11/06/realestate/secondary-homes-year-round.html",
+        "https://www.nytimes.com/2026/11/06/realestate/atlantic-city-second-homes-developers.html"
+      ]
+    },
+    {
+      "outlet": "Kitchen Bath Design",
+      "count": 3,
+      "reasons": {
+        "HTTP 520 - HTTP 520": 3
+      },
+      "sample_urls": [
+        "https://www.kitchenbathdesign.com/report-signals-new-era-for-kitchen-design-in-2027/",
+        "https://www.kitchenbathdesign.com/market-seen-improving-although-growth-reported-flat/",
+        "https://www.kitchenbathdesign.com/dpha-highlights-luxury-plumbing-hardware/"
       ]
     },
     {
       "outlet": "Southern Living",
-      "count": 2,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 2
-      },
-      "sample_urls": [
-        "https://www.southernliving.com/how-to-clean-window-blinds-12183926",
-        "https://www.southernliving.com/how-to-degrease-wood-kitchen-cabinets-12183912"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
       "count": 1,
       "reasons": {
         "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.thespruce.com/fixes-for-outdated-flooring-12194194"
-      ]
-    },
-    {
-      "outlet": "Ranch & Coast",
-      "count": 1,
-      "reasons": {
-        "ValueError: article body extraction collapsed: 74 chars of 8941 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
-      },
-      "sample_urls": [
-        "https://ranchandcoast.com/explore/cirque-maceo-brings-equestrian-artistry-and-tradition-to-del-mar/"
+        "https://www.southernliving.com/800-square-foot-cottage-tips-12183906"
       ]
     },
     {
@@ -66,6 +57,36 @@
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
+      ]
+    },
+    {
+      "outlet": "The Spruce",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.thespruce.com/holiday-decor-thrift-stores-wont-take-12194200"
+      ]
+    },
+    {
+      "outlet": "Better Homes & Gardens",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.bhg.com/kitchen-grease-cleaning-12190030"
+      ]
+    },
+    {
+      "outlet": "Real Simple",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.realsimple.com/how-to-wash-a-puffer-jacket-12189544"
       ]
     }
   ]

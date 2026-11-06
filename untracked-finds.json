@@ -1,29 +1,49 @@
 {
-  "date": "2026-11-05",
-  "generated_utc": "2026-11-05T16:52:42Z",
-  "count": 2,
+  "date": "2026-11-06",
+  "generated_utc": "2026-11-06T16:24:04Z",
+  "count": 4,
   "finds": [
     {
       "designers": [
-        "Amanda Sinistaj"
+        "Krystal Reinhard",
+        "Colleen Simonds",
+        "Darci Hether"
       ],
-      "title": "90s Decorating Trends That Should Stay in the Past, According to Designers",
-      "url": "https://www.bhg.com/90s-decor-to-skip-12190017",
-      "outlet": "Better Homes & Gardens",
-      "published": "2026-11-05"
+      "title": "How to Make Your Living Room Feel Cozy, According to Designers",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a74339003/cozy-living-room-design-ideas/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-11-06"
+    },
+    {
+      "designers": [
+        "Danielle Domingues"
+      ],
+      "title": "Low-level Lighting Is the Unsung Hero of a Layered Scheme That Designers Wish We'd All Use Much More Than We Do",
+      "url": "https://www.livingetc.com/advice/low-level-lighting",
+      "outlet": "Livingetc",
+      "published": "2026-11-06"
     },
     {
       "designers": [
         "Elizabeth Cross-Beard",
         "Courtney B Smith",
         "Sarah Crawford",
-        "Darci Hether",
-        "Joelle Nesen"
+        "Joelle Nesen",
+        "Darci Hether"
       ],
       "title": "9 Curb Appeal Trends That Will Take Over in 2027, According to Designers",
       "url": "https://www.housebeautiful.com/design-inspiration/a74346205/curb-appeal-trends-2027/",
       "outlet": "House Beautiful",
       "published": "2026-11-05"
+    },
+    {
+      "designers": [
+        "Sarah Storms"
+      ],
+      "title": "A Bedroom Was \"50 Shades of Beige\" Until a Dream Redo with Painted Trim",
+      "url": "https://www.apartmenttherapy.com/primary-bedroom-makeover-with-subtle-color-drenching-ba-37698353?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+      "outlet": "Apartment Therapy",
+      "published": "2026-11-06"
     }
   ]
 }

@@ -1,9 +1,44 @@
 {
-  "date": "2026-11-05",
-  "generated_utc": "2026-11-05T16:52:42Z",
+  "date": "2026-11-06",
+  "generated_utc": "2026-11-06T16:24:04Z",
   "keep_days": 31,
-  "count": 23,
+  "count": 26,
   "finds": [
+    {
+      "designers": [
+        "Danielle Domingues"
+      ],
+      "title": "Low-level Lighting Is the Unsung Hero of a Layered Scheme That Designers Wish We'd All Use Much More Than We Do",
+      "url": "https://www.livingetc.com/advice/low-level-lighting",
+      "outlet": "Livingetc",
+      "published": "2026-11-06",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
+    },
+    {
+      "designers": [
+        "Colleen Simonds",
+        "Darci Hether",
+        "Krystal Reinhard"
+      ],
+      "title": "How to Make Your Living Room Feel Cozy, According to Designers",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a74339003/cozy-living-room-design-ideas/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-11-06",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
+    },
+    {
+      "designers": [
+        "Sarah Storms"
+      ],
+      "title": "A Bedroom Was \"50 Shades of Beige\" Until a Dream Redo with Painted Trim",
+      "url": "https://www.apartmenttherapy.com/primary-bedroom-makeover-with-subtle-color-drenching-ba-37698353?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+      "outlet": "Apartment Therapy",
+      "published": "2026-11-06",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06"
+    },
     {
       "designers": [
         "Courtney B Smith",
@@ -17,7 +52,7 @@
       "outlet": "House Beautiful",
       "published": "2026-11-05",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-05"
+      "last_seen": "2026-11-06"
     },
     {
       "designers": [
