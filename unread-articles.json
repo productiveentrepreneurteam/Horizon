@@ -1,52 +1,85 @@
 {
-  "date": "2026-11-06",
-  "generated_utc": "2026-11-06T16:24:04Z",
-  "unread_total": 22,
+  "date": "2026-11-07",
+  "generated_utc": "2026-11-07T15:16:07Z",
+  "unread_total": 46,
   "outlets": [
     {
       "outlet": "Wall Street Journal",
-      "count": 10,
+      "count": 15,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 10
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 15
       },
       "sample_urls": [
-        "https://www.wsj.com/lifestyle/travel/what-travelers-need-to-watch-out-for-after-the-midterms-eaa35df5?mod=rss_lifestyle",
-        "https://www.wsj.com/arts-culture/film/runpee-movies-run-time-you-can-see-everything-elizabeth-holmes-b2329431?mod=rss_lifestyle",
-        "https://www.wsj.com/real-estate/luxury-homes/prague-real-estate-market-54364b54?mod=LatestNewsRealEstate"
+        "https://www.wsj.com/real-estate/luxury-homes/historic-homes-quiz-c03597d8?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/style/wicker-chairs-wicker-stools-wicker-man-cb8c0846?mod=rss_style",
+        "https://www.wsj.com/articles/historian-jon-meacham-on-the-power-of-our-vote-4ccd08e9?mod=rss_lifestyle"
+      ]
+    },
+    {
+      "outlet": "Apartment Therapy",
+      "count": 11,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 11
+      },
+      "sample_urls": [
+        "https://www.apartmenttherapy.com/blue-christmas-decor-trend-37692095?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/ikea-ostbit-book-storage-love-letter-37698172?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/nursery-bookshelves-bathroom-storage-37698255?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "The Spruce",
+      "count": 10,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 10
+      },
+      "sample_urls": [
+        "https://www.thespruce.com/things-that-make-living-room-look-bad-12194208",
+        "https://www.thespruce.com/tricks-to-make-holiday-hosting-easy-8723864",
+        "https://www.thespruce.com/best-murphy-beds-5210343"
+      ]
+    },
+    {
+      "outlet": "Real Simple",
+      "count": 5,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 5
+      },
+      "sample_urls": [
+        "https://www.realsimple.com/home-organizing/decorating/decorating-bedroom/how-to-put-on-a-duvet-cover",
+        "https://www.realsimple.com/holidays-entertaining/holidays/christmas/christmas-games",
+        "https://www.realsimple.com/work-life/entertainment/crafts-hobbies/how-to-make-paper-snowflakes"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 4,
+      "count": 2,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 4
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 2
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/11/05/realestate/high-end-homes-pied-a-terre-tax.html",
-        "https://www.nytimes.com/2026/11/06/realestate/secondary-homes-year-round.html",
-        "https://www.nytimes.com/2026/11/06/realestate/atlantic-city-second-homes-developers.html"
+        "https://www.nytimes.com/2026/11/07/realestate/my-real-estate-agent-is-too-cozy-for-comfort-what-can-i-do.html",
+        "https://www.nytimes.com/2026/11/06/realestate/homes-for-sale-in-cuernavaca-mexico.html"
       ]
     },
     {
-      "outlet": "Kitchen Bath Design",
-      "count": 3,
-      "reasons": {
-        "HTTP 520 - HTTP 520": 3
-      },
-      "sample_urls": [
-        "https://www.kitchenbathdesign.com/report-signals-new-era-for-kitchen-design-in-2027/",
-        "https://www.kitchenbathdesign.com/market-seen-improving-although-growth-reported-flat/",
-        "https://www.kitchenbathdesign.com/dpha-highlights-luxury-plumbing-hardware/"
-      ]
-    },
-    {
-      "outlet": "Southern Living",
+      "outlet": "Better Homes & Gardens",
       "count": 1,
       "reasons": {
         "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.southernliving.com/800-square-foot-cottage-tips-12183906"
+        "https://www.bhg.com/can-you-wash-kitchen-bath-towels-together-12190048"
+      ]
+    },
+    {
+      "outlet": "Cubby",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
+      },
+      "sample_urls": [
+        "https://www.cubbyathome.com/office-makeover-with-green-trim-painted-ceiling-ba-80052254?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
@@ -57,36 +90,6 @@
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/holiday-decor-thrift-stores-wont-take-12194200"
-      ]
-    },
-    {
-      "outlet": "Better Homes & Gardens",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
-      },
-      "sample_urls": [
-        "https://www.bhg.com/kitchen-grease-cleaning-12190030"
-      ]
-    },
-    {
-      "outlet": "Real Simple",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
-      },
-      "sample_urls": [
-        "https://www.realsimple.com/how-to-wash-a-puffer-jacket-12189544"
       ]
     }
   ]
