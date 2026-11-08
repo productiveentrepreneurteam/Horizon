@@ -1,9 +1,20 @@
 {
-  "date": "2026-11-07",
-  "generated_utc": "2026-11-07T15:16:07Z",
+  "date": "2026-11-08",
+  "generated_utc": "2026-11-08T15:33:05Z",
   "keep_days": 31,
-  "count": 26,
+  "count": 27,
   "finds": [
+    {
+      "designers": [
+        "Ayten Nadeau"
+      ],
+      "title": "Interior Designers Agree: Get Rid of These 8 Things for a More Timeless Home Entrance",
+      "url": "https://www.thespruce.com/things-to-get-rid-of-for-timeless-entryway-12194226",
+      "outlet": "The Spruce",
+      "published": "2026-11-07",
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-08"
+    },
     {
       "designers": [
         "Danielle Domingues"
