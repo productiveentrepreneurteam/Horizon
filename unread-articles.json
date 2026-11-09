@@ -1,66 +1,61 @@
 {
-  "date": "2026-11-08",
-  "generated_utc": "2026-11-08T15:33:05Z",
-  "unread_total": 32,
+  "date": "2026-11-09",
+  "generated_utc": "2026-11-09T19:16:21Z",
+  "unread_total": 27,
   "outlets": [
     {
-      "outlet": "Apartment Therapy",
-      "count": 10,
+      "outlet": "The Spruce",
+      "count": 13,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 10
+        "HTTP 403 - Cloudflare bot wall": 13
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/gifts-for-gardeners-37692766?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/ikea-arsjon-wall-door-rack-37698092?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/floral-wallpaper-bathroom-makeover-ba-37698362?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "Real Simple",
-      "count": 7,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 7
-      },
-      "sample_urls": [
-        "https://www.realsimple.com/front-porch-mistakes-that-look-outdated-11810458",
-        "https://www.realsimple.com/what-is-an-induction-cooktop-8425752",
-        "https://www.realsimple.com/decor-ideas-to-make-your-kitchen-feel-cozier-12189562"
+        "https://www.thespruce.com/tray-ceiling-paint-ideas-5270455",
+        "https://www.thespruce.com/tacky-living-room-mistake-12194264",
+        "https://www.thespruce.com/types-of-grout-7557897"
       ]
     },
     {
       "outlet": "Wall Street Journal",
-      "count": 7,
+      "count": 9,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 7
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 9
       },
       "sample_urls": [
-        "https://www.wsj.com/opinion/overregulation-makes-housing-unaffordable-12e5e856?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/real-estate/luxury-homes/adu-sacramento-california-fcb168c1?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/health/wellness/wellness-society-college-campus-trend-5599666e?mod=rss_style"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
-      "count": 3,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 3
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/when-to-stop-mowing-your-lawn-in-fall-11820991",
-        "https://www.thespruce.com/shrubs-to-prune-in-fall-12194230",
-        "https://www.thespruce.com/never-flush-flushable-wipes-down-toilet-12194222"
+        "https://www.wsj.com/opinion/grief-graveyards-and-the-soul-going-home-1457bfe0?mod=rss_lifestyle",
+        "https://www.wsj.com/opinion/our-cat-went-missing-then-she-landed-a-job-in-retail-3aa65662?mod=rss_lifestyle",
+        "https://www.wsj.com/style/supermodel-amber-valletta-routine-f32de0cb?mod=rss_style"
       ]
     },
     {
       "outlet": "Better Homes & Gardens",
-      "count": 3,
+      "count": 2,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 3
+        "HTTP 403 - Cloudflare bot wall": 2
       },
       "sample_urls": [
-        "https://www.bhg.com/christmas-cactus-lighting-needs-12190056",
-        "https://www.bhg.com/christmas-front-porch-ideas-12197439",
-        "https://www.bhg.com/professional-cleaners-bathrooms-12240363"
+        "https://www.bhg.com/what-colors-go-with-purple-7112458",
+        "https://www.bhg.com/decorating/window-treatments/basics/window-treatments-guide/"
+      ]
+    },
+    {
+      "outlet": "Real Simple",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.realsimple.com/mood-boosting-kitchen-paint-colors-12196971"
+      ]
+    },
+    {
+      "outlet": "New York Times",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
+      },
+      "sample_urls": [
+        "https://www.nytimes.com/2026/11/09/realestate/bucks-county-barn-home-renovation.html"
       ]
     },
     {
@@ -71,16 +66,6 @@
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
-      ]
-    },
-    {
-      "outlet": "Southern Living",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
-      },
-      "sample_urls": [
-        "https://www.southernliving.com/how-to-clean-oven-with-vinegar-12183985"
       ]
     }
   ]
