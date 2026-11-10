@@ -6,7 +6,7 @@ on:
     # GitHub queues scheduled jobs on a best-effort basis and the top of
     # the hour is the most contended slot on the platform. Running at :00
     # was landing between 7:20 and 8:30 AM LA.
-    - cron: '17 8 * * *'   # was 47 12; GitHub runs this 4-8h late, so start early enough to land by LA morning
+    - cron: '17 4 * * *'   # was 17 8, before that 47 12. Measured 2026-10-28: starts 4-7h late (12:44-15:15 UTC), so 08:17 missed 6 AM LA (14:00 UTC) on bad days. 04:17 lands by ~11:17 UTC, before 4 AM LA.
     # BACKUP START, added 2026-10-16. GitHub did not start the 08:17 run at all on
     # 15 and 16 October 2026: no run, no failure, nothing queued, so Alex had no
     # digest for two days. This second start catches a day the first one drops.
