@@ -5,13 +5,18 @@ date: 2026-11-10
 lang: en
 ---
 
-> 129 articles published in the last 24 hours
+> 202 articles published in the last 24 hours
 > 42 sources monitored
 
 ---
-<div id="kpi-data" style="display:none" data-designers-today="2" data-found-unlogged="29" data-designers-month="8" data-record="3532"></div>
+<div id="kpi-data" style="display:none" data-designers-today="2" data-found-unlogged="30" data-designers-month="8" data-record="3532"></div>
 
 ## 🏆 Press House Wins
+
+- <a href="https://dengarden.com/home-projects/how-to-design-a-timeless-outdoor-space" target="_blank" rel="noopener">Designers Share Their Top Tips for Creating a Timeless Outdoor Space That Is Better Than Any Trend</a>
+  `Dengarden`
+  `🍾 Press Club Source: Josie Benefield 🍾`
+  *by Wendy Gould · Nov 10*
 
 - <a href="https://www.housebeautiful.com/design-inspiration/a74375895/porte-cochere-entryway-design/" target="_blank" rel="noopener">Does Your Home Need a Porte-Cochère? Architects Explain When the Statement Feature Works Best</a>
   `House Beautiful`
@@ -21,7 +26,7 @@ lang: en
 - <a href="https://www.thespruce.com/tacky-living-room-mistake-12194264" target="_blank" rel="noopener">Designers Say This Common Living Room Mistake Is Making Your Space Look Tacky</a>
   `The Spruce`
   `🍾 Press Club Source: Yvonne Harty 🍾`
-  *by Tessa Cooper · Nov 9*
+  *Nov 9 [untracked]*
 
 - <a href="https://www.thespruce.com/things-to-get-rid-of-for-timeless-entryway-12194226" target="_blank" rel="noopener">Interior Designers Agree: Get Rid of These 8 Things for a More Timeless Home Entrance</a>
   `The Spruce`
@@ -101,49 +106,82 @@ lang: en
 
 **Priority outlets**
 
-- [The Spruce (4)](#source-the-spruce)
-- [Homes & Gardens (2)](#source-homes-gardens)
-- [Good Housekeeping (6)](#source-good-housekeeping)
-- [Better Homes & Gardens (27)](#source-better-homes-gardens)
-- [Livingetc (5)](#source-livingetc)
-- [Real Simple (2)](#source-real-simple)
-- [House Beautiful (5)](#source-house-beautiful)
-- [Apartment Therapy (10)](#source-apartment-therapy)
-- [Mansion Global (8)](#source-mansion-global)
+- [The Spruce (31)](#source-the-spruce)
+- [Homes & Gardens (5)](#source-homes-gardens)
+- [Good Housekeeping (9)](#source-good-housekeeping)
+- [Better Homes & Gardens (28)](#source-better-homes-gardens)
+- [Livingetc (9)](#source-livingetc)
+- [Real Simple (4)](#source-real-simple)
+- [House Beautiful (8)](#source-house-beautiful)
+- [Apartment Therapy (13)](#source-apartment-therapy)
+- [Mansion Global (11)](#source-mansion-global)
 - [Southern Living (2)](#source-southern-living)
-- [Architectural Digest (3)](#source-architectural-digest)
-- [Sunset (1)](#source-sunset)
+- [Architectural Digest (5)](#source-architectural-digest)
+- [Sunset (3)](#source-sunset)
 - [Veranda (4)](#source-veranda)
 
 **More outlets**
 
-- [Wall Street Journal (13)](#source-wall-street-journal)
-- [Elle Decor USA (1)](#source-elle-decor-usa)
-- [Country Living (6)](#source-country-living)
+- [Wall Street Journal (19)](#source-wall-street-journal)
+- [Elle Decor USA (2)](#source-elle-decor-usa)
+- [Country Living (8)](#source-country-living)
 - [RUE (1)](#source-rue)
-- [Business of Home (3)](#source-business-of-home)
+- [Business of Home (4)](#source-business-of-home)
 - [Cubby (1)](#source-cubby)
-- [Dengarden (4)](#source-dengarden)
+- [Dengarden (9)](#source-dengarden)
 - [Florida Design (3)](#source-florida-design)
-- [New York Times (2)](#source-new-york-times)
-- [House & Home (3)](#source-house-home)
+- [Boston Home Magazine (1)](#source-boston-home-magazine)
+- [New York Times (4)](#source-new-york-times)
+- [House & Home (4)](#source-house-home)
 - [Luxe Magazine (12)](#source-luxe-magazine)
 - [Sonoma Magazine (1)](#source-sonoma-magazine)
+- [The Atlanta Magazine (1)](#source-the-atlanta-magazine)
 
-**Total Articles Today: 129**
+**Total Articles Today: 202**
 
 ---
 <a id="source-the-spruce"></a>
-## The Spruce (4)
+## The Spruce (31)
+
+- <a href="https://www.thespruce.com/tray-ceiling-paint-ideas-5270455" target="_blank" rel="noopener">15 Tray Ceiling Paint Ideas That Really Shine</a>
+  `Painting` `Home Improvement`
+  *by Sarah Lyon · Nov 9*
+
+- <a href="https://www.thespruce.com/what-is-shabby-chic-style-5199407" target="_blank" rel="noopener">What Is Shabby Chic Style?</a>
+  `Design Styles` `Home Design & Decorating`
+  *by Sarah Lyon · Nov 9*
 
 - <a href="https://www.thespruce.com/tacky-living-room-mistake-12194264" target="_blank" rel="noopener">Designers Say This Common Living Room Mistake Is Making Your Space Look Tacky</a>
   `Living Rooms` `Room Design` `Home Design & Decorating` `Home & Gardening Trends` `Home News`
-  `🍾 Press Club Source: Yvonne Harty 🍾`
   *by Tessa Cooper · Nov 9*
 
-- <a href="https://www.thespruce.com/should-you-leave-a-bird-feeder-up-in-winter-12194273" target="_blank" rel="noopener">Experts Agree: Keep Bird Feeders Up This Winter</a>
+- <a href="https://www.thespruce.com/feng-shui-bedroom-layout-ideas-7550320" target="_blank" rel="noopener">Feng Shui Bedroom Layout: 9 Arrangement Options to Try</a>
+  `Feng Shui` `Home Design & Decorating`
+  *by Tessa Cooper · Nov 9*
+
+- <a href="https://www.thespruce.com/basics-of-french-country-decorating-452503" target="_blank" rel="noopener">French Country Decor: What to Know About This Rustic Decor Style</a>
+  `More Design Styles` `Design Styles` `Home Design & Decorating`
+  *by Cori Sears · Nov 9*
+
+- <a href="https://www.thespruce.com/mushroom-paint-colors-8423284" target="_blank" rel="noopener">16 Mushroom Paint Colors That Are Way Beyond Beige</a>
+  `Color` `Decorating` `Home Design & Decorating` `Walls & Paint`
+  *by Cori Sears · Nov 9*
+
+- <a href="https://www.thespruce.com/types-of-grout-7557897" target="_blank" rel="noopener">7 Types of Grout and How to Choose the Right One for the Job</a>
+  `Bathroom Tile` `Bathroom Remodel & Repair` `Home Improvement` `Kitchen Tile` `Kitchen Remodel & Repair`
+  *by Timothy Dale · Nov 9*
+
+- <a href="https://www.thespruce.com/should-you-leave-a-bird-feeder-up-in-winter-12194273" target="_blank" rel="noopener">Should You Leave Your Bird Feeder Up This Winter? We Asked Bird Experts and They Agreed</a>
   `Home & Gardening Trends` `Home News` `Attracting & Feeding Birds` `Wild Birds` `Gardening`
   *by Aliyah Rodriguez · Nov 9*
+
+- <a href="https://www.thespruce.com/things-making-your-dining-room-look-bad-12194280" target="_blank" rel="noopener">7 Things That Immediately Make Your Dining Room Look Bad, According to Designers</a>
+  `Home & Gardening Trends` `Home News` `Dining Rooms` `Room Design` `Home Design & Decorating`
+  *by Marisa Suzanne Martin · Nov 10*
+
+- <a href="https://www.thespruce.com/best-bath-pillows-6755053" target="_blank" rel="noopener">The 8 Best Bath Pillows We Tested for Ultimate Relaxation</a>
+  `Bath Product Reviews & Buying Guides` `Bed & Bath: Product Reviews and Buying Guides` `Best Home Products`
+  *by Julia Fields · Nov 10*
 
 - <a href="https://www.thespruce.com/best-ice-melts-5104806" target="_blank" rel="noopener">The 8 Best Ice Melts to Keep Your Driveway and Walkways Clear</a>
   `Patio Products: Reviews and Buying Guides` `Gardening & Outdoors: Product Reviews and Buying Guides` `Best Home Products`
@@ -153,21 +191,117 @@ lang: en
   `Home Security Products: Reviews and Buying Guides` `Home Improvement: Product Reviews & Buying Guides` `Best Home Products` `Electrical Wiring, Circuitry, and Safety` `Electrical: Safety, How Tos & DIY Repairs`
   *by Anton Galang · Nov 9*
 
+- <a href="https://www.thespruce.com/how-to-save-marigold-seeds-1388591" target="_blank" rel="noopener">How to Harvest and Save Marigold Seeds</a>
+  `Garden Tasks` `Gardening Basics` `Gardening`
+  *by Jenny Hughes · Nov 9*
+
+- <a href="https://www.thespruce.com/remove-tile-grout-in-a-few-simple-steps-1822630" target="_blank" rel="noopener">How to Remove Tile Grout</a>
+  `Home Improvement` `Bathroom Tile` `Bathroom Remodel & Repair` `Kitchen Tile` `Kitchen Remodel & Repair`
+  *by Lee Wallender · Nov 9*
+
+- <a href="https://www.thespruce.com/grow-rosemary-indoors-1902488" target="_blank" rel="noopener">How to Grow and Care for Rosemary Indoors</a>
+  `Plants & Flowers` `Gardening` `Container Gardening` `Gardening Basics` `Growing Herbs`
+  *by Jon VanZile · Nov 9*
+
+- <a href="https://www.thespruce.com/deer-resistant-bulbs-2131830" target="_blank" rel="noopener">11 Deer-Resistant Flower Bulbs for Your Garden</a>
+  `Bulbs` `Flowers` `Plants & Flowers` `Garden Pests` `Plant Pests & Diseases` `Gardening`
+  *by David Beaulieu · Nov 9*
+
+- <a href="https://www.thespruce.com/japandi-kitchens-8550983" target="_blank" rel="noopener">36 Japandi Kitchen Ideas for a Serene, Stylish Cooking Space</a>
+  `Kitchen Design` `Room Design` `Home Design & Decorating`
+  *by Melissa Epifano · Nov 9*
+
+- <a href="https://www.thespruce.com/what-is-marine-grade-plywood-2736672" target="_blank" rel="noopener">What Is Marine-Grade Plywood?</a>
+  `Carpentry & Woodworking` `Skills & Specialties` `Home Improvement` `Decks & Patios` `Outdoor Building`
+  *by Lisa Hallett Taylor · Nov 9*
+
+- <a href="https://www.thespruce.com/what-to-know-about-basement-floor-drain-5188587" target="_blank" rel="noopener">What to Know About Your Basement Floor Drain</a>
+  `Plumbing: Advice, Repairs and How Tos` `Skills & Specialties` `Home Improvement` `Basement` `Interior Remodel & Repair`
+  *by Lee Wallender · Nov 9*
+
+- <a href="https://www.thespruce.com/cypress-mulch-pros-and-cons-5179293" target="_blank" rel="noopener">Is Cypress Mulch Good or Bad?</a>
+  `Garden Tasks` `Gardening Basics` `Gardening` `Lawn Care` `Landscaping`
+  *by Nadia Hassani · Nov 9*
+
+- <a href="https://www.thespruce.com/power-tool-storage-ideas-7371686" target="_blank" rel="noopener">22 Power Tool Storage Ideas to Make DIYs Even Easier</a>
+  `Tools & Materials` `Skills & Specialties` `Home Improvement` `Garage & Attic Organization` `Organizing`
+  *by Rabekah Henderson · Nov 9*
+
+- <a href="https://www.thespruce.com/laundry-room-stacked-washer-dryer-5220738" target="_blank" rel="noopener">38 Ideas for Laundry Rooms with Stacked Washer Dryers</a>
+  `More Rooms` `Room Design` `Small Spaces` `Home Design & Decorating`
+  *by Kristin Hohenadel · Nov 9*
+
+- <a href="https://www.thespruce.com/how-to-find-the-sewer-clean-out-2718946" target="_blank" rel="noopener">What Is a Sewer Cleanout? How to Find Yours at Home</a>
+  `Plumbing: Advice, Repairs and How Tos` `Skills & Specialties` `Home Improvement`
+  *by Aaron Stickley · Nov 9*
+
+- <a href="https://www.thespruce.com/grow-fuchsia-as-houseplants-1902598" target="_blank" rel="noopener">How to Grow and Care for Fuchsias Indoors</a>
+  `Houseplants` `Gardening`
+  *by Gemma Johnstone · Nov 9*
+
+- <a href="https://www.thespruce.com/how-to-build-a-diy-floating-bed-frame-5197377" target="_blank" rel="noopener">How to Build a DIY Floating Bed Frame</a>
+  `Building Furniture` `Carpentry & Woodworking` `Skills & Specialties` `Home Improvement`
+  *by James Fitzgerald · Nov 9*
+
+- <a href="https://www.thespruce.com/feng-shui-use-of-mirrors-4119930" target="_blank" rel="noopener">How to Use Mirrors for Good Feng Shui</a>
+  `Feng Shui` `Home Design & Decorating`
+  *by Anjie Cho · Nov 9*
+
+- <a href="https://www.thespruce.com/cement-asbestos-siding-concerns-1821956" target="_blank" rel="noopener">What You Should Know About Asbestos Siding</a>
+  `Siding` `Exterior Remodel & Repair` `Home Improvement`
+  *by Lee Wallender · Nov 9*
+
+- <a href="https://www.thespruce.com/rat-holes-in-yard-11756257" target="_blank" rel="noopener">Holes in Your Yard? How to Tell If Rats Are to Blame—and How to Get Rid of Them Fast</a>
+  `Home & Gardening Trends` `Home News` `Garden Pests` `Plant Pests & Diseases` `Gardening`
+  *by Barbara Gillette · Nov 9*
+
+- <a href="https://www.thespruce.com/how-to-store-potting-soil-11754358" target="_blank" rel="noopener">Don’t Toss Your Potting Soil! The Right Way to Store It Without Attracting Bugs or Mold</a>
+  `Garden Tasks` `Gardening Basics` `Gardening` `Home & Gardening Trends` `Home News`
+  *by Farima Ferguson · Nov 9*
+
+- <a href="https://www.thespruce.com/twelve-species-cultivars-of-birch-trees-3269660" target="_blank" rel="noopener">12 Common Types of Birch Trees You Should Grow in Your Garden</a>
+  `Gardening` `Trees` `Plants & Flowers`
+  *by Vanessa Richins Myers · Nov 9*
+
+- <a href="https://www.thespruce.com/wood-pallet-furniture-ideas-7557353" target="_blank" rel="noopener">60 Wood Pallet Furniture Ideas to Build on a Budget</a>
+  `DIY Projects` `Decorating` `Home Design & Decorating` `Furniture`
+  *by Kristin Hohenadel · Nov 9*
+
 
 <a id="source-homes-gardens"></a>
-## Homes & Gardens (2)
+## Homes & Gardens (5)
 
 - <a href="https://www.homesandgardens.com/decor/seasonal/christmas-trends-2026" target="_blank" rel="noopener">6 Christmas Decorating Trends Set to Define the 2026 Holiday Season</a>
   `Seasonal`
   *by Eleanor Richardson · Nov 9*
 
+- <a href="https://www.homesandgardens.com/collection/decor/tassel-christmas-decor-trend" target="_blank" rel="noopener">Bored of Bows? Try Tassels: The Unexpected Secret to an Expensive-Looking Christmas in 2026</a>
+  `Seasonal`
+  *by Julia Demer · Nov 10*
+
+- <a href="https://www.homesandgardens.com/collection/decor/seasonal/christmas-tree-skirts" target="_blank" rel="noopener">No Christmas Tree Is Complete Without a Skirt – 20 Beautiful Designs to Shop This Season</a>
+  `Seasonal`
+  *by Devin Toolen · Nov 10*
+
 - <a href="https://www.homesandgardens.com/collection/decor/best-christmas-wreaths-2026" target="_blank" rel="noopener">The Best Christmas Wreaths of 2026 – 16 Stunning Styles From Classic Evergreens to Unexpected Creations</a>
   `Seasonal`
   *by Devin Toolen · Nov 9*
 
+- <a href="https://www.homesandgardens.com/decor/christmas-tree-ideas" target="_blank" rel="noopener">11 Beautiful Christmas Tree Decorating Ideas to Try This Holiday Season</a>
+  `Seasonal`
+  *by Charlotte Olby · Nov 10*
+
 
 <a id="source-good-housekeeping"></a>
-## Good Housekeeping (6)
+## Good Housekeeping (9)
+
+- <a href="https://www.goodhousekeeping.com/home/renovation/a74325046/kitchen-island-outlet-safety/" target="_blank" rel="noopener">5 Things You Should Never Plug Into a Kitchen Island Outlet<b><strong> </strong></b></a>
+  `Home`
+  *Nov 10*
+
+- <a href="https://www.goodhousekeeping.com/home/decorating-ideas/a74377162/2027-furniture-trends/" target="_blank" rel="noopener">5 Furniture Trends Designers Say Will Be Huge in 2027</a>
+  `Home`
+  *Nov 10*
 
 - <a href="https://www.goodhousekeeping.com/home/gardening/a74377620/help-hummingbirds-winter/" target="_blank" rel="noopener">How to Help Hummingbirds Survive Winter, According to Bird Experts</a>
   `Home`
@@ -193,9 +327,13 @@ lang: en
   `Home`
   *Nov 9*
 
+- <a href="https://www.goodhousekeeping.com/home/organizing/a74209008/pre-holiday-organizing-projects/" target="_blank" rel="noopener">9 Pre-Holiday Organizing Projects to Tackle Now</a>
+  `Home`
+  *Nov 9*
+
 
 <a id="source-better-homes-gardens"></a>
-## Better Homes & Gardens (27)
+## Better Homes & Gardens (28)
 
 - <a href="https://www.bhg.com/what-colors-go-with-purple-7112458" target="_blank" rel="noopener">What Colors Go with Purple? How to Use the Hue in Your Space</a>
   `Color Schemes for Decorating` `Decorating and Design` `Decorating with Color`
@@ -204,6 +342,14 @@ lang: en
 - <a href="https://www.bhg.com/why-you-should-wash-new-sheets-11789518" target="_blank" rel="noopener">The Surprising Reason Experts Say You Should Wash New Sheets Before Using Them</a>
   `Housekeeping` `Laundry & Linens` `Laundry Tips & Checklists` `Linens`
   *by Amanda Lauren · Nov 9*
+
+- <a href="https://www.bhg.com/best-storage-containers-6755357" target="_blank" rel="noopener">The 10 Best Storage Containers Our Editors Recommend</a>
+  `Organization Product Reviews` `Home Reviews` `Shopping`
+  *by Brittany VanDerBill, Jessica Comstock · Nov 10*
+
+- <a href="https://www.bhg.com/range-alcove-kitchen-trend-12190067" target="_blank" rel="noopener">Range Alcoves Are Returning to Kitchens—What to Know About This Focal Point Trend</a>
+  `News` `Decorating and Design` `Room Decorating and Design Ideas` `Home Trends` `Kitchen Decorating and Design Ideas`
+  *by Lauren Bengtson · Nov 10*
 
 - <a href="https://www.bhg.com/when-to-cut-back-hostas-12190065" target="_blank" rel="noopener">How to Know the Best Time to Cut Back Hostas in Fall and Protect Your Garden for Winter</a>
   `Perennials` `Flowers` `Gardening`
@@ -301,17 +447,29 @@ lang: en
   `Secondhand Decorating` `Budget-Friendly Decorating Ideas` `Decorating and Design` `Decorating Advice`
   *by Jamie Lott, Jessica Bennett · Nov 9*
 
-- <a href="https://www.bhg.com/bonus-room-ideas-7370841" target="_blank" rel="noopener">Bonus Room Ideas for Extra Space—Create a Gym, Office, and More</a>
-  `Room Decorating and Design Ideas` `Decorating and Design`
-  *by Andrea Beck · Nov 9*
-
 
 <a id="source-livingetc"></a>
-## Livingetc (5)
+## Livingetc (9)
 
 - <a href="https://www.livingetc.com/ideas/skinimalism-trend" target="_blank" rel="noopener">How the 'Skinimalism' Beauty Trend Might Just Change How We Design Our Bathrooms</a>
   `Design Ideas`
   *by Amiya Baratan · Nov 9*
+
+- <a href="https://www.livingetc.com/advice/bioethanol-fires" target="_blank" rel="noopener">This No-Chimney Fireplace Can Make Even the Most Modern Home Feel Cozy — And It's Had a Serious Style Upgrade in Recent Years</a>
+  `Expert Advice`
+  *by Natasha Brinsmead · Nov 10*
+
+- <a href="https://www.livingetc.com/shopping/rugs" target="_blank" rel="noopener">The Essential Edit of the Very Best Rugs of the Season</a>
+  `Shopping`
+  *by Miaad Latoof · Nov 10*
+
+- <a href="https://www.livingetc.com/features/owl-design-on-playful-interiors" target="_blank" rel="noopener">Has Your Home Got a Good Sense of Humour? This Design Studio Is Done With Interiors That "Take Themselves Too Seriously" — C'mon, Just Have Fun With It</a>
+  `Expert Advice`
+  *by Gilda Bruno · Nov 10*
+
+- <a href="https://www.livingetc.com/features/jeff-schlarb-new-york-apartment" target="_blank" rel="noopener">Moving From San Francisco, This Owner Wanted Something Different From Her New East Coast Home — A Pied-à-Terre With 'New York Energy'</a>
+  `Modern Homes`
+  *by Iokasti Sotirakopoulou · Nov 10*
 
 - <a href="https://www.livingetc.com/features/curated-finds-for-summer-sofa-beds" target="_blank" rel="noopener">Curated Finds for Summer | Sofa Beds</a>
   `Shopping`
@@ -331,11 +489,19 @@ lang: en
 
 
 <a id="source-real-simple"></a>
-## Real Simple (2)
+## Real Simple (4)
 
 - <a href="https://www.realsimple.com/mood-boosting-kitchen-paint-colors-12196971" target="_blank" rel="noopener">14 Mood-Boosting Kitchen Paint Colors Designers Love for a Cheerful, Inviting Space</a>
   `Home` `Decorating` `Home Improvement` `Kitchen Decorating` `Painting`
   *by Alyssa Longobucco · Nov 9*
+
+- <a href="https://www.realsimple.com/interior-designer-thanksgiving-table-decor-amazon-november-2026-12244479" target="_blank" rel="noopener">These Designer-Approved Thanksgiving Table Ideas Are Too Good Not to Use—Starting at $9</a>
+  `Holiday Decor Reviews` `Home Product Reviews` `Shopping` `Home Decor Reviews` `Decorating` `Home`
+  *by Wendy Vazquez String · Nov 10*
+
+- <a href="https://www.realsimple.com/best-artificial-christmas-trees-6824351" target="_blank" rel="noopener">The 8 Best Artificial Christmas Trees, According to Testing</a>
+  `Holiday Decor Reviews` `Home Product Reviews` `Christmas Decoration Ideas` `Christmas` `Holidays` `Holidays & Entertaining`
+  *by Tara Bellucci, Camryn Dilger · Nov 10*
 
 - <a href="https://www.realsimple.com/why-i-always-recommend-this-calming-benjamin-moore-paint-color-12196968" target="_blank" rel="noopener">The Benjamin Moore Paint Color I Always Recommend for a Calm, Peaceful, and Versatile Home</a>
   `Home` `Decorating` `Home Improvement` `Decorating Tips and Techniques` `Painting`
@@ -343,7 +509,19 @@ lang: en
 
 
 <a id="source-house-beautiful"></a>
-## House Beautiful (5)
+## House Beautiful (8)
+
+- <a href="https://www.housebeautiful.com/design-inspiration/a74375882/designer-tips-expensive-looking-guest-room/" target="_blank" rel="noopener">I Asked Designers for Their Secrets to an Expensive-Looking Guest Bedroom. They All Said the Same Thing</a>
+  `Design`
+  *Nov 10*
+
+- <a href="https://www.housebeautiful.com/design-inspiration/real-estate/a74379167/zillow-2027-home-trends/" target="_blank" rel="noopener">The Biggest Home Trends Buyers Will Want in 2027, According to New Zillow Data</a>
+  `Design`
+  *Nov 10*
+
+- <a href="https://www.housebeautiful.com/design-inspiration/house-tours/a74273647/digital-home-tour-river-brook-design-and-construction-mountain-brook-alabama/" target="_blank" rel="noopener">This Charming 1960’s Alabama Cottage Unites Classic Southern Style With Family Heirlooms</a>
+  `Design`
+  *Nov 10*
 
 - <a href="https://www.housebeautiful.com/lifestyle/cleaning-tips/a74358213/leather-furniture-care-tips/" target="_blank" rel="noopener">How Often Should You Be Cleaning Your Leather Furniture? It's More Often Than You Think</a>
   `Design`
@@ -368,7 +546,19 @@ lang: en
 
 
 <a id="source-apartment-therapy"></a>
-## Apartment Therapy (10)
+## Apartment Therapy (13)
+
+- <a href="https://www.apartmenttherapy.com/knit-sound-company-nate-berkus-launch-37699093?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">This Nate Berkus-Approved Soundbar Proves That Home Audio Can Be Visually Stunning</a>
+  `Life` `home tech` `lifestyle news` `living` `news` `product find`
+  *by Lizzy Francis · Nov 10*
+
+- <a href="https://www.apartmenttherapy.com/ikea-knife-rack-bathroom-storage-37698584?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">I’m Putting an IKEA Knife Rack on My Bathroom Wall (It’s Smart Storage!)</a>
+  `Organizing` `bathroom` `ikea` `lifestyle news` `news` `organizing`
+  *by Cassidy Dawn Graves · Nov 10*
+
+- <a href="https://www.apartmenttherapy.com/blue-living-room-makeover-built-in-shelves-ba-37698394?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">She Turned Her “Blank Canvas” Living Room into a Homebody’s Cozy Hideaway</a>
+  `Home Projects` `before & after` `clone republish` `featured ba` `home hub` `living room`
+  *by Sarah Everett · Nov 10*
 
 - <a href="https://www.apartmenttherapy.com/gray-cottage-kitchen-makeover-500-dollars-ba-37698386?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main" target="_blank" rel="noopener">Less Than $600 Gave This Beige Kitchen the Cutest Cottage Makeover</a>
   `Home Projects` `before & after` `clone republish` `diy` `featured ba` `kitchen`
@@ -412,7 +602,15 @@ lang: en
 
 
 <a id="source-mansion-global"></a>
-## Mansion Global (8)
+## Mansion Global (11)
+
+- <a href="https://news.google.com/rss/articles/CBMihgJBVV95cUxNVjl4a3VpTHB3b2ZjTHdrb3dKdm5fMDZDQ3BYY3d6c3d4U3duNllMdFlmS0podjJZQjVjYzlnS2NoZEcwNjRGaWRLaFIwUk1HQUhzaG5SQ2lXV1VnMzZ1N3h0SHRRRmNENVZLWFFWUTFqZ3pYN0NoRWlaaXdfRkxkTWFhcVRrT2U5QlVJMVZacEZBSFJmX0tvZEpuZ3NRUDdHYjJvcVl6d1pXdkxURG9FWEhpMURFNm1BY2Q0NWhwbUh4VGZUU0dIUnV2TFVtR3JBNVNwbFBqSnpwV05hc2VMZXFtOXpwT212QVFWSnAxS2lUZ2Fyd0xUdW9MM29RYXNqV2FWUXB30gHsAUFVX3lxTE9CTk5uaGs1UGg4TllqWFY2MjhWQk8yYjlCUklpU2NLTFR2b0tZY2hBZWJ4OVE5UEhtZUMwNFl1M3ZtYWlzUzVUQ1BvdXpVZ1RuRTRfMlJ6ZVcza0NXbF9YVnNHLXhFNS1tVEdGRVQzUlZjVGxvM0V6SktTUWFoOC1ITHNWb19CY3BNVHE1Q0pOVzhpWWpxY01tT1FkRGp6ekQ5UGktYzk0Y3JQMEh1QUkyNVJqVjE0dmNFOVp0VUR3WGpONGRYdXBaNGRQbTJ1VnptS043TG5ybmdGMzZNMHJoblBncW9GQUtyZWVf?oc=5" target="_blank" rel="noopener">Classic Brick Colonial Stands Tall Above the Historic Sleepy Hollow Country Club in Suburban Westchester</a>
+  `Real Estate`
+  *Nov 10*
+
+- <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOQXY0U0VSR2Y0ZkFrVFZkb3I3RU0xSDg5N1RNWEdKNTR1TlNYUGhRVERlVWJua0U3SE1aMzJzV1pvWThyblJYVjdiRFo3RE5ISXF5ZGVZLVdDck4zbGlzZ2Jfd1RuLTJVdEFzRlFScEhobTZkZEZ4N2tBVEhETjJLMHRiTmd6YzhZdGhQVG82dHYtWWstdGZN0gGcAUFVX3lxTFBGN2tBZUtDZEVoZWp4VC1YTXVVZzJqRlVDU3d4OWltSUl0RWw5OE5XZkxOS1BDQjZMNkd5VVJ3OThiQjlabW1PWTBCRjdBN2Fwb3RLOXRYYUhPMFNIWEJKNk4tOUlSenBsVVgyU2FOZ1B0el9lYmNldW5tVndZazdpVkhSRTJJc2xuUzlGQnJ6Wm54Njl5b1FsdGRlMQ?oc=5" target="_blank" rel="noopener">Don’t Sleep on These Versatile Daybed Designs</a>
+  `Real Estate`
+  *Nov 10*
 
 - <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNX0ZIR2RzLUl4WDRncXBSaWxBVWEtWFlZVlNheVdwd0hQTW1PQUwxV3hSNWZNaS1tQXotQjRraVFMRmdsNGpMazFuSjR2VXdWa1lORGk4MHVDazJLa0ZkMGhGZFdvc0lTcWM1MFNEdk83XzdBOERneWVwRDIwbXZlU1U3OUVocW04T0F2U2VMTTIxWWhjdDNhYzJHanc?oc=5" target="_blank" rel="noopener">‘American Choppers’ Compound Cuts Its Asking Price</a>
   `Real Estate`
@@ -426,6 +624,10 @@ lang: en
   `Real Estate`
   *Nov 9*
 
+- <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNSDZGS3l4NnB6MDczMEp2WGJ2YWpUVmY1ckNJb2t4MFlFNURLeGc1Q29CcE1LOUwtV19pSFVGVkQwS0lPTkZ3aHJncmc0aGNvMm9uZEw3X3dJRWNSUFNvWjFTX0NhNVQ3NVpvMVJoZ0JneldkQVVmN0FGbVBaUS0yTDFuMnVGVUtjM1d1dUJqMEN5azZNeUNOOTFPdUR5bXUyd2YzOG1oV0RIM25Idl85SkJDUlU0R0pLUE1VYQ?oc=5" target="_blank" rel="noopener">Palm Island Estate Asking $185.5 Million Is Miami Beach’s Priciest Listing</a>
+  `Real Estate`
+  *Nov 9*
+
 - <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQY3hHaXQ2SVFJWDVjdnNoX3NYZlZsU25rdnlOaGZ1WUZ3Tk5ERkdkLU1qMGRWOTFYelNXLUJRd3lwalpkZlJibVdfS0JtRGdkdF9WWkJSTUVKUWRQM0w3akZIQUpER1NWLUs2d25lalhiaVg3WnRreTlVaGNoZWhfTEZadlZpU1o4Z2VpS1ROQmlGcWllcXJhMi0yS08tSnotV2VnZ1JvLV9Hc2tKRnZOX0c2Rm_SAboBQVVfeXFMTUZpb3d0Y3hYRjI3UDV2VWlfWUF6MkprSUplOHZXMzFlOEs5WGotM3JOY2RfY0JkX2tjTk9jSmJuUnJUclh2eG1oT0JqNEZQSDdSSkhJcjlDbTZfWGE2bVFScTc3V2hwT19FdFhLRHJnY3cwV2FoVTJUWVRHY3REUVV5ZmQwOGhHNkI0WWt6dmFLbTZHN2hna3VjY2VMM21EWDhISTRNZmJzdVRPZFdtck82ZXBHWTRiU1VR?oc=5" target="_blank" rel="noopener">Manhattan’s Luxury Home Market Reports Highest Weekly Sales Volume in 5 Years</a>
   `Real Estate`
   *Nov 9*
@@ -434,11 +636,11 @@ lang: en
   `Real Estate`
   *Nov 9*
 
-- <a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS0l1elZtdEtiV01hdTJHT1lzQmUwdVlBaV9oZ0tjSW5TLUpfTThseXVWdEdXQklldE9HY2lfdmUzcGF5QWR5Yk9mdENLMEZhS0pONF85NUNJeGZOZkpTbHczSnJ3VmU1UlRlYTVfU2RhZUZfVWFkNU5hdGZiZXFaV1VEZ2xVUE5pNzRkTnoxdjhXa3VndVcxSURwazVxQzJXOG1xOEw3MkJXT1Fxb2phXzNGTUl1cDZ5ZUgzcllvb3pLUXY5NHJVUVFrTk5GaXVFNTJrMWotaXTSAd4BQVVfeXFMTm1heEtvcGxRRnZEeG1TcnVpd0VjeGcwTEVhMkVZV0ZrNDkyWDB6czRsc0YyYUxDSXNSa2pPNUM0YkNmdHpBVkVXaDZJeW1QUTU4ZG1JM2NWSUV2NXhqa2RjNF9OcFp0S1BHZzFwWHZSOU5GZy1MX0cyUUc4Rk96alZXRjc2MVhmZUtiQU9GMXRmREtOV2xZSDNfZzNLREwtQ3pHMUtYcjJJMWpPdGdtV1ViNVhlZWRSNFk3cGJfREh0VWRiWm4zWWFTQm84ZHdKaWNsZTdHdEwxcm9DdlZB?oc=5" target="_blank" rel="noopener">What’s an Architect’s Secret Ingredient for Better Living? Tapping in to How a Space Should Feel</a>
+- <a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdmxJRy1GYTFUeTNXQjN0WHNXZWs5TDA4WmFzdndZWXpycW56di1KRlRLRmxfazlGaXlmVEpDcnB6eDh2cXhiM3lGSmVRNkpQT0ZVcklGUEV6dmw1Y1lfS21JZVpjTkU2dDdRd2pSc1IwaDQxRGN6VGxmZVlMeUZLOUVXdnJMU0o5Qno4WWtfNmVHNDJ0ZlN5RzJpOVp0NnBzODdkVDQybEVRaE9SS1dwWjZIZV9RTlpEd1ZqX0h1OVdWT1FnS0tIZDdUek5senRvVDlJSkdUdmdaYlRhQXZ0d19DN1RRRHFXcUpZemln0gHzAUFVX3lxTE1scGZkeHE0OEhETElYOW9zZkg5eWt4ZC1wVG04RVM4ZVZ5VGpCbG1YRnIzWER6Z2pqdXVQRVB1SERINVpuMHNydUR3S1RZR1dBcUt1Uk0ycERTX09BMjM2RDEyU3BBak5MTnNxX3hRU3JoNm5TUEpzMm11UUREZ3ViSlB6cDBNSk90NENkQUJqVEdpb05iZlB3OE92dWdSUUFKY1VVSWVqMHpKTVZSWWZfOWlsQU4tcGlHWWFhY2dnbWQtY2lkM2VPYk5GYXVwekd1U2dEY19hWS1FTTBUY0VBeHBvR3NJcEt5UkRBSWVrQ0hXWQ?oc=5" target="_blank" rel="noopener">Merv Griffin’s California Compound—Which Has Hosted Coachella Parties and Includes a Racetrack—Relists for $23.9M</a>
   `Real Estate`
   *Nov 9*
 
-- <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNSDZGS3l4NnB6MDczMEp2WGJ2YWpUVmY1ckNJb2t4MFlFNURLeGc1Q29CcE1LOUwtV19pSFVGVkQwS0lPTkZ3aHJncmc0aGNvMm9uZEw3X3dJRWNSUFNvWjFTX0NhNVQ3NVpvMVJoZ0JneldkQVVmN0FGbVBaUS0yTDFuMnVGVUtjM1d1dUJqMEN5azZNeUNOOTFPdUR5bXUyd2YzOG1oV0RIM25Idl85SkJDUlU0R0pLUE1VYdIBwgFBVV95cUxQelRwMVMzUXFpVEJpZVdWRFk3Ujh5WVpIZmFod1pHUHZPWFJEWVM2WDRENEUtbEo4d1NZM1Z5bDg0d0pPZEphdHNUSWRhSVkwX3lYVWhWNnpnMkNJb1plTS1mX1otY2c0emoxM2h2bVFGZE9UNDZ2UWJrM3NWd08xa2dyRUJ2aGNJa3NDQUJrdWJiWkhlaWd1aXpsdXJSb0hVQlZQWDhNcDNuYTgyRGxEVi10RUpCMWRxRUE1NEZFZy1Edw?oc=5" target="_blank" rel="noopener">Palm Island Estate Asking $185.5 Million Is Miami Beach’s Priciest Listing</a>
+- <a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS0l1elZtdEtiV01hdTJHT1lzQmUwdVlBaV9oZ0tjSW5TLUpfTThseXVWdEdXQklldE9HY2lfdmUzcGF5QWR5Yk9mdENLMEZhS0pONF85NUNJeGZOZkpTbHczSnJ3VmU1UlRlYTVfU2RhZUZfVWFkNU5hdGZiZXFaV1VEZ2xVUE5pNzRkTnoxdjhXa3VndVcxSURwazVxQzJXOG1xOEw3MkJXT1Fxb2phXzNGTUl1cDZ5ZUgzcllvb3pLUXY5NHJVUVFrTk5GaXVFNTJrMWotaXTSAd4BQVVfeXFMTm1heEtvcGxRRnZEeG1TcnVpd0VjeGcwTEVhMkVZV0ZrNDkyWDB6czRsc0YyYUxDSXNSa2pPNUM0YkNmdHpBVkVXaDZJeW1QUTU4ZG1JM2NWSUV2NXhqa2RjNF9OcFp0S1BHZzFwWHZSOU5GZy1MX0cyUUc4Rk96alZXRjc2MVhmZUtiQU9GMXRmREtOV2xZSDNfZzNLREwtQ3pHMUtYcjJJMWpPdGdtV1ViNVhlZWRSNFk3cGJfREh0VWRiWm4zWWFTQm84ZHdKaWNsZTdHdEwxcm9DdlZB?oc=5" target="_blank" rel="noopener">What’s an Architect’s Secret Ingredient for Better Living? Tapping in to How a Space Should Feel</a>
   `Real Estate`
   *Nov 9*
 
@@ -460,7 +662,15 @@ lang: en
 
 
 <a id="source-architectural-digest"></a>
-## Architectural Digest (3)
+## Architectural Digest (5)
+
+- <a href="https://www.architecturaldigest.com/story/diana-ross-at-home-photos-of-the-pop-diva-off-duty" target="_blank" rel="noopener">Diana Ross at Home: 10 Photos of the Pop Diva Off-Duty</a>
+  `Celebrity Style` `vintage celeb lifestyle` `celebrity` `celebrity style`
+  *by Katie Schultz · Nov 10*
+
+- <a href="https://www.architecturaldigest.com/story/etsy-says-gah-collection" target="_blank" rel="noopener">Etsy Says Gah! The Handmade Marketplace and Playful Fashion Label Team Up on a Home Collection</a>
+  `Shopping` `collaboration`
+  *by Julia Harrison · Nov 10*
 
 - <a href="https://www.architecturaldigest.com/story/best-faux-garland" target="_blank" rel="noopener">7 Best Faux Garlands for Long-Lasting Holiday Cheer (2026)</a>
   `Shopping` `holiday` `decor` `'Tis the Season`
@@ -476,11 +686,19 @@ lang: en
 
 
 <a id="source-sunset"></a>
-## Sunset (1)
+## Sunset (3)
+
+- <a href="https://sunset.com/home-garden/design/holiday-decorations" target="_blank" rel="noopener">The Holiday Decorations That Will Really Upgrade Your Space</a>
+  `Decorating & Design` `Home & Garden` `Christmas decor` `Christmas Decorations` `holiday decor` `holiday decorating`
+  *Nov 10*
 
 - <a href="https://sunset.com/home-garden/design/house-merch-trend" target="_blank" rel="noopener">This Is Why Your Home Needs Its Own Merch</a>
   `Decorating & Design` `Gifts & Shopping` `Home & Garden` `decor trends` `Etsy` `home decor ideas`
   *by Laura Garcia · Nov 9*
+
+- <a href="https://sunset.com/home-garden/home-tours/tinker-hatfield-bend-oregon-house" target="_blank" rel="noopener">Legendary Nike Designer Tinker Hatfield’s Oregon House Is Infused with Cowboy Style</a>
+  `Home Tours` `2026 holiday issue` `Bend` `bend oregon` `nike` `no-video`
+  *by Christine Lennon · Nov 9*
 
 
 <a id="source-veranda"></a>
@@ -509,9 +727,33 @@ lang: en
 ### More outlets
 
 <a id="source-wall-street-journal"></a>
-## Wall Street Journal (13)
+## Wall Street Journal (19)
 
-- <a href="https://www.wsj.com/real-estate/luxury-homes/david-fischer-palm-beach-home-8d4f92f6?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Car-Dealership Mogul Sells Palm Beach Compound for Nearly $100 Million</a>
+- <a href="https://www.wsj.com/health/wellness/aman-atma-djokovic-d78fe45a?mod=rss_lifestyle" target="_blank" rel="noopener">A New Formula for Wellness Travel: Health Tests, Labs and Novak Djokovic</a>
+  `Lifestyle`
+  *by Jessica Flint · Nov 10*
+
+- <a href="https://www.wsj.com/real-estate/johnny-depp-ebenezer-90190edd?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Johnny Depp’s Acting Career Started as a Way to Help Pay the Bills</a>
+  `Real Estate`
+  *by Marc Myers · Nov 10*
+
+- <a href="https://www.wsj.com/buyside/personal-finance/mortgage/home-equity-loan-rates?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Current Home Equity Loan Rates</a>
+  `Real Estate`
+  *by Miranda Marquit · Nov 10*
+
+- <a href="https://www.wsj.com/arts-culture/fine-art/ronald-lauder-met-neue-d728606f?mod=rss_style" target="_blank" rel="noopener">Inside Ronald Lauder’s Decision to Merge His Neue Galerie With the Met</a>
+  `Lifestyle`
+  *by Kelly Crow · Nov 10*
+
+- <a href="https://www.wsj.com/style/fashion/rob-sand-iowa-governor-elect-model-prada-9aeb4740?mod=rss_style" target="_blank" rel="noopener">Iowa’s Next Governor Joins the Very Short List of Politicians Who Used to Be Models</a>
+  `Lifestyle`
+  *by Chantal Fernandez · Nov 10*
+
+- <a href="https://www.wsj.com/real-estate/how-boise-became-one-of-americas-hottest-rental-markets-a02f50f9?mod=LatestNewsRealEstate" target="_blank" rel="noopener">How Boise Became One of America’s Hottest Rental Markets</a>
+  `Real Estate`
+  *by Rebecca Picciotto · Nov 10*
+
+- <a href="https://www.wsj.com/real-estate/luxury-homes/david-fischer-palm-beach-home-8d4f92f6?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Netscape Co-Founder Buys Palm Beach Compound for Nearly $100 Million</a>
   `Real Estate`
   *by E.B. Solomont · Nov 9*
 
@@ -543,10 +785,6 @@ lang: en
   `Lifestyle`
   *Nov 9*
 
-- <a href="https://www.wsj.com/buyside/personal-finance/mortgage/home-equity-loan-rates?mod=LatestNewsRealEstate" target="_blank" rel="noopener">Current Home Equity Loan Rates</a>
-  `Real Estate`
-  *by Miranda Marquit · Nov 9*
-
 - <a href="https://www.wsj.com/style/supermodel-amber-valletta-routine-f32de0cb?mod=rss_style" target="_blank" rel="noopener">For Supermodel Amber Valletta, Meditating Is as Routine as Brushing Her Teeth</a>
   `Lifestyle`
   *by Lane Florsheim · Nov 9*
@@ -563,9 +801,17 @@ lang: en
   `Real Estate`
   *by Peter Grant · Nov 9*
 
+- <a href="https://www.wsj.com/lifestyle/careers/20-somethings-are-ditching-entry-level-jobs-to-become-their-own-bosses-168d1f48?mod=rss_lifestyle" target="_blank" rel="noopener">20-Somethings Are Ditching Entry-Level Jobs to Become Their Own Bosses</a>
+  `Lifestyle`
+  *by Lindsay Ellis · Nov 9*
+
 
 <a id="source-elle-decor-usa"></a>
-## Elle Decor USA (1)
+## Elle Decor USA (2)
+
+- <a href="https://www.elledecor.com/design-decorate/trends/a74378403/zillow-home-trends-report-2027/" target="_blank" rel="noopener">These Are the Home Trends Gaining Ground for 2027, According to Zillow</a>
+  `Design`
+  *Nov 10*
 
 - <a href="https://www.elledecor.com/design-decorate/a74379419/quentin-jones-jewelry-collection/" target="_blank" rel="noopener">Artist Quentin Jones Launches a Surrealist Jewelry Collection</a>
   `Design`
@@ -573,7 +819,15 @@ lang: en
 
 
 <a id="source-country-living"></a>
-## Country Living (6)
+## Country Living (8)
+
+- <a href="https://www.countryliving.com/shopping/antiques/a74286883/how-to-tell-if-wood-furniture-is-valuable/" target="_blank" rel="noopener">How to Tell If Wood Furniture Is Valuable—or Just Old</a>
+  `Home`
+  *Nov 10*
+
+- <a href="https://www.countryliving.com/home-maintenance/organization/a74378028/four-week-decluttering-challenge-christmas/" target="_blank" rel="noopener">This 4-Week Decluttering Challenge Can Help You Get Your Home Ready for Christmas</a>
+  `Home`
+  *Nov 10*
 
 - <a href="https://www.countryliving.com/gardening/garden-ideas/a74336643/paperwhites-christmas-planting-guide/" target="_blank" rel="noopener">How to Force Paperwhite Bulbs Indoors for Christmas Blooms</a>
   `Home`
@@ -608,7 +862,11 @@ lang: en
 
 
 <a id="source-business-of-home"></a>
-## Business of Home (3)
+## Business of Home (4)
+
+- <a href="https://businessofhome.com/articles/does-your-firm-need-an-ai-policy-a5bb250f-68d2-45b9-b656-0b1e0d16cb5c.html" target="_blank" rel="noopener">These designers are saying no to AI. Here’s why</a>
+  `magazine`
+  *by Hannah Hickok · Nov 10*
 
 - <a href="https://businessofhome.com/articles/the-shadery-brings-a-dtc-approach-to-roman-shades.html" target="_blank" rel="noopener">The Shadery brings a DTC approach to Roman shades</a>
   `digital disruptors`
@@ -632,7 +890,28 @@ lang: en
 
 
 <a id="source-dengarden"></a>
-## Dengarden (4)
+## Dengarden (9)
+
+- <a href="https://dengarden.com/news/hobby-lobby-holiday-keepsake-diy" target="_blank" rel="noopener">Turn a Hobby Lobby Find Into a Holiday Keepsake for Your Children</a>
+  `Home Décor` `News` `Christmas` `Christmas Decor`
+  *by Taylor Bushey · Nov 10*
+
+- <a href="https://dengarden.com/shopping/world-market-wool-goose-with-hat-and-scarf-ornament" target="_blank" rel="noopener">Honk If You Love Christmas–World Market's New Ornament Is Giving Festive Porch Goose Vibes</a>
+  `Shopping` `Christmas` `Christmas Decor` `Holiday Decor`
+  *by Julie Andrews · Nov 10*
+
+- <a href="https://dengarden.com/shopping/five-below-whimsical-mini-christmas-trees" target="_blank" rel="noopener">Five Below’s Whimsical $3 Mini Christmas Trees Look Straight Out of ‘Whoville’</a>
+  `Home Décor` `Shopping` `Christmas` `Christmas Decor`
+  *by Michelle Nati · Nov 10*
+
+- <a href="https://dengarden.com/home-projects/how-to-design-a-timeless-outdoor-space" target="_blank" rel="noopener">Designers Share Their Top Tips for Creating a Timeless Outdoor Space That Is Better Than Any Trend</a>
+  `Home Projects` `Outdoor Projects` `Backyard` `Landscaping` `Patio`
+  `🍾 Press Club Source: Josie Benefield 🍾`
+  *by Wendy Gould · Nov 10*
+
+- <a href="https://dengarden.com/news/history-and-story-of-crate-and-barrel" target="_blank" rel="noopener">In 1962, Newlyweds Returned From Their European-Inspired Honeymoon With Plans to Open a Housewares Store; Today, Over 22 Million Shoppers Visit Their Stores Each Year</a>
+  `Home Furnishings` `News` `Crate & Barrel` `Home Finds`
+  *by Julie Andrews · Nov 10*
 
 - <a href="https://dengarden.com/shopping/wayfair-design-toscano-st-louis-draped-accent-shelf-set" target="_blank" rel="noopener">Bring a Touch of 'The Gilded Age' Home With These Opulent Wayfair Shelves</a>
   `Home Décor` `Shopping` `Home Finds` `Victorian` `Wall Decor`
@@ -667,12 +946,28 @@ lang: en
   *by Florida Design Editors · Nov 9*
 
 
+<a id="source-boston-home-magazine"></a>
+## Boston Home Magazine (1)
+
+- <a href="https://www.bostonmagazine.com/property/2026/11/10/cohasset-massachusetts-neighborhood-guide/" target="_blank" rel="noopener">So, You Want to Live In Cohasset?</a>
+  `Guides` `Cohasset` `Neighborhood Guides`
+  *by Simone Migliori · Nov 10*
+
+
 <a id="source-new-york-times"></a>
-## New York Times (2)
+## New York Times (4)
 
 - <a href="https://www.nytimes.com/quiz/2026/11/05/realestate/catskills-house-hunt.html" target="_blank" rel="noopener">Was $500,000 Enough for a House in the Catskills?</a>
   `Real Estate`
-  *by The New York Times · Nov 9*
+  *by The New York Times · Nov 10*
+
+- <a href="https://www.nytimes.com/2026/11/10/realestate/this-family-vacation-home-was-built-from-an-old-virginia-barbershop.html" target="_blank" rel="noopener">This Family Vacation Home Was Built From an Old Barbershop</a>
+  `Tiny Homes and Micro-Housing` `Sustainable Living` `Virginia`
+  *by Julie Lasky and Caroline Gutman · Nov 10*
+
+- <a href="https://www.nytimes.com/2026/11/10/realestate/which-800000-home-would-you-choose.html" target="_blank" rel="noopener">Which $800,000 Home Would You Choose?</a>
+  `Saugatuck (Mich)` `Greenville (SC)` `Hartford (Vt)`
+  *by Angela Serratore · Nov 10*
 
 - <a href="https://www.nytimes.com/2026/11/09/realestate/bucks-county-barn-home-renovation.html" target="_blank" rel="noopener">The Inspired Transformation of a Rundown Barn in Bucks County, Pa.</a>
   `Bucks County (Pa)` `Home Repairs and Improvements` `Barns` `Architecture` `Interior Design and Furnishings`
@@ -680,10 +975,14 @@ lang: en
 
 
 <a id="source-house-home"></a>
-## House & Home (3)
+## House & Home (4)
+
+- <a href="https://houseandhome.com/decorating-and-design/a-family-affair-a-designer-reimagines-her-parents-condo-with-her-sister/" target="_blank" rel="noopener">It’s A Family Affair: A Designer Reimagines Her Parents’ Condo with Her Sister</a>
+  `Home Tours` `Videos` `Condos` `Condos/Apartments`
+  *by Talia Hart · Nov 10*
 
 - <a href="https://houseandhome.com/decorating-and-design/house-and-home-next-design-star/" target="_blank" rel="noopener">H&H’s Next Design Star Contest — Meet the Winners</a>
-  `contest` `contests` `Next Design Star`
+  `Next Design Star` `contests` `contest`
   *by Emma Reddington · Nov 9*
 
 - <a href="https://houseandhome.com/decorating-and-design/sarah-baeumler-bahamas-hotel/" target="_blank" rel="noopener">Sarah Baeumler Decorates a Bahamian Hotel with ‘Barefoot Luxury’</a>
@@ -691,7 +990,7 @@ lang: en
   *by Wendy Jacob · Nov 9*
 
 - <a href="https://houseandhome.com/decorating-and-design/inspired-by-sun-drenched-destinations-and-designed-to-grow-with-your-little-one-storkcrafts-art-of-nursery-collection-brings-a-world-of-style-home/" target="_blank" rel="noopener">Inspired by Sun-drenched Destinations, Storkcraft’s Art of Nursery Collection Brings a World of Style Home</a>
-  `Kids’ Rooms` `Art of Nursery` `kids' rooms` `nursery decorating` `nursery furniture`
+  `Kids’ Rooms` `Art of Nursery` `Storkcraft` `nursery decorating` `nursery furniture`
   *by Theresa Rogers · Nov 9*
 
 
@@ -753,3 +1052,11 @@ lang: en
 - <a href="https://www.sonomamag.com/sonoma-botanical-garden-offers-unique-autumn-leaf-peeping-experience/" target="_blank" rel="noopener">Sonoma Botanical Garden Offers Unique Autumn Leaf-Peeping Experience</a>
   `Events` `Magazine` `autumn`
   *by Sonoma Magazine Staff · Nov 9*
+
+
+<a id="source-the-atlanta-magazine"></a>
+## The Atlanta Magazine (1)
+
+- <a href="https://www.atlantamagazine.com/homeandgarden/a-storybook-welcome-inside-a-decatur-bungalows-charming-new-entryway/" target="_blank" rel="noopener">A storybook welcome: Inside a Decatur bungalow’s charming new entryway</a>
+  `Hayes Little Studio` `Kate Hayes` `Krista Little Sharif`
+  *by Joe Reisigl · Nov 10*
