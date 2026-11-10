@@ -1,9 +1,20 @@
 {
-  "date": "2026-11-09",
-  "generated_utc": "2026-11-09T19:16:21Z",
+  "date": "2026-11-10",
+  "generated_utc": "2026-11-10T01:47:53Z",
   "keep_days": 31,
-  "count": 28,
+  "count": 29,
   "finds": [
+    {
+      "designers": [
+        "Yvonne Harty"
+      ],
+      "title": "Designers Say This Common Living Room Mistake Is Making Your Space Look Tacky",
+      "url": "https://www.thespruce.com/tacky-living-room-mistake-12194264",
+      "outlet": "The Spruce",
+      "published": "2026-11-09",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-10"
+    },
     {
       "designers": [
         "Kristina Lawrence"
@@ -13,7 +24,7 @@
       "outlet": "House Beautiful",
       "published": "2026-11-09",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-10"
     },
     {
       "designers": [
