@@ -1,54 +1,30 @@
 {
-  "date": "2026-11-10",
-  "generated_utc": "2026-11-10T17:13:14Z",
-  "unread_total": 44,
+  "date": "2026-11-11",
+  "generated_utc": "2026-11-11T12:08:43Z",
+  "unread_total": 23,
   "outlets": [
     {
-      "outlet": "Wall Street Journal",
-      "count": 18,
+      "outlet": "Apartment Therapy",
+      "count": 11,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 18
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 11
+      },
+      "sample_urls": [
+        "https://www.apartmenttherapy.com/light-blue-paint-colors-that-never-go-out-of-style-37698314?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/the-best-sofas-for-your-small-space-36633746?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/blue-rental-apartment-door-upgrade-37695193?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "Wall Street Journal",
+      "count": 6,
+      "reasons": {
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 6
       },
       "sample_urls": [
         "https://www.wsj.com/health/wellness/aman-atma-djokovic-d78fe45a?mod=rss_lifestyle",
-        "https://www.wsj.com/real-estate/johnny-depp-ebenezer-90190edd?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/arts-culture/fine-art/ronald-lauder-met-neue-d728606f?mod=rss_style"
-      ]
-    },
-    {
-      "outlet": "Apartment Therapy",
-      "count": 13,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 13
-      },
-      "sample_urls": [
-        "https://www.apartmenttherapy.com/knit-sound-company-nate-berkus-launch-37699093?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/ikea-knife-rack-bathroom-storage-37698584?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/blue-living-room-makeover-built-in-shelves-ba-37698394?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
-      "count": 5,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 5
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/tacky-living-room-mistake-12194264",
-        "https://www.thespruce.com/japandi-kitchens-8550983",
-        "https://www.thespruce.com/cypress-mulch-pros-and-cons-5179293"
-      ]
-    },
-    {
-      "outlet": "Better Homes & Gardens",
-      "count": 3,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 3
-      },
-      "sample_urls": [
-        "https://www.bhg.com/christmas/trees/upside-down-christmas-tree/",
-        "https://www.bhg.com/decorating/do-it-yourself/fabric-paper-projects/free-quilt-patterns-for-babies-and-kids/",
-        "https://www.bhg.com/decorating/seasonal/winter/decorate-with-pinecones/"
+        "https://www.wsj.com/real-estate/luxury-homes/james-packer-aspen-home-75733266?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/opinion/notable-quotable-trump-on-forgiveness-45a3655a?mod=rss_lifestyle"
       ]
     },
     {
@@ -58,9 +34,9 @@
         "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/11/10/realestate/this-family-vacation-home-was-built-from-an-old-virginia-barbershop.html",
-        "https://www.nytimes.com/2026/11/10/realestate/which-800000-home-would-you-choose.html",
-        "https://www.nytimes.com/2026/11/09/realestate/bucks-county-barn-home-renovation.html"
+        "https://www.nytimes.com/2026/11/11/realestate/car-free-living-where-it-works-best.html",
+        "https://www.nytimes.com/2026/11/11/realestate/gallery-wall-how-to-collect.html",
+        "https://www.nytimes.com/2026/11/10/realestate/this-family-vacation-home-was-built-from-an-old-virginia-barbershop.html"
       ]
     },
     {
@@ -70,7 +46,17 @@
         "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://www.cubbyathome.com/reusable-advent-calendars-80051992?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.cubbyathome.com/avenlur-swedish-ladder-wall-gym-review-80038750?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "Ranch & Coast",
+      "count": 1,
+      "reasons": {
+        "ValueError: article body extraction collapsed: 74 chars of 9263 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+      },
+      "sample_urls": [
+        "https://ranchandcoast.com/dine/dining-review-teleferic-barcelona/"
       ]
     },
     {
