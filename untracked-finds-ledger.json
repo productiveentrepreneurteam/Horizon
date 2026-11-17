@@ -1,19 +1,53 @@
 {
-  "date": "2026-11-11",
-  "generated_utc": "2026-11-11T12:08:43Z",
+  "date": "2026-11-17",
+  "generated_utc": "2026-11-17T02:00:02Z",
   "keep_days": 31,
-  "count": 30,
+  "count": 29,
   "finds": [
     {
       "designers": [
-        "Josie Benefield"
+        "Peggy Haddad"
       ],
-      "title": "Designers Share Their Top Tips for Creating a Timeless Outdoor Space That Is Better Than Any Trend",
-      "url": "https://dengarden.com/home-projects/how-to-design-a-timeless-outdoor-space",
-      "outlet": "Dengarden",
-      "published": "2026-11-10",
-      "first_seen": "2026-11-10",
-      "last_seen": "2026-11-11"
+      "title": "7 Ways Designers Are Updating Grandma’s Lace for a Fresh, Modern Look at Home",
+      "url": "https://www.bhg.com/lace-decor-trend-12190181",
+      "outlet": "Better Homes & Gardens",
+      "published": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17"
+    },
+    {
+      "designers": [
+        "Lauren Saab"
+      ],
+      "title": "10 Small Changes That Make A Big Impact On Your Home’s Curb Appeal",
+      "url": "https://www.southernliving.com/small-changes-curb-appeal-12195114",
+      "outlet": "Southern Living",
+      "published": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-17"
+    },
+    {
+      "designers": [
+        "Jennifer Harkavy",
+        "Jessica Hobson"
+      ],
+      "title": "Where to Splurge and Save on Furniture, According to Designers",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a74381498/guide-splurge-save-furniture/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-17"
+    },
+    {
+      "designers": [
+        "Suzanne Barrow"
+      ],
+      "title": "How to Create a Gorgeous Thanksgiving Tablescape, According to Design Pros",
+      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a74381440/tips-on-designing-thanksgiving-table/",
+      "outlet": "Good Housekeeping",
+      "published": "2026-11-14",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-17"
     },
     {
       "designers": [
@@ -28,17 +62,6 @@
     },
     {
       "designers": [
-        "Kristina Lawrence"
-      ],
-      "title": "Does Your Home Need a Porte-Cochère? Architects Explain When the Statement Feature Works Best",
-      "url": "https://www.housebeautiful.com/design-inspiration/a74375895/porte-cochere-entryway-design/",
-      "outlet": "House Beautiful",
-      "published": "2026-11-09",
-      "first_seen": "2026-11-09",
-      "last_seen": "2026-11-10"
-    },
-    {
-      "designers": [
         "Ayten Nadeau"
       ],
       "title": "Interior Designers Agree: Get Rid of These 8 Things for a More Timeless Home Entrance",
@@ -47,17 +70,6 @@
       "published": "2026-11-07",
       "first_seen": "2026-11-07",
       "last_seen": "2026-11-08"
-    },
-    {
-      "designers": [
-        "Danielle Domingues"
-      ],
-      "title": "Low-level Lighting Is the Unsung Hero of a Layered Scheme That Designers Wish We'd All Use Much More Than We Do",
-      "url": "https://www.livingetc.com/advice/low-level-lighting",
-      "outlet": "Livingetc",
-      "published": "2026-11-06",
-      "first_seen": "2026-11-06",
-      "last_seen": "2026-11-06"
     },
     {
       "designers": [
@@ -316,30 +328,6 @@
       "published": "2026-10-18",
       "first_seen": "2026-10-18",
       "last_seen": "2026-10-21"
-    },
-    {
-      "designers": [
-        "Colleen Simonds",
-        "Sarah Storms"
-      ],
-      "title": "This Historic Home Feature Is Having a Moment—and Taylor Swift Is Clearly a Fan",
-      "url": "https://www.housebeautiful.com/design-inspiration/a74122084/leaded-glass-windows-design/",
-      "outlet": "House Beautiful",
-      "published": "2026-10-13",
-      "first_seen": "2026-10-13",
-      "last_seen": "2026-10-14"
-    },
-    {
-      "designers": [
-        "Danielle Domingues",
-        "Jody Jones"
-      ],
-      "title": "These 5 Nostalgic Patterns Will Make Your Home Feel Like It Has Evolved Over Time",
-      "url": "https://www.homesandgardens.com/decor/cozy-nostalgic-patterns",
-      "outlet": "Homes & Gardens",
-      "published": "2026-10-13",
-      "first_seen": "2026-10-13",
-      "last_seen": "2026-10-13"
     }
   ]
 }
