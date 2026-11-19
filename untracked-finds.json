@@ -1,27 +1,54 @@
 {
-  "date": "2026-11-17",
-  "generated_utc": "2026-11-17T14:56:51Z",
-  "count": 2,
+  "date": "2026-11-19",
+  "generated_utc": "2026-11-19T12:21:25Z",
+  "count": 5,
   "finds": [
     {
       "designers": [
-        "Hallie Malitsky"
+        "Allison Garrison",
+        "Amy Peltier"
       ],
-      "title": "How to Choose the Perfect Coffee Table – The Ultimate Guide to Size, Shape, and Placement",
-      "url": "https://www.homesandgardens.com/decor/how-to-choose-a-coffee-table",
-      "outlet": "Homes & Gardens",
+      "title": "8 Color Combinations Interior Designers Avoid for a More Timeless, Sophisticated Space",
+      "url": "https://www.bhg.com/designer-color-combos-to-skip-12190201",
+      "outlet": "Better Homes & Gardens",
+      "published": "2026-11-19"
+    },
+    {
+      "designers": [
+        "Danielle Domingues"
+      ],
+      "title": "I'm Hosting Christmas This Year — Here Are the 8 Easy Kitchen Upgrades Experts Told Me I Should Be Making Right Now to Ensure the Big Day Runs Smoothly",
+      "url": "https://www.livingetc.com/advice/easy-kitchen-upgrades-for-christmas-hosting",
+      "outlet": "Livingetc",
+      "published": "2026-11-18"
+    },
+    {
+      "designers": [
+        "Heather Kirk",
+        "Kira Young"
+      ],
+      "title": "Designers Reveal the Fastest Ways They've Upgraded a Kitchen Under $100",
+      "url": "https://www.housebeautiful.com/design-inspiration/real-estate/a74453705/kitchen-upgrades-under-100/",
+      "outlet": "House Beautiful",
+      "published": "2026-11-18"
+    },
+    {
+      "designers": [
+        "Sarah Cole"
+      ],
+      "title": "The “Scottish Country House” Look Is the Cozy Interior Trend Designers Say to Know This Season",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74454910/scottish-country-house-decor/",
+      "outlet": "House Beautiful",
       "published": "2026-11-17"
     },
     {
       "designers": [
-        "Courtney B Smith",
-        "Jessica Hobson",
-        "Diane Luna"
+        "Kathleen Hay"
       ],
-      "title": "5 Dated Bedroom Trends to Avoid in 2027 – And What Designers Recommend Instead",
-      "url": "https://www.homesandgardens.com/decor/bedrooms/dated-bedroom-trends-to-avoid-in-2027",
-      "outlet": "Homes & Gardens",
-      "published": "2026-11-17"
+      "title": "13 Kitchen Decorating Ideas Designers Can't Wait to Say Goodbye To",
+      "url": "https://www.veranda.com/decorating-ideas/advice-from-designers/a61710878/kitchen-ideas-designers-are-over/",
+      "outlet": "Veranda",
+      "published": "2026-11-18"
     }
   ]
 }

@@ -1,69 +1,81 @@
 {
-  "date": "2026-11-17",
-  "generated_utc": "2026-11-17T14:56:51Z",
-  "unread_total": 35,
+  "date": "2026-11-19",
+  "generated_utc": "2026-11-19T12:21:25Z",
+  "unread_total": 49,
   "outlets": [
     {
-      "outlet": "Wall Street Journal",
-      "count": 15,
-      "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 15
-      },
-      "sample_urls": [
-        "https://www.wsj.com/arts-culture/film/andrew-scott-elsinore-2fe28170?mod=rss_style",
-        "https://www.wsj.com/style/fashion/jensen-huang-leather-jacket-5d6ba3d0?mod=rss_style",
-        "https://www.wsj.com/real-estate/commercial/why-big-investors-are-burning-lenders-on-apartment-loans-7129d849?mod=LatestNewsRealEstate"
-      ]
-    },
-    {
       "outlet": "Apartment Therapy",
-      "count": 13,
+      "count": 17,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 13
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 17
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/expandable-dining-room-tables-perfect-for-small-apartments-36606937?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/styling-mistakes-designers-notice-immediately-37698313?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/ikea-nalblecka-bread-box-review-37698012?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.apartmenttherapy.com/champagne-bucket-bathroom-storage-37698009?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/ikea-home-trends-color-of-the-year-2027-37700714?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/the-best-sleeper-sofas-for-small-spaces-246425?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
-      "outlet": "Better Homes & Gardens",
-      "count": 4,
+      "outlet": "Wall Street Journal",
+      "count": 17,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 4
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 17
       },
       "sample_urls": [
-        "https://www.bhg.com/lace-decor-trend-12190181",
-        "https://www.bhg.com/south-facing-house-8647456",
-        "https://www.bhg.com/how-much-laundry-detergent-to-use-7372581"
+        "https://www.wsj.com/lifestyle/parents-school-pictures-kids-don-t-smile-67b68f20?mod=rss_lifestyle",
+        "https://www.wsj.com/tech/personal-tech/new-york-city-public-bathroom-tour-4d544375?mod=rss_lifestyle",
+        "https://www.wsj.com/lifestyle/relationships/retirement-counselor-ab647832?mod=rss_lifestyle"
       ]
     },
     {
-      "outlet": "The Spruce",
+      "outlet": "New York Times",
+      "count": 7,
+      "reasons": {
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 7
+      },
+      "sample_urls": [
+        "https://www.nytimes.com/2026/11/19/realestate/housing-market-near-nyc.html",
+        "https://www.nytimes.com/2026/11/19/realestate/housing-market-nyc.html",
+        "https://www.nytimes.com/2026/11/19/realestate/bathroom-renovation-trends.html"
+      ]
+    },
+    {
+      "outlet": "Kitchen Bath Design",
+      "count": 5,
+      "reasons": {
+        "HTTP 520 - HTTP 520": 5
+      },
+      "sample_urls": [
+        "https://www.kitchenbathdesign.com/best-of-kbis-awards-2027-entries/",
+        "https://www.kitchenbathdesign.com/bluestar-kitchen-design-contest-winners/",
+        "https://www.kitchenbathdesign.com/cyncly-ai-do-more-workflow-campaign/"
+      ]
+    },
+    {
+      "outlet": "Sunset",
       "count": 1,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "ValueError: article body extraction collapsed: 239 chars of 6876 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
-        "https://www.thespruce.com/do-you-have-to-bring-hosts-a-gift-12207645"
+        "https://sunset.com/home-garden/design"
       ]
     },
     {
-      "outlet": "Ranch & Coast",
+      "outlet": "Cubby",
       "count": 1,
       "reasons": {
-        "ValueError: article body extraction collapsed: 74 chars of 8807 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://ranchandcoast.com/people/native-hands-wines/"
+        "https://www.cubbyathome.com/bitzee-aquarium-best-gift-for-kids-2026-80052329?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
       "outlet": "Luxe Magazine",
       "count": 1,
       "reasons": {
-        "ValueError: article body extraction collapsed: 174 chars of 2780 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+        "ValueError: article body extraction collapsed: 174 chars of 2776 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
