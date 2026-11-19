@@ -13,6 +13,7 @@ on:
     # The `check` job below skips any scheduled run whose day is already published,
     # so on a normal day this costs one tiny job and nothing else.
     - cron: '7 18 * * *'   # 11:07 AM LA
+    # CRON RE-REGISTER 2026-11-19 (Mack): no schedule event has fired since run 43015477125 at 2026-11-11T11:52:05Z. Actions was switched off 2026-11-12..16 and the repo left the fork network 2026-11-17; GitHub dropped the cron registration and re-registers it on a push to the workflow file. This comment is that push. See tsk-2026-11-13-001.
   workflow_dispatch:       # Allow manual trigger at any time
 
 jobs:
