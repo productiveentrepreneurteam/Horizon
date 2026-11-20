@@ -1,74 +1,42 @@
 {
-  "date": "2026-11-19",
-  "generated_utc": "2026-11-19T12:21:25Z",
-  "unread_total": 49,
+  "date": "2026-11-20",
+  "generated_utc": "2026-11-20T00:52:29Z",
+  "unread_total": 20,
   "outlets": [
     {
-      "outlet": "Apartment Therapy",
-      "count": 17,
+      "outlet": "Kitchen Bath Design",
+      "count": 10,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 17
+        "HTTP 520 - HTTP 520": 10
       },
       "sample_urls": [
-        "https://www.apartmenttherapy.com/champagne-bucket-bathroom-storage-37698009?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/ikea-home-trends-color-of-the-year-2027-37700714?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/the-best-sleeper-sofas-for-small-spaces-246425?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.kitchenbathdesign.com/kbis-2027-product-preview/",
+        "https://www.kitchenbathdesign.com/double-kitchen-islands/",
+        "https://www.kitchenbathdesign.com/aging-in-place-imperative-universal-design/"
       ]
     },
     {
       "outlet": "Wall Street Journal",
-      "count": 17,
+      "count": 6,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 17
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 6
       },
       "sample_urls": [
-        "https://www.wsj.com/lifestyle/parents-school-pictures-kids-don-t-smile-67b68f20?mod=rss_lifestyle",
-        "https://www.wsj.com/tech/personal-tech/new-york-city-public-bathroom-tour-4d544375?mod=rss_lifestyle",
-        "https://www.wsj.com/lifestyle/relationships/retirement-counselor-ab647832?mod=rss_lifestyle"
+        "https://www.wsj.com/real-estate/luxury-homes/home-flipping-texas-7a280038?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/opinion/guess-whos-coming-to-mecca-5a865bd3?mod=rss_lifestyle",
+        "https://www.wsj.com/lifestyle/travel/luxury-travel-gifts-87c46ec6?mod=rss_lifestyle"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 7,
+      "count": 3,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 7
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
       },
       "sample_urls": [
         "https://www.nytimes.com/2026/11/19/realestate/housing-market-near-nyc.html",
         "https://www.nytimes.com/2026/11/19/realestate/housing-market-nyc.html",
         "https://www.nytimes.com/2026/11/19/realestate/bathroom-renovation-trends.html"
-      ]
-    },
-    {
-      "outlet": "Kitchen Bath Design",
-      "count": 5,
-      "reasons": {
-        "HTTP 520 - HTTP 520": 5
-      },
-      "sample_urls": [
-        "https://www.kitchenbathdesign.com/best-of-kbis-awards-2027-entries/",
-        "https://www.kitchenbathdesign.com/bluestar-kitchen-design-contest-winners/",
-        "https://www.kitchenbathdesign.com/cyncly-ai-do-more-workflow-campaign/"
-      ]
-    },
-    {
-      "outlet": "Sunset",
-      "count": 1,
-      "reasons": {
-        "ValueError: article body extraction collapsed: 239 chars of 6876 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
-      },
-      "sample_urls": [
-        "https://sunset.com/home-garden/design"
-      ]
-    },
-    {
-      "outlet": "Cubby",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
-      },
-      "sample_urls": [
-        "https://www.cubbyathome.com/bitzee-aquarium-best-gift-for-kids-2026-80052329?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
