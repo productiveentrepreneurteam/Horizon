@@ -1,6 +1,28 @@
 {
-  "date": "2026-11-20",
-  "generated_utc": "2026-11-20T00:52:29Z",
-  "count": 0,
-  "finds": []
+  "date": "2026-11-21",
+  "generated_utc": "2026-11-21T13:03:52Z",
+  "count": 2,
+  "finds": [
+    {
+      "designers": [
+        "Peggy Haddad",
+        "Darci Hether",
+        "Jody Jones",
+        "Shani Core"
+      ],
+      "title": "The 5 Outdated Christmas Trends Interior Designers Are Avoiding in 2026",
+      "url": "https://www.homesandgardens.com/decor/outdated-christmas-trends-2026",
+      "outlet": "Homes & Gardens",
+      "published": "2026-11-21"
+    },
+    {
+      "designers": [
+        "Tori Sikkema"
+      ],
+      "title": "76 AD-Approved Interior Photographers in the Northeast",
+      "url": "https://www.architecturaldigest.com/story/interior-photographers-in-the-northeast",
+      "outlet": "Architectural Digest",
+      "published": "2026-11-20"
+    }
+  ]
 }

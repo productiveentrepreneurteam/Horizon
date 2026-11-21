@@ -1,42 +1,119 @@
 {
-  "date": "2026-11-20",
-  "generated_utc": "2026-11-20T00:52:29Z",
-  "unread_total": 20,
+  "date": "2026-11-21",
+  "generated_utc": "2026-11-21T13:03:52Z",
+  "unread_total": 52,
   "outlets": [
     {
-      "outlet": "Kitchen Bath Design",
-      "count": 10,
+      "outlet": "Apartment Therapy",
+      "count": 16,
       "reasons": {
-        "HTTP 520 - HTTP 520": 10
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 16
       },
       "sample_urls": [
-        "https://www.kitchenbathdesign.com/kbis-2027-product-preview/",
-        "https://www.kitchenbathdesign.com/double-kitchen-islands/",
-        "https://www.kitchenbathdesign.com/aging-in-place-imperative-universal-design/"
+        "https://www.apartmenttherapy.com/ikea-soderhamn-sofa-leg-upgrade-makeover-37699182?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/macys-hotel-collection-white-duvet-black-friday-37701244?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/kova-sofa-albany-park-review-37266820?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
       "outlet": "Wall Street Journal",
-      "count": 6,
+      "count": 12,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 6
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 12
       },
       "sample_urls": [
-        "https://www.wsj.com/real-estate/luxury-homes/home-flipping-texas-7a280038?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/opinion/guess-whos-coming-to-mecca-5a865bd3?mod=rss_lifestyle",
-        "https://www.wsj.com/lifestyle/travel/luxury-travel-gifts-87c46ec6?mod=rss_lifestyle"
+        "https://www.wsj.com/lifestyle/cars/mercedes-amg-gt-4-electric-coupe-d8329cdd?mod=rss_lifestyle",
+        "https://www.wsj.com/arts-culture/books/dungeon-crawler-carl-matt-dinniman-33886312?mod=rss_lifestyle",
+        "https://www.wsj.com/real-estate/luxury-homes/flippers-are-making-a-killing-in-pittsburghand-losing-their-shirts-in-texas-3a9865b0?mod=LatestNewsRealEstate"
+      ]
+    },
+    {
+      "outlet": "The Spruce",
+      "count": 6,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 6
+      },
+      "sample_urls": [
+        "https://www.thespruce.com/common-bedroom-eyesores-12246728",
+        "https://www.thespruce.com/worst-aging-in-place-renovations-12246726",
+        "https://www.thespruce.com/snow-blowers-and-snow-shovels-4118591"
+      ]
+    },
+    {
+      "outlet": "Southern Living",
+      "count": 6,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 6
+      },
+      "sample_urls": [
+        "https://www.southernliving.com/how-to-clean-dirty-shower-grout-12269315",
+        "https://www.southernliving.com/old-school-housekeeping-habits-12198660",
+        "https://www.southernliving.com/does-shaking-out-your-laundry-before-the-dryer-help-12198657"
+      ]
+    },
+    {
+      "outlet": "Better Homes & Gardens",
+      "count": 4,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 4
+      },
+      "sample_urls": [
+        "https://www.bhg.com/modern-home-exterior-ideas-12190253",
+        "https://www.bhg.com/what-not-to-wash-cold-water-12190263",
+        "https://www.bhg.com/when-to-cut-back-ornamental-grass-12190262"
+      ]
+    },
+    {
+      "outlet": "Sunset",
+      "count": 2,
+      "reasons": {
+        "ValueError: article body extraction collapsed: 296 chars of 6953 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1,
+        "ValueError: article body extraction collapsed: 318 chars of 8964 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+      },
+      "sample_urls": [
+        "https://sunset.com/home-garden/home-tours",
+        "https://sunset.com/home-garden"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 3,
+      "count": 2,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 2
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/11/19/realestate/housing-market-near-nyc.html",
-        "https://www.nytimes.com/2026/11/19/realestate/housing-market-nyc.html",
-        "https://www.nytimes.com/2026/11/19/realestate/bathroom-renovation-trends.html"
+        "https://www.nytimes.com/2026/11/21/realestate/my-condos-management-company-is-inept-could-ai-do-a-better-job.html",
+        "https://www.nytimes.com/2026/11/20/realestate/favorite-house-tuscany.html"
+      ]
+    },
+    {
+      "outlet": "Real Simple",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 1
+      },
+      "sample_urls": [
+        "https://www.realsimple.com/timeless-living-room-paint-color-12207799"
+      ]
+    },
+    {
+      "outlet": "Cubby",
+      "count": 1,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
+      },
+      "sample_urls": [
+        "https://www.cubbyathome.com/tonies-black-friday-cyber-monday-sale-2026-80052403?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "Kitchen Bath Design",
+      "count": 1,
+      "reasons": {
+        "HTTP 520 - HTTP 520": 1
+      },
+      "sample_urls": [
+        "https://www.kitchenbathdesign.com/cost-shock-derailing-home-remodeling-survey-finds/"
       ]
     },
     {
