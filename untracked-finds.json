@@ -1,28 +1,34 @@
 {
-  "date": "2026-11-21",
-  "generated_utc": "2026-11-21T13:03:52Z",
-  "count": 2,
+  "date": "2026-11-22",
+  "generated_utc": "2026-11-22T12:54:58Z",
+  "count": 3,
   "finds": [
     {
       "designers": [
-        "Peggy Haddad",
-        "Darci Hether",
-        "Jody Jones",
-        "Shani Core"
+        "Darci Hether"
       ],
-      "title": "The 5 Outdated Christmas Trends Interior Designers Are Avoiding in 2026",
-      "url": "https://www.homesandgardens.com/decor/outdated-christmas-trends-2026",
-      "outlet": "Homes & Gardens",
+      "title": "We Asked Designers If Wallpaper Is Finally Out in 2026—And Now We Want to Redecorate",
+      "url": "https://www.thespruce.com/is-wallpaper-finally-out-in-2026-11859211",
+      "outlet": "The Spruce",
       "published": "2026-11-21"
     },
     {
       "designers": [
-        "Tori Sikkema"
+        "Reanna Channer"
       ],
-      "title": "76 AD-Approved Interior Photographers in the Northeast",
-      "url": "https://www.architecturaldigest.com/story/interior-photographers-in-the-northeast",
-      "outlet": "Architectural Digest",
-      "published": "2026-11-20"
+      "title": "A Retired Couple Had a Dream of Waterfront Living—Tour Their Stunning Biophilic-Inspired Home",
+      "url": "https://sunset.com/home-garden/home-tours/anacortes-biophilic-house",
+      "outlet": "Sunset",
+      "published": "2026-11-21"
+    },
+    {
+      "designers": [
+        "Peggy Haddad"
+      ],
+      "title": "These Two Elements Are Guaranteed to Make Your Screened Porch Cozy and Stylish, According to Designers",
+      "url": "https://dengarden.com/design/what-makes-screened-porch-cozy",
+      "outlet": "Dengarden",
+      "published": "2026-11-21"
     }
   ]
 }
