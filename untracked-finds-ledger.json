@@ -1,9 +1,21 @@
 {
-  "date": "2026-11-22",
-  "generated_utc": "2026-11-22T12:54:58Z",
+  "date": "2026-11-23",
+  "generated_utc": "2026-11-23T15:00:29Z",
   "keep_days": 31,
-  "count": 32,
+  "count": 31,
   "finds": [
+    {
+      "designers": [
+        "Mugdha Girish Uma",
+        "Thecla Glueck"
+      ],
+      "title": "Designers Say This Kitchen Feature Is Always an Eyesore—But They Have a Quick and Easy Fix For It",
+      "url": "https://www.thespruce.com/kitchen-feature-that-is-always-an-eyesore-12246748",
+      "outlet": "The Spruce",
+      "published": "2026-11-22",
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-23"
+    },
     {
       "designers": [
         "Darci Hether"
@@ -341,28 +353,6 @@
       "published": "2026-10-23",
       "first_seen": "2026-10-23",
       "last_seen": "2026-10-24"
-    },
-    {
-      "designers": [
-        "Amy Kartheiser"
-      ],
-      "title": "This Moody Color Is Having a Major Design Moment, and You Can Use It in Every Single Room",
-      "url": "https://www.housebeautiful.com/room-decorating/colors/a74181607/plum-home-decor-ideas/",
-      "outlet": "House Beautiful",
-      "published": "2026-10-22",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23"
-    },
-    {
-      "designers": [
-        "Shani Core"
-      ],
-      "title": "4 Paint Colors That Keep Brown Furniture From Looking Dated, According to Designers",
-      "url": "https://www.homesandgardens.com/decor/colors-to-pair-with-brown-furniture",
-      "outlet": "Homes & Gardens",
-      "published": "2026-10-22",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23"
     }
   ]
 }

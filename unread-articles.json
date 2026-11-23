@@ -1,62 +1,41 @@
 {
-  "date": "2026-11-22",
-  "generated_utc": "2026-11-22T12:54:58Z",
-  "unread_total": 31,
+  "date": "2026-11-23",
+  "generated_utc": "2026-11-23T15:00:29Z",
+  "unread_total": 23,
   "outlets": [
     {
-      "outlet": "The Spruce",
+      "outlet": "Apartment Therapy",
       "count": 12,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 12
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 12
       },
       "sample_urls": [
-        "https://www.thespruce.com/entry-table-decor-ideas-7487867",
-        "https://www.thespruce.com/painted-furniture-ideas-7486416",
-        "https://www.thespruce.com/how-to-hang-garland-on-wall-6828291"
-      ]
-    },
-    {
-      "outlet": "Apartment Therapy",
-      "count": 10,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 10
-      },
-      "sample_urls": [
-        "https://www.apartmenttherapy.com/instant-polish-living-room-inexpensive-objects-37700636?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/villeroy-boch-christmas-chic-holiday-decor-37701260?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/blanket-folding-tip-nate-berkus-37700642?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+        "https://www.apartmenttherapy.com/timeless-home-decor-mistakes-37697579?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/teal-white-brown-modern-bathroom-makeover-ba-37701102?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/modern-plaster-bathroom-makeover-ba-37701097?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
       "outlet": "Wall Street Journal",
-      "count": 6,
+      "count": 8,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 6
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 8
       },
       "sample_urls": [
-        "https://www.wsj.com/business/retail/james-bonds-bare-wrist-sets-off-watch-industry-war-b6b179a9?mod=rss_style",
-        "https://www.wsj.com/lifestyle/relationships/adult-child-divorce-how-help-4ed04621?mod=rss_lifestyle",
-        "https://www.wsj.com/lifestyle/relationships/four-ways-to-heal-the-rift-with-a-family-member-youre-not-speaking-to-f9dfef22?mod=rss_lifestyle"
+        "https://www.wsj.com/style/bob-woodwards-writing-advice-keep-your-a-in-the-chair-16dc563f?mod=rss_style",
+        "https://www.wsj.com/personal-finance/baby-boomer-silent-generation-wealth-transfer-elder-care-804e4a0e?mod=rss_lifestyle",
+        "https://www.wsj.com/economy/housing/battered-home-builders-turn-to-remodeling-and-repair-work-to-pay-the-bills-247fa315?mod=LatestNewsRealEstate"
       ]
     },
     {
-      "outlet": "Better Homes & Gardens",
-      "count": 1,
+      "outlet": "New York Times",
+      "count": 2,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 2
       },
       "sample_urls": [
-        "https://www.bhg.com/christmas-cactus-mistakes-12190269"
-      ]
-    },
-    {
-      "outlet": "Southern Living",
-      "count": 1,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
-      },
-      "sample_urls": [
-        "https://www.southernliving.com/how-to-clean-bathroom-tile-12271270"
+        "https://www.nytimes.com/2026/11/23/realestate/ranch-house-renovation-lakeville-ct.html",
+        "https://www.nytimes.com/2026/11/23/realestate/translating-the-language-of-trees.html"
       ]
     },
     {
