@@ -1,17 +1,34 @@
 {
-  "date": "2026-11-23",
-  "generated_utc": "2026-11-23T15:00:29Z",
-  "count": 1,
+  "date": "2026-11-24",
+  "generated_utc": "2026-11-24T04:19:22Z",
+  "count": 3,
   "finds": [
     {
       "designers": [
-        "Mugdha Girish Uma",
-        "Thecla Glueck"
+        "Bridget Tiek"
       ],
-      "title": "Designers Say This Kitchen Feature Is Always an Eyesore—But They Have a Quick and Easy Fix For It",
-      "url": "https://www.thespruce.com/kitchen-feature-that-is-always-an-eyesore-12246748",
-      "outlet": "The Spruce",
-      "published": "2026-11-22"
+      "title": "Designers Say This ’70s-Inspired Design Trend Is Making a Glamorous Comeback",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74493541/mirrored-surfaces-design-trend/",
+      "outlet": "House Beautiful",
+      "published": "2026-11-23"
+    },
+    {
+      "designers": [
+        "Suzanne Barrow"
+      ],
+      "title": "5 Home Projects Designers Are Begging You to Complete Before You Host Over the Holidays",
+      "url": "https://www.veranda.com/decorating-ideas/advice-from-designers/a74479496/fall-home-renovations-worth-the-money-before-the-holidays-explained/",
+      "outlet": "Veranda",
+      "published": "2026-11-23"
+    },
+    {
+      "designers": [
+        "Peggy Haddad"
+      ],
+      "title": "Denver Interior Designer Peggy Haddad’s Holiday Home",
+      "url": "https://www.coloradohomesmag.com/denver-interior-designer-peggy-haddads-holiday-home/",
+      "outlet": "Colorado Homes",
+      "published": "2026-11-23"
     }
   ]
 }

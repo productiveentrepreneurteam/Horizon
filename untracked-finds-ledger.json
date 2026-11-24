@@ -1,9 +1,42 @@
 {
-  "date": "2026-11-23",
-  "generated_utc": "2026-11-23T15:00:29Z",
+  "date": "2026-11-24",
+  "generated_utc": "2026-11-24T04:19:22Z",
   "keep_days": 31,
-  "count": 31,
+  "count": 30,
   "finds": [
+    {
+      "designers": [
+        "Suzanne Barrow"
+      ],
+      "title": "5 Home Projects Designers Are Begging You to Complete Before You Host Over the Holidays",
+      "url": "https://www.veranda.com/decorating-ideas/advice-from-designers/a74479496/fall-home-renovations-worth-the-money-before-the-holidays-explained/",
+      "outlet": "Veranda",
+      "published": "2026-11-23",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-24"
+    },
+    {
+      "designers": [
+        "Bridget Tiek"
+      ],
+      "title": "Designers Say This ’70s-Inspired Design Trend Is Making a Glamorous Comeback",
+      "url": "https://www.housebeautiful.com/design-inspiration/a74493541/mirrored-surfaces-design-trend/",
+      "outlet": "House Beautiful",
+      "published": "2026-11-23",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-24"
+    },
+    {
+      "designers": [
+        "Peggy Haddad"
+      ],
+      "title": "Denver Interior Designer Peggy Haddad’s Holiday Home",
+      "url": "https://www.coloradohomesmag.com/denver-interior-designer-peggy-haddads-holiday-home/",
+      "outlet": "Colorado Homes",
+      "published": "2026-11-23",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-24"
+    },
     {
       "designers": [
         "Mugdha Girish Uma",
@@ -309,50 +342,6 @@
       "published": "2026-10-27",
       "first_seen": "2026-10-27",
       "last_seen": "2026-10-28"
-    },
-    {
-      "designers": [
-        "Sarah Hargrave"
-      ],
-      "title": "Wish Your Small Kitchen Felt Bigger? Designers Share 21 Clever Tricks to Make It Look 10x More Spacious",
-      "url": "https://www.thespruce.com/how-to-make-a-small-kitchen-look-bigger-12167001",
-      "outlet": "The Spruce",
-      "published": "2026-10-23",
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23"
-    },
-    {
-      "designers": [
-        "Colleen Simonds"
-      ],
-      "title": "35 Driveway Gate Ideas to Suit Every House Style",
-      "url": "https://www.thespruce.com/driveway-gate-ideas-7546236",
-      "outlet": "The Spruce",
-      "published": "2026-10-23",
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23"
-    },
-    {
-      "designers": [
-        "Lindsay Thornton"
-      ],
-      "title": "Serious Question: Can Framed Family Photos Ever Look Chic in Your Home?",
-      "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a74223562/family-photos-home-decor/",
-      "outlet": "Good Housekeeping",
-      "published": "2026-10-23",
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24"
-    },
-    {
-      "designers": [
-        "Kim Dee"
-      ],
-      "title": "A Makeover That Proves Laundry Rooms Can Look Stylish",
-      "url": "https://sunset.com/home-garden/home-tours/laundry-room-stylish-functional-makeover",
-      "outlet": "Sunset",
-      "published": "2026-10-23",
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24"
     }
   ]
 }
