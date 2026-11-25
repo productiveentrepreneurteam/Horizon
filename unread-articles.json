@@ -1,127 +1,104 @@
 {
-  "date": "2026-11-24",
-  "generated_utc": "2026-11-24T04:19:22Z",
-  "unread_total": 80,
+  "date": "2026-11-25",
+  "generated_utc": "2026-11-25T02:32:43Z",
+  "unread_total": 32,
   "outlets": [
     {
-      "outlet": "Better Homes & Gardens",
-      "count": 31,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 31
-      },
-      "sample_urls": [
-        "https://www.bhg.com/90s-thrift-store-style-12190425",
-        "https://www.bhg.com/soft-black-paint-colors-8417677",
-        "https://www.bhg.com/timeless-sofa-styles-12005656"
-      ]
-    },
-    {
-      "outlet": "Apartment Therapy",
-      "count": 12,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 12
-      },
-      "sample_urls": [
-        "https://www.apartmenttherapy.com/bring-a-breakfast-basket-host-gift-rule-37700488?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/its-a-wonderful-life-host-gift-37701044?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/red-bathroom-makeover-marble-sink-budget-ba-37701107?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "Real Simple",
-      "count": 10,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 10
-      },
-      "sample_urls": [
-        "https://www.realsimple.com/best-gifts-for-college-students-7574680",
-        "https://www.realsimple.com/common-houseplant-pests-11697543",
-        "https://www.realsimple.com/weeping-trees-8631089"
-      ]
-    },
-    {
       "outlet": "Wall Street Journal",
-      "count": 9,
+      "count": 8,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 9
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 8
       },
       "sample_urls": [
-        "https://www.wsj.com/business/nvidia-jensen-huang-corporate-culture-23e37147?mod=rss_lifestyle",
-        "https://www.wsj.com/opinion/what-napoleon-teaches-us-about-meritocracy-475118a4?mod=rss_lifestyle",
-        "https://www.wsj.com/opinion/anchors-aweigh-on-the-ss-united-states-db357c33?mod=rss_lifestyle"
+        "https://www.wsj.com/lifestyle/travel/sending-my-suitcase-on-its-own-flight-to-rome-was-a-pricey-treat-6e732232?mod=rss_lifestyle",
+        "https://www.wsj.com/sports/football/26-rules-for-the-thanksgiving-family-touch-football-game-879ec7a5?mod=rss_lifestyle",
+        "https://www.wsj.com/opinion/gen-z-gives-thanks-45a21781?mod=rss_lifestyle"
+      ]
+    },
+    {
+      "outlet": "Better Homes & Gardens",
+      "count": 7,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 7
+      },
+      "sample_urls": [
+        "https://www.bhg.com/nate-berkus-color-formula-12190442",
+        "https://www.bhg.com/best-large-room-air-purifiers-8386798",
+        "https://www.bhg.com/best-white-elephant-gifts-5652448"
       ]
     },
     {
       "outlet": "Southern Living",
-      "count": 6,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 6
-      },
-      "sample_urls": [
-        "https://www.southernliving.com/first-task-professional-cleaners-do-12274115",
-        "https://www.southernliving.com/how-to-clean-dirty-shower-grout-12269315",
-        "https://www.southernliving.com/how-to-fix-loose-floorboards-12275172"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
       "count": 5,
       "reasons": {
         "HTTP 403 - Cloudflare bot wall": 5
       },
       "sample_urls": [
-        "https://www.thespruce.com/styling-tricks-to-make-a-home-look-done-12246758",
-        "https://www.thespruce.com/best-slippers-for-women-4845992",
-        "https://www.thespruce.com/best-wreath-storage-containers-7964829"
+        "https://www.southernliving.com/protect-home-water-damage-12278010",
+        "https://www.southernliving.com/things-add-mop-water-12270415",
+        "https://www.southernliving.com/how-to-clean-your-iron-with-salt-12240181"
+      ]
+    },
+    {
+      "outlet": "Real Simple",
+      "count": 4,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 4
+      },
+      "sample_urls": [
+        "https://www.realsimple.com/holidays-entertaining/gifts/cool-gifts-kids",
+        "https://www.realsimple.com/best-hanukkah-gifts-8382647",
+        "https://www.realsimple.com/best-book-club-discussion-questions-12275514"
+      ]
+    },
+    {
+      "outlet": "The Spruce",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 3
+      },
+      "sample_urls": [
+        "https://www.thespruce.com/best-indoor-christmas-lights-4151732",
+        "https://www.thespruce.com/how-to-keep-bathroom-from-getting-musty-12246779",
+        "https://www.thespruce.com/areas-to-clean-before-hosting-12246766"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 3,
+      "count": 2,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 2
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/11/21/realestate/my-condos-management-company-is-inept-could-ai-do-a-better-job.html",
-        "https://www.nytimes.com/2026/11/23/realestate/ranch-house-renovation-lakeville-ct.html",
-        "https://www.nytimes.com/2026/11/23/realestate/translating-the-language-of-trees.html"
+        "https://www.nytimes.com/2026/11/24/realestate/sea-ranch-model-home-renovation-restoration.html",
+        "https://www.nytimes.com/2026/11/24/realestate/historic-barracks-site-is-londons-latest-luxury-development.html"
       ]
     },
     {
-      "outlet": "Martha Stewart",
+      "outlet": "Mansion Global",
       "count": 1,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "HTTP 429 - HTTP 429": 1
       },
       "sample_urls": [
-        "https://www.marthastewart.com/birth-month-flowers-and-their-meanings-12264809"
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXU4VjVxQ1ZrdDN6dm9CdGlyVE9razdEQXBzZFg4d1Noa1VqcGdsZ01ZMHczT2dSV3RqaVFCMVNobFV3WUV4b0hlUWczd3hxRHBXdXdDT1NGbkxiUXNRdXotLTZHZU1BZ2diQmZ5eUtjWnpUUTEtTEZKb0d4MDFCdzlWVU5DcWg4NHVxWUFudXFDemg3ekE0eHVSRDlSUjlqNm55VkVJOXZ1elc1Vk85WWlQeE5STzJ2S2ZhY3VJRdIBxAFBVV95cUxNdGlLQVNBNjZTU19LRktUV0otMnNlY3UtTi1Bdkh0dktMblRKUmxSUHNYNlE5eXVQY3VTa2VLMmdlYnR6VGoyR0Q2eU8xNHlmMTlrUV8yZ0R5dEl5X1FMUDltV3lJWEc4d1hOTFRzYWVOX1I1VWpVUGNfVXZYanF6VnVwWVNyNlM3WkxiTEdoY2xfSHcyczFlbHBLRGdXNWdDb2ZZQWtyaC1CUXJSbUMzUkhKelpfbzQzVzNqYk1ZTjIya2V6?oc=5"
       ]
     },
     {
-      "outlet": "Cubby",
+      "outlet": "Kitchen Bath Design",
       "count": 1,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
+        "HTTP 520 - HTTP 520": 1
       },
       "sample_urls": [
-        "https://www.cubbyathome.com/are-tonies-worth-it-80052399?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "House & Home",
-      "count": 1,
-      "reasons": {
-        "HTTP 503 - HTTP 503": 1
-      },
-      "sample_urls": [
-        "https://houseandhome.com/videos/cottages-country-homes/lakehouse-modern-architecture/"
+        "https://www.kitchenbathdesign.com/fitting-in/"
       ]
     },
     {
       "outlet": "Luxe Magazine",
       "count": 1,
       "reasons": {
-        "ValueError: article body extraction collapsed: 174 chars of 2776 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
+        "ValueError: article body extraction collapsed: 174 chars of 2938 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
         "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
