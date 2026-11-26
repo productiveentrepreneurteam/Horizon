@@ -1,97 +1,62 @@
 {
-  "date": "2026-11-25",
-  "generated_utc": "2026-11-25T02:32:43Z",
-  "unread_total": 32,
+  "date": "2026-11-26",
+  "generated_utc": "2026-11-26T02:01:10Z",
+  "unread_total": 33,
   "outlets": [
     {
-      "outlet": "Wall Street Journal",
-      "count": 8,
+      "outlet": "Apartment Therapy",
+      "count": 18,
       "reasons": {
-        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 8
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 18
       },
       "sample_urls": [
-        "https://www.wsj.com/lifestyle/travel/sending-my-suitcase-on-its-own-flight-to-rome-was-a-pricey-treat-6e732232?mod=rss_lifestyle",
-        "https://www.wsj.com/sports/football/26-rules-for-the-thanksgiving-family-touch-football-game-879ec7a5?mod=rss_lifestyle",
-        "https://www.wsj.com/opinion/gen-z-gives-thanks-45a21781?mod=rss_lifestyle"
+        "https://www.apartmenttherapy.com/black-tan-white-brown-bathroom-makeover-ba-37701123?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/hotel-bedroom-organizing-trick-37699906?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/purse-storage-options-to-buy-or-diy-237405?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
-      "outlet": "Better Homes & Gardens",
+      "outlet": "Wall Street Journal",
       "count": 7,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 7
+        "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 7
       },
       "sample_urls": [
-        "https://www.bhg.com/nate-berkus-color-formula-12190442",
-        "https://www.bhg.com/best-large-room-air-purifiers-8386798",
-        "https://www.bhg.com/best-white-elephant-gifts-5652448"
-      ]
-    },
-    {
-      "outlet": "Southern Living",
-      "count": 5,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 5
-      },
-      "sample_urls": [
-        "https://www.southernliving.com/protect-home-water-damage-12278010",
-        "https://www.southernliving.com/things-add-mop-water-12270415",
-        "https://www.southernliving.com/how-to-clean-your-iron-with-salt-12240181"
-      ]
-    },
-    {
-      "outlet": "Real Simple",
-      "count": 4,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 4
-      },
-      "sample_urls": [
-        "https://www.realsimple.com/holidays-entertaining/gifts/cool-gifts-kids",
-        "https://www.realsimple.com/best-hanukkah-gifts-8382647",
-        "https://www.realsimple.com/best-book-club-discussion-questions-12275514"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
-      "count": 3,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 3
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/best-indoor-christmas-lights-4151732",
-        "https://www.thespruce.com/how-to-keep-bathroom-from-getting-musty-12246779",
-        "https://www.thespruce.com/areas-to-clean-before-hosting-12246766"
+        "https://www.wsj.com/us-news/judge-upholds-mamdanis-nyc-rent-freeze-foiling-landlord-opposition-5d22231a?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/opinion/thanksgiving-vs-socialism-10af3100?mod=rss_lifestyle",
+        "https://www.wsj.com/real-estate/luxury-homes/townhouse-renovation-czech-republic-e50f7782?mod=LatestNewsRealEstate"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 2,
+      "count": 5,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 2
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 5
       },
       "sample_urls": [
+        "https://www.nytimes.com/2026/11/24/realestate/historic-barracks-site-is-londons-latest-luxury-development.html",
         "https://www.nytimes.com/2026/11/24/realestate/sea-ranch-model-home-renovation-restoration.html",
-        "https://www.nytimes.com/2026/11/24/realestate/historic-barracks-site-is-londons-latest-luxury-development.html"
+        "https://www.nytimes.com/2026/11/25/realestate/new-england-oil-heating-homeowners.html"
       ]
     },
     {
-      "outlet": "Mansion Global",
+      "outlet": "Southern Living",
       "count": 1,
       "reasons": {
-        "HTTP 429 - HTTP 429": 1
+        "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXU4VjVxQ1ZrdDN6dm9CdGlyVE9razdEQXBzZFg4d1Noa1VqcGdsZ01ZMHczT2dSV3RqaVFCMVNobFV3WUV4b0hlUWczd3hxRHBXdXdDT1NGbkxiUXNRdXotLTZHZU1BZ2diQmZ5eUtjWnpUUTEtTEZKb0d4MDFCdzlWVU5DcWg4NHVxWUFudXFDemg3ekE0eHVSRDlSUjlqNm55VkVJOXZ1elc1Vk85WWlQeE5STzJ2S2ZhY3VJRdIBxAFBVV95cUxNdGlLQVNBNjZTU19LRktUV0otMnNlY3UtTi1Bdkh0dktMblRKUmxSUHNYNlE5eXVQY3VTa2VLMmdlYnR6VGoyR0Q2eU8xNHlmMTlrUV8yZ0R5dEl5X1FMUDltV3lJWEc4d1hOTFRzYWVOX1I1VWpVUGNfVXZYanF6VnVwWVNyNlM3WkxiTEdoY2xfSHcyczFlbHBLRGdXNWdDb2ZZQWtyaC1CUXJSbUMzUkhKelpfbzQzVzNqYk1ZTjIya2V6?oc=5"
+        "https://www.southernliving.com/how-to-unclog-toilet-12280534"
       ]
     },
     {
-      "outlet": "Kitchen Bath Design",
+      "outlet": "Cubby",
       "count": 1,
       "reasons": {
-        "HTTP 520 - HTTP 520": 1
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://www.kitchenbathdesign.com/fitting-in/"
+        "https://www.cubbyathome.com/nesting-wave-convertible-full-bed-80052470?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
       ]
     },
     {
