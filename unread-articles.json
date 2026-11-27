@@ -1,20 +1,8 @@
 {
-  "date": "2026-11-26",
-  "generated_utc": "2026-11-26T02:01:10Z",
-  "unread_total": 33,
+  "date": "2026-11-27",
+  "generated_utc": "2026-11-27T01:48:52Z",
+  "unread_total": 25,
   "outlets": [
-    {
-      "outlet": "Apartment Therapy",
-      "count": 18,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 18
-      },
-      "sample_urls": [
-        "https://www.apartmenttherapy.com/black-tan-white-brown-bathroom-makeover-ba-37701123?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/hotel-bedroom-organizing-trick-37699906?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/purse-storage-options-to-buy-or-diy-237405?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
     {
       "outlet": "Wall Street Journal",
       "count": 7,
@@ -22,51 +10,87 @@
         "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 7
       },
       "sample_urls": [
-        "https://www.wsj.com/us-news/judge-upholds-mamdanis-nyc-rent-freeze-foiling-landlord-opposition-5d22231a?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/opinion/thanksgiving-vs-socialism-10af3100?mod=rss_lifestyle",
-        "https://www.wsj.com/real-estate/luxury-homes/townhouse-renovation-czech-republic-e50f7782?mod=LatestNewsRealEstate"
+        "https://www.wsj.com/real-estate/luxury-homes/todd-michael-glaser-palm-beach-miami-0f07cc9a?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/opinion/searching-for-god-in-the-ai-machine-4b52e760?mod=rss_lifestyle",
+        "https://www.wsj.com/lifestyle/careers/why-so-many-college-students-are-majoring-in-sports-business-adc82aa1?mod=rss_lifestyle"
+      ]
+    },
+    {
+      "outlet": "Apartment Therapy",
+      "count": 6,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 6
+      },
+      "sample_urls": [
+        "https://www.apartmenttherapy.com/renter-friendly-red-nyc-kitchen-ba-37695191?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/cozy-earth-black-friday-cyber-monday-sale-2026-37699427?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/poplight-sconce-review-37497745?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
+    {
+      "outlet": "The Spruce",
+      "count": 3,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 3
+      },
+      "sample_urls": [
+        "https://www.thespruce.com/thrift-store-finds-that-look-expensive-12246797",
+        "https://www.thespruce.com/living-room-styles-on-their-way-out-12246799",
+        "https://www.thespruce.com/ways-to-remove-hard-water-stains-12246798"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 5,
+      "count": 3,
       "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 5
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
       },
       "sample_urls": [
-        "https://www.nytimes.com/2026/11/24/realestate/historic-barracks-site-is-londons-latest-luxury-development.html",
-        "https://www.nytimes.com/2026/11/24/realestate/sea-ranch-model-home-renovation-restoration.html",
-        "https://www.nytimes.com/2026/11/25/realestate/new-england-oil-heating-homeowners.html"
+        "https://www.nytimes.com/2026/11/26/realestate/storage-unit-costs.html",
+        "https://www.nytimes.com/2026/11/26/realestate/housing-market-near-nyc.html",
+        "https://www.nytimes.com/2026/11/26/realestate/housing-market-nyc.html"
+      ]
+    },
+    {
+      "outlet": "Real Simple",
+      "count": 2,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 2
+      },
+      "sample_urls": [
+        "https://www.realsimple.com/amazon-gifts-under-25-november-2026-12280358",
+        "https://www.realsimple.com/add-ins-that-make-laundry-smell-amazing-12247829"
       ]
     },
     {
       "outlet": "Southern Living",
+      "count": 2,
+      "reasons": {
+        "HTTP 403 - Cloudflare bot wall": 2
+      },
+      "sample_urls": [
+        "https://www.southernliving.com/rooms-to-delclutter-before-holidays-12240261",
+        "https://www.southernliving.com/how-to-clean-burnt-pots-12280964"
+      ]
+    },
+    {
+      "outlet": "Better Homes & Gardens",
       "count": 1,
       "reasons": {
         "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.southernliving.com/how-to-unclog-toilet-12280534"
+        "https://www.bhg.com/cleaning-tasks-to-avoid-at-night-12194452"
       ]
     },
     {
-      "outlet": "Cubby",
+      "outlet": "Martha Stewart",
       "count": 1,
       "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 1
+        "HTTP 403 - Cloudflare bot wall": 1
       },
       "sample_urls": [
-        "https://www.cubbyathome.com/nesting-wave-convertible-full-bed-80052470?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "Luxe Magazine",
-      "count": 1,
-      "reasons": {
-        "ValueError: article body extraction collapsed: 174 chars of 2938 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
-      },
-      "sample_urls": [
-        "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
+        "https://www.marthastewart.com/how-often-to-flush-hot-water-heater-12277307"
       ]
     }
   ]
