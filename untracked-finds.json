@@ -1,6 +1,49 @@
 {
-  "date": "2026-11-27",
-  "generated_utc": "2026-11-27T01:48:52Z",
-  "count": 0,
-  "finds": []
+  "date": "2026-11-28",
+  "generated_utc": "2026-11-28T01:38:55Z",
+  "count": 4,
+  "finds": [
+    {
+      "designers": [
+        "Mary Beth Christopher",
+        "Kirsten Conner",
+        "Sarah Cole"
+      ],
+      "title": "How Make a Couch in Front of a Window Look Stylish",
+      "url": "https://www.thespruce.com/couch-in-front-of-window-5225254",
+      "outlet": "The Spruce",
+      "published": "2026-11-27"
+    },
+    {
+      "designers": [
+        "Danielle Domingues",
+        "Thecla Glueck",
+        "Peggy Haddad"
+      ],
+      "title": "Your Grandparents' Christmas Tableware Is Making a Comeback – These Are the Vintage Pieces Worth Hunting Down",
+      "url": "https://www.homesandgardens.com/decor/seasonal/vintage-christmas-tableware-making-a-comeback",
+      "outlet": "Homes & Gardens",
+      "published": "2026-11-27"
+    },
+    {
+      "designers": [
+        "Amanda Sinistaj",
+        "Thecla Glueck",
+        "Lauren Saab"
+      ],
+      "title": "7 Small Living Room Tricks Designers Rely On for a More Spacious, Stylish Home",
+      "url": "https://www.realsimple.com/small-living-room-tricks-for-more-style-and-space-12247840",
+      "outlet": "Real Simple",
+      "published": "2026-11-27"
+    },
+    {
+      "designers": [
+        "Ayten Nadeau"
+      ],
+      "title": "8 Design Mistakes That Make Your Kitchen Feel Smaller Than It Is",
+      "url": "https://www.southernliving.com/things-making-kitchen-feel-smaller-12273062",
+      "outlet": "Southern Living",
+      "published": "2026-11-27"
+    }
+  ]
 }

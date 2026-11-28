@@ -1,8 +1,20 @@
 {
-  "date": "2026-11-27",
-  "generated_utc": "2026-11-27T01:48:52Z",
-  "unread_total": 25,
+  "date": "2026-11-28",
+  "generated_utc": "2026-11-28T01:38:55Z",
+  "unread_total": 16,
   "outlets": [
+    {
+      "outlet": "Apartment Therapy",
+      "count": 7,
+      "reasons": {
+        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 7
+      },
+      "sample_urls": [
+        "https://www.apartmenttherapy.com/anthropologie-terrain-holiday-styling-services-37701694?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/green-brown-white-kitchen-renovation-ba-37701139?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+        "https://www.apartmenttherapy.com/cocoon-blanket-review-37563248?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
+      ]
+    },
     {
       "outlet": "Wall Street Journal",
       "count": 7,
@@ -10,87 +22,29 @@
         "HTTP 401 - DataDome bot wall (JS/captcha challenge)": 7
       },
       "sample_urls": [
-        "https://www.wsj.com/real-estate/luxury-homes/todd-michael-glaser-palm-beach-miami-0f07cc9a?mod=LatestNewsRealEstate",
-        "https://www.wsj.com/opinion/searching-for-god-in-the-ai-machine-4b52e760?mod=rss_lifestyle",
-        "https://www.wsj.com/lifestyle/careers/why-so-many-college-students-are-majoring-in-sports-business-adc82aa1?mod=rss_lifestyle"
-      ]
-    },
-    {
-      "outlet": "Apartment Therapy",
-      "count": 6,
-      "reasons": {
-        "HTTP 403 - PerimeterX/HUMAN bot wall (JS/captcha challenge)": 6
-      },
-      "sample_urls": [
-        "https://www.apartmenttherapy.com/renter-friendly-red-nyc-kitchen-ba-37695191?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/cozy-earth-black-friday-cyber-monday-sale-2026-37699427?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-        "https://www.apartmenttherapy.com/poplight-sconce-review-37497745?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main"
-      ]
-    },
-    {
-      "outlet": "The Spruce",
-      "count": 3,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 3
-      },
-      "sample_urls": [
-        "https://www.thespruce.com/thrift-store-finds-that-look-expensive-12246797",
-        "https://www.thespruce.com/living-room-styles-on-their-way-out-12246799",
-        "https://www.thespruce.com/ways-to-remove-hard-water-stains-12246798"
+        "https://www.wsj.com/lifestyle/k-shaped-culture-mcdonalds-2789b5d8?mod=rss_style",
+        "https://www.wsj.com/finance/banking/jpmorgan-plans-a-private-club-for-well-heeled-clients-in-a-1930s-branch-c609a03c?mod=LatestNewsRealEstate",
+        "https://www.wsj.com/real-estate/luxury-homes/house-of-the-month-november-2026-0dc0a74e?mod=LatestNewsRealEstate"
       ]
     },
     {
       "outlet": "New York Times",
-      "count": 3,
-      "reasons": {
-        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 3
-      },
-      "sample_urls": [
-        "https://www.nytimes.com/2026/11/26/realestate/storage-unit-costs.html",
-        "https://www.nytimes.com/2026/11/26/realestate/housing-market-near-nyc.html",
-        "https://www.nytimes.com/2026/11/26/realestate/housing-market-nyc.html"
-      ]
-    },
-    {
-      "outlet": "Real Simple",
-      "count": 2,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 2
-      },
-      "sample_urls": [
-        "https://www.realsimple.com/amazon-gifts-under-25-november-2026-12280358",
-        "https://www.realsimple.com/add-ins-that-make-laundry-smell-amazing-12247829"
-      ]
-    },
-    {
-      "outlet": "Southern Living",
-      "count": 2,
-      "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 2
-      },
-      "sample_urls": [
-        "https://www.southernliving.com/rooms-to-delclutter-before-holidays-12240261",
-        "https://www.southernliving.com/how-to-clean-burnt-pots-12280964"
-      ]
-    },
-    {
-      "outlet": "Better Homes & Gardens",
       "count": 1,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "HTTP 403 - DataDome bot wall (JS/captcha challenge)": 1
       },
       "sample_urls": [
-        "https://www.bhg.com/cleaning-tasks-to-avoid-at-night-12194452"
+        "https://www.nytimes.com/2026/11/27/realestate/homes-for-sale-vancouver.html"
       ]
     },
     {
-      "outlet": "Martha Stewart",
+      "outlet": "Luxe Magazine",
       "count": 1,
       "reasons": {
-        "HTTP 403 - Cloudflare bot wall": 1
+        "ValueError: article body extraction collapsed: 174 chars of 2938 survived. The page was not read, so no conclusion about designers can be drawn from it. - fetched, but the article body could not be extracted": 1
       },
       "sample_urls": [
-        "https://www.marthastewart.com/how-often-to-flush-hot-water-heater-12277307"
+        "https://luxesource.com/gold-list/kristen-ekeland-interiors/"
       ]
     }
   ]

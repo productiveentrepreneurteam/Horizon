@@ -1,9 +1,59 @@
 {
-  "date": "2026-11-27",
-  "generated_utc": "2026-11-27T01:48:52Z",
+  "date": "2026-11-28",
+  "generated_utc": "2026-11-28T01:38:55Z",
   "keep_days": 31,
-  "count": 31,
+  "count": 33,
   "finds": [
+    {
+      "designers": [
+        "Kirsten Conner",
+        "Mary Beth Christopher",
+        "Sarah Cole"
+      ],
+      "title": "How Make a Couch in Front of a Window Look Stylish",
+      "url": "https://www.thespruce.com/couch-in-front-of-window-5225254",
+      "outlet": "The Spruce",
+      "published": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-28"
+    },
+    {
+      "designers": [
+        "Ayten Nadeau"
+      ],
+      "title": "8 Design Mistakes That Make Your Kitchen Feel Smaller Than It Is",
+      "url": "https://www.southernliving.com/things-making-kitchen-feel-smaller-12273062",
+      "outlet": "Southern Living",
+      "published": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-28"
+    },
+    {
+      "designers": [
+        "Amanda Sinistaj",
+        "Lauren Saab",
+        "Thecla Glueck"
+      ],
+      "title": "7 Small Living Room Tricks Designers Rely On for a More Spacious, Stylish Home",
+      "url": "https://www.realsimple.com/small-living-room-tricks-for-more-style-and-space-12247840",
+      "outlet": "Real Simple",
+      "published": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-28"
+    },
+    {
+      "designers": [
+        "Danielle Domingues",
+        "Peggy Haddad",
+        "Thecla Glueck"
+      ],
+      "title": "Your Grandparents' Christmas Tableware Is Making a Comeback – These Are the Vintage Pieces Worth Hunting Down",
+      "url": "https://www.homesandgardens.com/decor/seasonal/vintage-christmas-tableware-making-a-comeback",
+      "outlet": "Homes & Gardens",
+      "published": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-28"
+    },
     {
       "designers": [
         "Ellie Stein"
@@ -330,28 +380,6 @@
       "published": "2026-10-30",
       "first_seen": "2026-10-30",
       "last_seen": "2026-10-31"
-    },
-    {
-      "designers": [
-        "Gaia Guidi Filippi"
-      ],
-      "title": "6 Surprising Antiques That Homeowners Are Searching for Right Now, According to Experts",
-      "url": "https://www.housebeautiful.com/design-inspiration/a74158817/popular-antiques-for-fall-2026/",
-      "outlet": "House Beautiful",
-      "published": "2026-10-27",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-28"
-    },
-    {
-      "designers": [
-        "Shani Core"
-      ],
-      "title": "3 Things Designers Always Remove from Their Kitchens Before Hosting (and What They Use Instead)",
-      "url": "https://www.homesandgardens.com/decor/kitchens/kitchen-decor-pieces-to-remove-for-a-calming-hosting-set-up",
-      "outlet": "Homes & Gardens",
-      "published": "2026-10-27",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-28"
     }
   ]
 }
